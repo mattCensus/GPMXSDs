@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
+           xmlns:ii="../newGPMStd/GPMIdentificationInfo" >
+
+    <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
+    <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"></xsd:import>
+    
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    <xsd:element name="GPM">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
+                <xsd:element name="Identification_Information"  type="ii:VectorID"/>
+            </xsd:sequence>
+            <xsd:attribute name="profile"/>
+        </xsd:complexType>
+    </xsd:element>
+</xs:schema>
