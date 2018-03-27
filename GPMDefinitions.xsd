@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  targetNamespace="../newGPMStd/GPMDefinitions"
+            xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:xdb="http://xmlns.oracle.com/xdb">
+    
+   <xsd:simpleType name="TopicCatList">
+            <xsd:restriction base="xsd:string">
+                <xsd:minLength value="5"/> 
+                <xsd:enumeration value="Farming"/>
+                <xsd:enumeration value="Biota"/>
+                <xsd:enumeration value="Boundaries"/>
+                <xsd:enumeration value="Atmosphere"/>
+                <xsd:enumeration value="Economy"/>
+                <xsd:enumeration value="Elevation"/>
+                <xsd:enumeration value="Environment"/>
+                <xsd:enumeration value="GeoscientificInformation"/>
+                <xsd:enumeration value="Health"/>
+                <xsd:enumeration value="ImageryBaseMapsEarthCover"/>
+                <xsd:enumeration value="IntelligenceMilitary"/>  
+                <xsd:enumeration value="InlandWaters"/>
+                <xsd:enumeration value="Location"/>
+                <xsd:enumeration value="Oceans"/>
+                <xsd:enumeration value="Planning/Cadastre"/>
+                <xsd:enumeration value="Society"/>
+                <xsd:enumeration value="Structure"/>
+                <xsd:enumeration value="Transportation"/>
+                <xsd:enumeration value="Utilities/Communications"/> 
+            </xsd:restriction>
+   </xsd:simpleType>
+    
+    <xsd:simpleType name="NGDAKeywords">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="NGDA"/>
+            <xsd:enumeration value="National Geospatial Data Asset"/>
+            <xsd:enumeration value="Governmental Units and Administrative and Statistical Boundaries Theme"/>
+            <xsd:enumeration value="Transportation Theme"/>
+            <xsd:enumeration value="Cultural Resources Theme"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="CharacterSet">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="UTF-8"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="LangCode">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="aar"/>
+            <xsd:enumeration value="abk"/>
+            <xsd:enumeration value="ace"/>
+            <xsd:enumeration value="ach"/>
+            <xsd:enumeration value="ada"/>
+            <xsd:enumeration value="ady"/>
+            <xsd:enumeration value="afa"/>
+            <xsd:enumeration value="afh"/>
+            <xsd:enumeration value="afr"/>
+            <xsd:enumeration value="ain"/>
+            <xsd:enumeration value="aka"/>
+            <xsd:enumeration value="akk"/>
+            <xsd:enumeration value="alb"/>
+            <xsd:enumeration value="sqi"/>
+            <xsd:enumeration value="ale"/>
+            <xsd:enumeration value="alg"/>
+            <xsd:enumeration value="alt"/>
+            <xsd:enumeration value="amh"/>
+            <xsd:enumeration value="ang"/>
+            <xsd:enumeration value="anp"/>
+            <xsd:enumeration value="apa"/>
+            <xsd:enumeration value="ara"/>
+            <xsd:enumeration value="arc"/>
+            <xsd:enumeration value="arg"/>
+            <xsd:enumeration value="arm"/>
+            <xsd:enumeration value="hye"/>
+            <xsd:enumeration value="arn"/>
+            <xsd:enumeration value="arp"/>
+            <xsd:enumeration value="art"/>
+            <xsd:enumeration value="arw"/>
+            <xsd:enumeration value="asm"/>
+            <xsd:enumeration value="ast"/>
+            <xsd:enumeration value="ath"/>
+            <xsd:enumeration value="aus"/>
+            <xsd:enumeration value="ava"/>
+            <xsd:enumeration value="ave"/>
+            <xsd:enumeration value="awa"/>
+            <xsd:enumeration value="aym"/>
+            <xsd:enumeration value="aze"/>
+            <xsd:enumeration value="bad"/>
+            <xsd:enumeration value="bai"/>
+            <xsd:enumeration value="bak"/>
+            <xsd:enumeration value="bal"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+   
+</xs:schema>

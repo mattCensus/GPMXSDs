@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema  targetNamespace="../newGPMStd/FGDC_RequiredGPM" 
+<xs:schema  targetNamespace="../newGPMStd/FGDC_RequiredGPM"
+              xmlns:GPMDef="../newGPMStd/GPMDefinitions"
               xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
               xmlns:xs="http://www.w3.org/2001/XMLSchema" 
               xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     
+    <xsd:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
         </xsd:documentation>
@@ -21,15 +23,15 @@
     <xsd:complexType name="ISO_Theme">
         <xsd:sequence>
             <xsd:element name="Theme_Keyword_Theasuruas"/>
-            <xsd:element name="Theme_Keyword" maxOccurs="unbounded"/>
+            <xsd:element name="Theme_Keyword" maxOccurs="unbounded" type="GPMDef:TopicCatList"/>
             
         </xsd:sequence>
     </xsd:complexType>
     
     <xsd:complexType name="NGDA_Information">
         <xsd:sequence>
-            <xsd:element name="Theme_Keyword_Theasuruas"/>
-            <xsd:element name="Theme_Keyword" maxOccurs="unbounded"/>
+            <xsd:element name="NGDA_Keyword_Thesaurus"/>
+            <xsd:element name="NGDA_Keyword" type="GPMDef:NGDAKeywords" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     
