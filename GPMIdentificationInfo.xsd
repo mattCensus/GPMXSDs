@@ -3,14 +3,16 @@
     xmlns:GPMDef="../newGPMStd/GPMDefinitions"
     xmlns:POC="../newGPMStd/PointOfContact"
     xmlns:ii="../newGPMStd/GPMIdentificationInfo"
+    xmlns:Cit="../newGPMStd/Citaion"
     xmlns:xs="http://www.w3.org/2001/XMLSchema">
     
     <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
+    <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
     
     <xs:complexType name="VectorID">
         <xs:sequence>
-            <xs:element name="Citation" type="ii:GPMVectorGDBSeriesCitation"/>
+            <xs:element name="Citation" type="Cit:GPMVectorGDBSeriesCitation"/>
             <xs:element name="Description" type="ii:description"/>
             <xs:element name="Time_Period_of_Content" type="ii:TimePeriodOfContent"/>
             <xs:element name="Status" type="ii:Status"/>
@@ -20,32 +22,16 @@
             <xs:element name="Point_of_Contact" type="POC:POC"/>
             <xs:element name="Browse_Graphic" type="ii:Browse_Graphic" minOccurs="0"/>
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
-            <xs:element name="Data_Set_Language" minOccurs="0"></xs:element>
+            <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
+            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
 
 <!-- Element Complex Types -->
-<!-- Citation elements-->
-    <xs:complexType name="GPMVectorGDBSeriesCitation">
-    <xs:sequence>
-        <xs:element name="Originator"/>
-        <xs:element name="Publication_Date"/>
-        <xs:element name="Title"/>
-        <xs:element name="Alternate_Title" minOccurs="0"/>
-        <xs:element name="Edition" minOccurs="0"/>
-        <xs:element name="Geospatial_Data_Presentation_Form"/>
-        <xs:element name="Series_Information" type="ii:SeriesInfo" minOccurs="0"/> 
-        <xs:element name="Online_Linkage"/>
-    </xs:sequence>
-</xs:complexType>
+
     
-    <xs:complexType name="SeriesInfo">
-        <xs:sequence>
-            <xs:element name="Series_Name"/>
-            <xs:element name="Issue_Identification"/>
-        </xs:sequence>
-    </xs:complexType>
+  
  
  <!-- Description elements -->
     <xs:complexType name="description">
@@ -146,4 +132,6 @@
             <xs:element name="Browse_Graphic_File_Type"/>
         </xs:sequence>
     </xs:complexType>
+    
+  
 </xs:schema>
