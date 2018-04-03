@@ -135,4 +135,246 @@
             </Citation>
         </Cross_Reference>
     </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile Quantative Attribute Accuraccy Test</Measure>
+                <Evaluation>Manual and automatic examination of the Non_Quantative attribute
+                    information</Evaluation>
+                <Result>This information is not fully accurate</Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
+                    Geographic Names Information System (GNIS) TIGER/Line Shapefile Test</Measure>
+                <Evaluation>Tested against National Standard Codes, Federal Information Processing
+                    (FIPS) and the Geographic Names Information System (GNIS)</Evaluation>
+                <Result>100% accurate for the codes and base names.</Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+       <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile logical consistency test</Measure>
+                <Evaluation>The Census Bureau performed automated tests to ensure logical
+                    consistency and limits of shapefiles by collecting or generating Node/geometry
+                    and topology relationships to satisfy topological edit requirements. These
+                    requirements include: (1) Complete chains must begin and end at nodes. (2)
+                    Complete chains must connect to each other at nodes. (3) Complete chains do not
+                    extend through nodes. (4) Left and right polygons are defined for each complete
+                    chain element and are consistent throughout the extract process. (5) The chains
+                    representing the limits of the files are free of gaps.</Evaluation>
+                <Result>There may be some inconsistencies in feature names along features. An
+                    anomaly exists with the sporadic occurrence of road segments comprising a
+                    complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values
+                    assigned. This problem could affect applications that use the MTFCC values for
+                    network analysis, routing, or for assigning symbology to a feature when creating
+                    a map.</Result>
+            </Test_Report>
+       </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile Completeness Test</Measure>
+                <Evaluation>Data completeness of the TIGER/Line Shapefiles</Evaluation>
+                <Result>The data of all the TIGER/Line Shapefiles is incomplete</Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Horizontal_Positional_Accuracy_Report>
+            <Test_Report>
+                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy
+                    Standards, Part 3: National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal
+                    spatial accuracy of source files that may be used to realign road features in the MAF/TIGER database and test the horizontal
+                    spatial accuracy of the road features in the TIGER/Line Shapefiles.  The test compares a survey-grade GPS coordinate to its
+                    associated road centerline intersection in the TIGER/Line Shapefiles.  The test is based on an independent collection of GPS
+                    coordinates for a random sample of road intersections from a centerline file that meet certain criteria.  The points are
+                    referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since the
+                    collection method uses survey-quality GPS-based field techniques, the resulting control points are considered 'ground truth'
+                    against which the TIGER road centerline intersection coordinates are compared.  The distances between the coordinates are
+                    calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95%
+                    confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus
+                    (2.65 times the standard deviation).  CE95 results reported for each file tested are determined using a spreadsheet with embedded
+                    statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau
+                    statisticians.  The basis of the calculation is the use of the root mean square error (RMSE).  This is the method as stated in
+                    the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards.
+                    Part 3: National Standard for Spatial Data Accuracy.  The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements.  In terms of the Census Bureau application, the dataset coordinate values are those taken from
+                    the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the
+                    Census Bureau's contractor.  Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road
+                    features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of
+                    the TIGER/Line Shapefile as a whole.</Evaluation>
+                <Result>6.5 meters for 5406</Result>
+                <Result>1.73 meters for 11213</Result>
+            </Test_Report>
+        </Horizontal_Positional_Accuracy_Report>
+        <Source_Information>
+            <Citation>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+                <Publication_Date>201605</Publication_Date>
+                <Title>Census MAF/TIGER database</Title>
+            </Citation>
+            <!--   <Source_Scale_Denominator>1:76,000</Source_Scale_Denominator> research-->
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>201601</Beginning_Date>
+                    <Ending_Date>201602</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>    
+            <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+            <Source_Contribution> All line segments</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping Section</Originator>
+                <Publication_Date>20030401</Publication_Date>
+                <Title>kotzebue83.shp</Title>
+            </Citation>
+            <Type_of_Source_Media>FTP</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                <Beginning_Date>20030401</Beginning_Date>
+                <Ending_Date>20030401</Ending_Date>
+                    </Range_Of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Alaska ADOT PF</Source_Citation_Abbreviation>
+            <Source_Contribution>Source Contribution: Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>National Hydrography Dataset - Med. Res.</Title>
+            </Citation>
+            <Type_of_Source_Media>Unknown</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                <Beginning_Date>unknown</Beginning_Date>
+                <Ending_Date>unknown</Ending_Date>
+                    </Range_Of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation> USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        
+        <!-- <Source_Information>
+            <Citation>
+            <Originator></Originator>
+            <Publication_Date></Publication_Date>
+            <Title></Title>
+            </Citation>
+            <Type_of_Source_Media> </Type_of_Source_Media>
+            <Time_Period_of_Content>
+            <Beginning_Date></Beginning_Date>
+            <Ending_Date></Ending_Date>
+            </Time_Period_of_Source>
+            <Source_Contribution></Source_Contribution>
+            </Source_Information> -->
+        
+        <Source_Information>
+            <Citation>
+                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>National Hydrography Dataset - High Res.</Title>
+            </Citation>
+            <Type_of_Source_Media>Internet Download</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution> Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information> 
+        <Source_Information>
+            <Citation>
+                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>National Hydrography Dataset - High Res.</Title>
+            </Citation>
+            <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                <Beginning_Date>unknown</Beginning_Date>
+                <Ending_Date>unknown</Ending_Date>
+                    </Range_Of_Dates>
+                <Currentness_Reference>unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div - LFGPB</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>2010 ADCAN GPS Feature Updates</Title>
+            </Citation>
+            <Type_of_Source_Media>Unknown </Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                    </Range_Of_Dates>
+                <Currentness_Reference>unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Originator>>11773 Acquired from the state of AK</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>02_AK_2010</Title>
+            </Citation>
+            <Type_of_Source_Media>Unknown </Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>unknown</Currentness_Reference>
+               
+                
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation></Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Originator>12782 Acquired from the state of AK</Originator>
+                <Publication_Date>unknown</Publication_Date>
+                <Title>02_AK_2014_delivery_RGB</Title>
+            </Citation>
+            <Type_of_Source_Media> </Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                <Beginning_Date>unknown</Beginning_Date>
+                <Ending_Date>unknown</Ending_Date>
+                    </Range_Of_Dates>
+                <Currentness_Reference>unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>AK</Source_Citation_Abbreviation>
+            <Source_Contribution>All line segments</Source_Contribution>
+        </Source_Information>  
+        <Process_Step>
+            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census
+                MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing
+                attributes for line, polygon, or landmark geographic data.</Process_Description>
+            <Process_Date>2016-01-01</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+        <Topology_Level>geometeryOnly</Topology_Level>
+        <SDTS_Terms_Description>
+            <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
 </GPM>
