@@ -2,10 +2,12 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
            xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
-           xmlns:ii="../newGPMStd/GPMIdentificationInfo" >
+           xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
+           xmlns:dq="../newGPMStd/GPMDQ" >
 
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
-    <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"></xsd:import>
+    <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
+    <xsd:import namespace="../newGPMStd/GPMDQ" schemaLocation="../newGPMStd/GPMDQ.xsd"/>
     
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
@@ -17,6 +19,7 @@
             <xsd:sequence>
                 <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
                 <xsd:element name="Identification_Information"  type="ii:VectorID"/>
+                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformation"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>

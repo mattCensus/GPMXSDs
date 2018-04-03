@@ -31,6 +31,14 @@
                 <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
             </xs:sequence>
     </xs:complexType>
+  
+    <xs:complexType name="SourceInfoCit">
+        <xs:sequence>
+            <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="Publication_Date"/>
+            <xs:element name="Title"/>
+        </xs:sequence>
+    </xs:complexType>
     
     <xs:complexType name="SeriesInfo">
         <xs:sequence>

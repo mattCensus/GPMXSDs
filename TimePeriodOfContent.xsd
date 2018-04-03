@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="../newGPMStd/TimePeriodOfContent"
+           xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+
+
+    <!-- Date elements -->
+    <xs:complexType name="TimePeriodOfContent">
+        <xs:sequence>
+            <xs:choice>
+                <xs:element name="Range_Of_Dates" type="TOC:RangeOfDate"/>
+                <xs:element name="Calendar_Date"/>
+            </xs:choice>
+            <xs:element name="Currentness_Reference"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="RangeOfDate">
+        <xs:sequence>
+            <xs:element name="Beginning_Date"/>
+            <xs:element name="Ending_Date"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

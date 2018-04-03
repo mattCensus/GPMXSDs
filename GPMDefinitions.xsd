@@ -46,6 +46,27 @@
         </xsd:restriction>
     </xsd:simpleType>
     
+    <xsd:simpleType name="DirectSpatialReferenceMethodCodeList">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Point"/>
+            <xsd:enumeration value="Vector"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="TopologyLevelCodeList">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="geometryOnly"/>
+            <xsd:enumeration value="topology1D"/>
+            <xsd:enumeration value="planarGraph"/>
+            <xsd:enumeration value="fullPlanarGraph"/>
+            <xsd:enumeration value="surfaceGraph"/>
+            <xsd:enumeration value="fullSurfaceGraph"/>
+            <xsd:enumeration value="topology3D"/>
+            <xsd:enumeration value="fullTopology3D"/>
+            <xsd:enumeration value="abstract"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
     <xsd:simpleType name="LangCode">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="aar"/>

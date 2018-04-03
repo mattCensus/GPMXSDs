@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema targetNamespace="../newGPMStd/GPMIdentificationInfo"
-    xmlns:GPMDef="../newGPMStd/GPMDefinitions"
-    xmlns:POC="../newGPMStd/PointOfContact"
-    xmlns:ii="../newGPMStd/GPMIdentificationInfo"
-    xmlns:Cit="../newGPMStd/Citaion"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema   targetNamespace="../newGPMStd/GPMIdentificationInfo"
+             xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+             xmlns:POC="../newGPMStd/PointOfContact"
+             xmlns:Cit="../newGPMStd/Citaion"
+             xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+             xmlns:ii="../newGPMStd/GPMIdentificationInfo"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema">
     
     <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
     <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
+    <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
     
     <xs:complexType name="VectorID">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:GPMVectorGDBSeriesCitation"/>
             <xs:element name="Description" type="ii:description"/>
-            <xs:element name="Time_Period_of_Content" type="ii:TimePeriodOfContent"/>
+            <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
             <xs:element name="Status" type="ii:Status"/>
             <xs:element name="Spatial_Domain" type="ii:VectorServiceGDBSeriesSpatialDomain"/>
             <xs:element name="Keywords" type="ii:Keywords"/>
@@ -41,23 +43,7 @@
         </xs:sequence>
     </xs:complexType>
     
-    <!-- Date elements -->
-    <xs:complexType name="TimePeriodOfContent">
-        <xs:sequence>
-            <xs:choice>
-                <xs:element name="Range_Of_Dates"  type="ii:RangeOfDate"/>
-                <xs:element name="Calendar_Date"/>
-            </xs:choice>
-            <xs:element name="Currentness_Reference"/>
-        </xs:sequence>
-    </xs:complexType>
-    
-     <xs:complexType name="RangeOfDate">
-         <xs:sequence>
-             <xs:element name="Beginning_Date"/>
-             <xs:element name="Ending_Date"/>
-         </xs:sequence>
-     </xs:complexType>
+   
     
     <!-- Status elements -->
     <xs:complexType name="Status">

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    targetNamespace="../newGPMStd/GPMDQ"
+    xmlns:dq="../newGPMStd/GPMDQ"
+    xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+    xmlns:POC="../newGPMStd/PointOfContact"
+    xmlns:Cit="../newGPMStd/Citaion"
+    xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
+    <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
+    <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
+    
+    <xs:complexType name="DataQualityInformation">
+        <xs:sequence>
+            <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
+            <xs:element name="Completeness_Report" type="dq:TestReport"/>
+            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Source_Information" type="dq:SourceInformationElements" maxOccurs="unbounded" />
+            <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="TestReport">
+        <xs:sequence>
+            <xs:element name="Test_Report" type="dq:Test_ReportElements"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Test_ReportElements">
+        <xs:sequence>
+            <xs:element name="Measure" minOccurs="0"/>
+            <xs:element name="Evaluation" minOccurs="0"/>
+            <xs:element name="Result" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+
+    <xs:complexType name="SourceInformationElements">
+        <xs:sequence>
+            <xs:element name="Citation" type="Cit:SourceInfoCit"/>
+            <xs:element name="Type_of_Source_Media"/>
+            <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
+            <xs:element name="Source_Citation_Abbreviation"/>
+            <xs:element name="Source_Contribution"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ProcessStepElements">
+        <xs:sequence>
+            <xs:element name="Process_Description"/>
+            <xs:element name="Process_Date"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
