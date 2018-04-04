@@ -371,7 +371,7 @@
     <Spatial_Data_Organization_Information>
         <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
-        <Topology_Level>geometeryOnly</Topology_Level>
+        <Topology_Level>geometryOnly</Topology_Level>
         <SDTS_Terms_Description>
             <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
