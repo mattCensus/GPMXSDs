@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="../newGPMStd/Spatial_Data_Organization_Information"
+           xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
+           xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+           xmlns:POC="../newGPMStd/PointOfContact"
+           xmlns:Cit="../newGPMStd/Citaion"
+           xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
+    <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
+    <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
+
+<xs:complexType name="SpatialDataOrganizationInformation">
+    <xs:sequence>
+        <xs:element name="Indirect_Spatial_Reference"/>
+        <xs:element name="Direct_Spatial_Reference_Method" type="GPMDef:DirectSpatialReferenceMethodCodeList"/>
+        <xs:element name="Topology_Level" type="GPMDef:TopologyLevelCodeList"/>
+        <xs:element name="SDTS_Terms_Description" type="spdo:SDTSTermsDescription"/>
+    </xs:sequence>
+</xs:complexType>
+    
+    <xs:complexType name="SDTSTermsDescription">
+        <xs:sequence>
+            <xs:element name="SDTS_Point_and_Vector_Object_Type"/>
+            <xs:element name="Point_and_Vector_Object_Count"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

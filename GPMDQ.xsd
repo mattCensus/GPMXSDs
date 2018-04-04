@@ -6,9 +6,9 @@
     xmlns:POC="../newGPMStd/PointOfContact"
     xmlns:Cit="../newGPMStd/Citaion"
     xmlns:TOC="../newGPMStd/TimePeriodOfContent"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"  >
     
-    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd" />
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
     <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
     <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
