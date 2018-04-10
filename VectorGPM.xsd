@@ -4,12 +4,15 @@
            xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
            xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
            xmlns:dq="../newGPMStd/GPMDQ"
-           xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information" >
+           xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
+           xmlns:sri="../newGPMStd/Spatial_Reference_Information">
 
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMDQ" schemaLocation="../newGPMStd/GPMDQ.xsd"/>
-    <xsd:import namespace="../newGPMStd/Spatial_Data_Organization_Information" schemaLocation="../newGPMStd/Spatial_Data_Organization_Information.xsd"></xsd:import>
+    <xsd:import namespace="../newGPMStd/Spatial_Data_Organization_Information" schemaLocation="../newGPMStd/Spatial_Data_Organization_Information.xsd"/>
+    <xsd:import namespace="../newGPMStd/Spatial_Reference_Information" schemaLocation="../newGPMStd/Spatial_Reference_Information.xsd"/>
+    
     
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
@@ -23,6 +26,7 @@
                 <xsd:element name="Identification_Information"  type="ii:VectorID"/>
                 <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformation"/>
                 <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation"/>
+                <xsd:element name="Spatial_Reference_Information" type="sri:Spatial_Reference_Information"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>

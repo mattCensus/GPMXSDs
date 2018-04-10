@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  targetNamespace="../newGPMStd/Spatial_Reference_Information" 
+             xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="/Spatial_Reference_Information"
+             xmlns:sri="../newGPMStd/Spatial_Reference_Information"
+     elementFormDefault="qualified">
+
+    <xs:complexType name="Spatial_Reference_Information">
+        <xs:sequence>
+            <xs:element name="Geographic" type="sri:GeographicType"/>
+            <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType"/>
+            <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="GeographicType">
+        <xs:sequence>
+            <xs:element name="Latitude_Resolution"/>
+            <xs:element name="Longitude_Resolution"/>
+            <xs:element name="Geographic_Coordinate_Units"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="EPSGReferenceType">
+        <xs:sequence>
+            <xs:element name="EPSG_Code"/>
+            <xs:element name="EPSG_Code_Space"/>
+            <xs:element name="EPSG_Version"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="GeodeticModelType">
+        <xs:sequence>
+            <xs:element name="Horizontal_Datum_Name"/>
+            <xs:element name="Elipsoid_Name"/>
+            <xs:element name="Semi-Major_Axis"/>
+            <xs:element name="Denominator_of_Flattening_Ratio"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
