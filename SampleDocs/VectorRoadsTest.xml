@@ -377,4 +377,22 @@
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+             <Geographic>
+                <Latitude_Resolution>0.000458</Latitude_Resolution>
+                <Longitude_Resolution>0.000458</Longitude_Resolution>
+                <Geographic_Coordinate_Units>Decimal degrees</Geographic_Coordinate_Units>
+            </Geographic>
+            <EPSG_Reference>
+                <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+                <EPSG_Version>9.2.2</EPSG_Version>
+            </EPSG_Reference>
+            <Geodetic_Model>
+                <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+                <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+                <Semi-Major_Axis>6378137</Semi-Major_Axis>
+                <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+            </Geodetic_Model>
+    </Spatial_Reference_Information>
 </GPM>
