@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema  targetNamespace="../newGPMStd/Spatial_Reference_Information" 
              xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="/Spatial_Reference_Information"
-             xmlns:sri="../newGPMStd/Spatial_Reference_Information"
-     elementFormDefault="qualified">
+             xmlns:sri="../newGPMStd/Spatial_Reference_Information">
 
     <xs:complexType name="Spatial_Reference_Information">
         <xs:sequence>
-            <xs:element name="Geographic" type="sri:GeographicType"/>
             <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType"/>
             <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
         </xs:sequence>
