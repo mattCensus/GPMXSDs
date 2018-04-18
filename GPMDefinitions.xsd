@@ -67,6 +67,16 @@
         </xsd:restriction>
     </xsd:simpleType>
     
+    <xsd:simpleType name="Metadata_Hierarchy_Level">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="dataset"/>
+            <xsd:enumeration value="series"/>
+            <xsd:enumeration value="service"/>
+            <xsd:enumeration value="application"/>
+            <xsd:enumeration value="mapDocumnet"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
     <xsd:simpleType name="LangCode">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="aar"/>

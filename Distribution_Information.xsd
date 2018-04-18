@@ -13,18 +13,45 @@
                 <xs:sequence>
                     <xs:element name="Point_of_Contact" type="POC:POC"/>
                     <xs:element name="Distribution_Liability"/>
-                    <xs:element name="Standard_Order_Process" type="di:StandardOrderProcess"/>
+                    <xs:element name="Standard_Order_Process" type="di:StandardOrderProcessVectorTabularGDB"/>
                     <xs:element  name="Technical_Prerequisites"></xs:element>
                 </xs:sequence>
             </xs:complexType>
     
-    <xs:complexType name="StandardOrderProcess">
+    <xs:complexType name="DistributionInformationPlanned">
+        <xs:sequence>
+            <xs:element name="Point_of_Contact" type="POC:POC"/>
+            <xs:element name="Distribution_Liability"/>
+            <xs:element name="Standard_Order_Process" type="di:StandardOrderProcessPlanned"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardOrderProcessMap">
+        <xs:sequence>
         <xs:choice>
             <xs:element name="Non-Digital_Form"/>
             <xs:element name="Digital_Form" type="di:DigitalFormElements" maxOccurs="unbounded"/>
+            </xs:choice>
             <xs:element name="Fees"/>
-            <xs:element name="Ordering_Instructions"/>
-        </xs:choice>
+            <xs:element name="Ordering_Instructions" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <xs:complexType name="StandardOrderProcessVectorTabularGDB">
+        <xs:sequence>
+            <xs:element name="Digital_Form" type="di:DigitalFormElements" maxOccurs="unbounded"/>
+            <xs:element name="Fees"/>
+            <xs:element name="Ordering_Instructions" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardOrderProcessPlanned">
+        <xs:sequence>
+            <xs:element name="Digital_Form" type="di:DigitalFormElementsPlanned" maxOccurs="unbounded"/>
+            <xs:element name="Fees"/>
+            <xs:element name="Ordering_Instructions" minOccurs="0"/>
+        </xs:sequence>
     </xs:complexType>
     
     <xs:complexType name="DigitalFormElements">
@@ -37,6 +64,19 @@
             <xs:element name="File_Decompression_Technique"/>
             <xs:element name="Transfer_Size" minOccurs="0"/>
             <xs:element name="Network_Resource_Name"/>
+            <xs:element name="mimeType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="DigitalFormElementsPlanned">
+        <xs:sequence>
+            <xs:element name="Format_Name"/>
+            <xs:choice>
+                <xs:element name="Format_Version_Number"/>
+                <xs:element name="Format_Version_Date"/>
+            </xs:choice>
+            <xs:element name="Network_Resource_Name"/>
+            <xs:element name="mimeType"/>
         </xs:sequence>
     </xs:complexType>
     

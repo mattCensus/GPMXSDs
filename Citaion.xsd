@@ -15,6 +15,15 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
+    
+    <xs:complexType name="GPMPlannedIdInfo">
+        <xs:sequence>
+            <xs:element name="Originator" maxOccurs="unbounded"/>
+            <xs:element name="Publication_Date"/>
+            <xs:element name="Title"/>
+            <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
 
 
     <xs:complexType name="CrossRefCit">

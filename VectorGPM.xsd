@@ -7,7 +7,8 @@
            xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
            xmlns:sri="../newGPMStd/Spatial_Reference_Information"
            xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
-           xmlns:di="../newGPMStd/Distribution_Information">
+           xmlns:di="../newGPMStd/Distribution_Information"
+           xmlns:mri="../newGPMStd/Metadata_Reference_Information">
 
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
@@ -15,7 +16,8 @@
     <xsd:import namespace="../newGPMStd/Spatial_Data_Organization_Information" schemaLocation="../newGPMStd/Spatial_Data_Organization_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Spatial_Reference_Information" schemaLocation="../newGPMStd/Spatial_Reference_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Entity_and_Attribute_Information" schemaLocation="../newGPMStd/Entity_and_Attribute_Information.xsd"/>
-    <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"></xsd:import>
+    <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
+    <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
     
     
     <xsd:annotation>
@@ -33,6 +35,7 @@
                 <xsd:element name="Spatial_Reference_Information" type="sri:Spatial_Reference_Information"/>
                 <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
                 <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
+                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>
