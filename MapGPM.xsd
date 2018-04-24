@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-           xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
-           xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
-           xmlns:dq="../newGPMStd/GPMDQ"
-           xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
-           xmlns:sri="../newGPMStd/Spatial_Reference_Information"
-           xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
-           xmlns:di="../newGPMStd/Distribution_Information"
-           xmlns:mri="../newGPMStd/Metadata_Reference_Information">
-
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
+    xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
+    xmlns:dq="../newGPMStd/GPMDQ"
+    xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
+    xmlns:sri="../newGPMStd/Spatial_Reference_Information"
+    xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
+    xmlns:di="../newGPMStd/Distribution_Information"
+    xmlns:mri="../newGPMStd/Metadata_Reference_Information">
+    
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMDQ" schemaLocation="../newGPMStd/GPMDQ.xsd"/>
@@ -19,7 +19,6 @@
     <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
     
-    
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
         </xsd:documentation>
@@ -28,16 +27,12 @@
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
-                <xsd:element name="Identification_Information"  type="ii:VectorID"/>
-                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationVectorService"/>
-                <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation"/>
-                <xsd:element name="Spatial_Reference_Information" type="sri:Spatial_Reference_InformationVector"/>
-                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
-                <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
-                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
+                <xsd:element name="FGDC_Required" type="fgdcreq:MapServices"/>
+                <xsd:element name="Identification_Information" type="ii:MapID"/>
+                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationMap"/>
+                <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceMap"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>
     </xsd:element>
-</xs:schema>
+    </xs:schema>

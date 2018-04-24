@@ -13,7 +13,7 @@
     <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
     <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
     
-    <xs:complexType name="DataQualityInformation">
+    <xs:complexType name="DataQualityInformationVectorService">
         <xs:sequence>
             <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport"/>
@@ -21,6 +21,18 @@
             <xs:element name="Completeness_Report" type="dq:TestReport"/>
             <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Source_Information" type="dq:SourceInformationElements" maxOccurs="unbounded" />
+            <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="DataQualityInformationMap">
+        <xs:sequence>
+            <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
+            <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
+            <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
+            <xs:element name="Completeness_Report" type="dq:TestReport"/>
+            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Source_Information" type="dq:SourceInformationElementsMap" maxOccurs="unbounded" />
             <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -43,6 +55,17 @@
     <xs:complexType name="SourceInformationElements">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:SourceInfoCit"/>
+            <xs:element name="Type_of_Source_Media"/>
+            <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
+            <xs:element name="Source_Citation_Abbreviation"/>
+            <xs:element name="Source_Contribution"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="SourceInformationElementsMap">
+        <xs:sequence>
+            <xs:element name="Citation" type="Cit:SourceInfoCit"/>
+            <xs:element name="Source_Scale_Denominator"/>
             <xs:element name="Type_of_Source_Media"/>
             <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
             <xs:element name="Source_Citation_Abbreviation"/>

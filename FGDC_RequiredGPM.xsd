@@ -20,6 +20,12 @@
         </xsd:sequence>
     </xsd:complexType>
     
+    <xsd:complexType name="MapServices">
+        <xsd:sequence>
+            <xsd:element name="ISO_Theme" type="fgdcreq:ISO_Theme"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
     <xsd:complexType name="ISO_Theme">
         <xsd:sequence>
             <xsd:element name="Theme_Keyword_Theasuruas"/>
