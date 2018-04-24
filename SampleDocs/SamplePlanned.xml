@@ -2,30 +2,36 @@
 <GPM profile="Planned">
     <Identification_Information>
         <Citation>
-            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geography Division, Geographic Standards, Criteria, and Quality Branch</Originator>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division,
+                Geography Division, Geographic Standards, Criteria, and Quality Branch</Originator>
             <Publication_Date>20161220</Publication_Date>
             <Title>Census Bureau Planned Acquisition: Address Data</Title>
-             <Online_Linkage>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Online_Linkage>
+            <Online_Linkage>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Online_Linkage>
         </Citation>
         <Description>
-            <Abstract>The Census Bureau updates and maintains address data to support the correct allocation of population and housing for
-                censuses and surveys.  Boundaries, streets, addresses, structure points, and selected other features are maintained in the Master Address
-                File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.  The Census Bureau collects geographic and address data from
-                tribal, state, and local governments through a Geographic Support System Initiative (GSS-I) Partnership Program and through other geographic programs
-                such as the annual Boundary and Annexation Survey.  When the Census Bureau updates the MAF/TIGER database with new or corrected street, address and
-                structure point data, the boundary network must be updated concurrently to preserve geographic relationships.  
-                
-                Additional sources of data are required to ensure complete coverage of all addresses for the fifty States, the District of
-                Columbia, Puerto Rico, and the Island Areas. Some government partners are unable to provide  street and address data that meets the Census
-                Bureau's requirements. Therefore, the Census Bureau is requesting proposals for provision of address data from commercial vendors that can be easily
-                integrated into the MAF/TIGER database.
-            </Abstract>
-            <Purpose>To seek proposals from commercial vendors for the provision of address data that can be easily integrated into the MAF/TIGER database.</Purpose>
+            <Abstract>The Census Bureau updates and maintains address data to support the correct
+                allocation of population and housing for censuses and surveys. Boundaries, streets,
+                addresses, structure points, and selected other features are maintained in the
+                Master Address File/Topologically Integrated Geographic Encoding and Referencing
+                (MAF/TIGER) database. The Census Bureau collects geographic and address data from
+                tribal, state, and local governments through a Geographic Support System Initiative
+                (GSS-I) Partnership Program and through other geographic programs such as the annual
+                Boundary and Annexation Survey. When the Census Bureau updates the MAF/TIGER
+                database with new or corrected street, address and structure point data, the
+                boundary network must be updated concurrently to preserve geographic relationships.
+                Additional sources of data are required to ensure complete coverage of all addresses
+                for the fifty States, the District of Columbia, Puerto Rico, and the Island Areas.
+                Some government partners are unable to provide street and address data that meets
+                the Census Bureau's requirements. Therefore, the Census Bureau is requesting
+                proposals for provision of address data from commercial vendors that can be easily
+                integrated into the MAF/TIGER database. </Abstract>
+            <Purpose>To seek proposals from commercial vendors for the provision of address data
+                that can be easily integrated into the MAF/TIGER database.</Purpose>
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-            <Beginning_Date>2015-02-28</Beginning_Date>
-            <Ending_Date>2015-03-27</Ending_Date>
+                <Beginning_Date>2015-02-28</Beginning_Date>
+                <Ending_Date>2015-03-27</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
@@ -35,10 +41,10 @@
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
-            <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
-            <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
-            <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
-            <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
             </Bounding_Coordinates>
         </Spatial_Domain>
         <Keywords>
@@ -57,7 +63,9 @@
                 <Theme_Keyword>MAF/TIGER</Theme_Keyword>
             </Theme>
             <Place>
-                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal
+                    Information Processing Series (FIPS) – States/State
+                    Equivalents</Place_Keyword_Thesaurus>
                 <Place_Keyword>Alabama</Place_Keyword>
                 <Place_Keyword>AL</Place_Keyword>
                 <Place_Keyword>Alaska</Place_Keyword>
@@ -141,45 +149,54 @@
                 <Place_Keyword>South Carolina</Place_Keyword>
                 <Place_Keyword>SC</Place_Keyword>
             </Place>
-        </Keywords>    
+        </Keywords>
         <Constraints>
             <Access_Contraints>unrestricted</Access_Contraints>
             <Use_Constraints>trademark</Use_Constraints>
-            <Other_Constraints>  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as
-                the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files
-                should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding
-                addresses.  Files should not be used for determining precise geographic area relationships.</Other_Constraints>
+            <Other_Constraints> These products are free to use in a product or publication, however
+                acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
+                information is for visual display at appropriate small scales only. Cartographic
+                boundary files should not be used for geographic analysis including area or
+                perimeter calculation. Files should not be used for geocoding addresses. Files
+                should not be used for determining precise geographic area
+                relationships.</Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
-      <Distribution_Information>
+    <Distribution_Information>
         <Point_of_Contact>
-            <Contact_Organization> Geography Division, Spatial Products Software Branch</Contact_Organization>
+            <Contact_Organization> Geography Division, Spatial Products Software
+                Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-          <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For
-              information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
-              the software.</Distribution_Liability>
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
         <Standard_Order_Process>
             <Digital_Form>
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
-                 <Network_Resource_Name>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Network_Resource_Name>
+                <Network_Resource_Name>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Network_Resource_Name>
                 <mimeType>text/html; charset=UTF-8</mimeType>
             </Digital_Form>
-            <Fees>None. There are no fees charged to apply for these contracts.  Respondents are solely responsible for all expenses associated with responding to this RFP.</Fees>
+            <Fees>None. There are no fees charged to apply for these contracts. Respondents are
+                solely responsible for all expenses associated with responding to this RFP.</Fees>
         </Standard_Order_Process>
     </Distribution_Information>
-   <Metadata_Reference_Information>
+    <Metadata_Reference_Information>
         <Metadata_Date>2016-12</Metadata_Date>
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
+            Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_File_Identifier>SamplePlanned.xml</Metadata_File_Identifier>
     </Metadata_Reference_Information>
