@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema targetNamespace="../newGPMStd/Citaion"
-           xmlns:Cit="../newGPMStd/Citaion"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema targetNamespace="../newGPMStd/Citaion" xmlns:Cit="../newGPMStd/Citaion"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <!-- Citation elements-->
     <xs:complexType name="GPMVectorGDBSeriesCitation">
         <xs:sequence>
@@ -15,7 +14,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="GPMMap">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -25,9 +24,9 @@
             <xs:element name="Geospatial_Data_Presentation_Form"/>
             <xs:element name="Series_Information" type="Cit:SeriesInfo" minOccurs="0"/>
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
-            </xs:sequence>
+        </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="GPMPlannedIdInfo">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -37,22 +36,44 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="GPMTab">
+        <xs:sequence>
+            <xs:element name="Originator" maxOccurs="unbounded"/>
+            <xs:element name="Publication_Date"/>
+            <xs:element name="Title"/>
+            <xs:element name="Edition" minOccurs="0"/>
+            <xs:element name="Geospatial_Data_Presentation_Form"/>
+            <xs:element name="Series_Information" type="Cit:SeriesInfo" minOccurs="0"/>
+            <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="GPMServices">
+        <xs:sequence>
+            <xs:element name="Originator" maxOccurs="unbounded"/>
+            <xs:element name="Publication_Date"/>
+            <xs:element name="Title"/>
+            <xs:element name="Geospatial_Data_Presentation_Form"/>
+            <xs:element name="Online_Linkage" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
 
     <xs:complexType name="CrossRefCit">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:CrossRefCitRef"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="CrossRefCitRef">
         <xs:sequence>
-                <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
-                <xs:element name="Publication_Date"/>
-                <xs:element name="Title"/>
-                <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
-            </xs:sequence>
+            <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="Publication_Date"/>
+            <xs:element name="Title"/>
+            <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
+        </xs:sequence>
     </xs:complexType>
-  
+
     <xs:complexType name="SourceInfoCit">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
@@ -60,7 +81,7 @@
             <xs:element name="Title"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="SeriesInfo">
         <xs:sequence>
             <xs:element name="Series_Name"/>

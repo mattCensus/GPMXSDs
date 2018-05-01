@@ -26,6 +26,7 @@
             <xs:element name="Entity_Type_Label"/>
             <xs:element name="Entity_Type_Definition"/>
             <xs:element name="Entity_Type_Definition_Source"/>
+            <xs:element name="Ontology_URI" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     

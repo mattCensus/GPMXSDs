@@ -19,6 +19,7 @@
     <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
     
+    
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
         </xsd:documentation>
@@ -28,13 +29,11 @@
         <xsd:complexType>
             <xsd:sequence>
                 <xsd:element name="FGDC_Required" type="fgdcreq:MapServices"/>
-                <xsd:element name="Identification_Information" type="ii:MapID"/>
-                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationMap"/>
-                <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceMap"/>
-                <xsd:element name="Distribution_Information" type="di:MapDistributionInformation"/>
-                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_InformationPlannedMapWMSSeries"/>
+                <xsd:element name="Identification_Information" type="ii:Services"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>
     </xsd:element>
-    </xs:schema>
+</xs:schema>
+            
+

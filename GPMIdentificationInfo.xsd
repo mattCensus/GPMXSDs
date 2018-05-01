@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema   targetNamespace="../newGPMStd/GPMIdentificationInfo"
-             xmlns:GPMDef="../newGPMStd/GPMDefinitions"
-             xmlns:POC="../newGPMStd/PointOfContact"
-             xmlns:Cit="../newGPMStd/Citaion"
-             xmlns:TOC="../newGPMStd/TimePeriodOfContent"
-             xmlns:ii="../newGPMStd/GPMIdentificationInfo"
-             xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-    
-    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd" />
+<xs:schema targetNamespace="../newGPMStd/GPMIdentificationInfo"
+    xmlns:GPMDef="../newGPMStd/GPMDefinitions" xmlns:POC="../newGPMStd/PointOfContact"
+    xmlns:Cit="../newGPMStd/Citaion" xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+    xmlns:ii="../newGPMStd/GPMIdentificationInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:import namespace="../newGPMStd/GPMDefinitions"
+        schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
     <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
-    <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
-    
+    <xs:import namespace="../newGPMStd/TimePeriodOfContent"
+        schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
+
     <xs:complexType name="VectorID">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:GPMVectorGDBSeriesCitation"/>
@@ -25,10 +24,11 @@
             <xs:element name="Browse_Graphic" type="ii:Browse_Graphic" minOccurs="0"/>
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
-            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0"
+                maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="PlannedID">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:GPMPlannedIdInfo"/>
@@ -41,13 +41,14 @@
             <xs:element name="Point_of_Contact" type="POC:POC"/>
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
-            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0"
+                maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="MapID">
         <xs:sequence>
-        <xs:element name="Citation" type="Cit:GPMMap"/>
+            <xs:element name="Citation" type="Cit:GPMMap"/>
             <xs:element name="Description" type="ii:description"/>
             <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
             <xs:element name="Status" type="ii:Status"/>
@@ -58,25 +59,57 @@
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
             <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
-            </xs:sequence>
+        </xs:sequence>
     </xs:complexType>
 
-
-<!-- Element Complex Types -->
-
+    <xs:complexType name="TabId">
+        <xs:sequence>
+            <xs:element name="Citation"  type="Cit:GPMTab"/>
+            <xs:element name="Description" type="ii:description"/>
+            <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
+            <xs:element name="Status" type="ii:Status"/>
+            <xs:element name="Spatial_Domain" type="ii:PlannedMapTabSpatialDomain"/>
+            <xs:element name="Keywords" type="ii:PlannedMapTabularKeywords"/>
+            <xs:element name="Constraints" type="ii:ConstraintsType"/>
+            <xs:element name="Point_of_Contact" type="POC:POC"/>
+            <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
+            <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
+            <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
     
-  
- 
- <!-- Description elements -->
+     <xs:complexType name="Services">
+         <xs:sequence>
+             <xs:element name="Citation" type="Cit:GPMServices"/>
+             <xs:element name="Description" type="ii:description"/>
+             <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
+             <xs:element name="Status" type="ii:Status"/>
+             <xs:element name="Spatial_Domain" type="ii:PlannedMapTabSpatialDomain"/>
+             <xs:element name="Keywords" type="ii:VectorServicesGDBSeriesKeywords"/>
+             <xs:element name="Constraints" type="ii:ConstraintsType"/>
+             <xs:element name="Point_of_Contact" type="POC:POC"/>
+             <xs:element name="Browse_Graphic" type="ii:Browse_Graphic" minOccurs="0"/>
+             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
+             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
+             <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0"/>
+             </xs:sequence>
+     </xs:complexType>
+
+    <!-- Element Complex Types -->
+
+
+
+
+    <!-- Description elements -->
     <xs:complexType name="description">
         <xs:sequence>
             <xs:element name="Abstract"/>
             <xs:element name="Purpose"/>
         </xs:sequence>
     </xs:complexType>
-    
-   
-    
+
+
+
     <!-- Status elements -->
     <xs:complexType name="Status">
         <xs:sequence>
@@ -84,7 +117,7 @@
             <xs:element name="Maintenance_and_Update_Frequency"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <!-- Spatial Domain elements -->
     <xs:complexType name="VectorServiceGDBSeriesSpatialDomain">
         <xs:choice>
@@ -92,13 +125,13 @@
             <xs:element name="Data_Set_G-Polygon" type="ii:Data_Set_G-Polygon"/>
         </xs:choice>
     </xs:complexType>
-    
+
     <xs:complexType name="PlannedMapTabSpatialDomain">
         <xs:sequence>
             <xs:element name="Bounding_Coordinates" type="ii:Bounding_Coordinates"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="Bounding_Coordinates">
         <xs:sequence>
             <xs:element name="West_Bounding_Coordinate"/>
@@ -107,14 +140,14 @@
             <xs:element name="South_Bounding_Coordinate"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="Data_Set_G-Polygon">
         <xs:sequence>
             <xs:element name="Outer_G-Ring"/>
             <xs:element name="Exclusion_G-Ring" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <!-- Keywords elements -->
     <xs:complexType name="PlannedMapTabularKeywords">
         <xs:sequence>
@@ -122,40 +155,40 @@
             <xs:element name="Place" minOccurs="0" type="ii:PlaceKeywords"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="VectorServicesGDBSeriesKeywords">
         <xs:sequence>
             <xs:element name="Theme" type="ii:ThemeKeywords"/>
             <xs:element name="Place" type="ii:PlaceKeywords"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="ThemeKeywords">
         <xs:sequence>
             <xs:element name="Theme_Keyword_Thesaurus"/>
             <xs:element name="Theme_Keyword" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <xs:complexType name="PlaceKeywords">
         <xs:sequence>
             <xs:element name="Place_Keyword_Thesaurus"/>
             <xs:element name="Place_Keyword" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <!-- Constraints elements -->
-    
+
     <xs:complexType name="ConstraintsType">
         <xs:sequence>
-            <xs:element name="Access_Contraints"/>
+            <xs:element name="Access_Constraints"/>
             <xs:element name="Use_Constraints"/>
             <xs:element name="Other_Constraints"/>
         </xs:sequence>
     </xs:complexType>
-    
+
     <!-- Browse Graphic -->
-    
+
     <xs:complexType name="Browse_Graphic">
         <xs:sequence>
             <xs:element name="Browse_Graphic_File_Name"/>
@@ -163,6 +196,6 @@
             <xs:element name="Browse_Graphic_File_Type"/>
         </xs:sequence>
     </xs:complexType>
-    
-  
+
+
 </xs:schema>

@@ -26,17 +26,28 @@
         </xs:sequence>
     </xs:complexType>
     
+    <xs:complexType name="MapDistributionInformation">
+        <xs:sequence>
+            <xs:element name="Point_of_Contact" type="POC:POC"/>
+            <xs:element name="Distribution_Liability"/>
+            <xs:element name="Standard_Order_Process" type="di:StandardOrderProcessMap"/>
+        </xs:sequence>
+    </xs:complexType>
+
+<!-- the Complex types for the elements begin here -->
+     <!-- Standard Order Process -->
     <xs:complexType name="StandardOrderProcessMap">
         <xs:sequence>
         <xs:choice>
             <xs:element name="Non-Digital_Form"/>
-            <xs:element name="Digital_Form" type="di:DigitalFormElements" maxOccurs="unbounded"/>
+            <xs:element name="Digital_Form" type="di:DigitalFormMap" maxOccurs="unbounded"/>
             </xs:choice>
             <xs:element name="Fees"/>
             <xs:element name="Ordering_Instructions" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     
+   
     
     <xs:complexType name="StandardOrderProcessVectorTabularGDB">
         <xs:sequence>
@@ -54,10 +65,12 @@
         </xs:sequence>
     </xs:complexType>
     
+    
+    <!-- Digital Form Elements -->
     <xs:complexType name="DigitalFormElements">
         <xs:sequence>
             <xs:element name="Format_Name"/>
-            <xs:choice>
+            <xs:choice minOccurs="0" maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
                 <xs:element name="Format_Version_Date"/>
             </xs:choice>
@@ -71,7 +84,7 @@
     <xs:complexType name="DigitalFormElementsPlanned">
         <xs:sequence>
             <xs:element name="Format_Name"/>
-            <xs:choice>
+            <xs:choice minOccurs="0" maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
                 <xs:element name="Format_Version_Date"/>
             </xs:choice>
@@ -80,6 +93,20 @@
         </xs:sequence>
     </xs:complexType>
     
+    <xs:complexType name="DigitalFormMap" >
+        <xs:sequence>
+            <xs:element name="Format_Name"/>
+            <xs:choice minOccurs="0" maxOccurs="1">
+                <xs:element name="Format_Version_Number"/>
+                <xs:element name="Format_Version_Date"/>
+            </xs:choice>
+            <xs:element name="Transfer_Size" minOccurs="0"/>
+            <xs:element name="Network_Resource_Name"/>
+            <xs:element name="mimeType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Format Version -->
     <xs:complexType name="FormatVersionElements">
         <xs:choice>
             <xs:element name="Format_Version_Number"/>

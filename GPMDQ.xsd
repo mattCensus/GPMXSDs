@@ -37,6 +37,17 @@
         </xs:sequence>
     </xs:complexType>
     
+    <xs:complexType name="DataQualityInformationTab">
+        <xs:sequence>
+            <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
+            <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
+            <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
+            <xs:element name="Completeness_Report" type="dq:TestReport"/>
+            <xs:element name="Source_Information" type="dq:SourceInformationElements" maxOccurs="unbounded" />
+            <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
     <xs:complexType name="TestReport">
         <xs:sequence>
             <xs:element name="Test_Report" type="dq:Test_ReportElements"/>

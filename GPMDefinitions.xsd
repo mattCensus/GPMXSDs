@@ -77,6 +77,40 @@
         </xsd:restriction>
     </xsd:simpleType>
     
+    <!-- https://www.sitepoint.com/mime-types-complete-list/ -->
+    <xsd:simpleType name="mimeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="application/acad"/>
+            <xsd:enumeration value="application/arj"/>
+            <xsd:enumeration value="application/base64"/>
+            <xsd:enumeration value="application/binhex"/>
+            <xsd:enumeration value="application/binhex4"/>
+            <xsd:enumeration value="application/book"/>
+            <xsd:enumeration value="application/cdf"/>
+            <xsd:enumeration value="application/clariscad"/>
+            <xsd:enumeration value="application/commonground"/>
+            <xsd:enumeration value="application/drafting"/>
+            <xsd:enumeration value="application/dsptype"/>
+            <xsd:enumeration value="application/dxf"/>
+            <xsd:enumeration value="application/ecmascript"/>
+            <xsd:enumeration value="application/envoy"/>
+            <xsd:enumeration value="application/excel"/>
+            <xsd:enumeration value="application/fractals"/>
+            <xsd:enumeration value="application/freeloader"/>
+            <xsd:enumeration value="application/futuresplash"/>
+            
+            <xsd:enumeration value="application/octet-stream"/>
+            <xsd:enumeration value="application/x-authorware-bin"/>
+            <xsd:enumeration value="application/x-authorware-map"/>
+            <xsd:enumeration value="application/x-authorware-seg"/>
+            <xsd:enumeration value="text/vnd.abc"/>
+            <xsd:enumeration value="text/html"/>
+            <xsd:enumeration value="video/animaflex"/>
+            <xsd:enumeration value="application/postscript"/>
+            <xsd:enumeration value="x-world/x-3dmf"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
     <xsd:simpleType name="LangCode">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="aar"/>

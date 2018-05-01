@@ -27,14 +27,13 @@
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="FGDC_Required" type="fgdcreq:MapServices"/>
-                <xsd:element name="Identification_Information" type="ii:MapID"/>
-                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationMap"/>
-                <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceMap"/>
-                <xsd:element name="Distribution_Information" type="di:MapDistributionInformation"/>
-                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_InformationPlannedMapWMSSeries"/>
+                <xsd:element name="Identification_Information" type="ii:TabId"/>
+                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationTab"/>
+                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
+                <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
+                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
             </xsd:sequence>
             <xsd:attribute name="profile"/>
         </xsd:complexType>
     </xsd:element>
-    </xs:schema>
+</xs:schema>
