@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="tabular">
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+                (Originator)</Originator>
+            <Publication_Date>2015</Publication_Date>
+            <Title>TIGER/Line Shapefile, 2015, county, Baldwin County, AL, Address Range-Feature
+                Name County-based Relationship File</Title>
+            <Edition>2015</Edition>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>/http://www2.census.gov/geo/tiger/TIGER2015/ADDRFN/tl_2015_01003_addrfn.zip</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The TIGER/Line shapefiles and related database files (.dbf) are an extract of
+                selected geographic and cartographic information from the U.S. Census Bureau's
+                Master Address File / Topologically Integrated Geographic Encoding and Referencing
+                (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no
+                overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to
+                stand alone as an independent data set, or they can be combined to cover the entire
+                nation. The Address Range / Feature Name Relationship File (ADDRFN.dbf) contains a
+                record for each address range / linear feature name relationship. The purpose of
+                this relationship file is to identify all street names associated with each address
+                range. An edge can have several feature names; an address range located on an edge
+                can be associated with one or any combination of the available feature names (an
+                address range can be linked to multiple feature names). The address range is
+                identified by the address range identifier (ARID) attribute that can be used to link
+                to the Address Ranges Relationship File (ADDR.dbf). The linear feature name is
+                identified by the linear feature identifier (LINEARID) attribute that can be used to
+                link to the Feature Names Relationship File (FEATNAMES.dbf). </Abstract>
+            <Purpose>In order for others to use the information in the Census MAF/TIGER database in
+                a geographic information system (GIS) or for other geographic applications, the
+                Census Bureau releases to the public extracts of the database in the form of
+                TIGER/Line relationship files. </Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>2014-06</Beginning_Date>
+                <Ending_Date>2015-05</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>completed</Progress>
+            <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-88.037309</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>-87.366591</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>31.319017</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>30.146561</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>State FIPS Code</Theme_Keyword>
+                <Theme_Keyword>County FIPS Code</Theme_Keyword>
+                <Theme_Keyword>State GNIS Code</Theme_Keyword>
+                <Theme_Keyword>County GNIS Code</Theme_Keyword>
+                <Theme_Keyword>Permanent edge ID</Theme_Keyword>
+                <Theme_Keyword>From House Number</Theme_Keyword>
+                <Theme_Keyword>To House Number</Theme_Keyword>
+                <Theme_Keyword>Side indicator flag</Theme_Keyword>
+                <Theme_Keyword>5-digit ZIP code</Theme_Keyword>
+                <Theme_Keyword>ZIP +4 code</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 31-2009), Federal
+                    Information Processing Series (FIPS) - Counties/County
+                    Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword>Baldwin</Place_Keyword>
+                <Place_Keyword>01003</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>copyright</Use_Constraints>
+            <Other_Constraints>Use Constraints:The TIGER/Line Shapefile products are not copyrighted
+                however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
+                Bureau. These products are free to use in a product or publication, however
+                acknowledgement must be given to the U.S. Census Bureau as the source.
+            </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Electronic_Mail_Address>U.S. Department of Commerce, U.S. Census Bureau,
+                Geography Division</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+    </Identification_Information>
+     <Data_Quality_Information>
+        <Logical_Consistency_Report>
+            <Test_Report>
+            <Measure>The Census Bureau performed automated tests to ensure logical consistency and limits of relationship files.</Measure>
+            <Evaluation>The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard
+                geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and
+                congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation
+                of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs),
+                American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining Geographic Names Information
+                System (GNIS).  Feature attribute information has been examined but has not been fully tested for consistency.</Evaluation>
+            <Result> Tabular data has been tested for proper domain and format.</Result>
+                </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+            <Evaluation>Tabular data has been tested for proper domain and format</Evaluation>
+            <Result>Tabular data has been tested for proper domain and format</Result>
+            </Test_Report>
+            
+        </Completeness_Report>
+        <Source_Information>
+            <Citation>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+                <Publication_Date>201505</Publication_Date>
+                <Title>Census MAF/TIGER database</Title>
+            </Citation>
+            <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>2015-01-01</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+           </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+            <Source_Contribution>All spatial and feature data</Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description>  TIGER/Line relationship files are extracted from the Census MAF/TIGER database by county.</Process_Description>
+            <Process_Date>2015-01-01</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>ADDRFN.dbf</Entity_Type_Label>
+                <Entity_Type_Definition>Current Address Range-Feature Name County-based Relationship file</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+                 <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+            </Entity_Type>
+           
+            <Attribute>
+                <Attribute_Label>ARID</Attribute_Label>
+                <Attribute_Definition>Address range identifier</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of address range ID's. As such, they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>LINEARID</Attribute_Label>
+                <Attribute_Definition>Linear feature identifier</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of linear feature ID's. As such, they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catalog for the 2015 TIGER/Line Shapefile Address Range-Feature Name County-based Relationship File</FC_Title>
+            <Included_With_Dataset>yes</Included_With_Dataset>
+            <Feature_Types>Address Range-Feature Name</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2015/addrfn/tl_2015_addrfn.dbf.ea.iso.xm</FC_Online_Linkage>
+           
+        </Feature_Catalogue_Description>
+    </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S Department of Commerce, U.S Census Bureau, Geography Division, Geographic Products Branch (distributor)</Contact_Organization>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For
+            information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
+            the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form> 
+                <Format_Name>TGRSHP (compressed)</Format_Name>
+                <Format_Version_Date>2015</Format_Version_Date>
+                <File_Decompression_Technique>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For
+                information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that
+                produced the software</File_Decompression_Technique>
+                <Network_Resource_Name>http://www2.census.gov/geo/tiger/TIGER2015/ADDRFN/tl_2015_01003_addrfn.zip</Network_Resource_Name>
+                <mimeType>application/x-compressed</mimeType>
+            </Digital_Form>  
+            <Digital_Form> 
+                <Format_Name>HTML</Format_Name>
+                <Format_Version_Date>2000</Format_Version_Date>
+                <File_Decompression_Technique></File_Decompression_Technique>
+                <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
+                <mimeType>text/html; charset=UTF-8</mimeType>
+            </Digital_Form>
+        
+        <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>
+        <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles visit http://www.census.gov/geo/www/tiger</Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use
+            the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</Technical_Prerequisites>
+    </Distribution_Information>
+     <Metadata_Reference_Information>
+        <Metadata_Date>2014-06-01</Metadata_Date>
+        <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2015, Series Information for the Address Range-Feature Name County-based Relationship File</Metadata_Parent_Identifier>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name> 
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</Contact_Organization>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_File_Identifier>SampleTabular.xml</Metadata_File_Identifier>
+    </Metadata_Reference_Information>
+</GPM>

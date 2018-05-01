@@ -22,7 +22,7 @@
                 Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and U.S. Virgin
                 Islands. The map also includes a listing of the names of all members of the 114th
                 Congress, as of February 10, 2015. </Abstract>
-            <Purpose>To provide a wall map of the 114th Congressional Districts</Purpose>
+            <Purpose>To provide a wall map of the 114th Congressional Districts.</Purpose>
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
@@ -142,7 +142,7 @@
             </Place>
         </Keywords>
         <Constraints>
-            <Access_Contraints>unrestricted</Access_Contraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
             <Other_Constraints>This is map is available for anyone to use. There are no restrictions
                 on using this map.The boundary information in the TIGER/Line Shapefiles are for
@@ -152,64 +152,82 @@
                 legal land descriptions. </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
-   <Data_Quality_Information>
+    <Data_Quality_Information>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure> The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.</Measure>
-                <Evaluation>Node/geometry and topology relationships are collected or generated to satisfy topological edit requirements.  These requirements include:
-                    (1) Complete chains must begin and end at nodes.
-                    (2) Complete chains must connect to each other at nodes.
-                    (3) Complete chains do not extend through nodes.
-                    (4) Left and right polygons are defined for each complete chain element and are consistent throughout the extract process.
-                    (5) The chains representing the limits of the files are free of gaps.</Evaluation>
-                <Result>There may be some inconsistencies in feature names along features.  An anomaly exists with the sporadic occurrence of road
-                    segments comprising a complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values assigned.  This problem
-                    could affect applications that use the MTFCC values for network analysis, routing, or for assigning symbology to a feature when
-                    creating a map.</Result>
+                <Measure> The Census Bureau performed automated tests to ensure logical consistency
+                    and limits of shapefiles.</Measure>
+                <Evaluation>Node/geometry and topology relationships are collected or generated to
+                    satisfy topological edit requirements. These requirements include: (1) Complete
+                    chains must begin and end at nodes. (2) Complete chains must connect to each
+                    other at nodes. (3) Complete chains do not extend through nodes. (4) Left and
+                    right polygons are defined for each complete chain element and are consistent
+                    throughout the extract process. (5) The chains representing the limits of the
+                    files are free of gaps.</Evaluation>
+                <Result>There may be some inconsistencies in feature names along features. An
+                    anomaly exists with the sporadic occurrence of road segments comprising a
+                    complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values
+                    assigned. This problem could affect applications that use the MTFCC values for
+                    network analysis, routing, or for assigning symbology to a feature when creating
+                    a map.</Result>
             </Test_Report>
         </Logical_Consistency_Report>
         <Completeness_Report>
             <Test_Report>
                 <Measure>Data completeness of the TIGER/Line Shapefiles</Measure>
-                <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line
-                    Shapefiles were created.</Result>
+                <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the
+                    Census MAF/TIGER database at the time the TIGER/Line Shapefiles were
+                    created.</Result>
             </Test_Report>
         </Completeness_Report>
         <Horizontal_Positional_Accuracy_Report>
             <Test_Report>
-                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy
-                    Standards, Part 3: National Standard for Spatial Data Accuracy.</Measure>
-                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal
-                    spatial accuracy of source files that may be used to realign road features in the MAF/TIGER database and test the horizontal
-                    spatial accuracy of the road features in the TIGER/Line Shapefiles.  The test compares a survey-grade GPS coordinate to its
-                    associated road centerline intersection in the TIGER/Line Shapefiles.  The test is based on an independent collection of GPS
-                    coordinates for a random sample of road intersections from a centerline file that meet certain criteria.  The points are
-                    referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since the
-                    collection method uses survey-quality GPS-based field techniques, the resulting control points are considered 'ground truth'
-                    against which the TIGER road centerline intersection coordinates are compared.  The distances between the coordinates are
-                    calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95%
-                    confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus
-                    (2.65 times the standard deviation).  CE95 results reported for each file tested are determined using a spreadsheet with embedded
-                    statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau
-                    statisticians.  The basis of the calculation is the use of the root mean square error (RMSE).  This is the method as stated in
-                    the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards.
-                    Part 3: National Standard for Spatial Data Accuracy.  The results of using this measure of accuracy are in compliance with
-                    Federal Spatial Data requirements.  In terms of the Census Bureau application, the dataset coordinate values are those taken from
-                    the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the
-                    Census Bureau's contractor.  Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road
-                    features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of
-                    the TIGER/Line Shapefile as a whole.</Evaluation>
+                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the
+                    FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                    National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                    road centerline intersections to evaluate the horizontal spatial accuracy of
+                    source files that may be used to realign road features in the MAF/TIGER database
+                    and test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</Evaluation>
                 <Result>6.5 meters for 5406</Result>
             </Test_Report>
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                    Division</Originator>
                 <Publication_Date>201605</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
@@ -217,24 +235,28 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                <Beginning_Date>201601</Beginning_Date>
-                <Ending_Date>201602</Ending_Date>
+                    <Beginning_Date>201601</Beginning_Date>
+                    <Ending_Date>201602</Ending_Date>
                 </Range_Of_Dates>
-                  <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution> All line segments</Source_Contribution>
         </Source_Information>
         <Process_Step>
-            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census
-                MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing
-                attributes for line, polygon, or landmark geographic data.</Process_Description>
+            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
+                database by nation, state, county, and entity. Census MAF/TIGER data for all of the
+                aforementioned geographic entities are then distributed among the shapefiles each
+                containing attributes for line, polygon, or landmark geographic
+                data.</Process_Description>
             <Process_Date>2016-01-01</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
-     <Spatial_Reference_Information>
+    <Spatial_Reference_Information>
         <Map_Projection>
             <Map_Projection_Name>Albers Conical Equal Area</Map_Projection_Name>
+            <Map_Projection_Description> +proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96
+                +x_0=0 +y_0=0 +datum=NAD83 +units=m</Map_Projection_Description>
         </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
@@ -243,32 +265,38 @@
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
     </Spatial_Reference_Information>
-  <!--   <Distribution_Information>
-        <Distributor>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-        </Distributor>
-        <Non-Digital_Form>This map is available for purchase from the US Census Bureau's Geography Division. To order, please call (301) 763-1128.</Non-Digital_Form>
-        <Digital_Form>
-            <Format_Name>PDF</Format_Name>
-            <Network_Resource_Description>PDF National 114th Congressional District Wall Map</Network_Resource_Description>
-            <Network_Resource_Name>https://www2.census.gov/geo/maps/cong_dist/uswall/cd114/CD114_US_WallMap.pdf</Network_Resource_Name>
-            <mimeType>application/pdf</mimeType>
-        </Digital_Form>
-        <Fees>The cost is $25 for the first map with additional copies of these maps shipped to the same location being $20 each.</Fees>
-        <Ordering_Instructions>This map is available for purchase from the US Census Bureau's Geography Division.  It measures 44.5 x 33 inches. To order, please call (301) 763-1128.</Ordering_Instructions>
+        </Point_of_Contact>
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>PDF</Format_Name>
+                <Network_Resource_Name>https://www2.census.gov/geo/maps/cong_dist/uswall/cd114/CD114_US_WallMap.pdf</Network_Resource_Name>
+                <mimeType>application/pdf</mimeType>
+            </Digital_Form>
+            <Fees>The cost is $25 for the first map with additional copies of these maps shipped to
+                the same location being $20 each.</Fees>
+            <Ordering_Instructions>The PDF file is free to dowonload. This map is also available for purchase from the US Census Bureau's
+                Geography Division by calling (301) 763-1128.</Ordering_Instructions>
+        </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date>2016-03</Metadata_Date>
-        <Metadata_Parent_Identifier>Series Information for the 2015 Cartographic Boundary File, State-County-Census Tract-Block Group, 1:500,000</Metadata_Parent_Identifier>
-        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name> 
-       <Contact_Address>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</Contact_Organization>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Geographic Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-       </Contact_Address>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
+            Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_File_Identifier>SampleMap.xml</Metadata_File_Identifier>
-    </Metadata_Reference_Information> -->
+    </Metadata_Reference_Information>
 </GPM>
