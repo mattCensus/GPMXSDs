@@ -7,204 +7,282 @@
         </ISO_Theme>
     </FGDC_Required>
 
- <Identification_Information>
-    <Citation>
-        <Originator>.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Standards, Criteria, and Quality Branch</Originator>
-        <Publication_Date>20151113</Publication_Date>
-        <Title>TIGERweb_tigerWMS_PhysicalFeatures</Title>
-        <Geospatial_Data_Presentation_Form>Web Mapping Service</Geospatial_Data_Presentation_Form>
-    </Citation>
-    <Description>
-        <Abstract>The Physical Features WMS contains information about the transportation, hydrography and other features of the physical landscape.
-            These other features include national parks, correctional facilities, colleges and universities and military installations. The Census Physical Features
-            WMS web mapping service contains data as of January 1,2010.</Abstract>  
-        <Purpose>To provide a simple HTTP interface for requesting geo-registered map images from our geospatial database. The response to the request is one or more
-             geo-registered map images that can be displayed in a browser or WMS client application. By gaining access to our data through our WMS, users can produce maps
-             containing TIGERweb layers combined with layers from other servers.
-        </Purpose>
-    </Description>
-    <Time_Period_of_Content>
-        <Calendar_Date>01012016</Calendar_Date>
-        <Currentness_Reference>ground condition</Currentness_Reference>
-    </Time_Period_of_Content>
-    <Status>
-        <Progress>Completed</Progress>
-        <Maintenance_and_Update_Frequency>Annually</Maintenance_and_Update_Frequency>
-    </Status>
-    <Spatial_Domain>
-        <Bounding_Coordinates>
-            <West_Bounding_Coordinate>-170.758411</West_Bounding_Coordinate>
-            <East_Bounding_Coordinate>145.794980</East_Bounding_Coordinate>
-            <North_Bounding_Coordinate>71.299040</North_Bounding_Coordinate>
-            <South_Bounding_Coordinate>-14.375089</South_Bounding_Coordinate>
-        </Bounding_Coordinates>
-    </Spatial_Domain>
-    <Keywords>
-        <Theme>
-            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
-            <Theme_Keyword>Military Installations</Theme_Keyword>
-            <Theme_Keyword>Glaciers</Theme_Keyword>
-            <Theme_Keyword>Areal Hydrography</Theme_Keyword>
-            <Theme_Keyword>Linear Hydrography</Theme_Keyword>
-            <Theme_Keyword>Railroads</Theme_Keyword>
-            <Theme_Keyword>Local Roads</Theme_Keyword>
-            <Theme_Keyword>Secondary Roads</Theme_Keyword>
-            <Theme_Keyword>Primary Roads</Theme_Keyword>
-            <Theme_Keyword>Rivers</Theme_Keyword>
-            <Theme_Keyword>National Parks</Theme_Keyword>
-            <Theme_Keyword>correctional facilities</Theme_Keyword>
-            <Theme_Keyword>colleges</Theme_Keyword>
-            <Theme_Keyword>universities</Theme_Keyword>
-            <Theme_Keyword>military installations</Theme_Keyword>
-        </Theme>
-        <Place>
-            <Place_Keyword_Thesaurus>Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States</Place_Keyword_Thesaurus>
-            <Place_Keyword>Alabama</Place_Keyword>
-        </Place> 
-    </Keywords>
-    <Constraints>
-        <Access_Constraints>unrestricted</Access_Constraints>
-        <Use_Constraints>trademark</Use_Constraints>
-        <Other_Constraints>  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as
-                the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files
-                should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding
-                addresses.  Files should not be used for determining precise geographic area relationships.</Other_Constraints>
-    </Constraints>
-    <Point_of_Contact>
-        <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
-        <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-    </Point_of_Contact>
-</Identification_Information>
-  <!--  <Data_Quality_Information>
+    <Identification_Information>
+        <Citation>
+            <Originator>.S. Department of Commerce, U.S. Census Bureau, Geography Division,
+                Geographic Standards, Criteria, and Quality Branch</Originator>
+            <Publication_Date>20151113</Publication_Date>
+            <Title>TIGERweb_tigerWMS_PhysicalFeatures</Title>
+            <Geospatial_Data_Presentation_Form>Web Mapping
+                Service</Geospatial_Data_Presentation_Form>
+        </Citation>
+        <Description>
+            <Abstract>The Physical Features WMS contains information about the transportation,
+                hydrography and other features of the physical landscape. These other features
+                include national parks, correctional facilities, colleges and universities and
+                military installations. The Census Physical Features WMS web mapping service
+                contains data as of January 1,2010.</Abstract>
+            <Purpose>To provide a simple HTTP interface for requesting geo-registered map images
+                from our geospatial database. The response to the request is one or more
+                geo-registered map images that can be displayed in a browser or WMS client
+                application. By gaining access to our data through our WMS, users can produce maps
+                containing TIGERweb layers combined with layers from other servers. </Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Calendar_Date>01012016</Calendar_Date>
+            <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>Annually</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-170.758411</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>145.794980</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.299040</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.375089</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>Military Installations</Theme_Keyword>
+                <Theme_Keyword>Glaciers</Theme_Keyword>
+                <Theme_Keyword>Areal Hydrography</Theme_Keyword>
+                <Theme_Keyword>Linear Hydrography</Theme_Keyword>
+                <Theme_Keyword>Railroads</Theme_Keyword>
+                <Theme_Keyword>Local Roads</Theme_Keyword>
+                <Theme_Keyword>Secondary Roads</Theme_Keyword>
+                <Theme_Keyword>Primary Roads</Theme_Keyword>
+                <Theme_Keyword>Rivers</Theme_Keyword>
+                <Theme_Keyword>National Parks</Theme_Keyword>
+                <Theme_Keyword>correctional facilities</Theme_Keyword>
+                <Theme_Keyword>colleges</Theme_Keyword>
+                <Theme_Keyword>universities</Theme_Keyword>
+                <Theme_Keyword>military installations</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>Codes for the Identification of the States, the District of
+                    Columbia, Puerto Rico, and the Insular Areas of the United
+                    States</Place_Keyword_Thesaurus>
+                <Place_Keyword>Alabama</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
+            <Other_Constraints> These products are free to use in a product or publication, however
+                acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
+                information is for visual display at appropriate small scales only. Cartographic
+                boundary files should not be used for geographic analysis including area or
+                perimeter calculation. Files should not be used for geocoding addresses. Files
+                should not be used for determining precise geographic area
+                relationships.</Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile Quantative Attribute Accuraccy Test</Measure>
+                <Evaluation>Manual and automatic examination of the Non_Quantative attribute
+                    information</Evaluation>
+                <Result>This information is not fully accurate</Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
+                    Geographic Names Information System (GNIS) TIGER/Line Shapefile Test</Measure>
+                <Evaluation>Tested against National Standard Codes, Federal Information Processing
+                    (FIPS) and the Geographic Names Information System (GNIS)</Evaluation>
+                <Result>100% accurate for the codes and base names.</Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure> The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.</Measure>
-                <Evaluation>Node/geometry and topology relationships are collected or generated to satisfy topological edit requirements.  These requirements include:
-                    (1) Complete chains must begin and end at nodes.
-                    (2) Complete chains must connect to each other at nodes.
-                    (3) Complete chains do not extend through nodes.
-                    (4) Left and right polygons are defined for each complete chain element and are consistent throughout the extract process.
-                    (5) The chains representing the limits of the files are free of gaps.</Evaluation>
-                <Result>There may be some inconsistencies in feature names along features.  An anomaly exists with the sporadic occurrence of road
-                    segments comprising a complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values assigned.  This problem
-                    could affect applications that use the MTFCC values for network analysis, routing, or for assigning symbology to a feature when
-                    creating a map.</Result>
+                <Measure> The Census Bureau performed automated tests to ensure logical consistency
+                    and limits of shapefiles.</Measure>
+                <Evaluation>Node/geometry and topology relationships are collected or generated to
+                    satisfy topological edit requirements. These requirements include: (1) Complete
+                    chains must begin and end at nodes. (2) Complete chains must connect to each
+                    other at nodes. (3) Complete chains do not extend through nodes. (4) Left and
+                    right polygons are defined for each complete chain element and are consistent
+                    throughout the extract process. (5) The chains representing the limits of the
+                    files are free of gaps.</Evaluation>
+                <Result>There may be some inconsistencies in feature names along features. An
+                    anomaly exists with the sporadic occurrence of road segments comprising a
+                    complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values
+                    assigned. This problem could affect applications that use the MTFCC values for
+                    network analysis, routing, or for assigning symbology to a feature when creating
+                    a map.</Result>
             </Test_Report>
         </Logical_Consistency_Report>
         <Completeness_Report>
             <Test_Report>
                 <Measure>Data completeness of the TIGER/Line Shapefiles</Measure>
-                <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line
-                    Shapefiles were created.</Result>
+                <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the
+                    Census MAF/TIGER database at the time the TIGER/Line Shapefiles were
+                    created.</Result>
             </Test_Report>
         </Completeness_Report>
         <Horizontal_Positional_Accuracy_Report>
             <Test_Report>
-                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy
-                    Standards, Part 3: National Standard for Spatial Data Accuracy.</Measure>
-                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal
-                    spatial accuracy of source files that may be used to realign road features in the MAF/TIGER database and test the horizontal
-                    spatial accuracy of the road features in the TIGER/Line Shapefiles.  The test compares a survey-grade GPS coordinate to its
-                    associated road centerline intersection in the TIGER/Line Shapefiles.  The test is based on an independent collection of GPS
-                    coordinates for a random sample of road intersections from a centerline file that meet certain criteria.  The points are
-                    referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since the
-                    collection method uses survey-quality GPS-based field techniques, the resulting control points are considered 'ground truth'
-                    against which the TIGER road centerline intersection coordinates are compared.  The distances between the coordinates are
-                    calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95%
-                    confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus
-                    (2.65 times the standard deviation).  CE95 results reported for each file tested are determined using a spreadsheet with embedded
-                    statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau
-                    statisticians.  The basis of the calculation is the use of the root mean square error (RMSE).  This is the method as stated in
-                    the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards.
-                    Part 3: National Standard for Spatial Data Accuracy.  The results of using this measure of accuracy are in compliance with
-                    Federal Spatial Data requirements.  In terms of the Census Bureau application, the dataset coordinate values are those taken from
-                    the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the
-                    Census Bureau's contractor.  Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road
-                    features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of
-                    the TIGER/Line Shapefile as a whole.</Evaluation>
+                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the
+                    FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                    National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                    road centerline intersections to evaluate the horizontal spatial accuracy of
+                    source files that may be used to realign road features in the MAF/TIGER database
+                    and test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</Evaluation>
                 <Result>6.5 meters for 5406</Result>
             </Test_Report>
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                    Division</Originator>
                 <Publication_Date>201605</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
-            <Source_Scale_Denominator>1:76,000</Source_Scale_Denominator>
             <Type_of_Source_Media>online</Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>201601</Beginning_Date>
-                <Ending_Date>201602</Ending_Date>
-                <Source_Currentness_Reference>Publication Date</Source_Currentness_Reference>
-            </Time_Period_of_Source>            
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>201601</Beginning_Date>
+                    <Ending_Date>201602</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution> All line segments</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping Section</Originator>
+                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping
+                    Section</Originator>
                 <Publication_Date>20030401</Publication_Date>
                 <Title>kotzebue83.shp</Title>
             </Citation>
             <Type_of_Source_Media>FTP</Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>20030401</Beginning_Date>
-                <Ending_Date>20030401</Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution>Source Contribution: Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>20030401</Beginning_Date>
+                    <Ending_Date>20030401</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation> AKDOTGIS</Source_Citation_Abbreviation>
+            <Source_Contribution>Source Contribution: Coordinates to realign selected road features
+                in the Census MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - Med. Res.</Title>
             </Citation>
             <Type_of_Source_Media>Unknown</Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>6178 USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
             <Type_of_Source_Media>Internet Download</Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution> Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
-        </Source_Information> 
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>6168 USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution> Coordinates to realign selected hydrographic features in the
+                Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
             <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>7178 USGS NHD</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div - LFGPB</Originator>
+                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div -
+                    LFGPB</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>2010 ADCAN GPS Feature Updates</Title>
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected road features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
@@ -213,10 +291,14 @@
                 <Title>02_AK_2010</Title>
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>02_AK_2010</Source_Citation_Abbreviation>
             <Source_Contribution>All line segments</Source_Contribution>
         </Source_Information>
         <Source_Information>
@@ -226,109 +308,97 @@
                 <Title>02_AK_2014_delivery_RGB</Title>
             </Citation>
             <Type_of_Source_Media> </Type_of_Source_Media>
-            <Time_Period_of_Source>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-            </Time_Period_of_Source>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>02_AK_2014_delivery_RGB</Source_Citation_Abbreviation>
             <Source_Contribution>All line segments</Source_Contribution>
-        </Source_Information>  
+        </Source_Information>
         <Process_Step>
-            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census
-                MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing
-                attributes for line, polygon, or landmark geographic data.</Process_Description>
+            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
+                database by nation, state, county, and entity. Census MAF/TIGER data for all of the
+                aforementioned geographic entities are then distributed among the shapefiles each
+                containing attributes for line, polygon, or landmark geographic
+                data.</Process_Description>
             <Process_Date>2016-01-01</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
-    
+
     <Spatial_Data_Organization_Information>
-        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names
+            Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
-        <Topology_Level>geometeryOnly</Topology_Level>
+        <Topology_Level>geometryOnly</Topology_Level>
         <SDTS_Terms_Description>
             <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
-    
+
     <Spatial_Reference_Information>
-        <Map_Projection>
-            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
-            <ESPG_Reference>
-                <EPSG_Code>EPSG::3395</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
-            </ESPG_Reference>
-        </Map_Projection>
-        <Map_Projection>
-            <Map_Projection_Name>latitude and longitude coordinates on the WGS84 reference ellipsoid</Map_Projection_Name>
-            <ESPG_Reference>
-                <EPSG_Code>EPSG:4326</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
-            </ESPG_Reference>
-        </Map_Projection>
-        <Map_Projection>
-            <Map_Projection_Name> Spherical Mercator projection coordinate system</Map_Projection_Name>
-            <ESPG_Reference>
-                <EPSG_Code>EPSG:3857</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:3857</EPSG_Code_Space>
-            </ESPG_Reference>
-        </Map_Projection>
-        <Map_Projection>
-            <Map_Projection_Name> Spherical Mercator projection coordinate system</Map_Projection_Name>
-            <ESPG_Reference>
-                <EPSG_Code>EPSG:102100</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:102100</EPSG_Code_Space>
-            </ESPG_Reference>
-        </Map_Projection>
+
+        <EPSG_Reference>
+            <EPSG_Code>EPSG::3395</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
+            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+        </EPSG_Reference>
+        <EPSG_Reference>
+            <EPSG_Code>EPSG:4326</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
+            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+        </EPSG_Reference>
+        <EPSG_Reference>
+            <EPSG_Code>EPSG:3857</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:3857</EPSG_Code_Space>
+            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+        </EPSG_Reference>
+        <EPSG_Reference>
+            <EPSG_Code>EPSG:102100</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:102100</EPSG_Code_Space>
+            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+        </EPSG_Reference>
     </Spatial_Reference_Information>
-    
+
     <Entity_and_Attribute_Information>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the  2016 All Roads County-based Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>All Roads</Feature_Types>
-                <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>All Roads</Feature_Types>
+            <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the 2016 Military Installation National Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>Military Installations</Feature_Types>
-                <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/mil/tl_2016_us_mil.shp.ea.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 Military Installation National Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>Military Installations</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/mil/tl_2016_us_mil.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the 2016 Military Installation National Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>Military Installations</Feature_Types>
-                <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/mil/tl_2016_us_mil.shp.ea.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 Military Installation National Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>Military Installations</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/mil/tl_2016_us_mil.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the  2016 Area Hydrography County-based Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>Glaciers, Lakes, Ponds</Feature_Types>
-                <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/areawater/tl_2016_areawater.shp.ea.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 Area Hydrography County-based Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>Glaciers, Lakes, Ponds</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/areawater/tl_2016_areawater.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the  2016 Linear Hydrography County-based Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>Rivers, streams</Feature_Types>
-                <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/linearwater/tl_2016_linearwater.shp.ea.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 Linear Hydrography County-based Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>Rivers, streams</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/linearwater/tl_2016_linearwater.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
-                <FC_Title>Feature Catalog for the 2016 Rails National Shapefile</FC_Title>
-                <Included_With_Dataset>no</Included_With_Dataset>
-                <Feature_Types>railroads</Feature_Types>
-                <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/rails/tl_2016_us_rails.shp.iso.xml</FC_Online_Linkage>
-            </Feature_Catologue_Description>
+            <FC_Title>Feature Catalog for the 2016 Rails National Shapefile</FC_Title>
+            <Included_With_Dataset>no</Included_With_Dataset>
+            <Feature_Types>railroads</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/rails/tl_2016_us_rails.shp.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
     <Distribution_Information>
@@ -336,24 +406,27 @@
             <Contact_Organization> Geography Division, Spatial Products Software Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
+        <Distribution_Liability>This WMS contains geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software. To use this WMS in a web browser, reference the OGC specification.</Distribution_Liability>
         <Standard_Order_Process>
             <Digital_Form>
                 <Format_Name>WMS</Format_Name>
                 <Format_Version_Number>1.3.0</Format_Version_Number>
-                <Network_Resource_Description>The Get capabilities Function</Network_Resource_Description>
                 <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
                 <mimeType>text/html; charset=UTF-8</mimeType>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
-                <Network_Resource_Description>TIGERweb Main page</Network_Resource_Description>
                 <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
                 <mimeType>text/html; charset=UTF-8</mimeType>
             </Digital_Form>
+            <Fees>Census Web Mapping Services may be accessed without charge.</Fees>
         </Standard_Order_Process>
     </Distribution_Information>
-    <Computer_Service_Information>
+    <!--  <Computer_Service_Information>
         <Service_Type>urn:ogc:serviceType:WebMapService:1.1</Service_Type>
         <Service_Type_Version>1.3.0</Service_Type_Version>
         <Coupling_Type>tight</Coupling_Type>

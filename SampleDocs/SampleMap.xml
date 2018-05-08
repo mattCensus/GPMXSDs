@@ -159,8 +159,7 @@
     <Data_Quality_Information>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure> The Census Bureau performed automated tests to ensure logical consistency
-                    and limits of shapefiles.</Measure>
+                <Measure>TIGER/Line Shapefile topological consistency test</Measure>
                 <Evaluation>Node/geometry and topology relationships are collected or generated to
                     satisfy topological edit requirements. These requirements include: (1) Complete
                     chains must begin and end at nodes. (2) Complete chains must connect to each

@@ -10,9 +10,9 @@
             <NGDA_Keyword>NGDA</NGDA_Keyword>
             <NGDA_Keyword>Transportation Theme</NGDA_Keyword>
             <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
+            <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</GETMAP_URL>
+            <REST_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</REST_URL>
         </NGDA_Info>
-        <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</GETMAP_URL>
-        <REST_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</REST_URL>
     </FGDC_Required>
     <Identification_Information>
         <Citation>
@@ -153,9 +153,9 @@
                 <Result>100% accurate for the codes and base names.</Result>
             </Test_Report>
         </Non_Quantitative_Attribute_Accuracy_Report>
-       <Logical_Consistency_Report>
+        <Logical_Consistency_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile logical consistency test</Measure>
+                <Measure>TIGER/Line Shapefile topological consistency test</Measure>
                 <Evaluation>The Census Bureau performed automated tests to ensure logical
                     consistency and limits of shapefiles by collecting or generating Node/geometry
                     and topology relationships to satisfy topological edit requirements. These
@@ -171,7 +171,7 @@
                     network analysis, routing, or for assigning symbology to a feature when creating
                     a map.</Result>
             </Test_Report>
-       </Logical_Consistency_Report>
+        </Logical_Consistency_Report>
         <Completeness_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Completeness Test</Measure>
@@ -181,35 +181,49 @@
         </Completeness_Report>
         <Horizontal_Positional_Accuracy_Report>
             <Test_Report>
-                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy
-                    Standards, Part 3: National Standard for Spatial Data Accuracy.</Measure>
-                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal
-                    spatial accuracy of source files that may be used to realign road features in the MAF/TIGER database and test the horizontal
-                    spatial accuracy of the road features in the TIGER/Line Shapefiles.  The test compares a survey-grade GPS coordinate to its
-                    associated road centerline intersection in the TIGER/Line Shapefiles.  The test is based on an independent collection of GPS
-                    coordinates for a random sample of road intersections from a centerline file that meet certain criteria.  The points are
-                    referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since the
-                    collection method uses survey-quality GPS-based field techniques, the resulting control points are considered 'ground truth'
-                    against which the TIGER road centerline intersection coordinates are compared.  The distances between the coordinates are
-                    calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95%
-                    confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus
-                    (2.65 times the standard deviation).  CE95 results reported for each file tested are determined using a spreadsheet with embedded
-                    statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau
-                    statisticians.  The basis of the calculation is the use of the root mean square error (RMSE).  This is the method as stated in
-                    the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards.
-                    Part 3: National Standard for Spatial Data Accuracy.  The results of using this measure of accuracy are in compliance with
-                    Federal Spatial Data requirements.  In terms of the Census Bureau application, the dataset coordinate values are those taken from
-                    the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the
-                    Census Bureau's contractor.  Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road
-                    features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of
-                    the TIGER/Line Shapefile as a whole.</Evaluation>
+                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the
+                    FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                    National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                    road centerline intersections to evaluate the horizontal spatial accuracy of
+                    source files that may be used to realign road features in the MAF/TIGER database
+                    and test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</Evaluation>
                 <Result>6.5 meters for 5406</Result>
                 <Result>1.73 meters for 11213</Result>
             </Test_Report>
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                    Division</Originator>
                 <Publication_Date>201605</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
@@ -221,45 +235,49 @@
                     <Ending_Date>201602</Ending_Date>
                 </Range_Of_Dates>
                 <Currentness_Reference>Publication Date</Currentness_Reference>
-            </Time_Period_of_Content>    
+            </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution> All line segments</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping Section</Originator>
+                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping
+                    Section</Originator>
                 <Publication_Date>20030401</Publication_Date>
                 <Title>kotzebue83.shp</Title>
             </Citation>
             <Type_of_Source_Media>FTP</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                <Beginning_Date>20030401</Beginning_Date>
-                <Ending_Date>20030401</Ending_Date>
-                    </Range_Of_Dates>
+                    <Beginning_Date>20030401</Beginning_Date>
+                    <Ending_Date>20030401</Ending_Date>
+                </Range_Of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Alaska ADOT PF</Source_Citation_Abbreviation>
-            <Source_Contribution>Source Contribution: Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Source Contribution: Coordinates to realign selected road features
+                in the Census MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - Med. Res.</Title>
             </Citation>
             <Type_of_Source_Media>Unknown</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-                    </Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation> USGS NHD</Source_Citation_Abbreviation>
-            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
-        
+
         <!-- <Source_Information>
             <Citation>
             <Originator></Originator>
@@ -273,10 +291,11 @@
             </Time_Period_of_Source>
             <Source_Contribution></Source_Contribution>
             </Source_Information> -->
-        
+
         <Source_Information>
             <Citation>
-                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
@@ -289,28 +308,32 @@
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
-            <Source_Contribution> Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
-        </Source_Information> 
+            <Source_Contribution> Coordinates to realign selected hydrographic features in the
+                Census MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
+                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements
+                    (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
             <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-                    </Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
-            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div - LFGPB</Originator>
+                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div -
+                    LFGPB</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>2010 ADCAN GPS Feature Updates</Title>
             </Citation>
@@ -319,11 +342,12 @@
                 <Range_Of_Dates>
                     <Beginning_Date>unknown</Beginning_Date>
                     <Ending_Date>unknown</Ending_Date>
-                    </Range_Of_Dates>
+                </Range_Of_Dates>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
-            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Coordinates to realign selected road features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
@@ -338,11 +362,12 @@
                     <Ending_Date>unknown</Ending_Date>
                 </Range_Of_Dates>
                 <Currentness_Reference>unknown</Currentness_Reference>
-               
-                
+
+
             </Time_Period_of_Content>
-            <Source_Citation_Abbreviation></Source_Citation_Abbreviation>
-            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+            <Source_Citation_Abbreviation/>
+            <Source_Contribution>Coordinates to realign selected road features in the Census
+                MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
@@ -353,23 +378,26 @@
             <Type_of_Source_Media> </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                <Beginning_Date>unknown</Beginning_Date>
-                <Ending_Date>unknown</Ending_Date>
-                    </Range_Of_Dates>
+                    <Beginning_Date>unknown</Beginning_Date>
+                    <Ending_Date>unknown</Ending_Date>
+                </Range_Of_Dates>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>AK</Source_Citation_Abbreviation>
             <Source_Contribution>All line segments</Source_Contribution>
-        </Source_Information>  
+        </Source_Information>
         <Process_Step>
-            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census
-                MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing
-                attributes for line, polygon, or landmark geographic data.</Process_Description>
+            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
+                database by nation, state, county, and entity. Census MAF/TIGER data for all of the
+                aforementioned geographic entities are then distributed among the shapefiles each
+                containing attributes for line, polygon, or landmark geographic
+                data.</Process_Description>
             <Process_Date>2016-01-01</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Spatial_Data_Organization_Information>
-        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names
+            Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
         <Topology_Level>geometryOnly</Topology_Level>
         <SDTS_Terms_Description>
@@ -378,17 +406,17 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
-            <EPSG_Reference>
-                <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
-                <EPSG_Version>9.2.2</EPSG_Version>
-            </EPSG_Reference>
-            <Geodetic_Model>
-                <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-                <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
-                <Semi-Major_Axis>6378137</Semi-Major_Axis>
-                <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
-            </Geodetic_Model>
+        <EPSG_Reference>
+            <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
     </Spatial_Reference_Information>
     <Entity_and_Attribute_Information>
         <Detailed_Description>
@@ -402,15 +430,22 @@
                 <Attribute_Definition>Linear feature identifier</Attribute_Definition>
                 <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
                 <Attribute_Domain_Values>
-                    <Unrepresentable_Domain>Values for this attribute are composed of a set of Linear feature IDs. As such, they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of
+                        Linear feature IDs. As such, they do not exist in a known, predefined
+                        set.</Unrepresentable_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
             <Attribute>
                 <Attribute_Label>FULLNAME</Attribute_Label>
-                <Attribute_Definition>Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, base name, suffix type, suffix direction, and suffix qualifier (as available) with a space between each expanded text field</Attribute_Definition>
+                <Attribute_Definition>Concatenation of expanded text for prefix qualifier, prefix
+                    direction, prefix type, base name, suffix type, suffix direction, and suffix
+                    qualifier (as available) with a space between each expanded text
+                    field</Attribute_Definition>
                 <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
                 <Attribute_Domain_Values>
-                    <Unrepresentable_Domain>Values for this attribute are composed of a set of names. As such, they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of
+                        names. As such, they do not exist in a known, predefined
+                        set.</Unrepresentable_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
             <Attribute>
@@ -421,42 +456,50 @@
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>County</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>I</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Interstate</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>M</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Common Name</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Common
+                            Name</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>O</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Other</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>State recognized</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>State
+                            recognized</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>U</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>U.S.</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
@@ -467,112 +510,140 @@
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1100</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Primary Road</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Primary
+                            Road</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1200</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Secondary Road</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Secondary
+                            Road</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1400</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Local Neighborhood Road, Rural Road, City Street</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Local Neighborhood Road, Rural Road,
+                            City Street</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1500</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Vehicular Trail (4WD)</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Vehicular Trail
+                            (4WD)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1630</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Ramp</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1640</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Service Drive usually along a limited access highway</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Service Drive usually along a limited
+                            access highway</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1710</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Walkway/Pedestrian Trail</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Walkway/Pedestrian
+                            Trail</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1720</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Stairway</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1730</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Alley</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1740</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Private Road for service vehicles (logging, oil fields, ranches, etc.)</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Private Road for service vehicles
+                            (logging, oil fields, ranches,
+                            etc.)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1750</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Private Driveway</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Private
+                            Driveway</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1780</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Parking Lot Road</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Parking Lot
+                            Road</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1820</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Bike Path or Trail</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Bike Path or
+                            Trail</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1830</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Bridle Path</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Bridle
+                            Path</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S2000</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Road Median</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Road
+                            Median</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
+                            Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catalog for the  2016 All Roads County-based Shapefile</FC_Title>
+            <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
             <Included_With_Dataset>yes</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
             <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
@@ -580,7 +651,8 @@
     </Entity_and_Attribute_Information>
     <Distribution_Information>
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Address>
                 <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
@@ -592,63 +664,73 @@
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-    <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For
-        information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
-        the software.</Distribution_Liability>
-    <Standard_Order_Process>
-        <!--   <Digital_Form> 
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <!--   <Digital_Form> 
             <Format_Name></Format_Name>
             <Format_Version_Number></Format_Version_Number>
             <Format_Version_Date></Format_Version_Date>
             <File_Decompression_Technique></File_Decompression_Technique>
             <Transfer_Size></Transfer_Size>
             <Network_Resource_Name></Network_Resource_Name>
-            </Digital_Form>    --> 
-        <Digital_Form> 
-            <Format_Name>TGRSHP (compressed)</Format_Name>
-            <Format_Version_Date>2016</Format_Version_Date>
-            <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
-            <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
-            <mimeType></mimeType>
-        </Digital_Form>
-        <Digital_Form> 
-            <Format_Name>HTML</Format_Name>
-            <Format_Version_Number>unknown</Format_Version_Number>
-            <File_Decompression_Technique>None</File_Decompression_Technique>
-            <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-            <mimeType></mimeType>
-        </Digital_Form>
-        <Digital_Form> 
-            <Format_Name>WMS</Format_Name>
-            <Format_Version_Number>1.3.0</Format_Version_Number>
-            <File_Decompression_Technique>None</File_Decompression_Technique>
-            <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</Network_Resource_Name>
-            <mimeType></mimeType>
-        </Digital_Form>
-        <Digital_Form> 
-            <Format_Name>REST</Format_Name>
-            <Format_Version_Number>10.5</Format_Version_Number>
-            <File_Decompression_Technique>None</File_Decompression_Technique>
-            <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
-            <mimeType></mimeType>
-        </Digital_Form>  
-         <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>
-        <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
-    </Standard_Order_Process>
-    <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For
-        information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
-        the software.</Technical_Prerequisites>
-        </Distribution_Information>
+            </Digital_Form>    -->
+            <Digital_Form>
+                <Format_Name>TGRSHP (compressed)</Format_Name>
+                <Format_Version_Date>2016</Format_Version_Date>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or
+                    higher</File_Decompression_Technique>
+                <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
+                <mimeType/>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>HTML</Format_Name>
+                <Format_Version_Number>unknown</Format_Version_Number>
+                <File_Decompression_Technique>None</File_Decompression_Technique>
+                <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
+                <mimeType/>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>WMS</Format_Name>
+                <Format_Version_Number>1.3.0</Format_Version_Number>
+                <File_Decompression_Technique>None</File_Decompression_Technique>
+                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</Network_Resource_Name>
+                <mimeType/>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>REST</Format_Name>
+                <Format_Version_Number>10.5</Format_Version_Number>
+                <File_Decompression_Technique>None</File_Decompression_Technique>
+                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
+                <mimeType/>
+            </Digital_Form>
+            <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without
+                charge.</Fees>
+            <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles
+                visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Technical_Prerequisites>
+    </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date>20160601</Metadata_Date>
-        <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2016, Series Information for the Current Block Group State-based shapefile</Metadata_Parent_Identifier>
+        <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2016, Series Information for the Current
+            Block Group State-based shapefile</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
+        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute
+            table</Metadata_Hierarchy_Level_Name>
+        <!-- this should be optional -->
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
+            Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_File_Identifier>SampleVectorRoads.xml</Metadata_File_Identifier>
     </Metadata_Reference_Information>

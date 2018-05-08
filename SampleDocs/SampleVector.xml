@@ -11,9 +11,9 @@
             <NGDA_Keyword>NGDA</NGDA_Keyword>
             <NGDA_Keyword>Transportation Theme</NGDA_Keyword>
             <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
-        </NGDA_Info>
-        <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</GETMAP_URL>
+             <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</GETMAP_URL>
         <REST_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</REST_URL>
+        </NGDA_Info>   
     </FGDC_Required>
     <Identification_Information>
         <Citation>
@@ -156,7 +156,7 @@
         </Non_Quantitative_Attribute_Accuracy_Report>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile logical consistency test</Measure>
+                <Measure>TIGER/Line Shapefile topological consistency test</Measure>
                 <Evaluation>The Census Bureau performed automated tests to ensure logical
                     consistency and limits of shapefiles by collecting or generating Node/geometry
                     and topology relationships to satisfy topological edit requirements. These
