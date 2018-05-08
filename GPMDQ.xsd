@@ -48,6 +48,10 @@
         </xs:sequence>
     </xs:complexType>
     
+    
+   
+    <!-- Test components -->
+    
     <xs:complexType name="TestReport">
         <xs:sequence>
             <xs:element name="Test_Report" type="dq:Test_ReportElements"/>

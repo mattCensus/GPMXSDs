@@ -15,8 +15,7 @@
         <xsd:sequence>
             <xsd:element name="ISO_Theme" type="fgdcreq:ISO_Theme"/>
             <xsd:element name="NGDA_Info" type="fgdcreq:NGDA_Information" minOccurs="0"/>
-            <xsd:element name="GETMAP_URL" minOccurs="0"/>
-            <xsd:element name="REST_URL"/>
+           
         </xsd:sequence>
     </xsd:complexType>
     
@@ -38,6 +37,8 @@
         <xsd:sequence>
             <xsd:element name="NGDA_Keyword_Thesaurus"/>
             <xsd:element name="NGDA_Keyword" type="GPMDef:NGDAKeywords" maxOccurs="unbounded"/>
+             <xsd:element name="GETMAP_URL" minOccurs="0"/>
+            <xsd:element name="REST_URL"/>
         </xsd:sequence>
     </xsd:complexType>
     

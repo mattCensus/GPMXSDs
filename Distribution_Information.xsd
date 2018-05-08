@@ -33,6 +33,14 @@
             <xs:element name="Standard_Order_Process" type="di:StandardOrderProcessMap"/>
         </xs:sequence>
     </xs:complexType>
+    
+    <xs:complexType name="ServicesDistributionInformation">
+        <xs:sequence>
+            <xs:element name="Point_of_Contact" type="POC:POC"/>
+            <xs:element name="Distribution_Liability"/>
+            <xs:element name="Standard_Order_Process" type="di:StandardOrderProcessService"/>
+        </xs:sequence>
+    </xs:complexType>
 
 <!-- the Complex types for the elements begin here -->
      <!-- Standard Order Process -->
@@ -62,6 +70,13 @@
             <xs:element name="Digital_Form" type="di:DigitalFormElementsPlanned" maxOccurs="unbounded"/>
             <xs:element name="Fees"/>
             <xs:element name="Ordering_Instructions" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardOrderProcessService">
+        <xs:sequence>
+            <xs:element name="Digital_Form" type="di:ServiceDigitalForm" maxOccurs="unbounded"/>
+            <xs:element name="Fees"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -103,6 +118,18 @@
             <xs:element name="Transfer_Size" minOccurs="0"/>
             <xs:element name="Network_Resource_Name"/>
             <xs:element name="mimeType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ServiceDigitalForm">
+        <xs:sequence>
+            <xs:element name="Format_Name"/>
+            <xs:choice maxOccurs="1">
+                <xs:element name="Format_Version_Number"/>
+                <xs:element name="Format_Version_Date"/>
+             </xs:choice>
+                <xs:element name="Network_Resource_Name"/>
+                <xs:element name="mimeType"/>
         </xs:sequence>
     </xs:complexType>
     

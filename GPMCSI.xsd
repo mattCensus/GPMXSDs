@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  targetNamespace="../newGPMStd/ComputerServiceInformation" 
+            xmlns:csi="../newGPMStd/ComputerServiceInformation"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- page 78 of the Geospatial profile -->
+<xs:complexType name="CompusterServiceInformation">
+    <xs:sequence>
+        <xs:element name="Service_Type"/>
+        <xs:element name="Service_Type_Version"/>
+        <xs:element name="Coupling_Type"/>
+    </xs:sequence>
+</xs:complexType>
+
+</xs:schema>

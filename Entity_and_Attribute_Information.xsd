@@ -10,7 +10,7 @@
     <xs:complexType name="Entity_and_Attribute_Information">
        <xs:sequence>
            <xs:element name="Detailed_Description" type="EAI:Detailed_Description" maxOccurs="unbounded" minOccurs="0"/>
-           <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" minOccurs="0"/>
+           <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" minOccurs="0" maxOccurs="unbounded"/>
        </xs:sequence>
     </xs:complexType>
     
