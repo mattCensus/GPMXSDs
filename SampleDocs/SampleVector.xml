@@ -702,8 +702,7 @@
                 <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
                 <mimeType>text/html</mimeType>
             </Digital_Form>
-            <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without
-                charge.</Fees>
+            <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>
             <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles
                 visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
         </Standard_Order_Process>

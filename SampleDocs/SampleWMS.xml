@@ -426,7 +426,7 @@
             <Fees>Census Web Mapping Services may be accessed without charge.</Fees>
         </Standard_Order_Process>
     </Distribution_Information>
-    <!--  <Computer_Service_Information>
+   <Computer_Service_Information>
         <Service_Type>urn:ogc:serviceType:WebMapService:1.1</Service_Type>
         <Service_Type_Version>1.3.0</Service_Type_Version>
         <Coupling_Type>tight</Coupling_Type>
@@ -439,8 +439,17 @@
                                    produce maps containing TIGERweb layers combined with layers from other servers.  The GetCapabilities operation returns parameters
                                    about the WMS.  It returns results in the following formats: application/vnd.ogc.wms_xml, and text/xml.
             </Operation_Description>
-            <Operation_Parameters>version</Operation_Parameters>
-            <Operation_Parameters>request</Operation_Parameters>
+            
+            <Operation_Parameters>
+                <Parameter_Name>SERVICE</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Service type</Parameter_Description>
+             </Operation_Parameters>   
+            <Operation_Parameters>
+                <Parameter_Name>request</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request name</Parameter_Description>
+            </Operation_Parameters>
             <Connect_Point>
                 <CP_Link>http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2014/MapServer/WmsServer?service=wms&amp;version=1.1.1&amp;request=GetCapabilities</CP_Link>
                 <Protocol>HTTP/1.1</Protocol>
@@ -457,21 +466,80 @@
                 other servers. The GetMap operation returns a map image. It returns results in the following formats: bmp, jpeg, tiff, png, png8, png24, png32, gif,  and
                 svg+xml. 
             </Operation_Description>
-            <Operation_Parameters>version</Operation_Parameters>
-            <Operation_Parameters>request</Operation_Parameters>
-            <Operation_Parameters>LAYERS</Operation_Parameters>
-            <Operation_Parameters>STYLES</Operation_Parameters>
-            <Operation_Parameters>CRS</Operation_Parameters>
-            <Operation_Parameters>BBOX</Operation_Parameters>
-            <Operation_Parameters>WIDTH</Operation_Parameters>
-            <Operation_Parameters>HEIGHT</Operation_Parameters>
-            <Operation_Parameters>FORMAT</Operation_Parameters>
-            <Operation_Parameters>TRANSPARENT</Operation_Parameters>
-            <Operation_Parameters>BGCOLOR</Operation_Parameters>
-            <Operation_Parameters>EXCEPTIONS</Operation_Parameters>
-            <Operation_Parameters>TIME</Operation_Parameters>
-            <Operation_Parameters>ELEVATION</Operation_Parameters>
-            <Operation_Parameters>Other sample dimension</Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>version</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request version.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>request</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request name</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>LAYERS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Comma-separated list of one or more map layers.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>STYLES</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Comma-separated list of one rendering style per requested layer.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>CRS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Coordinate reference system.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>BBOX</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Bounding box corners (lower left, upper right) in CRS units.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>WIDTH</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Width in pixels of map picture.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>HEIGHT</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Height in pixels of map picture.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>FORMAT</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Output format of map.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>TRANSPARENT</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Background transparency of map (default=FALSE).</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>BGCOLOR</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Hexadecimal red-green-blue colour value for the background color (default=0xFFFFFF)</Parameter_Description>
+                </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>EXCEPTIONS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>The format in which exceptions are to be reported by the WMS (default=XML).</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>TIME</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Time value of layer desired.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>ELEVATION</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Elevation of layer desired.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>Other sample dimension</Parameter_Name>
+                <Parameter_Description>Value of other dimensions as appropriate.</Parameter_Description>
+            </Operation_Parameters>
             <Connect_Point>
                 <CP_Link>http://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_PhysicalFeatures/MapServer/WmsServer?service=wms&amp;version=1.1.1&amp;request=GetMap</CP_Link>
                 <Protocol>HTTP/1.1</Protocol>
@@ -488,15 +556,51 @@
                 other servers. The GetMap operation returns a map image. It returns results in the following formats: bmp, jpeg, tiff, png, png8, png24, png32, gif,  and
                 svg+xml. 
             </Operation_Description>
-            <Operation_Parameters>version</Operation_Parameters>
-            <Operation_Parameters>request</Operation_Parameters>
-            <Operation_Parameters>map request part</Operation_Parameters>
-            <Operation_Parameters>QUERY_LAYERS</Operation_Parameters>
-            <Operation_Parameters>INFO_FORMAT</Operation_Parameters>
-            <Operation_Parameters>FEATURE_COUNT</Operation_Parameters>
-            <Operation_Parameters>I</Operation_Parameters>
-            <Operation_Parameters>J</Operation_Parameters>
-            <Operation_Parameters>EXCEPTIONS</Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>version</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request version.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>request</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request name</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>map request part</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Partial copy of the Map request parameters that generated the map for which information is desired.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>QUERY_LAYERS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Comma-separated list of one or more layers to be queried.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>INFO_FORMAT</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Return format of feature information (MIME type).</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>FEATURE_COUNT</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Number of features about which to return information (default=1).</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>I</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>i coordinate in pixels of feature in Map CS.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>J</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>j coordinate in pixels of feature in Map CS.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>EXCEPTIONS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>The format in which exceptions are to be reported by the WMS (default= XML).</Parameter_Description>
+            </Operation_Parameters>
             <Connect_Point>
                 <CP_Link>http://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_PhysicalFeatures/MapServer/WmsServer?service=wms&amp;version=1.1.1&amp;request=GetMap&amp;service=WMS</CP_Link>
                 <Protocol>HTTP/1.1</Protocol>
@@ -513,6 +617,26 @@
                 other servers. The esri_wms:GetStyles operation returns
                 user-defined styles from the WMS. It returns results in the following format: vnd.ogc.sld+xml
             </Operation_Description>
+            <Operation_Parameters>
+                <Parameter_Name>version</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request version.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>request</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>request name</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>LAYERS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>Comma-separated list of named layers for which to retrieve style descriptions.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>SLDVER</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>The SLD version requested for the SLD document. Only version 1.0.0 is supported.</Parameter_Description>
+             </Operation_Parameters>
             <Connect_Point>
                 <CP_Link>http://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_PhysicalFeatures/MapServer/WmsServer?service=wms&amp;version=1.1.1&amp;request=GetMap&amp;service=WMS</CP_Link>
                 <Protocol>HTTP/1.1</Protocol>
@@ -521,17 +645,17 @@
             </Connect_Point>
         </Contains_Operations>
     </Computer_Service_Information>
-    <Metadata_Reference_Information>
+      <Metadata_Reference_Information>
         <Metadata_Date>2016-12</Metadata_Date>
         <Metadata_Parent_Identifier>TIGERweb, 2016, Series Information for the TIGERWeb files</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>service</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is the TIGERWeb for all the physical features</Metadata_Hierarchy_Level_Name> 
-       <Contact_Address>
+          <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-        </Metadata_Contact>
+        </Point_of_Contact>
         <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_File_Identifier>SampleWMS.xml</Metadata_File_Identifier>
-    </Metadata_Reference_Information> -->
+    </Metadata_Reference_Information>
 </GPM>

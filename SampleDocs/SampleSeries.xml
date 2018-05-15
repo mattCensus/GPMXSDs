@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="Series">
+    <FGDC_Required>
+        <ISO_Theme>
+            <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
+            <Theme_Keyword>Boundaries</Theme_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S Department of Commerce, U.S Census Bureau, Geographic Customer Services
+                Branch</Originator>
+            <Publication_Date>201603</Publication_Date>
+            <Title> Series Information File for the 2015 Cartographic Boundary File,
+                State-County-Census Tract-Block Group, 1:500,000</Title>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The 2015 cartographic boundary shapefiles are simplified representations of
+                selected geographic areas from the U.S. Census Bureau's Master Address File /
+                Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database
+                (MTDB). These boundary files are specifically designed for small-scale thematic
+                mapping. When possible, generalization is performed with the intent to maintain the
+                hierarchical relationships among geographies and to maintain the alignment of
+                geographies within a file set for a given year. Geographic areas may not align with
+                the same areas from another year. Some geographies are available as nation-based
+                files while others are available only as state-based files. Block Groups (BGs) are
+                clusters of blocks within the same census tract. Each census tract contains at least
+                one BG, and BGs are uniquely numbered within census tracts. BGs have a valid code
+                range of 0 through 9. BGs have the same first digit of their 4-digit census block
+                number from the same decennial census. For example, tabulation blocks numbered 3001,
+                3002, 3003,.., 3999 within census tract 1210.02 are also within BG 3 within that
+                census tract. BGs coded 0 are intended to only include water area, no land area, and
+                they are generally in territorial seas, coastal water, and Great Lakes water areas.
+                Block groups generally contain between 600 and 3,000 people. A BG usually covers a
+                contiguous area but never crosses county or census tract boundaries. They may,
+                however, cross the boundaries of other geographic entities like county subdivisions,
+                places, urban areas, voting districts, congressional districts, and American Indian
+                / Alaska Native / Native Hawaiian areas. </Abstract>
+            <Purpose>These files were specifically created to support small-scale thematic mapping.
+                To improve the appearance of shapes at small scales, areas are represented with
+                fewer vertices than detailed TIGER/Line Shapefiles. Cartographic boundary files take
+                up less disk space than their ungeneralized counterparts. Cartographic boundary
+                files take less time to render on screen than TIGER/Line Shapefiles. You can join
+                this file with table data downloaded from American FactFinder by using the AFFGEOID
+                field in the cartographic boundary file. If detailed boundaries are required, please
+                use the TIGER/Line Shapefiles instead of the generalized cartographic boundary
+                files. </Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>2016-03</Beginning_Date>
+                <Ending_Date>2016-03</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>completed</Progress>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-88.473227</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>-84.88908</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>35.008028</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>30.223334</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>2015</Theme_Keyword>
+                <Theme_Keyword>KML</Theme_Keyword>
+                <Theme_Keyword>Block Group</Theme_Keyword>
+                <Theme_Keyword>Cartographic Boundary</Theme_Keyword>
+                <Theme_Keyword>Census Tract</Theme_Keyword>
+                <Theme_Keyword>County</Theme_Keyword>
+                <Theme_Keyword>Generalized</Theme_Keyword>
+                <Theme_Keyword/>
+                <Theme_Keyword>State</Theme_Keyword>
+                <Theme_Keyword>State or Equivalent Entity</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of
+                    countries and their subdivisions </Place_Keyword_Thesaurus>
+                <Place_Keyword>U.S</Place_Keyword>
+                <Place_Keyword>United States</Place_Keyword>
+            </Place>
+            <Place>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal
+                    Information Processing Series (FIPS) – States/State
+                    Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword>Alabama</Place_Keyword>
+                <Place_Keyword>Massachusetts</Place_Keyword>
+                <Place_Keyword>New Hampshire</Place_Keyword>
+                <Place_Keyword>Rhode Island</Place_Keyword>
+                <Place_Keyword>Maine</Place_Keyword>
+                <Place_Keyword>Vermont</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>copyright</Use_Constraints>
+            <Other_Constraints> Use Constraints:The intended display scale for this file is
+                1:500,000. This file should not be displayed at scales larger than 1:500,000. These
+                products are free to use in a product or publication, however acknowledgement must
+                be given to the U.S. Census Bureau as the source. The boundary information is for
+                visual display at appropriate small scales only. Cartographic boundary files should
+                not be used for geographic analysis including area or perimeter calculation. Files
+                should not be used for geocoding addresses. Files should not be used for determining
+                precise geographic area relationships. </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
+            <Contact_Address>
+                <Address_Type>mailing</Address_Type>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+        <Data_Set_Language>eng</Data_Set_Language>
+    </Identification_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address_Type>mailing</Address_Type>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>HTML</Format_Name>
+                <Format_Version_Date>2000</Format_Version_Date>
+                <File_Decompression_Technique>none</File_Decompression_Technique>
+                <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html</Network_Resource_Name>
+                <mimeType>text/html</mimeType>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>HTML</Format_Name>
+                <Format_Version_Date>2000</Format_Version_Date>
+                <File_Decompression_Technique>ZIP</File_Decompression_Technique>
+                <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Network_Resource_Name>
+                <mimeType>text/html</mimeType>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>HTML</Format_Name>
+                <Format_Version_Date>2000</Format_Version_Date>
+                <File_Decompression_Technique>ZIP</File_Decompression_Technique>
+                <Network_Resource_Name>https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/bg_500/cb_2015_bg_500k.shp.ea.iso.xml</Network_Resource_Name>
+                <mimeType>text/xml</mimeType>
+            </Digital_Form>
+            <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>
+            <Ordering_Instructions>To obtain more information about ordering Cartographic Boundary
+                Files visit https://www.census.gov/geo/www/tiger.</Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The cartographic boundary files contain geographic data only and do
+            not include display mapping software or statistical data. For information on how to use
+            cartographic boundary file data with specific software package users shall contact the
+            company that produced the software.</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>2016-03</Metadata_Date>
+        <Metadata_Hierarchy_Level>series</Metadata_Hierarchy_Level>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address_Type>mailing</Address_Type>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
+            Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_File_Identifier>SampleSeries.xml</Metadata_File_Identifier>
+    </Metadata_Reference_Information>
+</GPM>
