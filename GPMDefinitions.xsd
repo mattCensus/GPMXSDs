@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema  targetNamespace="../newGPMStd/GPMDefinitions"
-            xmlns:GPMDef="../newGPMStd/GPMDefinitions"
-            xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-           xmlns:xdb="http://xmlns.oracle.com/xdb">
-    
-   <xsd:simpleType name="TopicCatList">
-            <xsd:restriction base="xsd:string">
-                <xsd:minLength value="5"/> 
-                <xsd:enumeration value="Farming"/>
-                <xsd:enumeration value="Biota"/>
-                <xsd:enumeration value="Boundaries"/>
-                <xsd:enumeration value="Atmosphere"/>
-                <xsd:enumeration value="Economy"/>
-                <xsd:enumeration value="Elevation"/>
-                <xsd:enumeration value="Environment"/>
-                <xsd:enumeration value="GeoscientificInformation"/>
-                <xsd:enumeration value="Health"/>
-                <xsd:enumeration value="ImageryBaseMapsEarthCover"/>
-                <xsd:enumeration value="IntelligenceMilitary"/>  
-                <xsd:enumeration value="InlandWaters"/>
-                <xsd:enumeration value="Location"/>
-                <xsd:enumeration value="Oceans"/>
-                <xsd:enumeration value="Planning/Cadastre"/>
-                <xsd:enumeration value="Society"/>
-                <xsd:enumeration value="Structure"/>
-                <xsd:enumeration value="Transportation"/>
-                <xsd:enumeration value="Utilities/Communications"/> 
-            </xsd:restriction>
-   </xsd:simpleType>
-    
+<xs:schema targetNamespace="../newGPMStd/GPMDefinitions" xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://xmlns.oracle.com/xdb">
+
+    <xsd:simpleType name="TopicCatList">
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="5"/>
+            <xsd:enumeration value="Farming"/>
+            <xsd:enumeration value="Biota"/>
+            <xsd:enumeration value="Boundaries"/>
+            <xsd:enumeration value="Atmosphere"/>
+            <xsd:enumeration value="Economy"/>
+            <xsd:enumeration value="Elevation"/>
+            <xsd:enumeration value="Environment"/>
+            <xsd:enumeration value="GeoscientificInformation"/>
+            <xsd:enumeration value="Health"/>
+            <xsd:enumeration value="ImageryBaseMapsEarthCover"/>
+            <xsd:enumeration value="IntelligenceMilitary"/>
+            <xsd:enumeration value="InlandWaters"/>
+            <xsd:enumeration value="Location"/>
+            <xsd:enumeration value="Oceans"/>
+            <xsd:enumeration value="Planning/Cadastre"/>
+            <xsd:enumeration value="Society"/>
+            <xsd:enumeration value="Structure"/>
+            <xsd:enumeration value="Transportation"/>
+            <xsd:enumeration value="Utilities/Communications"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
     <xsd:simpleType name="NGDAKeywords">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="NGDA"/>
             <xsd:enumeration value="National Geospatial Data Asset"/>
-            <xsd:enumeration value="Governmental Units and Administrative and Statistical Boundaries Theme"/>
+            <xsd:enumeration
+                value="Governmental Units and Administrative and Statistical Boundaries Theme"/>
             <xsd:enumeration value="Transportation Theme"/>
             <xsd:enumeration value="Cultural Resources Theme"/>
         </xsd:restriction>
     </xsd:simpleType>
-    
+
     <xsd:simpleType name="CharacterSet">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="UTF-8"/>
         </xsd:restriction>
     </xsd:simpleType>
-    
+
     <xsd:simpleType name="DirectSpatialReferenceMethodCodeList">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="Point"/>
             <xsd:enumeration value="Vector"/>
         </xsd:restriction>
     </xsd:simpleType>
-    
+
     <xsd:simpleType name="TopologyLevelCodeList">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="geometryOnly"/>
@@ -66,7 +65,7 @@
             <xsd:enumeration value="abstract"/>
         </xsd:restriction>
     </xsd:simpleType>
-    
+
     <xsd:simpleType name="Metadata_Hierarchy_Level">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="dataset"/>
@@ -76,7 +75,7 @@
             <xsd:enumeration value="mapDocumnet"/>
         </xsd:restriction>
     </xsd:simpleType>
-    
+
     <!-- https://www.sitepoint.com/mime-types-complete-list/ -->
     <xsd:simpleType name="mimeType">
         <xsd:restriction base="xsd:string">
@@ -98,7 +97,148 @@
             <xsd:enumeration value="application/fractals"/>
             <xsd:enumeration value="application/freeloader"/>
             <xsd:enumeration value="application/futuresplash"/>
+            <xsd:enumeration value="application/x-sprite"/> 
+            <xsd:enumeration value="application/x-stuffit"/>
+            <xsd:enumeration value="application/x-sv4cpio"/>
+            <xsd:enumeration value="application/x-sv4crc"/>
+            <xsd:enumeration value="application/x-tar"/>
+            <xsd:enumeration value="application/x-tbook"/>
+            <xsd:enumeration value="application/x-tcl"/>
+            <xsd:enumeration value="application/x-tex"/>
+            <xsd:enumeration value="application/x-texinfo"/>
+            <xsd:enumeration value="application/x-troff"/>
+            <xsd:enumeration value="application/x-troff-man"/>
+            <xsd:enumeration value="application/x-troff-me"/>
+            <xsd:enumeration value="application/x-troff-ms"/>
+            <xsd:enumeration value="application/x-troff-msvideo"/>
+            <xsd:enumeration value="application/x-ustar"/>
+            <xsd:enumeration value="application/x-visio"/>
+            <xsd:enumeration value="application/x-vnd.audioexplosion.mzz"/>
+            <xsd:enumeration value="application/x-vnd.ls-xpix"/>
+            <xsd:enumeration value="application/x-vrml"/>
+            <xsd:enumeration value="application/x-wais-source"/> 
+            <xsd:enumeration value="application/x-winhelp"/>
+            <xsd:enumeration value="application/x-wintalk"/>
+            <xsd:enumeration value="application/x-world"/>
+            <xsd:enumeration value="application/x-wpwin"/>
+            <xsd:enumeration value="application/x-wri"/>
+            <xsd:enumeration value="application/x-x509-ca-cert"/>
+            <xsd:enumeration value="application/x-zip-compressed"/>
+            <xsd:enumeration value="application/zip"/>
             
+            <!-- audio -->
+            <xsd:enumeration value="audio/aiff"/>
+            <xsd:enumeration value="audio/basic"/>
+            <xsd:enumeration value="audio/it"/>
+            <xsd:enumeration value="audio/make"/>
+            <xsd:enumeration value="audio/make.my.funk"/>
+            <xsd:enumeration value="audio/mid"/>
+            <xsd:enumeration value="audio/mod"/>
+            <xsd:enumeration value="audio/mpeg"/>
+            <xsd:enumeration value="audio/mpeg3"/>
+            <xsd:enumeration value="audio/nspaudio"/>
+            <xsd:enumeration value="audio/s3m"/>
+            <xsd:enumeration value="audio/tsp-audio"/>
+            <xsd:enumeration value="audio/tsplayer"/>
+            <xsd:enumeration value="audio/vnd.qcelp"/>
+            <xsd:enumeration value="audio/voc"/>
+            <xsd:enumeration value="audio/voxware"/>
+            <xsd:enumeration value="audio/wav"/>
+            <xsd:enumeration value="audio/x-adpcm"/>
+            <xsd:enumeration value="audio/x-aiff"/>
+            <xsd:enumeration value="audio/x-au"/>
+            <xsd:enumeration value="audio/x-gsm"/>
+            <xsd:enumeration value="audio/x-jam"/>
+            <xsd:enumeration value="audio/x-liveaudio"/>
+            <xsd:enumeration value="audio/xm"/>
+            <xsd:enumeration value="audio/x-mid"/>
+            <xsd:enumeration value="audio/x-midi"/>
+            <xsd:enumeration value="audio/x-mod"/>
+            <xsd:enumeration value="audio/x-mpeg"/>
+            <xsd:enumeration value="audio/x-mpeg-3"/>
+            <xsd:enumeration value="audio/x-mpequrl"/>
+            <xsd:enumeration value="audio/x-nspaudio"/>
+            <xsd:enumeration value="audio/x-pn-realaudio"/>
+            <xsd:enumeration value="audio/x-pn-realaudio-plugin"/>
+            <xsd:enumeration value="audio/x-psid"/>
+            <xsd:enumeration value="audio/x-realaudio"/>
+            <xsd:enumeration value="audio/x-twinvq"/>
+            <xsd:enumeration value="audio/x-twinvq-plugin"/>
+            <xsd:enumeration value="audio/x-vnd.audioexplosion.mjuicemediafile"/>
+            <xsd:enumeration value="audio/x-voc"/>
+            <xsd:enumeration value="audio/x-wav"/>
+            <!-- chemical -->
+            <xsd:enumeration value="chemical/x-pdb"/>
+            <!-- drawing -->
+            <xsd:enumeration value="drawing/x-dwf (old)"/>
+            <!-- image -->
+            <xsd:enumeration value="image/bmp"/>
+            <xsd:enumeration value="image/cmu-raster"/>
+            <xsd:enumeration value="image/fif"/>
+            <xsd:enumeration value="image/florian"/>
+            <xsd:enumeration value="image/g3fax"/>
+            <xsd:enumeration value="image/gif"/>
+            <xsd:enumeration value="image/ief"/>
+            <xsd:enumeration value="image/jpeg"/>
+            <xsd:enumeration value="image/pict"/>
+            <xsd:enumeration value="image/pjpeg"/>
+            <xsd:enumeration value="image/png"/>
+            <xsd:enumeration value="image/tiff"/>
+            <xsd:enumeration value="image/vasa"/>
+            <xsd:enumeration value="image/vnd.dwg"/>
+            <xsd:enumeration value="image/vnd.fpx"/>
+            <xsd:enumeration value="image/vnd.net-fpx"/>
+            <xsd:enumeration value="image/vnd.rn-realflash"/>
+            <xsd:enumeration value="image/vnd.rn-realpix"/>
+            <xsd:enumeration value="image/vnd.wap.wbmp"/>
+            <xsd:enumeration value="image/vnd.xiff"/>
+            <xsd:enumeration value="image/xbm"/>
+            <xsd:enumeration value="image/x-cmu-raster"/>
+            <xsd:enumeration value="image/x-dwg"/>
+            <xsd:enumeration value="image/x-icon"/>
+            <xsd:enumeration value="image/x-jg"/>
+            <xsd:enumeration value="image/x-jps"/>
+            <xsd:enumeration value="image/x-niff"/>
+            <xsd:enumeration value="image/x-pcx"/>
+            <xsd:enumeration value="image/x-pict"/>
+            <xsd:enumeration value="image/xpm"/>
+            <xsd:enumeration value="image/x-portable-anymap"/>
+            <xsd:enumeration value="image/x-portable-bitmap"/>
+            <xsd:enumeration value="image/x-portable-graymap"/>
+            <xsd:enumeration value="image/x-portable-pixmap"/>
+            <xsd:enumeration value="image/x-quicktime"/>
+            <xsd:enumeration value="image/x-rgb"/>
+            <xsd:enumeration value="image/x-tiff"/>
+            <xsd:enumeration value="image/x-windows-bmp"/>
+            <xsd:enumeration value="image/x-xbitmap"/>
+            <xsd:enumeration value="image/x-xbm"/>
+            <xsd:enumeration value="image/x-xpixmap"/>
+            <xsd:enumeration value="image/x-xwd"/>
+            <xsd:enumeration value="image/x-xwindowdump"/>
+            <!-- IWORLD -->
+            <xsd:enumeration value="i-world/i-vrml"/>
+            <!--message  -->
+            <xsd:enumeration value="message/rfc822"/>
+            <!-- model --> 
+            <xsd:enumeration value="model/iges"/>
+            <xsd:enumeration value="model/vnd.dwf"/>
+            <xsd:enumeration value="model/vrml"/>
+            <xsd:enumeration value="model/x-pov"/>
+            <!-- multipart  -->
+            <xsd:enumeration value="multipart/x-gzip"/>
+            <xsd:enumeration value="multipart/x-ustar"/>
+            <xsd:enumeration value="multipart/x-zip"/>
+            <!--music  -->
+            <xsd:enumeration value="music/crescendo"/>
+            <xsd:enumeration value="music/x-karaoke"/>
+            <!-- paleovu  a complete browse and visualization tool for all types of paleoclimate and paleoecological data-->
+            <xsd:enumeration value="paleovu/x-pv"/>
+            <!--text  -->
+            <xsd:enumeration value="text/asp"/>
+            <xsd:enumeration value="text/css"/>
+            <xsd:enumeration value="text/ecmascript"/>
+            
+           
             <xsd:enumeration value="application/octet-stream"/>
             <xsd:enumeration value="application/x-authorware-bin"/>
             <xsd:enumeration value="application/x-authorware-map"/>
@@ -110,7 +250,23 @@
             <xsd:enumeration value="x-world/x-3dmf"/>
         </xsd:restriction>
     </xsd:simpleType>
+
+    <xsd:simpleType name="CouplingType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="loose"/>
+            <xsd:enumeration value="mixed"/>
+            <xsd:enumeration value="tight"/>
+        </xsd:restriction>
+    </xsd:simpleType>
     
+    <xsd:simpleType name="ParameterDirection">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="in"/>
+            <xsd:enumeration value="out"/>
+            <xsd:enumeration value="in/out"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
     <xsd:simpleType name="LangCode">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="aar"/>
@@ -358,5 +514,5 @@
             <xsd:enumeration value="kac"/>
         </xsd:restriction>
     </xsd:simpleType>
-   
+
 </xs:schema>

@@ -11,6 +11,7 @@
     <xs:import namespace="../newGPMStd/TimePeriodOfContent"
         schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
 
+    <!-- VectorID type is used for vector and tabular -->
     <xs:complexType name="VectorID">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:GPMVectorGDBSeriesCitation"/>
@@ -151,15 +152,15 @@
     <!-- Keywords elements -->
     <xs:complexType name="PlannedMapTabularKeywords">
         <xs:sequence>
-            <xs:element name="Theme" type="ii:ThemeKeywords"/>
-            <xs:element name="Place" minOccurs="0" type="ii:PlaceKeywords"/>
+            <xs:element name="Theme" type="ii:ThemeKeywords" maxOccurs="unbounded"/>
+            <xs:element name="Place" type="ii:PlaceKeywords" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="VectorServicesGDBSeriesKeywords">
         <xs:sequence>
-            <xs:element name="Theme" type="ii:ThemeKeywords"/>
-            <xs:element name="Place" type="ii:PlaceKeywords"/>
+            <xs:element name="Theme" type="ii:ThemeKeywords" maxOccurs="unbounded"/>
+            <xs:element name="Place" type="ii:PlaceKeywords" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 

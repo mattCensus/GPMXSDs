@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema  targetNamespace="../newGPMStd/ComputerServiceInformation" 
             xmlns:csi="../newGPMStd/ComputerServiceInformation"
+            xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+            xmlns:POC="../newGPMStd/PointOfContact"
+            xmlns:Cit="../newGPMStd/Citaion"
+            xmlns:TOC="../newGPMStd/TimePeriodOfContent"
             xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
 
 <!-- page 78 of the Geospatial profile -->
 <xs:complexType name="CompusterServiceInformation">
     <xs:sequence>
         <xs:element name="Service_Type"/>
         <xs:element name="Service_Type_Version"/>
-        <xs:element name="Coupling_Type"/>
+        <xs:element name="Coupling_Type" type="GPMDef:CouplingType"/>
+        <xs:element name="Contains_Operations" type="csi:ContainsOperationsType" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
+    
+    <xs:complexType name="ContainsOperationsType">
+        <xs:sequence>
+            <xs:element name="Operation_Name"/>
+            <xs:element name="DCP"/>
+            <xs:element name="Operation_Description"/>
+            <xs:element name="Operation_Parameters" type="csi:OperationParametersType" maxOccurs="unbounded"/>
+            <xs:element name="Connect_Point" type="csi:ConnectPointType"/>
+        </xs:sequence>
+    </xs:complexType>
 
+    <xs:complexType name="OperationParametersType">
+        <xs:sequence>
+            <xs:element name="Parameter_Name"/>
+            <xs:element name="Parameter_Direction" type="GPMDef:ParameterDirection" minOccurs="0"/>
+            <xs:element name="Parameter_Description"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ConnectPointType">
+        <xs:sequence>
+            <xs:element name="CP_Link"/>
+            <xs:element name="Protocol" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="Resource_Name"/>
+            <xs:element name="Resource_Description"/>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>
