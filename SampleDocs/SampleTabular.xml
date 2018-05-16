@@ -186,7 +186,7 @@
                 <Format_Version_Date>2000</Format_Version_Date>
                 <File_Decompression_Technique></File_Decompression_Technique>
                 <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-                <mimeType>text/html; charset=UTF-8</mimeType>
+                <mimeType>text/html</mimeType>
             </Digital_Form>
         
         <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>

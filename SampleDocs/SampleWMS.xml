@@ -415,13 +415,13 @@
                 <Format_Name>WMS</Format_Name>
                 <Format_Version_Number>1.3.0</Format_Version_Number>
                 <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
-                <mimeType>text/html; charset=UTF-8</mimeType>
+                <mimeType>text/html</mimeType>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
                 <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
-                <mimeType>text/html; charset=UTF-8</mimeType>
+                <mimeType>text/html</mimeType>
             </Digital_Form>
             <Fees>Census Web Mapping Services may be accessed without charge.</Fees>
         </Standard_Order_Process>
