@@ -8,6 +8,7 @@
             xmlns:TOC="../newGPMStd/TimePeriodOfContent">
     
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
             
             <xs:complexType name="DistrubutionInformation">
                 <xs:sequence>
@@ -92,7 +93,7 @@
             <xs:element name="File_Decompression_Technique"/>
             <xs:element name="Transfer_Size" minOccurs="0"/>
             <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType"/>
+            <xs:element name="mimeType" type="GPMDef:mimeType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -104,7 +105,7 @@
                 <xs:element name="Format_Version_Date"/>
             </xs:choice>
             <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType"/>
+            <xs:element name="mimeType" type="GPMDef:mimeType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -117,7 +118,7 @@
             </xs:choice>
             <xs:element name="Transfer_Size" minOccurs="0"/>
             <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType"/>
+            <xs:element name="mimeType" type="GPMDef:mimeType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -129,7 +130,7 @@
                 <xs:element name="Format_Version_Date"/>
              </xs:choice>
                 <xs:element name="Network_Resource_Name"/>
-                <xs:element name="mimeType"/>
+                <xs:element name="mimeType" type="GPMDef:mimeType"/>
         </xs:sequence>
     </xs:complexType>
     
