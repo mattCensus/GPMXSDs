@@ -197,6 +197,8 @@
         <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
             Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SampleSeries.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

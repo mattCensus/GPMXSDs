@@ -182,7 +182,7 @@
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
                 <Network_Resource_Name>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Network_Resource_Name>
-                <mimeType>text/html; charset=UTF-8</mimeType>
+                <mimeType>text/html</mimeType>
             </Digital_Form>
             <Fees>None. There are no fees charged to apply for these contracts. Respondents are
                 solely responsible for all expenses associated with responding to this RFP.</Fees>
@@ -191,13 +191,13 @@
     <Metadata_Reference_Information>
         <Metadata_Date>2016-12</Metadata_Date>
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
-            Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SamplePlanned.xml</Metadata_File_Identifier>
+        <Metadata_Language>enf</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
