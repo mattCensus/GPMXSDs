@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GPM profile="vector">
+    <FGDC_Required>
+        <ISO_Theme>
+            <Theme_Keyword_Theasuruas></Theme_Keyword_Theasuruas>
+            <!-- Add as many Theme_Keyword elements as needed -->
+            <Theme_Keyword></Theme_Keyword>
+        </ISO_Theme>
+        <NGDA_Information>
+            <!-- optional used only for those datasets tagged as NGDA -->
+            <NGDA_Keyword_Thesaurus></NGDA_Keyword_Thesaurus>
+            <!-- add as many NGDA_Keywords as needed -->
+            <NGDA_Keyword></NGDA_Keyword>
+        </NGDA_Information>
+        <GETMAP_URL></GETMAP_URL>
+        <REST_URL><!-- optional --></REST_URL>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator></Originator>
+            <Publication_Date></Publication_Date>
+            <Title></Title>
+            <Alternate_Title><!-- optional used only for those datasets tagged as NGDA --></Alternate_Title>
+            <Edition></Edition>
+            <Geospatial_Data_Presentation_Form></Geospatial_Data_Presentation_Form>
+            <Series_Information>
+                <!-- optional -->
+                <Series_Name></Series_Name>
+                <Issue_Identification></Issue_Identification>
+            </Series_Information>
+            <Online_Linkage></Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract></Abstract>
+            <Purpose></Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <!-- choose either Calendar_Date or Range_Of_Dates -->
+            <Calendar_Date></Calendar_Date>
+            <Range_Of_Dates>
+                <Beginning_Date></Beginning_Date>
+                <Ending_Date></Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference></Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress></Progress>
+            <Maintenance_and_Update_Frequency></Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <!-- Choose either Bounding_Coordinates or Data_Set_G-Polygon -->
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate></West_Bounding_Coordinate>
+                <East_Bounding_Coordinate></East_Bounding_Coordinate>
+                <North_Bounding_Coordinate></North_Bounding_Coordinate>
+                <South_Bounding_Coordinate></South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+            <Data_Set_G-Polygon>
+                <Outer_G-Ring></Outer_G-Ring>
+                <Exclusion_G-Ring></Exclusion_G-Ring>
+            </Data_Set_G-Polygon>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <!-- Use as many Theme elements as needed. Use one for each Thesaurus -->
+                <Theme_Keyword_Thesaurus></Theme_Keyword_Thesaurus>
+                <!-- Add as many Theme_Keyword elements as needed -->
+                <Theme_Keyword></Theme_Keyword>
+            </Theme>
+            <Place>
+                <!-- Use A Place element for every level of Geography (Nation, State, County) -->
+                <Place_Keyword_Thesaurus><!-- Use one of the approved ANSI codes --> </Place_Keyword_Thesaurus>
+                <!-- Add as many Place_Keyword elements as needed  -->
+                <Place_Keyword>United States</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints></Access_Constraints>
+            <Use_Constraints></Use_Constraints>
+            <Other_Constraints> <!-- optional --></Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization></Contact_Organization>
+            <!-- This is optional and may be ommitted -->
+            <Contact_Address>
+                <Address_Type></Address_Type>
+                <Address></Address>
+                <City></City>
+                <State_or_Province></State_or_Province>
+                <Postal_Code></Postal_Code>
+                <Country></Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone></Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Browse_Graphic>
+            <!-- optional -->
+            <Browse_Graphic_File_Name></Browse_Graphic_File_Name>
+            <Browse_Graphic_File_Description></Browse_Graphic_File_Description>
+            <Browse_Graphic_File_Type></Browse_Graphic_File_Type>
+        </Browse_Graphic>
+        <Data_Set_Character_Set></Data_Set_Character_Set>
+        <Data_Set_Language></Data_Set_Language>
+        <Cross_Reference>
+            <!-- This is optional -->
+            <Citation>
+                <Originator></Originator>
+                <Publication_Date></Publication_Date>
+                <Title></Title>
+                <Online_Linkage></Online_Linkage>
+            </Citation>
+        </Cross_Reference>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure><!-- optional --></Measure>
+                <Evaluation><!-- optional --></Evaluation>
+                <Result><!-- repeat as many times as needed --></Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure><!-- optional --></Measure>
+                <Evaluation><!-- optional --></Evaluation>
+                <Result><!-- repeat as many times as needed --></Result>
+            </Test_Report>        
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure><!-- optional --></Measure>
+                <Evaluation><!-- optional --></Evaluation>
+                <Result><!-- repeat as many times as needed --></Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Measure><!-- optional --></Measure>
+                <Evaluation><!-- optional --></Evaluation>
+                <Result><!-- repeat as many times as needed --></Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Source_Information>
+            <!-- repeat as many times as needed -->
+            <Citation>
+                <Originator></Originator>
+                <Publication_Date></Publication_Date>
+                <Title></Title>
+            </Citation>
+            <Type_of_Source_Media></Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <!-- choose either Calendar_Date or Range_Of_Dates -->
+                <Calendar_Date></Calendar_Date>
+                <Range_Of_Dates>
+                    <Beginning_Date></Beginning_Date>
+                    <Ending_Date></Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference></Currentness_Reference>
+            </Time_Period_of_Content>       
+            <Source_Citation_Abbreviation></Source_Citation_Abbreviation>
+            <Source_Contribution></Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description></Process_Description>
+            <Process_Date></Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference></Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method></Direct_Spatial_Reference_Method>
+        <Topology_Level></Topology_Level>
+        <SDTS_Terms_Description>
+            <!-- repeat as many days as needed -->
+            <SDTS_Point_and_Vector_Object_Type></SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count></Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    
+    <Spatial_Reference_Information>
+        <!-- choose either geographic or Map_Projection -->
+        <Geographic>
+            <Latitude_Resolution></Latitude_Resolution>
+            <Longitude_Resolution></Longitude_Resolution>
+            <Geographic_Coordinate_Units></Geographic_Coordinate_Units>
+        </Geographic>
+        <Map_Projection>
+            <Map_Projection_Name></Map_Projection_Name>
+            <Map_Projection_Detail>
+                <Planar_Coordinate_Encoding_Method></Planar_Coordinate_Encoding_Method>
+                <Abscissa_Resolution></Abscissa_Resolution>
+                <Ordinate_Resolution></Ordinate_Resolution>
+                <Planar_Distance_Units></Planar_Distance_Units>
+            </Map_Projection_Detail>
+            <PlanarEncoding_Method></PlanarEncoding_Method>
+            <Abscissa_Resolution></Abscissa_Resolution>
+            <Ordinate_Resolution></Ordinate_Resolution>
+            <Planar_Distance_Units></Planar_Distance_Units>
+        </Map_Projection>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name></Horizontal_Datum_Name>
+            <Elipsoid_Name></Elipsoid_Name>
+            <Semi-Major_Axis></Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio></Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label></Entity_Type_Label>
+                <Entity_Type_Definition></Entity_Type_Definition>
+                Entity_Type_Definition_Source
+            </Entity_Type>
+            <Attribute>
+                <!-- repeat as many times as needed -->
+                <Attribute_Label></Attribute_Label>
+                <Attribute_Definition></Attribute_Definition>
+                <Attribute_Definition_Source></Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <!-- choose either Enumerated_Domain, Range_Domain, Codeset_Domain or Unrepresentable_Domain -->
+                    <Enumerated_Domain>
+                        <!-- repeat as many times as needed -->
+                        <Enumerated_Domain_Value></Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition></Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                    <Range_Domain>
+                        <Range_Domain_Minimum></Range_Domain_Minimum>
+                        <Range_Domain_Maximum></Range_Domain_Maximum>
+                        <Attribute_Units_of_Measure><!-- optional --></Attribute_Units_of_Measure>
+                    </Range_Domain>
+                    <Codeset_Domain>
+                        <Codeset_Name></Codeset_Name>
+                        <Codeset_Source></Codeset_Source>
+                    </Codeset_Domain>
+                    <Unrepresentable_Domain></Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+        <Feature_Catalogue_Description>
+            <Feature_Catologue_Description>
+                <FC_Title></FC_Title>
+                <Included_With_Dataset></Included_With_Dataset>
+                <Feature_Types></Feature_Types>
+                <FC_Online_Linkage></FC_Online_Linkage>
+                <ontologyURI>https://www.census.gov/geo/reference/terms.html</ontologyURI>
+            </Feature_Catologue_Description>
+        </Feature_Catalogue_Description>
+        
+    </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_Of_Contact>
+            <Contact_Organization></Contact_Organization>
+            <Contact_Address>
+                <Address_Type></Address_Type>
+                <Address></Address>
+                <City></City>
+                <State_or_Province></State_or_Province>
+                <Postal_Code></Postal_Code>
+                <Country></Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone></Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
+        </Point_Of_Contact>
+        <Distribution_Liability></Distribution_Liability>
+        <Standard_Order_Process>
+            <!-- repeat as many times as needed -->
+            <Digital_Form> 
+                <!-- repeat as many times as needed -->
+                <Format_Name></Format_Name>
+                <!-- choose either Format_Version_Date or Format_Version_Number -->
+                <Format_Version_Date></Format_Version_Date>
+                <Format_Version_Number></Format_Version_Number>
+                <File_Decompression_Technique></File_Decompression_Technique>
+                <Transfer_Size><!-- optional --></Transfer_Size>
+                <Network_Resource_Name> <!-- repeat as many times as needed --></Network_Resource_Name>
+                <mimeType></mimeType>
+            </Digital_Form> 
+            <Fees></Fees>
+            <Ordering_Instructions><!-- optional --></Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites></Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date></Metadata_Date>
+        <Metadata_Parent_Identifier_Name></Metadata_Parent_Identifier_Name>
+        <Metadata_Hierarchy_Level></Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name></Metadata_Hierarchy_Level_Name>
+        <Contact_Address>
+            <Contact_Organization></Contact_Organization>
+            <Contact_Address>
+                <Address_Type></Address_Type>
+                <Address></Address>
+                <City></City>
+                <State_or_Province></State_or_Province>
+                <Postal_Code></Postal_Code>
+                <Country></Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone></Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
+        </Contact_Address>
+        <Metadata_Standard_Name></Metadata_Standard_Name>
+        <Metadata_Standard_Version></Metadata_Standard_Version>
+        <Metadata_Character_Set></Metadata_Character_Set>
+        <Metadata_File_Identifier></Metadata_File_Identifier>
+        <Metadata_Language></Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
