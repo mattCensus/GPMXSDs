@@ -40,6 +40,7 @@
             <xs:element name="Keywords" type="ii:PlannedMapTabularKeywords"/>
             <xs:element name="Constraints" type="ii:ConstraintsType"/>
             <xs:element name="Point_of_Contact" type="POC:POC"/>
+         
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
             <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>
@@ -56,6 +57,7 @@
             <xs:element name="Keywords" type="ii:PlannedMapTabularKeywords"/>
             <xs:element name="Constraints" type="ii:ConstraintsType"/>
             <xs:element name="Point_of_Contact" type="POC:POC"/>
+            <xs:element name="Browse_Graphic" type="ii:Browse_Graphic" minOccurs="0"/>
             <xs:element name="Data_Set_Character_Set" type="GPMDef:CharacterSet" minOccurs="0"/>
             <xs:element name="Data_Set_Language" minOccurs="0" type="GPMDef:LangCode"/>
             <xs:element name="Cross_Reference" type="Cit:CrossRefCit" minOccurs="0" maxOccurs="unbounded"/>

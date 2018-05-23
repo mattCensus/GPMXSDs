@@ -92,8 +92,7 @@
             </xs:choice>
             <xs:element name="File_Decompression_Technique"/>
             <xs:element name="Transfer_Size" minOccurs="0"/>
-            <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType" type="GPMDef:mimeType"/>
+           <xs:element name="Network_Address" type="di:NetworkAddressType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -104,8 +103,7 @@
                 <xs:element name="Format_Version_Number"/>
                 <xs:element name="Format_Version_Date"/>
             </xs:choice>
-            <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType" type="GPMDef:mimeType"/>
+            <xs:element name="Network_Address" type="di:NetworkAddressType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -117,8 +115,7 @@
                 <xs:element name="Format_Version_Date"/>
             </xs:choice>
             <xs:element name="Transfer_Size" minOccurs="0"/>
-            <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType" type="GPMDef:mimeType"/>
+            <xs:element name="Network_Address" type="di:NetworkAddressType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -140,6 +137,14 @@
             <xs:element name="Format_Version_Number"/>
             <xs:element name="Format_Version_Date"/>
         </xs:choice>
+    </xs:complexType>
+    
+    <!-- Network Address -->
+    <xs:complexType name="NetworkAddressType">
+        <xs:sequence>
+            <xs:element name="Network_Resource_Name"/>
+            <xs:element name="mimeType" type="GPMDef:mimeType"/>
+        </xs:sequence>
     </xs:complexType>
     
             </xs:schema>
