@@ -1,0 +1,1 @@
+These are the template files that can be used as a model for your own metadata files.
