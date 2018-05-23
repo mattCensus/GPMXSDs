@@ -152,7 +152,8 @@
                 legal land descriptions. </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
@@ -277,13 +278,16 @@
         <Standard_Order_Process>
             <Digital_Form>
                 <Format_Name>PDF</Format_Name>
-                <Network_Resource_Name>https://www2.census.gov/geo/maps/cong_dist/uswall/cd114/CD114_US_WallMap.pdf</Network_Resource_Name>
-                <mimeType>application/pdf</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>https://www2.census.gov/geo/maps/cong_dist/uswall/cd114/CD114_US_WallMap.pdf</Network_Resource_Name>
+                    <mimeType>application/pdf</mimeType>
+                </Network_Address>
             </Digital_Form>
             <Fees>The cost is $25 for the first map with additional copies of these maps shipped to
                 the same location being $20 each.</Fees>
-            <Ordering_Instructions>The PDF file is free to dowonload. This map is also available for purchase from the US Census Bureau's
-                Geography Division by calling (301) 763-1128.</Ordering_Instructions>
+            <Ordering_Instructions>The PDF file is free to dowonload. This map is also available for
+                purchase from the US Census Bureau's Geography Division by calling (301)
+                763-1128.</Ordering_Instructions>
         </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>

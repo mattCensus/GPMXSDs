@@ -680,30 +680,39 @@
             <Digital_Form>
                 <Format_Name>TGRSHP (compressed)</Format_Name>
                 <Format_Version_Date>2016</Format_Version_Date>
-                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
-                <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
-                <mimeType>application/x-compressed</mimeType>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or
+                    higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
+                    <mimeType>application/x-compressed</mimeType>
+                </Network_Address>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>HTML</Format_Name>
                 <Format_Version_Number>unknown</Format_Version_Number>
                 <File_Decompression_Technique>None</File_Decompression_Technique>
-                <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                </Network_Address>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>WMS</Format_Name>
                 <Format_Version_Number>1.3.0</Format_Version_Number>
                 <File_Decompression_Technique>None</File_Decompression_Technique>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                </Network_Address>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>REST</Format_Name>
                 <Format_Version_Number>10.5</Format_Version_Number>
                 <File_Decompression_Technique>None</File_Decompression_Technique>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                </Network_Address>
             </Digital_Form>
             <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without
                 charge.</Fees>

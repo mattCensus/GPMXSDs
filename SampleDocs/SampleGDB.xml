@@ -6,26 +6,29 @@
             <Theme_Keyword>Transportation</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
-  <Identification_Information>
+    <Identification_Information>
         <Citation>
-            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division (Originator)</Originator>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+                (Originator)</Originator>
             <Publication_Date>2016</Publication_Date>
             <Title>2016 Rails National Geodatabase</Title>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Online_Linkage>
         </Citation>
         <Description>
-            <Abstract>The 2016 TIGER Geodatabases are extracts of selected nation based and state based geographic and cartographic information from the U.S. Census
-                      Bureau's Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database. The geodatabases include feature
-                      class layers of information for the fifty states, the District of Columbia, Puerto Rico, and the Island areas (American Samoa, the Commonwealth
-                      of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The geodatabases do not contain any sensitive data.
-            </Abstract>
+            <Abstract>The 2016 TIGER Geodatabases are extracts of selected nation based and state
+                based geographic and cartographic information from the U.S. Census Bureau's Master
+                Address File/Topologically Integrated Geographic Encoding and Referencing
+                (MAF/TIGER) database. The geodatabases include feature class layers of information
+                for the fifty states, the District of Columbia, Puerto Rico, and the Island areas
+                (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the
+                United States Virgin Islands). The geodatabases do not contain any sensitive data. </Abstract>
             <Purpose> The 2016 TIGER Geodatabases are designed for use with Esri’s ArcGIS.</Purpose>
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-            <Beginning_Date>2015-06</Beginning_Date>
-            <Ending_Date>2016-05</Ending_Date>
+                <Beginning_Date>2015-06</Beginning_Date>
+                <Ending_Date>2016-05</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>Publication Date</Currentness_Reference>
         </Time_Period_of_Content>
@@ -35,10 +38,10 @@
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
-            <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
-            <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
-            <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
-            <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
             </Bounding_Coordinates>
         </Spatial_Domain>
         <Keywords>
@@ -60,74 +63,83 @@
                 <Theme_Keyword>trams</Theme_Keyword>
             </Theme>
             <Place>
-                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal
+                    Information Processing Series (FIPS) – States/State
+                    Equivalents</Place_Keyword_Thesaurus>
                 <Place_Keyword>United States</Place_Keyword>
             </Place>
         </Keywords>
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
-            <Other_Constraints>
-                Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
-                1:500,000.
-                
-                These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as
-                the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files
-                should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding
-                addresses.  Files should not be used for determining precise geographic area relationships.
-            </Other_Constraints>
+            <Other_Constraints> Use Constraints:The intended display scale for this file is
+                1:500,000. This file should not be displayed at scales larger than 1:500,000. These
+                products are free to use in a product or publication, however acknowledgement must
+                be given to the U.S. Census Bureau as the source. The boundary information is for
+                visual display at appropriate small scales only. Cartographic boundary files should
+                not be used for geographic analysis including area or perimeter calculation. Files
+                should not be used for geocoding addresses. Files should not be used for determining
+                precise geographic area relationships. </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
     <Distribution_Information>
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
         <Distribution_Liability>The TIGER/Line geodatabases contain geographic data only and do not
             include display mapping software or statistical data. For information on how to use the
-            TIGER/Line geodatabase data with a specific software package, users should contact the company
-            that produced the software.</Distribution_Liability>
+            TIGER/Line geodatabase data with a specific software package, users should contact the
+            company that produced the software.</Distribution_Liability>
         <Standard_Order_Process>
-           
-            <Digital_Form> 
+
+            <Digital_Form>
                 <Format_Name>GDB</Format_Name>
                 <Format_Version_Date>2016</Format_Version_Date>
                 <File_Decompression_Technique>FTP</File_Decompression_Technique>
                 <Transfer_Size>22</Transfer_Size>
-                <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
-                <mimeType>application/zip</mimeType>
-            </Digital_Form> 
-            <Digital_Form> 
+                <Network_Address>
+                    <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
+                    <mimeType>application/zip</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Digital_Form>
                 <Format_Name>PDF</Format_Name>
                 <Format_Version_Number>XI</Format_Version_Number>
                 <File_Decompression_Technique>PDF</File_Decompression_Technique>
-                <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
-                <mimeType>application/pdf</mimeType>
-            </Digital_Form> 
-            <Fees>The online copy of the TIGER/Line geodatabases may be accessed without charge.</Fees>
+                <Network_Address>
+                    <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
+                    <mimeType>application/pdf</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>The online copy of the TIGER/Line geodatabases may be accessed without
+                charge.</Fees>
         </Standard_Order_Process>
         <Technical_Prerequisites>The TIGER/Line geodatabases contain geographic data only and do not
             include display mapping software or statistical data. For information on how to use the
-            TIGER/Line shapefile data with a specific software package, users should contact the company
-            that produced the software.</Technical_Prerequisites>
+            TIGER/Line shapefile data with a specific software package, users should contact the
+            company that produced the software.</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date>2016-03</Metadata_Date>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> 
+        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name>
         <Point_of_Contact>
-            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-       </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
+            Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SampleGDB.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
-</GPM>  
-
+</GPM>
