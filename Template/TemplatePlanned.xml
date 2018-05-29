@@ -55,7 +55,6 @@
         <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -65,8 +64,8 @@
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Data_Set_Character_Set></Data_Set_Character_Set>
-        <Data_Set_Language></Data_Set_Language>
+        <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+        <Data_Set_Language>eng</Data_Set_Language>
         <Cross_Reference>
             <!-- This is optional -->
             <Citation>
@@ -81,7 +80,6 @@
         <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -91,6 +89,7 @@
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
         </Point_of_Contact>
+        <Distribution_Liability></Distribution_Liability>
         <Standard_Order_Process>
             <!-- repeat as many times as needed -->
             <Digital_Form> 
@@ -99,10 +98,12 @@
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
                 <Format_Version_Number></Format_Version_Number>
+                <Network_Address>
+                     <Network_Resource_Name> </Network_Resource_Name>
+                    <mimeType></mimeType>
+                </Network_Address>
                 <File_Decompression_Technique></File_Decompression_Technique>
                 <Transfer_Size><!-- optional --></Transfer_Size>
-                <Network_Resource_Name> <!-- repeat as many times as needed --></Network_Resource_Name>
-                <mimeType></mimeType>
             </Digital_Form> 
             <Fees></Fees>
             <Ordering_Instructions><!-- optional --></Ordering_Instructions>
@@ -113,7 +114,6 @@
         <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -123,9 +123,10 @@
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
-        <Metadata_File_Identifier></Metadata_File_Identifier>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>SamplePlanned.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
