@@ -7,7 +7,7 @@
 <xsd:complexType name="POC">
     <xsd:sequence>
         <xsd:element name="Contact_Organization"/>
-        <xsd:element name="Contact_Address" minOccurs="0"/>
+        <xsd:element name="Contact_Address" minOccurs="0" type="POC:Contact_Address"/>
         <xsd:element name="Contact_Voice_Telephone" minOccurs="0"/>
         <xsd:element name="Contact_Electronic_Mail_Address" minOccurs="0"/>
     </xsd:sequence>

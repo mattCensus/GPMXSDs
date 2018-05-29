@@ -14,6 +14,12 @@
        </xs:sequence>
     </xs:complexType>
     
+    <xs:complexType name="MapEntityAndAttribute">
+        <xs:sequence>
+            <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
     <xs:complexType name="Detailed_Description">
         <xs:sequence>
             <xs:element name="Entity_Type" type="EAI:Entity_Type_Elements"/>

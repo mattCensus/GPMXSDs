@@ -31,6 +31,7 @@
                 <xsd:element name="Identification_Information" type="ii:MapID"/>
                 <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationMap"/>
                 <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceMap"/>
+                <xsd:element name="Entity_and_Attribute_Information" type="EAI:MapEntityAndAttribute" minOccurs="0"/>
                 <xsd:element name="Distribution_Information" type="di:MapDistributionInformation"/>
                 <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_InformationPlannedMapWMSSeries"/>
             </xsd:sequence>
