@@ -73,7 +73,7 @@
     <xs:complexType name="Codeset_Domain_Elements">
         <xs:sequence>
             <xs:element name="Codeset_Name"/>
-            <xs:element name="Codeset_Name"/>
+            <xs:element name="Codeset_Source"/>
         </xs:sequence>
     </xs:complexType>
     
