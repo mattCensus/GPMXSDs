@@ -12,8 +12,8 @@
             <Purpose></Purpose>
         </Description>
         <Time_Period_of_Content>
-            <!-- choose either Calendar_Date or Range_Of_Dates -->
-            <Calendar_Date></Calendar_Date>
+            <!-- choose either Calendar_Date or Range_Of_Dates 
+            <Calendar_Date></Calendar_Date>-->
             <Range_Of_Dates>
                 <Beginning_Date></Beginning_Date>
                 <Ending_Date></Ending_Date>
@@ -97,13 +97,12 @@
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
-                <Format_Version_Number></Format_Version_Number>
+                <!--  <Format_Version_Number></Format_Version_Number>-->
                 <Network_Address>
                      <Network_Resource_Name> </Network_Resource_Name>
-                    <mimeType></mimeType>
+                    <mimeType>application/x-zip-compressed</mimeType>
                 </Network_Address>
-                <File_Decompression_Technique></File_Decompression_Technique>
-                <Transfer_Size><!-- optional --></Transfer_Size>
+              
             </Digital_Form> 
             <Fees></Fees>
             <Ordering_Instructions><!-- optional --></Ordering_Instructions>

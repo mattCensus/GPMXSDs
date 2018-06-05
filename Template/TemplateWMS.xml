@@ -3,7 +3,8 @@
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas></Theme_Keyword_Theasuruas>
-            <Theme_Keyword> <!-- Add as many Theme_Keyword elements as needed --></Theme_Keyword>
+            <!-- Add as many Theme_Keyword elements as needed -->
+            <Theme_Keyword>Boundaries</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
 
@@ -20,8 +21,8 @@
         <Purpose></Purpose>
     </Description>
     <Time_Period_of_Content>
-        <!-- choose either Calendar_Date or Range_Of_Dates -->
-        <Calendar_Date></Calendar_Date>
+        <!-- choose either Calendar_Date or Range_Of_Dates 
+        <Calendar_Date></Calendar_Date>-->
         <Range_Of_Dates>
             <Beginning_Date></Beginning_Date>
             <Ending_Date></Ending_Date>
@@ -40,10 +41,6 @@
             <North_Bounding_Coordinate></North_Bounding_Coordinate>
             <South_Bounding_Coordinate></South_Bounding_Coordinate>
         </Bounding_Coordinates>
-        <Data_Set_G-Polygon>
-            <Outer_G-Ring></Outer_G-Ring>
-            <Exclusion_G-Ring></Exclusion_G-Ring>
-        </Data_Set_G-Polygon>
     </Spatial_Domain>
     <Keywords>
         <Theme>
@@ -66,8 +63,7 @@
     </Constraints>
     <Point_of_Contact>
         <Contact_Organization></Contact_Organization>
-        <Contact_Address>
-            <Address_Type></Address_Type>
+            <Contact_Address> 
             <Address></Address>
             <City></City>
             <State_or_Province></State_or_Province>
@@ -83,8 +79,8 @@
         <Browse_Graphic_File_Description></Browse_Graphic_File_Description>
         <Browse_Graphic_File_Type></Browse_Graphic_File_Type>
     </Browse_Graphic>
-    <Data_Set_Character_Set></Data_Set_Character_Set>
-    <Data_Set_Language></Data_Set_Language>
+    <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+    <Data_Set_Language>eng</Data_Set_Language>
     <Cross_Reference>
         <!-- This is optional -->
         <Citation>
@@ -140,8 +136,8 @@
             </Citation>
             <Type_of_Source_Media></Type_of_Source_Media>
             <Time_Period_of_Content>
-                <!-- choose either Calendar_Date or Range_Of_Dates -->
-                <Calendar_Date></Calendar_Date>
+                <!-- choose either Calendar_Date or Range_Of_Dates 
+                <Calendar_Date></Calendar_Date>-->
                 <Range_Of_Dates>
                     <Beginning_Date></Beginning_Date>
                     <Ending_Date></Ending_Date>
@@ -160,8 +156,8 @@
     
     <Spatial_Data_Organization_Information>
         <Indirect_Spatial_Reference></Indirect_Spatial_Reference>
-        <Direct_Spatial_Reference_Method></Direct_Spatial_Reference_Method>
-        <Topology_Level></Topology_Level>
+        <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+        <Topology_Level>planarGraph</Topology_Level>
         <SDTS_Terms_Description>
             <!-- repeat as many days as needed -->
             <SDTS_Point_and_Vector_Object_Type></SDTS_Point_and_Vector_Object_Type>
@@ -171,11 +167,6 @@
     
     <Spatial_Reference_Information>
         <!-- choose either geographic or Map_Projection -->
-        <Geographic>
-            <Latitude_Resolution></Latitude_Resolution>
-            <Longitude_Resolution></Longitude_Resolution>
-            <Geographic_Coordinate_Units></Geographic_Coordinate_Units>
-        </Geographic>
         <Map_Projection>
             <Map_Projection_Name></Map_Projection_Name>
             <Map_Projection_Detail>
@@ -308,8 +299,8 @@
         </Contact_Address>
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
-        <Metadata_Character_Set></Metadata_Character_Set>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier></Metadata_File_Identifier>
-        <Metadata_Language></Metadata_Language>
+        <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

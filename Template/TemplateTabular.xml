@@ -20,8 +20,8 @@
         <Purpose></Purpose>
     </Description>
     <Time_Period_of_Content>
-        <!-- choose either Calendar_Date or Range_Of_Dates -->
-        <Calendar_Date></Calendar_Date>
+        <!-- choose either Calendar_Date or Range_Of_Dates
+        <Calendar_Date></Calendar_Date> -->
         <Range_Of_Dates>
             <Beginning_Date></Beginning_Date>
             <Ending_Date></Ending_Date>
@@ -65,7 +65,6 @@
     <Point_of_Contact>
         <Contact_Organization></Contact_Organization>
         <Contact_Address>
-            <Address_Type></Address_Type>
             <Address></Address>
             <City></City>
             <State_or_Province></State_or_Province>
@@ -126,8 +125,8 @@
             </Citation>
             <Type_of_Source_Media></Type_of_Source_Media>
             <Time_Period_of_Content>
-                <!-- choose either Calendar_Date or Range_Of_Dates -->
-                <Calendar_Date></Calendar_Date>
+                <!-- choose either Calendar_Date or Range_Of_Dates
+                <Calendar_Date></Calendar_Date> -->
                 <Range_Of_Dates>
                     <Beginning_Date></Beginning_Date>
                     <Ending_Date></Ending_Date>
@@ -158,22 +157,22 @@
                 <Attribute_Definition_Source></Attribute_Definition_Source>
                 <Attribute_Domain_Values>
                     <!-- choose either Enumerated_Domain, Range_Domain, Codeset_Domain or Unrepresentable_Domain -->
-                    <Enumerated_Domain>
+                      <Enumerated_Domain>
                         <!-- repeat as many times as needed -->
-                        <Enumerated_Domain_Value></Enumerated_Domain_Value>
+                       <Enumerated_Domain_Value></Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition></Enumerated_Domain_Value_Definition>
                         <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
-                    <Range_Domain>
+                    <!--  <Range_Domain>
                         <Range_Domain_Minimum></Range_Domain_Minimum>
                         <Range_Domain_Maximum></Range_Domain_Maximum>
-                        <Attribute_Units_of_Measure><!-- optional --></Attribute_Units_of_Measure>
+                        <Attribute_Units_of_Measure>--> <!-- optional --> <!-- </Attribute_Units_of_Measure>
                     </Range_Domain>
                     <Codeset_Domain>
                         <Codeset_Name></Codeset_Name>
                         <Codeset_Source></Codeset_Source>
-                    </Codeset_Domain>
-                    <Unrepresentable_Domain></Unrepresentable_Domain>
+                    </Codeset_Domain>-->
+                    <!-- <Unrepresentable_Domain></Unrepresentable_Domain> -->
                 </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
@@ -199,11 +198,13 @@
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
-                <Format_Version_Number></Format_Version_Number>
+                <!--  <Format_Version_Number></Format_Version_Number>-->
                 <File_Decompression_Technique></File_Decompression_Technique>
                 <Transfer_Size><!-- optional --></Transfer_Size>
-                <Network_Resource_Name> <!-- repeat as many times as needed --></Network_Resource_Name>
-                <mimeType></mimeType>
+                <Network_Address>
+                    <Network_Resource_Name> </Network_Resource_Name>
+                    <mimeType>application/x-zip-compressed</mimeType>
+                </Network_Address>
             </Digital_Form> 
             <Fees></Fees>
             <Ordering_Instructions><!-- optional --></Ordering_Instructions>

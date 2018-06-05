@@ -4,16 +4,16 @@
         <ISO_Theme>
             <Theme_Keyword_Theasuruas></Theme_Keyword_Theasuruas>
             <!-- Add as many Theme_Keyword elements as needed -->
-            <Theme_Keyword></Theme_Keyword>
+            <Theme_Keyword>NGDA</Theme_Keyword>
         </ISO_Theme>
-        <NGDA_Information>
+        <NGDA_Info>
             <!-- optional used only for those datasets tagged as NGDA -->
             <NGDA_Keyword_Thesaurus></NGDA_Keyword_Thesaurus>
             <!-- add as many NGDA_Keywords as needed -->
-            <NGDA_Keyword></NGDA_Keyword>
-        </NGDA_Information>
-        <GETMAP_URL></GETMAP_URL>
-        <REST_URL><!-- optional --></REST_URL>
+            <NGDA_Keyword>NGDA</NGDA_Keyword>
+            <GETMAP_URL></GETMAP_URL>
+            <REST_URL></REST_URL>
+        </NGDA_Info>
     </FGDC_Required>
     <Identification_Information>
         <Citation>
@@ -24,11 +24,6 @@
             <Edition><!-- optional --></Edition>
             <Geospatial_Data_Presentation_Form></Geospatial_Data_Presentation_Form>
             <Online_Linkage></Online_Linkage>
-            <Series_Information>
-                <!-- Optional -->
-                <Series_Name></Series_Name>
-                <Issue_Identification></Issue_Identification>
-            </Series_Information>
         </Citation>
         <Description>
           <Abstract></Abstract> 
@@ -55,10 +50,6 @@
                 <North_Bounding_Coordinate></North_Bounding_Coordinate>
                 <South_Bounding_Coordinate></South_Bounding_Coordinate>
             </Bounding_Coordinates>
-            <Data_Set_G-Polygon>
-                <Outer_G-Ring></Outer_G-Ring>
-                <Exclusion_G-Ring></Exclusion_G-Ring>
-            </Data_Set_G-Polygon>
         </Spatial_Domain>
         <Keywords>
             <Theme>
@@ -75,14 +66,13 @@
             </Place>
         </Keywords>
         <Constraints>
-            <Access_Contraints></Access_Contraints>
+            <Access_Constraints></Access_Constraints>
             <Use_Constraints></Use_Constraints>
             <Other_Constraints><!-- optional --></Other_Constraints>
         </Constraints>
         <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -98,8 +88,8 @@
             <Browse_Graphic_File_Description></Browse_Graphic_File_Description>
             <Browse_Graphic_File_Type></Browse_Graphic_File_Type>
         </Browse_Graphic>
-        <Data_Set_Character_Set></Data_Set_Character_Set>
-        <Data_Set_Language></Data_Set_Language>
+        <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+        <Data_Set_Language>eng</Data_Set_Language>
         <Cross_Reference>
             <!-- This is optional -->
             <Citation>
@@ -111,10 +101,9 @@
         </Cross_Reference>
     </Identification_Information>
     <Distribution_Information>
-        <Point_Of_Contact>
+        <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -123,7 +112,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
-        </Point_Of_Contact>
+        </Point_of_Contact>
         <Distribution_Liability></Distribution_Liability>
         <Standard_Order_Process>
             <!-- repeat as many times as needed -->
@@ -135,8 +124,10 @@
                 <Format_Version_Number></Format_Version_Number>
                 <File_Decompression_Technique></File_Decompression_Technique>
                 <Transfer_Size><!-- optional --></Transfer_Size>
-                <Network_Resource_Name> <!-- repeat as many times as needed --></Network_Resource_Name>
-                <mimeType></mimeType>
+                <Network_Address>
+                    <Network_Resource_Name> </Network_Resource_Name>
+                    <mimeType></mimeType>
+                </Network_Address>
             </Digital_Form> 
             <Fees></Fees>
             <Ordering_Instructions><!-- optional --></Ordering_Instructions>
@@ -145,12 +136,10 @@
     </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date></Metadata_Date>
-        <Metadata_Hierarchy_Level></Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name></Metadata_Hierarchy_Level_Name>
-       <Contact_Address>
+        <Metadata_Hierarchy_Level>series</Metadata_Hierarchy_Level>
+        <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
            <Contact_Address>
-               <Address_Type></Address_Type>
                <Address></Address>
                <City></City>
                <State_or_Province></State_or_Province>
@@ -159,11 +148,11 @@
            </Contact_Address>
            <Contact_Voice_Telephone></Contact_Voice_Telephone>
            <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
-       </Contact_Address>
+       </Point_of_Contact>
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
-        <Metadata_Character_Set></Metadata_Character_Set>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier></Metadata_File_Identifier>
-        <Metadata_Language></Metadata_Language>
+        <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
