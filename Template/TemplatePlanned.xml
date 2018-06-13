@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="Planned">
+<GPM profile="planned">
     <Identification_Information>
         <Citation>
             <Originator></Originator>
@@ -12,8 +12,8 @@
             <Purpose></Purpose>
         </Description>
         <Time_Period_of_Content>
-            <!-- choose either Calendar_Date or Range_Of_Dates 
-            <Calendar_Date></Calendar_Date>-->
+            <!-- choose either Calendar_Date or Range_Of_Dates -->
+            <Calendar_Date></Calendar_Date>
             <Range_Of_Dates>
                 <Beginning_Date></Beginning_Date>
                 <Ending_Date></Ending_Date>
@@ -100,7 +100,7 @@
                 <!--  <Format_Version_Number></Format_Version_Number>-->
                 <Network_Address>
                      <Network_Resource_Name> </Network_Resource_Name>
-                    <mimeType>application/x-zip-compressed</mimeType>
+                    <mimeType></mimeType>
                 </Network_Address>
               
             </Digital_Form> 
@@ -125,7 +125,7 @@
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SamplePlanned.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier></Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

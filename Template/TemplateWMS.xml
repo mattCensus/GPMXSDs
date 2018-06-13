@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="GEO">
+<GPM profile="wms">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas></Theme_Keyword_Theasuruas>
@@ -167,25 +167,11 @@
     
     <Spatial_Reference_Information>
         <!-- choose either geographic or Map_Projection -->
-        <Map_Projection>
-            <Map_Projection_Name></Map_Projection_Name>
-            <Map_Projection_Detail>
-                <Planar_Coordinate_Encoding_Method></Planar_Coordinate_Encoding_Method>
-                <Abscissa_Resolution></Abscissa_Resolution>
-                <Ordinate_Resolution></Ordinate_Resolution>
-                <Planar_Distance_Units></Planar_Distance_Units>
-            </Map_Projection_Detail>
-            <PlanarEncoding_Method></PlanarEncoding_Method>
-            <Abscissa_Resolution></Abscissa_Resolution>
-            <Ordinate_Resolution></Ordinate_Resolution>
-            <Planar_Distance_Units></Planar_Distance_Units>
-        </Map_Projection>
-        <Geodetic_Model>
-            <Horizontal_Datum_Name></Horizontal_Datum_Name>
-            <Elipsoid_Name></Elipsoid_Name>
-            <Semi-Major_Axis></Semi-Major_Axis>
-            <Denominator_of_Flattening_Ratio></Denominator_of_Flattening_Ratio>
-        </Geodetic_Model>
+        <EPSG_Reference>
+            <EPSG_Code></EPSG_Code>
+            <EPSG_Code_Space></EPSG_Code_Space>
+            <EPSG_Version></EPSG_Version>
+        </EPSG_Reference>
     </Spatial_Reference_Information>
     
     <Entity_and_Attribute_Information>
@@ -193,7 +179,8 @@
             <Entity_Type>
                 <Entity_Type_Label></Entity_Type_Label>
                 <Entity_Type_Definition></Entity_Type_Definition>
-                Entity_Type_Definition_Source
+                <Entity_Type_Definition_Source></Entity_Type_Definition_Source>
+                <Ontology_URI></Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <!-- repeat as many times as needed -->
@@ -208,35 +195,31 @@
                         <Enumerated_Domain_Value_Definition></Enumerated_Domain_Value_Definition>
                         <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
-                    <Range_Domain>
+                    <!--  <Range_Domain>
                         <Range_Domain_Minimum></Range_Domain_Minimum>
                         <Range_Domain_Maximum></Range_Domain_Maximum>
-                        <Attribute_Units_of_Measure><!-- optional --></Attribute_Units_of_Measure>
+                        <Attribute_Units_of_Measure>--><!-- optional --><!--  </Attribute_Units_of_Measure>
                     </Range_Domain>
                     <Codeset_Domain>
                         <Codeset_Name></Codeset_Name>
                         <Codeset_Source></Codeset_Source>
                     </Codeset_Domain>
-                    <Unrepresentable_Domain></Unrepresentable_Domain>
+                    <Unrepresentable_Domain></Unrepresentable_Domain>-->
                 </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
         <Feature_Catalogue_Description>
-            <Feature_Catologue_Description>
                 <FC_Title></FC_Title>
                 <Included_With_Dataset></Included_With_Dataset>
                 <Feature_Types></Feature_Types>
                 <FC_Online_Linkage></FC_Online_Linkage>
-                <ontologyURI>https://www.census.gov/geo/reference/terms.html</ontologyURI>
-            </Feature_Catologue_Description>
         </Feature_Catalogue_Description>
        
     </Entity_and_Attribute_Information>
     <Distribution_Information>
-        <Point_Of_Contact>
+        <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -245,7 +228,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
-        </Point_Of_Contact>
+        </Point_of_Contact>
         <Distribution_Liability></Distribution_Liability>
         <Standard_Order_Process>
             <!-- repeat as many times as needed -->
@@ -254,40 +237,40 @@
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
-                <Format_Version_Number></Format_Version_Number>
-                <File_Decompression_Technique></File_Decompression_Technique>
-                <Transfer_Size><!-- optional --></Transfer_Size>
+                <!--  <Format_Version_Number></Format_Version_Number>-->
                 <Network_Resource_Name> <!-- repeat as many times as needed --></Network_Resource_Name>
-                <mimeType></mimeType>
+                <mimeType>text/html</mimeType>
             </Digital_Form> 
             <Fees></Fees>
-            <Ordering_Instructions><!-- optional --></Ordering_Instructions>
         </Standard_Order_Process>
-        <Technical_Prerequisites></Technical_Prerequisites>
     </Distribution_Information>
     <Computer_Service_Information>
         <Service_Type></Service_Type>
         <Service_Type_Version></Service_Type_Version>
-        <Coupling_Type><!-- optional --></Coupling_Type>
+        <Coupling_Type>tight</Coupling_Type>
         <Contains_Operations>
             <!-- repeat as many times as needed -->
             <Operation_Name><!-- optional --> <!-- repeat as many times as needed --></Operation_Name>
             <DCP></DCP>
             <Operation_Description></Operation_Description>
+            <Operation_Parameters>
+                <Parameter_Name>EXCEPTIONS</Parameter_Name>
+                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Description>The format in which exceptions are to be reported by the WMS (default= XML).</Parameter_Description>
+            </Operation_Parameters>
             <Connect_Point>
-                <CP_Link></CP_Link>
-                <Protocol><!-- optional --> <!-- repeat as many times as needed --></Protocol>
-                <Resource_Name></Resource_Name>
-                <Resource_Description></Resource_Description>
+                <CP_Link>http://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_PhysicalFeatures/MapServer/WmsServer?service=wms&amp;version=1.1.1&amp;request=GetMap&amp;service=WMS</CP_Link>
+                <Protocol>HTTP/1.1</Protocol>
+                <Resource_Name>Census Physical Features WMS GetFeatureInfo</Resource_Name>
+                <Resource_Description>This is the GetFeatureInfo URL.</Resource_Description>
             </Connect_Point>
         </Contains_Operations>
     </Computer_Service_Information>
     <Metadata_Reference_Information>
         <Metadata_Date></Metadata_Date>
-        <Contact_Address>
+        <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
-                <Address_Type></Address_Type>
                 <Address></Address>
                 <City></City>
                 <State_or_Province></State_or_Province>
@@ -296,7 +279,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone></Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address></Contact_Electronic_Mail_Address>
-        </Contact_Address>
+        </Point_of_Contact>
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>

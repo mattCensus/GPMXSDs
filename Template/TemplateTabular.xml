@@ -20,8 +20,8 @@
         <Purpose></Purpose>
     </Description>
     <Time_Period_of_Content>
-        <!-- choose either Calendar_Date or Range_Of_Dates
-        <Calendar_Date></Calendar_Date> -->
+        <!-- choose either Calendar_Date or Range_Of_Dates-->
+        <Calendar_Date></Calendar_Date> 
         <Range_Of_Dates>
             <Beginning_Date></Beginning_Date>
             <Ending_Date></Ending_Date>
@@ -33,14 +33,12 @@
         <Maintenance_and_Update_Frequency></Maintenance_and_Update_Frequency>
     </Status>
     <Spatial_Domain>
-        <!-- Choose either Bounding_Coordinates or Data_Set_G-Polygon -->
         <Bounding_Coordinates>
             <West_Bounding_Coordinate></West_Bounding_Coordinate>
             <East_Bounding_Coordinate></East_Bounding_Coordinate>
             <North_Bounding_Coordinate></North_Bounding_Coordinate>
             <South_Bounding_Coordinate></South_Bounding_Coordinate>
         </Bounding_Coordinates>
-       
     </Spatial_Domain>
     <Keywords>
         <Theme>
@@ -87,7 +85,7 @@
     </Cross_Reference>
 </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Atribute_Accuracy_Report><!-- optional -->
             <Test_Report>
                 <Measure><!-- optional --></Measure>
                 <Evaluation><!-- optional --></Evaluation>
@@ -125,8 +123,8 @@
             </Citation>
             <Type_of_Source_Media></Type_of_Source_Media>
             <Time_Period_of_Content>
-                <!-- choose either Calendar_Date or Range_Of_Dates
-                <Calendar_Date></Calendar_Date> -->
+                <!-- choose either Calendar_Date or Range_Of_Dates-->
+                <Calendar_Date></Calendar_Date> 
                 <Range_Of_Dates>
                     <Beginning_Date></Beginning_Date>
                     <Ending_Date></Ending_Date>
@@ -148,7 +146,7 @@
                 <Entity_Type_Label></Entity_Type_Label>
                 <Entity_Type_Definition></Entity_Type_Definition>
                 <Entity_Type_Definition_Source></Entity_Type_Definition_Source>  
-                <Ontology_URI>>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>>https://www.census.gov/geo/reference/terms.html</Ontology_URI><!-- can be altered -->
             </Entity_Type>
             <Attribute>
                 <!-- repeat as many times as needed -->
@@ -163,16 +161,16 @@
                         <Enumerated_Domain_Value_Definition></Enumerated_Domain_Value_Definition>
                         <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
-                    <!--  <Range_Domain>
+                    <Range_Domain>
                         <Range_Domain_Minimum></Range_Domain_Minimum>
                         <Range_Domain_Maximum></Range_Domain_Maximum>
-                        <Attribute_Units_of_Measure>--> <!-- optional --> <!-- </Attribute_Units_of_Measure>
+                        <Attribute_Units_of_Measure> <!-- optional -->  </Attribute_Units_of_Measure>
                     </Range_Domain>
                     <Codeset_Domain>
                         <Codeset_Name></Codeset_Name>
                         <Codeset_Source></Codeset_Source>
-                    </Codeset_Domain>-->
-                    <!-- <Unrepresentable_Domain></Unrepresentable_Domain> -->
+                    </Codeset_Domain>
+                     <Unrepresentable_Domain></Unrepresentable_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
@@ -198,7 +196,7 @@
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
-                <!--  <Format_Version_Number></Format_Version_Number>-->
+                  <Format_Version_Number></Format_Version_Number>
                 <File_Decompression_Technique></File_Decompression_Technique>
                 <Transfer_Size><!-- optional --></Transfer_Size>
                 <Network_Address>
