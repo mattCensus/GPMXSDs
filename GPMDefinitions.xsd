@@ -8240,5 +8240,16 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<xsd:simpleType name="Profile">
+   <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="tabular"/>
+      <xsd:enumeration value="vector"/>
+      <xsd:enumeration value="wms"/>
+      <xsd:enumeration value="gdb"/>
+      <xsd:enumeration value="map"/>
+      <xsd:enumeration value="planned"/>
+      <xsd:enumeration value="series"/>
+   </xsd:restriction>
+</xsd:simpleType>
 
 </xs:schema>

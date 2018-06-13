@@ -8,7 +8,8 @@
            xmlns:sri="../newGPMStd/Spatial_Reference_Information"
            xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
            xmlns:di="../newGPMStd/Distribution_Information"
-           xmlns:mri="../newGPMStd/Metadata_Reference_Information">
+           xmlns:mri="../newGPMStd/Metadata_Reference_Information"
+           xmlns:GPMDef="../newGPMStd/GPMDefinitions">
 
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
@@ -18,7 +19,7 @@
     <xsd:import namespace="../newGPMStd/Entity_and_Attribute_Information" schemaLocation="../newGPMStd/Entity_and_Attribute_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
-    
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
