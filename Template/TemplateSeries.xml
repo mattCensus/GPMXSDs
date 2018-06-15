@@ -4,7 +4,7 @@
         <ISO_Theme>
             <Theme_Keyword_Theasuruas></Theme_Keyword_Theasuruas>
             <!-- Add as many Theme_Keyword elements as needed -->
-            <Theme_Keyword>NGDA</Theme_Keyword>
+            <Theme_Keyword></Theme_Keyword>
         </ISO_Theme>
         <NGDA_Info>
             <!-- optional used only for those datasets tagged as NGDA -->

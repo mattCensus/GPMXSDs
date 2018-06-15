@@ -26,8 +26,8 @@
             <Purpose/>
         </Description>
         <Time_Period_of_Content>
-            <!-- choose either Calendar_Date or Range_Of_Dates 
-            <Calendar_Date/>-->
+            <!-- choose either Calendar_Date or Range_Of_Dates -->
+            <Calendar_Date/>
             <Range_Of_Dates>
                 <Beginning_Date/>
                 <Ending_Date/>
@@ -146,8 +146,8 @@
             <Source_Scale_Denominator/>
             <Type_of_Source_Media/>
             <Time_Period_of_Content>
-                <!-- choose either Calendar_Date or Range_Of_Dates 
-                <Calendar_Date/>-->
+                <!-- choose either Calendar_Date or Range_Of_Dates -->
+                <Calendar_Date/>
                 <Range_Of_Dates>
                     <Beginning_Date/>
                     <Ending_Date/>
@@ -166,7 +166,6 @@
         <Map_Projection>
             <Map_Projection_Name/>
             <Map_Projection_Description/>
-
         </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name/>
@@ -207,12 +206,12 @@
                 <Format_Name/>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date/>
-                <!--  <Format_Version_Number></Format_Version_Number>-->
+                <Format_Version_Number></Format_Version_Number>
                 <Transfer_Size><!-- optional --></Transfer_Size>
                 <Network_Address>
                     <!-- repeat as many times as needed -->
                     <Network_Resource_Name> </Network_Resource_Name>
-                    <mimeType>application/x-zip-compressed</mimeType>
+                    <mimeType></mimeType>
                 </Network_Address>
             </Digital_Form>
             <Fees/>

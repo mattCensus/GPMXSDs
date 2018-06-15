@@ -267,7 +267,7 @@
                 <Format_Name/>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date/>
-                <!-- <Format_Version_Number></Format_Version_Number> -->
+                <Format_Version_Number></Format_Version_Number>
                 <File_Decompression_Technique/>
                 <Transfer_Size><!-- optional --></Transfer_Size>
                 <Network_Address>

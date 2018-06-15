@@ -97,7 +97,7 @@
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
                 <Format_Version_Date></Format_Version_Date>
-                <!--  <Format_Version_Number></Format_Version_Number>-->
+                <Format_Version_Number></Format_Version_Number>
                 <Network_Address>
                      <Network_Resource_Name> </Network_Resource_Name>
                     <mimeType></mimeType>
