@@ -38,7 +38,7 @@
                 <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
                 <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
             </xsd:sequence>
-            <xsd:attribute name="profile"/>
+            <xsd:attribute name="profile" type="GPMDef:Profile"/>
         </xsd:complexType>
     </xsd:element>
 </xs:schema>
