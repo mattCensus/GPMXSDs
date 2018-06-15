@@ -98,7 +98,7 @@
                 information in the TIGER/Line Shapefiles are for statistical data collection and
                 tabulation purposes only; their depiction and designation for statistical purposes
                 does not constitute a determination of jurisdictional authority or rights of
-                ownership or entitlement and they are not legal land descriptions.Coordinates in the
+                ownership or entitlement and they are not legal land descriptions. Coordinates in the
                 TIGER/Line shapefiles have six implied decimal places, but the positional accuracy
                 of these coordinates is not as great as the six decimal places suggest.
             </Other_Constraints>
@@ -137,8 +137,8 @@
     <Data_Quality_Information>
         <Atribute_Accuracy_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile Quantative Attribute Accuraccy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantative attribute
+                <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
+                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
                     information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>

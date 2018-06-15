@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="GEO">
+<GPM profile="wms">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
@@ -89,8 +89,8 @@
     <Data_Quality_Information>
         <Atribute_Accuracy_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile Quantative Attribute Accuraccy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantative attribute
+                <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
+                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
                     information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>
@@ -519,7 +519,7 @@
             <Operation_Parameters>
                 <Parameter_Name>BGCOLOR</Parameter_Name>
                 <Parameter_Direction>out</Parameter_Direction>
-                <Parameter_Description>Hexadecimal red-green-blue colour value for the background color (default=0xFFFFFF)</Parameter_Description>
+                <Parameter_Description>Hexadecimal red-green-blue color value for the background color (default=0xFFFFFF)</Parameter_Description>
                 </Operation_Parameters>
             <Operation_Parameters>
                 <Parameter_Name>EXCEPTIONS</Parameter_Name>

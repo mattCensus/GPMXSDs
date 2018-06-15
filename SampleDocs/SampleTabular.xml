@@ -155,7 +155,7 @@
                 <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
                 <Attribute_Domain_Values>
                     <Unrepresentable_Domain>Values for this attribute are composed of a set of
-                        address range ID's. As such, they do not exist in a known, predefined
+                        address range Id's. As such, they do not exist in a known, predefined
                         set.</Unrepresentable_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
@@ -165,7 +165,7 @@
                 <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
                 <Attribute_Domain_Values>
                     <Unrepresentable_Domain>Values for this attribute are composed of a set of
-                        linear feature ID's. As such, they do not exist in a known, predefined
+                        linear feature Id's. As such, they do not exist in a known, predefined
                         set.</Unrepresentable_Domain>
                 </Attribute_Domain_Values>
             </Attribute>

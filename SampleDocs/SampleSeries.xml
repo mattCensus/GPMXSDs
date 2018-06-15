@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="Series">
+<GPM profile="series">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
@@ -115,7 +115,6 @@
             <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division</Contact_Organization>
             <Contact_Address>
-                <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
@@ -133,7 +132,6 @@
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Address>
-                <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
@@ -191,7 +189,6 @@
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division, Geographic Products Branch</Contact_Organization>
             <Contact_Address>
-                <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
