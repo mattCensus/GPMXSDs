@@ -6,25 +6,25 @@
  <xsd:simpleType name="TopicCatList">
   <xsd:restriction base="xsd:string">
    <xsd:minLength value="5"/>
-   <xsd:enumeration value="Farming"/>
-   <xsd:enumeration value="Biota"/>
-   <xsd:enumeration value="Boundaries"/>
-   <xsd:enumeration value="Atmosphere"/>
-   <xsd:enumeration value="Economy"/>
-   <xsd:enumeration value="Elevation"/>
-   <xsd:enumeration value="Environment"/>
-   <xsd:enumeration value="GeoscientificInformation"/>
-   <xsd:enumeration value="Health"/>
-   <xsd:enumeration value="ImageryBaseMapsEarthCover"/>
-   <xsd:enumeration value="IntelligenceMilitary"/>
-   <xsd:enumeration value="InlandWaters"/>
-   <xsd:enumeration value="Location"/>
-   <xsd:enumeration value="Oceans"/>
-   <xsd:enumeration value="Planning/Cadastre"/>
-   <xsd:enumeration value="Society"/>
-   <xsd:enumeration value="Structure"/>
-   <xsd:enumeration value="Transportation"/>
-   <xsd:enumeration value="Utilities/Communications"/>
+   <xsd:enumeration value="farming"/>
+   <xsd:enumeration value="biota"/>
+   <xsd:enumeration value="boundaries"/>
+   <xsd:enumeration value="atmosphere"/>
+   <xsd:enumeration value="economy"/>
+   <xsd:enumeration value="elevation"/>
+   <xsd:enumeration value="environment"/>
+   <xsd:enumeration value="geoscientificInformation"/>
+   <xsd:enumeration value="health"/>
+   <xsd:enumeration value="imageryBaseMapsEarthCover"/>
+   <xsd:enumeration value="intelligenceMilitary"/>
+   <xsd:enumeration value="inlandWaters"/>
+   <xsd:enumeration value="location"/>
+   <xsd:enumeration value="oceans"/>
+   <xsd:enumeration value="planning/Cadastre"/>
+   <xsd:enumeration value="society"/>
+   <xsd:enumeration value="structure"/>
+   <xsd:enumeration value="transportation"/>
+   <xsd:enumeration value="utilities/communications"/>
   </xsd:restriction>
  </xsd:simpleType>
 
