@@ -24,7 +24,7 @@
    <xsd:enumeration value="society"/>
    <xsd:enumeration value="structure"/>
    <xsd:enumeration value="transportation"/>
-   <xsd:enumeration value="utilities/communications"/>
+   <xsd:enumeration value="utilities/Communications"/>
   </xsd:restriction>
  </xsd:simpleType>
 
