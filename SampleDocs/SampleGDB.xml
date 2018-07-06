@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="gdb">
+<GPM profile="GEO">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>Transportation</Theme_Keyword>
+            <Theme_Keyword>transportation</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>

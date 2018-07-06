@@ -3,14 +3,14 @@
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>Transportation</Theme_Keyword>
+            <Theme_Keyword>transportation</Theme_Keyword>
         </ISO_Theme>
         <NGDA_Info>
             <NGDA_Keyword_Thesaurus>NGDA Portfolio Themes</NGDA_Keyword_Thesaurus>
             <NGDA_Keyword>NGDA</NGDA_Keyword>
             <NGDA_Keyword>Transportation Theme</NGDA_Keyword>
             <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
-            <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</GETMAP_URL>
+            <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer</GETMAP_URL> 
             <REST_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</REST_URL>
         </NGDA_Info>
     </FGDC_Required>
@@ -350,7 +350,7 @@
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>>11773 Acquired from the state of AK</Originator>
+                <Originator>11773 Acquired from the state of AK</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>02_AK_2010</Title>
             </Citation>
@@ -365,8 +365,7 @@
 
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation/>
-            <Source_Contribution>Coordinates to realign selected road features in the Census
-                MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
@@ -374,12 +373,9 @@
                 <Publication_Date>unknown</Publication_Date>
                 <Title>02_AK_2014_delivery_RGB</Title>
             </Citation>
-            <Type_of_Source_Media> </Type_of_Source_Media>
+            <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
-                </Range_Of_Dates>
+                <Calendar_Date>2014</Calendar_Date>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>AK</Source_Citation_Abbreviation>
@@ -673,7 +669,7 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93 A or
                     higher</File_Decompression_Technique>
                 <Network_Address>
-                    <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
+                    <Network_Resource_Name>https://www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
                     <mimeType>application/x-compressed</mimeType>
                 </Network_Address>
             </Digital_Form>
@@ -682,25 +678,7 @@
                 <Format_Version_Number>unknown</Format_Version_Number>
                 <File_Decompression_Technique>None</File_Decompression_Technique>
                 <Network_Address>
-                    <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
-                </Network_Address>
-            </Digital_Form>
-            <Digital_Form>
-                <Format_Name>WMS</Format_Name>
-                <Format_Version_Number>1.3.0</Format_Version_Number>
-                <File_Decompression_Technique>None</File_Decompression_Technique>
-                <Network_Address>
-                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
-                </Network_Address>
-            </Digital_Form>
-            <Digital_Form>
-                <Format_Name>REST</Format_Name>
-                <Format_Version_Number>10.5</Format_Version_Number>
-                <File_Decompression_Technique>None</File_Decompression_Technique>
-                <Network_Address>
-                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer</Network_Resource_Name>
+                    <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-line.htm</Network_Resource_Name>
                     <mimeType>text/html</mimeType>
                 </Network_Address>
             </Digital_Form>
@@ -731,7 +709,7 @@
             Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleVectorRoads.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>VectorRoadsTest.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
