@@ -3,13 +3,12 @@
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>Boundaries</Theme_Keyword>
+            <Theme_Keyword>boundaries</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>
         <Citation>
-            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Originator>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
             <Publication_Date>20150115</Publication_Date>
             <Title>National 114th Congressional District Wall Map</Title>
             <Geospatial_Data_Presentation_Form>map</Geospatial_Data_Presentation_Form>
@@ -152,8 +151,7 @@
                 legal land descriptions. </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
@@ -226,8 +224,7 @@
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                    Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
                 <Publication_Date>201605</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
