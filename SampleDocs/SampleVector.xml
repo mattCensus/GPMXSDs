@@ -240,8 +240,7 @@
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping
-                    Section</Originator>
+                <Originator>5406 Alaska ADOT PF Division of Statewide Planning, GIS Mapping Section</Originator>
                 <Publication_Date>20030401</Publication_Date>
                 <Title>kotzebue83.shp</Title>
             </Citation>
@@ -422,7 +421,8 @@
             <Entity_Type>
                 <Entity_Type_Label>ROADS.shp</Entity_Type_Label>
                 <Entity_Type_Definition>All Roads County-based</Entity_Type_Definition>
-                <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+                <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source> 
+                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>LINEARID</Attribute_Label>
@@ -646,6 +646,7 @@
             <Included_With_Dataset>yes</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
             <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
+           
         </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
     <Distribution_Information>
