@@ -355,10 +355,7 @@
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
-                </Range_Of_Dates>
+                <Calendar_Date>2010</Calendar_Date>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>02_AK_2010</Source_Citation_Abbreviation>
@@ -372,10 +369,7 @@
             </Citation>
             <Type_of_Source_Media> </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
-                </Range_Of_Dates>
+                <Calendar_Date>2015</Calendar_Date>
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>AK_2014_delivery_RGB</Source_Citation_Abbreviation>
