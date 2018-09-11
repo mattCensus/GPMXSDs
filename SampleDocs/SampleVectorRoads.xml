@@ -16,13 +16,10 @@
     </FGDC_Required>
     <Identification_Information>
         <Citation>
-            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Originator>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
             <Publication_Date>2016</Publication_Date>
-            <Title>TIGER/Line Shapefile, 2016, county, Northwest Arctic Borough, AK, All Roads
-                County-based Shapefile</Title>
-            <Alternate_Title>National Geospatial Data Asset (NGDA) Roads (All
-                Roads)</Alternate_Title>
+            <Title>TIGER/Line Shapefile, 2016, county, Northwest Arctic Borough, AK, All Roads County-based Shapefile</Title>
+            <Alternate_Title>National Geospatial Data Asset (NGDA) Roads (All Roads)</Alternate_Title>
             <Edition>2016</Edition>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Series_Information>
@@ -293,8 +290,7 @@
 
         <Source_Information>
             <Citation>
-                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements
-                    (C&amp;R)</Originator>
+                <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
@@ -307,13 +303,11 @@
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
-            <Source_Contribution> Coordinates to realign selected hydrographic features in the
-                Census MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution> Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements
-                    (C&amp;R)</Originator>
+                <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
@@ -326,13 +320,11 @@
                 <Currentness_Reference>unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
-            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
-                MAF/TIGER database.</Source_Contribution>
+            <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div -
-                    LFGPB</Originator>
+                <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div - LFGPB</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>2010 ADCAN GPS Feature Updates</Title>
             </Citation>
@@ -350,7 +342,7 @@
         </Source_Information>
         <Source_Information>
             <Citation>
-                <Originator>>11773 Acquired from the state of AK</Originator>
+                <Originator>11773 Acquired from the state of AK</Originator>
                 <Publication_Date>unknown</Publication_Date>
                 <Title>02_AK_2010</Title>
             </Citation>
@@ -361,10 +353,7 @@
                     <Ending_Date>unknown</Ending_Date>
                 </Range_Of_Dates>
                 <Currentness_Reference>unknown</Currentness_Reference>
-
-
             </Time_Period_of_Content>
-            <Source_Citation_Abbreviation/>
             <Source_Contribution>Coordinates to realign selected road features in the Census
                 MAF/TIGER database.</Source_Contribution>
         </Source_Information>
@@ -455,25 +444,21 @@
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>County</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>I</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>Interstate</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>M</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Common
-                            Name</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Common Name</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
@@ -487,18 +472,15 @@
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>State
-                            recognized</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>State recognized</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>U</Enumerated_Domain_Value>
                         <Enumerated_Domain_Value_Definition>U.S.</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
             </Attribute>
@@ -509,10 +491,8 @@
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>S1100</Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition>Primary
-                            Road</Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source>U.S. Census
-                            Bureau</Enumerated_Domain_Value_Definition_Source>
+                        <Enumerated_Domain_Value_Definition>Primary Road</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
                 <Attribute_Domain_Values>
@@ -727,8 +707,7 @@
         <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2016, Series Information for the Current
             Block Group State-based shapefile</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute
-            table</Metadata_Hierarchy_Level_Name>
+        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name>
         <!-- this should be optional -->
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="tabular">
+<Identification_Information>
+    <Citation>
+        <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+        <Publication_Date>2017</Publication_Date>
+        <Title>TIGER/Line Shapefile, 2017,  county, Yauco Municipio, PR, Address Ranges County-based Relationship File</Title>
+        <Edition>2017</Edition>
+        <Geospatial_Data_Presentation_Form>tabular digital data</Geospatial_Data_Presentation_Form><!-- check this one -->
+        <Online_Linkage>http://www2.census.gov/geo/tiger/TIGER2017/ADDR/tl_2017_72153_addr.zip</Online_Linkage>
+    </Citation>
+    <Description>
+        <Abstract>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census
+            Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless
+            national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be
+            combined to cover the entire nation.
+            
+            The Address Ranges Relationship File (ADDR.dbf) contains the attributes of each address range.  Each address range applies to a single edge and has a unique
+            address range identifier (ARID) value.  The edge to which an address range applies can be determined by linking the address range to the All Lines Shapefile
+            (EDGES.shp) using the permanent topological edge identifier (TLID) attribute.  Multiple address ranges can apply to the same edge since an edge can have
+            multiple address ranges.  Note that the most inclusive address range associated with each side of a street edge already appears in the All Lines Shapefile
+            (EDGES.shp).  The TIGER/Line Files contain potential address ranges, not individual addresses.  The term "address range" refers to the collection of all
+            possible structure numbers from the first structure number to the last structure number and all numbers of a specified parity in between along an edge side
+            relative to the direction in which the edge is coded.  The address ranges in the TIGER/Line Files are potential ranges that include the full range of possible
+            structure numbers even though the actual structures may not exist.
+        </Abstract>
+        <Purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications,
+        the Census Bureau releases to the public extracts of the database in the form of TIGER/Line relationship files.</Purpose>
+    </Description>
+    <Time_Period_of_Content>
+        <Range_Of_Dates>
+            <Beginning_Date>2016-06</Beginning_Date>
+            <Ending_Date>2017-05</Ending_Date>
+        </Range_Of_Dates>
+        <Currentness_Reference>publication date</Currentness_Reference>
+    </Time_Period_of_Content>
+    <Status>
+        <Progress>completed</Progress>
+        <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
+    </Status>
+    <Spatial_Domain>
+        <Bounding_Coordinates>
+            <West_Bounding_Coordinate>-66.926517</West_Bounding_Coordinate>
+            <East_Bounding_Coordinate>-66.796077</East_Bounding_Coordinate>
+            <North_Bounding_Coordinate>18.171242</North_Bounding_Coordinate>
+            <South_Bounding_Coordinate>17.950825</South_Bounding_Coordinate>
+        </Bounding_Coordinates>
+    </Spatial_Domain>
+    <Keywords>
+        <Theme>
+            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>State FIPS Code</Theme_Keyword>
+            <Theme_Keyword>County FIPS Code</Theme_Keyword>
+            <Theme_Keyword>State GNIS Code</Theme_Keyword>
+            <Theme_Keyword>County GNIS Code</Theme_Keyword>
+            <Theme_Keyword>Permanent edge ID</Theme_Keyword>
+            <Theme_Keyword>From House Number</Theme_Keyword>
+            <Theme_Keyword>To House Number</Theme_Keyword>
+            <Theme_Keyword>Side indicator flag</Theme_Keyword>
+            <Theme_Keyword>5-digit ZIP code</Theme_Keyword>
+            <Theme_Keyword>ZIP +4 code</Theme_Keyword>
+        </Theme>
+        <Place>
+            <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 31-2009), Federal
+                Information Processing Series (FIPS) - Counties/County
+                Equivalents</Place_Keyword_Thesaurus>
+            <Place_Keyword>Yauco</Place_Keyword>
+            <Place_Keyword>72153</Place_Keyword>
+        </Place>
+    </Keywords>
+    <Constraints>
+        <Access_Constraints>unrestricted</Access_Constraints>
+        <Use_Constraints>copyright</Use_Constraints>
+        <Other_Constraints>Use Constraints:The TIGER/Line Shapefile products are not copyrighted
+            however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
+            Bureau. These products are free to use in a product or publication, however
+            acknowledgement must be given to the U.S. Census Bureau as the source.
+        </Other_Constraints>
+    </Constraints>
+    <Point_of_Contact>
+        <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+        Division, Spatial Data Collection and Products Branch</Contact_Organization>
+        <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+    </Point_of_Contact>
+    
+</Identification_Information>
+    <Data_Quality_Information>
+        <Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure> Feature attribute information has been examined</Measure>
+                <Result>Not Fully Tested</Result>
+            </Test_Report>
+        </Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>The Census Bureau performed automated tests to ensure logical consistency
+                    and limits of relationship files.</Measure>
+                <Evaluation>The Census Bureau uses its internally developed geographic update system
+                    to enhance and modify spatial and attribute data in the Census MAF/TIGER
+                    database. Standard geographic codes, such as FIPS codes for states, counties,
+                    municipalities, county subdivisions, places, American Indian/Alaska
+                    Native/Native Hawaiian areas, and congressional districts are used when encoding
+                    spatial entities. The Census Bureau performed spatial data tests for logical
+                    consistency of the codes during the compilation of the original Census MAF/TIGER
+                    database files. Most of the codes for geographic entities except states,
+                    counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian
+                    Areas (AIAs), and congressional districts were provided to the Census Bureau by
+                    the USGS, the agency responsible for maintaining Geographic Names Information
+                    System (GNIS). Feature attribute information has been examined but has not been
+                    fully tested for consistency.</Evaluation>
+                <Result> Tabular data has been tested for proper domain and format.</Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Evaluation>Tabular data has been tested for proper domain and format</Evaluation>
+                <Result>Tabular data has the proper domain and format</Result>
+            </Test_Report>
+        </Completeness_Report>
+  </Data_Quality_Information>
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>ADDR.dbf</Entity_Type_Label>
+                <Entity_Type_Definition>Current Address Ranges County-based Relationship file</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>TLID</Attribute_Label>
+                <Attribute_Definition>Permanent edge ID</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of permanent edge ID's. As such, 
+                    they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FROMHN</Attribute_Label>
+                <Entity_Type_Definition>From house number</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of from house numbers. As such, they 
+                    do not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>TOHN</Attribute_Label>
+                <Entity_Type_Definition>To house number</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of to house numbers. As such, they do 
+                    not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>SIDE</Attribute_Label>
+                <Entity_Type_Definition>Side indicator flag</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>L</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Left side of street edge based on start node</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>R</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Right side of street edge based on start node</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>ZIP</Attribute_Label>
+                <Entity_Type_Definition>5-digit ZIP code</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Postal Service</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>00500</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>99999</Range_Domain_Maximum>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>PLUS4</Attribute_Label>
+                <Entity_Type_Definition>ZIP + 4 code</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Postal Service</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain_Minimum>0000</Range_Domain_Minimum>
+                    <Range_Domain_Maximum>9999</Range_Domain_Maximum>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FROMTYP</Attribute_Label>
+                <Entity_Type_Definition>From address range end type</Entity_Type_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>I</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Address range is an imputed value calculated by the Census Bureau at a split point</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                        </Enumerated_Domain>
+        </Detailed_Description>
+    </Entity_and_Attribute_Information>
+    
+</GPM>
+
