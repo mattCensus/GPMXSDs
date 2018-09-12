@@ -86,7 +86,8 @@
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division, Spatial Data Collection and Products Branch</Contact_Organization>
-            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Electronic_Mail_Address>U.S. Department of Commerce, U.S. Census Bureau,
+                Geography Division</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
     <Data_Quality_Information>
@@ -113,8 +114,9 @@
         <Completeness_Report>
             <Test_Report>
                 <Evaluation>Tabular data has been tested for proper domain and format</Evaluation>
-                <Result>Tabular data has the proper domain and format</Result>
+                <Result>Tabular data has been tested for proper domain and format</Result>
             </Test_Report>
+
         </Completeness_Report>
         <Source_Information>
             <Citation>
@@ -141,7 +143,8 @@
         <Detailed_Description>
             <Entity_Type>
                 <Entity_Type_Label>ADDRFN.dbf</Entity_Type_Label>
-                <Entity_Type_Definition>Current Address Range-Feature Name County-based Relationship file</Entity_Type_Definition>
+                <Entity_Type_Definition>Current Address Range-Feature Name County-based Relationship
+                    file</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
                 <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
             </Entity_Type>
@@ -190,11 +193,7 @@
             <Digital_Form>
                 <Format_Name>TGRSHP (compressed)</Format_Name>
                 <Format_Version_Date>2015</Format_Version_Date>
-                <File_Decompression_Technique>The TIGER/Line shapefiles contain geographic data only
-                    and do not include display mapping software or statistical data. For information
-                    on how to use the TIGER/Line shapefile data with specific software package users
-                    shall contact the company that produced the
-                    software</File_Decompression_Technique>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>http://www2.census.gov/geo/tiger/TIGER2015/ADDRFN/tl_2015_01003_addrfn.zip</Network_Resource_Name>
                     <mimeType>application/x-compressed</mimeType>
