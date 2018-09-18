@@ -9,7 +9,7 @@
     <Identification_Information>
         <Citation>
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
-            <Publication_Date>20150115</Publication_Date>
+           <Publication_Date>20150115</Publication_Date>
             <Title>National 114th Congressional District Wall Map</Title>
             <Geospatial_Data_Presentation_Form>map</Geospatial_Data_Presentation_Form>
             <Online_Linkage>https://www.census.gov/geo/maps-data/maps/cd114_us_wallmap.html</Online_Linkage>
@@ -25,13 +25,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>012015</Beginning_Date>
-                <Ending_Date>012017</Ending_Date>
+                <Beginning_Date>201501</Beginning_Date>
+                <Ending_Date>201701</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
@@ -288,14 +288,13 @@
         </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2016-03</Metadata_Date>
+        <Metadata_Date>201603</Metadata_Date>
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division, Geographic Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
-            Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SampleMap.xml</Metadata_File_Identifier>

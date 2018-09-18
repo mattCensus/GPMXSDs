@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="vector">
+    <FGDC_Required>
+        <ISO_Theme>
+            <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
+            <Theme_Keyword>boundaries</Theme_Keyword>
+            <Theme_Keyword>society</Theme_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>Matthew McCready</Originator>
+            <Publication_Date>20180917</Publication_Date>
+            <Title>Mass7th Congressional District Democratic Primary</Title>
+            <Geospatial_Data_Presentation_Form>map</Geospatial_Data_Presentation_Form>
+            <Online_Linkage></Online_Linkage>
+        </Citation>
+   
+    <Description>
+        <Abstract>A shapefile of the winner of each town for the September 4,2018 Democratic Primary for the Massachusetts 7th Congressional District. Since most of the
+                  towns have been cliped in the formation of the congressional district (cd), only the part of the town in the cd is shown.</Abstract>
+        <Purpose>To show the winner of town for the September 4,2018 Democratic Primary</Purpose>
+    </Description>
+    <Time_Period_of_Content>
+        <Calendar_Date>20180904</Calendar_Date>
+        <Currentness_Reference>ground condition</Currentness_Reference>
+    </Time_Period_of_Content>
+    <Status>
+        <Progress>Completed</Progress>
+        <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
+    </Status>
+    <Spatial_Domain>
+        <Bounding_Coordinates>
+            <West_Bounding_Coordinate>-71.175947</West_Bounding_Coordinate>
+            <East_Bounding_Coordinate>-70.813415</East_Bounding_Coordinate>
+            <North_Bounding_Coordinate>42.424708</North_Bounding_Coordinate>
+            <South_Bounding_Coordinate>42.134539</South_Bounding_Coordinate>
+        </Bounding_Coordinates>
+    </Spatial_Domain>
+    <Keywords>
+        <Theme>
+            <Theme_Keyword_Thesaurus>none</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>2018</Theme_Keyword>
+            <Theme_Keyword>Primary</Theme_Keyword>
+            <Theme_Keyword>Democrat</Theme_Keyword>
+            <Theme_Keyword> Capuano</Theme_Keyword>
+            <Theme_Keyword>Pressley</Theme_Keyword>
+        </Theme>
+        <Place>
+            <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 455-2009), Federal Information Processing Series (FIPS)
+            - Congressional Districts</Place_Keyword_Thesaurus>
+            <Place_Keyword>Congressional District 7</Place_Keyword>
+            <Place_Keyword>MA</Place_Keyword>
+            <Place_Keyword>25</Place_Keyword>
+        </Place>
+        <Place>
+            <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS)
+                – States/State Equival</Place_Keyword_Thesaurus>
+            <Place_Keyword>Massachusetts</Place_Keyword>
+            <Place_Keyword>25</Place_Keyword>
+            <Place_Keyword>MA</Place_Keyword>
+        </Place>
+        <Place>
+            <Place_Keyword_Thesaurus>INCITS 446:2008 - Geographic Names Information System (GNIS) </Place_Keyword_Thesaurus>
+            <Place_Keyword>Randolph</Place_Keyword>
+            <Place_Keyword>Milton</Place_Keyword>
+            <Place_Keyword>Boston</Place_Keyword>
+            <Place_Keyword>Brookline</Place_Keyword>
+            <Place_Keyword>Cambridge</Place_Keyword>
+            <Place_Keyword>Somerville</Place_Keyword>
+            <Place_Keyword>Everett</Place_Keyword>
+            <Place_Keyword>Chelsea</Place_Keyword>
+        </Place>
+    </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>copyright</Use_Constraints>
+            <Other_Constraints>This is map is available for anyone to use. There are no restrictions
+                on using this map. The boundary information in the TIGER/Line Shapefiles are for
+                statistical data collection and tabulation purposes only; their depiction and
+                designation for statistical purposes does not constitute a determination of
+                jurisdictional authority or rights of ownership or entitlement and they are not
+                legal land descriptions. </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization> Matthew McCready</Contact_Organization>
+            <Contact_Electronic_Mail_Address>mattcensus@gmail.com</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
+                <Evaluation>Manual and automatic examination of the Non_Quantative attribute information</Evaluation>
+                <Result>The attribute information is complete</Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
+                    Geographic Names Information System (GNIS) TIGER/Line Shapefile Test</Measure>
+                <Evaluation>Tested against National Standard Codes, Federal Information Processing
+                    (FIPS) and the Geographic Names Information System (GNIS)</Evaluation>
+                <Result>100% accurate for the codes and base names.</Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile topological consistency test</Measure>
+                <Result>There are inconistencies in the border of the Congressional Districts. It includes slivers of the surrounding towns that are not actually part
+                of the district</Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Measure>Data completeness of the Shapefile</Measure>
+                <Result>Data completeness is completed at the time of creation.</Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Horizontal_Positional_Accuracy_Report>
+            <Test_Report>
+                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the
+                    FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                    National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                    road centerline intersections to evaluate the horizontal spatial accuracy of
+                    source files that may be used to realign road features in the MAF/TIGER database
+                    and test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</Evaluation>
+                <Result>6.5 meters for 5406</Result>
+                <Result>1.73 meters for 11213</Result>
+            </Test_Report>
+        </Horizontal_Positional_Accuracy_Report>
+        <Source_Information>
+            <Citation> 
+                <Originator>MassGIS </Originator>
+                <Publication_Date>201402</Publication_Date>
+                <Title>Community Boundaries (Towns) Without Coastline </Title>
+                <Online_Linkage>https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-without-coastline</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>20140225</Beginning_Date>
+                    <Ending_Date>20171226</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>8ebba7ae-030f-49ca-989c-c1c7c28348e2</Source_Citation_Abbreviation>
+            <Source_Contribution>Town boundaries for the Commonwealth of Massachusetts</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Town of Milton</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>state_primary_-9-4-18_dem_unofficial_results.pdf</Title>
+                <Online_Linkage>https://www.townofmilton.org/sites/miltonma/files/uploads/state_primary_-9-4-18_dem_unofficial_results.pdf</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Milton</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the town of Milton</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>City of Boston</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>CITY of BOSTON -STATE PRIMARY - SEPTEMBER 4, 2018 - Unofficial Results - All Races</Title>
+                <Online_Linkage>https://www.cityofboston.gov/elections/CurrentElections/fetch.asp</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Boston</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the City of Boston</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Cambridge Election Commission</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>2018 State Primary Democratic Official Results Cambridge, MA</Title>
+                <Online_Linkage>https://www.cambridgema.gov/Departments/electioncommission/news/2018/09/~/media/67DFF9C740D74759817B0F484722CE37.ashx</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Cambridge</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the City of Cambridge</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Town of Chelsea</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>Summary Report MA State Primary Official Results</Title>
+                <Online_Linkage>https://www.chelseama.gov/sites/chelseama/files/uploads/9.4.18_state_primary_official_results.pdf</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Chelsea</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the town of Chelsea</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Town of Everett</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>Statement of Votes Cast - STATE PRIMARY - EVERETT, MA -  SOVC For Jurisdiction Wide, All Counters, All Races</Title>
+                <Online_Linkage>http://www.cityofeverett.com/DocumentCenter/View/4260/9418-Massachusetts-State-Primary-Election-Results-unofficial</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Everett</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the town of Everett</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Town of Randolph</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>State Primary - September 4, 2018</Title>
+                <Online_Linkage>https://www.randolph-ma.gov/sites/randolphma/files/uploads/democratic_totals_9-4-18.pdf</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Randolph</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the town of Randolph</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator>Somerville</Originator>
+                <Publication_Date>20180905</Publication_Date>
+                <Title>Somerville Unofficial Election Totals - Tuesday September 4, 2018</Title>
+                <Online_Linkage>https://www.somervillema.gov/sites/default/files/unofficial-election-totals-9-4-2018.pdf</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>20180905</Calendar_Date>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Somerville</Source_Citation_Abbreviation>
+            <Source_Contribution>Election results for the City of Somerville</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation> 
+                <Originator> U.S. Department of Commerce, U.S. Census Bureau, Geography Division (Originator)</Originator>
+                <Publication_Date>2017</Publication_Date>
+                <Title>TIGER/Line Shapefile, 2017,  nation, U.S., 115th Congressional District National</Title>
+                <Online_Linkage>ftp://ftp2.census.gov/geo/tiger/TIGER2017/CD/</Online_Linkage>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>201606</Beginning_Date>
+                    <Ending_Date>201705</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Publication Date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>Tiger</Source_Citation_Abbreviation>
+            <Source_Contribution>The boundaries of the Congressional Districts for the 115th Congress</Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description>The TIGER/Line Shapefile, 2017,  nation, U.S., 115th Congressional District National shapefile was clipped by the
+                Community Boundaries (Towns) Without Coastline shapefile to yield the towns in the 7th Congressional District. The elections results were then
+                added from each municipality's website.</Process_Description>
+            <Process_Date>20180918</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+        <Topology_Level>geometryOnly</Topology_Level>
+        <SDTS_Terms_Description>
+            <SDTS_Point_and_Vector_Object_Type>composite</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>24</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name> GCS_North_American_1983</Map_Projection_Name>
+            <Map_Projection_Description>PROJCS["NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",
+                SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],
+                PARAMETER["False_Easting",200000.0],PARAMETER["False_Northing",750000.0],PARAMETER["Central_Meridian",-71.5],
+                PARAMETER["Standard_Parallel_1",41.71666666666667],PARAMETER["Standard_Parallel_2",42.68333333333333],PARAMETER["Latitude_Of_Origin",41.0],
+                UNIT["Meter",1.0],AUTHORITY["EPSG",26986]]
+             </Map_Projection_Description>
+        </Map_Projection>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>MA7Towns.gdb</Entity_Type_Label>
+                <Entity_Type_Definition>Towns in the Massachusetts 7th Congressional District</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>Matt</Entity_Type_Definition_Source>
+                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>Town ID</Attribute_Label>
+                <Attribute_Definition>MassGIS Town-ID Code (alphabetical, 1-351)</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>1</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>351</Range_Domain_Maximum>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>TOWN</Attribute_Label>
+                <Attribute_Definition>City or town name</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>City or town name</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FIPS_STCO</Attribute_Label>
+                <Attribute_Definition>Federal Information Processing Standard (FIPS) State/County Code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>CCD_MCD</Attribute_Label>
+                <Attribute_Definition>US Census Town Code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>INCITS 446:2008 - Geographic Names Information System (GNIS) </Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FIPS_PLACE </Attribute_Label>
+                <Attribute_Definition>US Census Town Code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>INCITS 446:2008 - Geographic Names Information System (GNIS) </Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POP1980</Attribute_Label>
+                <Attribute_Definition>US Census Town Population: 1980</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>US Census Town Population: 1980</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POP1990</Attribute_Label>
+                <Attribute_Definition>US Census Town Population: 1990</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>US Census Town Population: 1990</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POP2000</Attribute_Label>
+                <Attribute_Definition>US Census Town Population: 2000</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>US Census Town Population: 2000</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POP2010</Attribute_Label>
+                <Attribute_Definition>US Census Town Population: 2010</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>US Census Town Population: 2010</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POPCH80_90</Attribute_Label>
+                <Attribute_Definition>Population change, 1980-1990</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Population change, 1980-1990</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POPCH90_00</Attribute_Label>
+                <Attribute_Definition>Population change, 1990-2000</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Population change, 1990-2000</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Population change, 2000-2010</Attribute_Label>
+                <Attribute_Definition>Population change, 2000-2010</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Population change, 2000-2010</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FOURCOLOR</Attribute_Label>
+                <Attribute_Definition>Codes (1,2,3,4) allowing shading of all towns using 4 symbols (based on four-color theorem, where no adjacent polygons have
+                same symbol)</Attribute_Definition>
+                <Attribute_Definition_Source>MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Codes (1,2,3,4) allowing shading of all towns using 4 symbols (based on four-color theorem, where no adjacent polygons have
+                    same symbol)</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>TYPE</Attribute_Label>
+                <Attribute_Definition>Type of Local government</Attribute_Definition>
+                <Attribute_Definition_Source>Massachusetts Secretary of State</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>City</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>Massachusetts Secretary of State</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>T</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Town</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>Massachusetts Secretary of State</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>TC</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Town with City form of government</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>Massachusetts Secretary of State</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Shape_Length</Attribute_Label>
+                <Attribute_Definition>Length of the boundary of town. Includes the area not in the Congressional District</Attribute_Definition>
+                <Attribute_Definition_Source> MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Length of the boundary of town. Includes the area not in the Congressional District</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Shape_Area</Attribute_Label>
+                <Attribute_Definition>Area of the town. Includes the area not in the Congressional District.</Attribute_Definition>
+                <Attribute_Definition_Source> MassGIS</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Area of the town. Includes the area not in the Congressional District.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Cap</Attribute_Label>
+                <Attribute_Definition>Total votes for Michael E. Capuano</Attribute_Definition>
+                <Attribute_Definition_Source>Various towns and cities Clerk's Offices</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Total votes for Michael E. Capuano</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Pres2</Attribute_Label>
+                <Attribute_Definition>Total votes for Ayanna S. Pressley</Attribute_Definition>
+                <Attribute_Definition_Source>Various towns and cities Clerk's Offices</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Total votes for Ayanna S. Pressley</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Winner</Attribute_Label>
+                <Attribute_Definition>Winner of the town or city</Attribute_Definition>
+                <Attribute_Definition_Source>Various towns and cities Clerk's Offices</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>Capuano</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Capuano won the town or city</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>Computation based on the Various towns and cities Clerk's Offices figures</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>Pressley</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pressley won the town or city</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>Computation based on the Various towns and cities Clerk's Offices figures</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                 <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>NID</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Not in District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>Computation based on the Various towns and cities Clerk's Offices figures</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+                 </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+    </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>Matt McCready</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        
+        <Distribution_Liability>This shapefiles contains geographic data only and does not
+            include display mapping software. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>TGRSHP (compressed)</Format_Name>
+                <Format_Version_Date>201809</Format_Version_Date>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
+                    <mimeType>application/x-compressed</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without
+                charge.</Fees>
+            <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles
+                visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>This shapefiles contains geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20180918</Metadata_Date>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name>
+        <!-- this should be optional -->
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>MA7Towns.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
+
