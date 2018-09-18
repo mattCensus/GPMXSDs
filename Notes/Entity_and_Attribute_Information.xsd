@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="../newGPMStd/Entity_and_Attribute_Information"
+           xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
+           xmlns:GPMDef="../newGPMStd/GPMDefinitions"
+           xmlns:POC="../newGPMStd/PointOfContact"
+           xmlns:Cit="../newGPMStd/Citaion"
+           xmlns:TOC="../newGPMStd/TimePeriodOfContent"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:complexType name="Entity_and_Attribute_Information">
+       <xs:sequence>
+           <xs:element name="Detailed_Description" type="EAI:Detailed_Description" maxOccurs="unbounded" minOccurs="0"/>
+           <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" minOccurs="0" maxOccurs="unbounded"/>
+       </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="MapEntityAndAttribute">
+        <xs:sequence>
+            <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Detailed_Description">
+        <xs:sequence>
+            <xs:element name="Entity_Type" type="EAI:Entity_Type_Elements"/>
+            <xs:element name="Attribute" type="EAI:AttributeElements" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Entity_Type_Elements">
+        <xs:sequence>
+            <xs:element name="Entity_Type_Label"/>
+            <xs:element name="Entity_Type_Definition"/>
+            <xs:element name="Entity_Type_Definition_Source"/>
+            <xs:element name="Ontology_URI" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="AttributeElements">
+        <xs:sequence>
+            <xs:element name="Attribute_Label"/>
+            <xs:element name="Attribute_Definition"/>
+            <xs:element name="Attribute_Definition_Source"/>
+            <xs:element name="Attribute_Domain_Values" type="EAI:Attribute_Domain_Values_Elements" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Attribute_Domain_Values_Elements">
+        <xs:choice>
+            <xs:element name="Enumerated_Domain" type="EAI:Enumerated_Domain_Elements" />
+            <xs:element name="Range_Domain" type="EAI:Range_Domain_Elements" />
+            <xs:element name="Codeset_Domain" type="EAI:Codeset_Domain_Elements" />
+            <xs:element name="Unrepresentable_Domain"/>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:complexType name="Enumerated_Domain_Elements">
+        <xs:sequence>
+            <xs:element name="Enumerated_Domain_Value"/>
+            <xs:element name="Enumerated_Domain_Value_Definition"/>
+            <xs:element name="Enumerated_Domain_Value_Definition_Source"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Range_Domain_Elements">
+        <xs:sequence>
+            <xs:element name="Range_Domain_Minimum"/>
+            <xs:element name="Range_Domain_Maximum"/>
+            <xs:element name="Attribute_Units_of_Measure" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Codeset_Domain_Elements">
+        <xs:sequence>
+            <xs:element name="Codeset_Name"/>
+            <xs:element name="Codeset_Source"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Feature_Catalogue_Description_Elements">
+        <xs:sequence>
+            <xs:element name="FC_Title"/>
+            <xs:element name="Included_With_Dataset"/>
+            <xs:element name="Feature_Types"/>
+            <xs:element name="FC_Online_Linkage"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
