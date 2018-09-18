@@ -4,12 +4,10 @@
     xmlns:Cit="../newGPMStd/Citaion" xmlns:TOC="../newGPMStd/TimePeriodOfContent"
     xmlns:ii="../newGPMStd/GPMIdentificationInfo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <xs:import namespace="../newGPMStd/GPMDefinitions"
-        schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <xs:import namespace="../newGPMStd/PointOfContact" schemaLocation="../newGPMStd/GPMPOC.xsd"/>
     <xs:import namespace="../newGPMStd/Citaion" schemaLocation="../newGPMStd/Citaion.xsd"/>
-    <xs:import namespace="../newGPMStd/TimePeriodOfContent"
-        schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
+    <xs:import namespace="../newGPMStd/TimePeriodOfContent" schemaLocation="../newGPMStd/TimePeriodOfContent.xsd"/>
 
     <!-- VectorID type is used for vector and tabular -->
     <xs:complexType name="VectorID">
@@ -115,7 +113,7 @@
     <!-- Status elements -->
     <xs:complexType name="Status">
         <xs:sequence>
-            <xs:element name="Progress"/>
+            <xs:element name="Progress" type="GPMDef:progressType"/>
             <xs:element name="Maintenance_and_Update_Frequency"/>
         </xs:sequence>
     </xs:complexType>
@@ -136,10 +134,10 @@
 
     <xs:complexType name="Bounding_Coordinates">
         <xs:sequence>
-            <xs:element name="West_Bounding_Coordinate"/>
-            <xs:element name="East_Bounding_Coordinate"/>
-            <xs:element name="North_Bounding_Coordinate"/>
-            <xs:element name="South_Bounding_Coordinate"/>
+            <xs:element name="West_Bounding_Coordinate" type="GPMDef:longType"/>
+            <xs:element name="East_Bounding_Coordinate" type="GPMDef:longType"/>
+            <xs:element name="North_Bounding_Coordinate" type="GPMDef:latType"/><!--type="GPMDef:latType"  -->
+            <xs:element name="South_Bounding_Coordinate" type="GPMDef:latType"/>
         </xs:sequence>
     </xs:complexType>
 

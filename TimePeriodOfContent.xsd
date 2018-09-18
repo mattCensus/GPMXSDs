@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema targetNamespace="../newGPMStd/TimePeriodOfContent"
            xmlns:TOC="../newGPMStd/TimePeriodOfContent"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:GPMDef="../newGPMStd/GPMDefinitions" >
 
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
 
     <!-- Date elements -->
     <xs:complexType name="TimePeriodOfContent">
         <xs:sequence>
             <xs:choice>
                 <xs:element name="Range_Of_Dates" type="TOC:RangeOfDate"/>
-                <xs:element name="Calendar_Date"/>
+                <xs:element name="Calendar_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
             <xs:element name="Currentness_Reference"/>
         </xs:sequence>
@@ -17,8 +19,8 @@
     
     <xs:complexType name="RangeOfDate">
         <xs:sequence>
-            <xs:element name="Beginning_Date"/>
-            <xs:element name="Ending_Date"/>
+            <xs:element name="Beginning_Date" type="GPMDef:dateFormat"/>
+            <xs:element name="Ending_Date" type="GPMDef:dateFormat"/>
         </xs:sequence>
     </xs:complexType>
 </xs:schema>

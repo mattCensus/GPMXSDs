@@ -14,7 +14,7 @@
 
     <xs:complexType name="Metadata_Reference_Information">
         <xs:sequence>
-            <xs:element name="Metadata_Date"/>
+            <xs:element name="Metadata_Date" type="GPMDef:dateFormat"/>
             <xs:element name="Metadata_Parent_Identifier" minOccurs="0"/>
             <xs:element name="Metadata_Hierarchy_Level" type="GPMDef:Metadata_Hierarchy_Level" minOccurs="0"/>
             <xs:element name="Metadata_Hierarchy_Level_Name" minOccurs="0"/>
@@ -29,7 +29,7 @@
     
     <xs:complexType name="Metadata_Reference_InformationPlannedMapWMSSeries">
       <xs:sequence>
-          <xs:element name="Metadata_Date"/>
+          <xs:element name="Metadata_Date" type="GPMDef:dateFormat"/>
           <xs:element name="Metadata_Hierarchy_Level" type="GPMDef:Metadata_Hierarchy_Level" minOccurs="0"/>
           <xs:element name="Point_of_Contact" type="POC:POC"/>
           <xs:element name="Metadata_Standard_Name"/>

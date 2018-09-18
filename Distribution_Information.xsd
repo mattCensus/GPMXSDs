@@ -88,7 +88,7 @@
             <xs:element name="Format_Name"/>
             <xs:choice minOccurs="0" maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
-                <xs:element name="Format_Version_Date"/>
+                <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
             <xs:element name="File_Decompression_Technique"/>
             <xs:element name="Transfer_Size" minOccurs="0"/>
@@ -101,7 +101,7 @@
             <xs:element name="Format_Name"/>
             <xs:choice minOccurs="0" maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
-                <xs:element name="Format_Version_Date"/>
+                <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
             <xs:element name="Network_Address" type="di:NetworkAddressType"/>
         </xs:sequence>
@@ -112,7 +112,7 @@
             <xs:element name="Format_Name"/>
             <xs:choice minOccurs="0" maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
-                <xs:element name="Format_Version_Date"/>
+                <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
             <xs:element name="Transfer_Size" minOccurs="0"/>
             <xs:element name="Network_Address" type="di:NetworkAddressType"/>
@@ -124,10 +124,10 @@
             <xs:element name="Format_Name"/>
             <xs:choice maxOccurs="1">
                 <xs:element name="Format_Version_Number"/>
-                <xs:element name="Format_Version_Date"/>
+                <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
              </xs:choice>
                 <xs:element name="Network_Resource_Name"/>
-                <xs:element name="mimeType" type="GPMDef:mimeType"/>
+                <xs:element name="mimeType" type="GPMDef:mimeType" />
         </xs:sequence>
     </xs:complexType>
     
@@ -135,7 +135,7 @@
     <xs:complexType name="FormatVersionElements">
         <xs:choice>
             <xs:element name="Format_Version_Number"/>
-            <xs:element name="Format_Version_Date"/>
+            <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
         </xs:choice>
     </xs:complexType>
     

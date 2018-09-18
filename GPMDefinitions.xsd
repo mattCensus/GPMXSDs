@@ -24,7 +24,7 @@
    <xsd:enumeration value="society"/>
    <xsd:enumeration value="structure"/>
    <xsd:enumeration value="transportation"/>
-   <xsd:enumeration value="utilities/Communications"/>
+   <xsd:enumeration value="utilities/communications"/>
   </xsd:restriction>
  </xsd:simpleType>
 
@@ -8236,7 +8236,6 @@
    <xsd:enumeration value="zyp"/>
    <xsd:enumeration value="zza"/>
    <xsd:enumeration value="zzj"/>
-
   </xsd:restriction>
  </xsd:simpleType>
 
@@ -8252,4 +8251,39 @@
    </xsd:restriction>
 </xsd:simpleType>
 
+<xsd:simpleType name="dateFormat">
+ <xsd:restriction base="xsd:string">
+  <xsd:minLength value="4" />
+  <xsd:maxLength value="8"/>
+  <xsd:pattern  value="(1|2)[0-9][0-9][0-9][0-9]*"/>
+  <!--  <xsd:pattern  value="(1|2)[0-9][0-9][0-9].*"/> <xsd:pattern  value="(1|2)[0-9][0-9][0-9](0|1)[0-9](0|1|2|3)[0-9]"/> -->
+ </xsd:restriction>
+</xsd:simpleType>
+ 
+ <xsd:simpleType name="progressType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Completed"/>
+   <xsd:enumeration value="Historical Archive"/>
+   <xsd:enumeration value="Obsolete"/>
+   <xsd:enumeration value="Ongoing"/>
+   <xsd:enumeration value="Planned"/>
+   <xsd:enumeration value="Required"/>
+   <xsd:enumeration value="Under development"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="latType">
+  <xsd:restriction base="xsd:float">
+   <xsd:minInclusive value="-90"/>
+   <xsd:maxInclusive value="90"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="longType">
+  <xsd:restriction base="xsd:float">
+   <xsd:minInclusive value="-180"/>
+   <xsd:maxExclusive value="180"/>
+   </xsd:restriction>
+ </xsd:simpleType>
+ 
 </xs:schema>
