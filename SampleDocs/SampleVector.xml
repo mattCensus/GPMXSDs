@@ -49,13 +49,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2015-06</Beginning_Date>
-                <Ending_Date>2016-05</Ending_Date>
+                <Beginning_Date>201506</Beginning_Date>
+                <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>Publication Date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>

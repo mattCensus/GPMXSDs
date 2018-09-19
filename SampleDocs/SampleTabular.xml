@@ -35,13 +35,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2014-06</Beginning_Date>
-                <Ending_Date>2015-05</Ending_Date>
+                <Beginning_Date>201406</Beginning_Date>
+                <Ending_Date>2015055</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
@@ -127,7 +127,7 @@
             </Citation>
             <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Calendar_Date>2015-01-01</Calendar_Date>
+                <Calendar_Date>20150101</Calendar_Date>
                 <Currentness_Reference>Publication Date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -220,7 +220,7 @@
             that produced the software.</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2014-06-01</Metadata_Date>
+        <Metadata_Date>20140601</Metadata_Date>
         <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2015, Series Information for the Address
             Range-Feature Name County-based Relationship File</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
