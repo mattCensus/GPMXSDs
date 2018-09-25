@@ -50,14 +50,14 @@
         <Time_Period_of_Content>
             <!--  <Calendar_Date>2015-06</Calendar_Date>-->
             <Range_Of_Dates>
-                <Beginning_Date>2015-06</Beginning_Date>
-                <Ending_Date>2016-05</Ending_Date>
+                <Beginning_Date>201506</Beginning_Date>
+                <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
-            <Currentness_Reference>Publication Date</Currentness_Reference>
+            <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
-            <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
@@ -230,7 +230,7 @@
                     <Beginning_Date>201601</Beginning_Date>
                     <Ending_Date>201602</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution> All line segments</Source_Contribution>
@@ -258,14 +258,14 @@
             <Citation>
                 <Originator>6178 USGS - National Hydrography Dataset Coordination and Requirements
                     (C&amp;R)</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>National Hydrography Dataset - Med. Res.</Title>
             </Citation>
             <Type_of_Source_Media>Unknown</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
@@ -291,14 +291,14 @@
         <Source_Information>
             <Citation>
                 <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
             <Type_of_Source_Media>Internet Download</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
@@ -308,16 +308,16 @@
         <Source_Information>
             <Citation>
                 <Originator>7178 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>National Hydrography Dataset - High Res.</Title>
             </Citation>
             <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>unknown</Currentness_Reference>
+                <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
             <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
@@ -325,16 +325,16 @@
         <Source_Information>
             <Citation>
                 <Originator>7190 Census Bureau - Geography Division US Census Bureau - Geo Div - LFGPB</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>2010 ADCAN GPS Feature Updates</Title>
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>unknown</Currentness_Reference>
+                <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
             <Source_Contribution>Coordinates to realign selected road features in the Census
@@ -343,33 +343,34 @@
         <Source_Information>
             <Citation>
                 <Originator>11773 Acquired from the state of AK</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>02_AK_2010</Title>
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>unknown</Currentness_Reference>
+                <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>02_AK_2010</Source_Citation_Abbreviation>
             <Source_Contribution>Coordinates to realign selected road features in the Census
                 MAF/TIGER database.</Source_Contribution>
         </Source_Information>
         <Source_Information>
             <Citation>
                 <Originator>12782 Acquired from the state of AK</Originator>
-                <Publication_Date>unknown</Publication_Date>
+                <Publication_Date>Unknown</Publication_Date>
                 <Title>02_AK_2014_delivery_RGB</Title>
             </Citation>
             <Type_of_Source_Media> </Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Range_Of_Dates>
-                    <Beginning_Date>unknown</Beginning_Date>
-                    <Ending_Date>unknown</Ending_Date>
+                    <Beginning_Date>Unknown</Beginning_Date>
+                    <Ending_Date>Unknown</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>unknown</Currentness_Reference>
+                <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>AK</Source_Citation_Abbreviation>
             <Source_Contribution>All line segments</Source_Contribution>
@@ -623,7 +624,7 @@
         </Detailed_Description>
         <Feature_Catalogue_Description>
             <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
-            <Included_With_Dataset>yes</Included_With_Dataset>
+            <Included_With_Dataset>Yes</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
             <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>

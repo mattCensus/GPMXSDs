@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="map">
+<GPM profile="map"> 
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
@@ -32,7 +32,7 @@
         </Time_Period_of_Content>
         <Status>
             <Progress>Completed</Progress>
-            <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
@@ -235,7 +235,7 @@
                     <Beginning_Date>201601</Beginning_Date>
                     <Ending_Date>201602</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution> All line segments</Source_Contribution>
@@ -246,7 +246,7 @@
                 aforementioned geographic entities are then distributed among the shapefiles each
                 containing attributes for line, polygon, or landmark geographic
                 data.</Process_Description>
-            <Process_Date>2016-01-01</Process_Date>
+            <Process_Date>20160101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Spatial_Reference_Information>

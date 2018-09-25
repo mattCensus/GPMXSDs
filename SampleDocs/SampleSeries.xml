@@ -3,7 +3,7 @@
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>Boundaries</Theme_Keyword>
+            <Theme_Keyword>boundaries</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>
@@ -50,13 +50,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2016-03</Beginning_Date>
-                <Ending_Date>2016-03</Ending_Date>
+                <Beginning_Date>201603</Beginning_Date>
+                <Ending_Date>201603</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
@@ -153,7 +153,7 @@
                 <Network_Address>
                     <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html</Network_Resource_Name>
                     <mimeType>text/html</mimeType>
-                </Network_Address>
+                </Network_Address> 
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>HTML</Format_Name>
@@ -183,7 +183,7 @@
             company that produced the software.</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2016-03</Metadata_Date>
+        <Metadata_Date>201603</Metadata_Date>
         <Metadata_Hierarchy_Level>series</Metadata_Hierarchy_Level>
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography

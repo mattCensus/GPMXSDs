@@ -3,7 +3,7 @@
     <Identification_Information>
         <Citation>
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division,
-                Geography Division, Geographic Standards, Criteria, and Quality Branch</Originator>
+                Geography Division, Geographic Standards, Criteria, and Quality Branch</Originator> 
             <Publication_Date>20161220</Publication_Date>
             <Title>Census Bureau Planned Acquisition: Address Data</Title>
             <Online_Linkage>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Online_Linkage>
@@ -30,8 +30,8 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2015-02-28</Beginning_Date>
-                <Ending_Date>2015-03-27</Ending_Date>
+                <Beginning_Date>20150228</Beginning_Date>
+                <Ending_Date>20150327</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
@@ -191,7 +191,7 @@
         </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2016-12</Metadata_Date>
+        <Metadata_Date>201612</Metadata_Date>
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division</Contact_Organization>

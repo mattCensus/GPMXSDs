@@ -15,10 +15,9 @@
             <Geospatial_Data_Presentation_Form>map</Geospatial_Data_Presentation_Form>
             <Online_Linkage></Online_Linkage>
         </Citation>
-   
     <Description>
         <Abstract>A shapefile of the winner of each town for the September 4,2018 Democratic Primary for the Massachusetts 7th Congressional District. Since most of the
-                  towns have been cliped in the formation of the congressional district (cd), only the part of the town in the cd is shown.</Abstract>
+                  towns have been clipped in the formation of the congressional district (cd), only the part of the town in the cd is shown.</Abstract>
         <Purpose>To show the winner of town for the September 4,2018 Democratic Primary</Purpose>
     </Description>
     <Time_Period_of_Content>
@@ -27,7 +26,7 @@
     </Time_Period_of_Content>
     <Status>
         <Progress>Completed</Progress>
-        <Maintenance_and_Update_Frequency>None planned.</Maintenance_and_Update_Frequency>
+        <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
     </Status>
     <Spatial_Domain>
         <Bounding_Coordinates>
@@ -55,7 +54,7 @@
         </Place>
         <Place>
             <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS)
-                – States/State Equival</Place_Keyword_Thesaurus>
+                – States/State Equivalent</Place_Keyword_Thesaurus>
             <Place_Keyword>Massachusetts</Place_Keyword>
             <Place_Keyword>25</Place_Keyword>
             <Place_Keyword>MA</Place_Keyword>
@@ -91,7 +90,7 @@
         <Atribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantative attribute information</Evaluation>
+                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
                 <Result>The attribute information is complete</Result>
             </Test_Report>
         </Atribute_Accuracy_Report>
@@ -107,7 +106,7 @@
         <Logical_Consistency_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile topological consistency test</Measure>
-                <Result>There are inconistencies in the border of the Congressional Districts. It includes slivers of the surrounding towns that are not actually part
+                <Result>There are inconsistencies in the border of the Congressional Districts. It includes slivers of the surrounding towns that are not actually part
                 of the district</Result>
             </Test_Report>
         </Logical_Consistency_Report>
@@ -171,7 +170,7 @@
                     <Beginning_Date>20140225</Beginning_Date>
                     <Ending_Date>20171226</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>8ebba7ae-030f-49ca-989c-c1c7c28348e2</Source_Citation_Abbreviation>
             <Source_Contribution>Town boundaries for the Commonwealth of Massachusetts</Source_Contribution>
@@ -186,7 +185,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Milton</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the town of Milton</Source_Contribution>
@@ -201,7 +200,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Boston</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the City of Boston</Source_Contribution>
@@ -216,7 +215,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Cambridge</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the City of Cambridge</Source_Contribution>
@@ -231,7 +230,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Chelsea</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the town of Chelsea</Source_Contribution>
@@ -246,7 +245,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Everett</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the town of Everett</Source_Contribution>
@@ -261,7 +260,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Randolph</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the town of Randolph</Source_Contribution>
@@ -276,7 +275,7 @@
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20180905</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Somerville</Source_Citation_Abbreviation>
             <Source_Contribution>Election results for the City of Somerville</Source_Contribution>
@@ -294,7 +293,7 @@
                     <Beginning_Date>201606</Beginning_Date>
                     <Ending_Date>201705</Ending_Date>
                 </Range_Of_Dates>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Tiger</Source_Citation_Abbreviation>
             <Source_Contribution>The boundaries of the Congressional Districts for the 115th Congress</Source_Contribution>

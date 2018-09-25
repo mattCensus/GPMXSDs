@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="gdb">
+    <FGDC_Required>
+        <ISO_Theme>
+            <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
+            <Theme_Keyword>transportation</Theme_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+            <Publication_Date>2016</Publication_Date>
+            <Title>2016 Rails National Geodatabase</Title>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The 2016 TIGER Geodatabases are extracts of selected nation based and state based geographic and cartographic information from the U.S. Census
+                      Bureau's Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database. The geodatabases include feature
+                      class layers of information for the fifty states, the District of Columbia, Puerto Rico, and the Island areas (American Samoa, the Commonwealth
+                      of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The geodatabases do not contain any sensitive data.
+            </Abstract>
+            <Purpose> The 2016 TIGER Geodatabases are designed for use with Esri’s ArcGIS.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>201506</Beginning_Date>
+                <Ending_Date>201605</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>Publication Date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>None Planned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>Linear</Theme_Keyword>
+                <Theme_Keyword>Feature</Theme_Keyword>
+                <Theme_Keyword>Rail Feature</Theme_Keyword>
+                <Theme_Keyword>main lines</Theme_Keyword>
+                <Theme_Keyword>spur lines</Theme_Keyword>
+                <Theme_Keyword>rail yards</Theme_Keyword>
+                <Theme_Keyword>mass transit rail lines</Theme_Keyword>
+                <Theme_Keyword>carlines</Theme_Keyword>
+                <Theme_Keyword>streetcar track</Theme_Keyword>
+                <Theme_Keyword>mass transit rail</Theme_Keyword>
+                <Theme_Keyword>special purpose rail lines</Theme_Keyword>
+                <Theme_Keyword>cog rail lines</Theme_Keyword>
+                <Theme_Keyword>incline rail lines </Theme_Keyword>
+                <Theme_Keyword>trams</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
+                <Place_Keyword>U.S</Place_Keyword>
+                <Place_Keyword>United States</Place_Keyword>
+            </Place>
+            <Place>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword>Alabama</Place_Keyword>
+                <Place_Keyword>AL</Place_Keyword>
+                <Place_Keyword>Alaska</Place_Keyword>
+                <Place_Keyword>AK</Place_Keyword>
+                <Place_Keyword>Arizona</Place_Keyword>
+                <Place_Keyword>AZ</Place_Keyword>
+                <Place_Keyword>Arkansas</Place_Keyword>
+                <Place_Keyword>AR</Place_Keyword>
+                <Place_Keyword>California</Place_Keyword>
+                <Place_Keyword>CA</Place_Keyword>
+                <Place_Keyword>Colorado</Place_Keyword>
+                <Place_Keyword>CO</Place_Keyword>
+                <Place_Keyword>Connecticut</Place_Keyword>
+                <Place_Keyword>CT</Place_Keyword>
+                <Place_Keyword>Delaware</Place_Keyword>
+                <Place_Keyword>DE</Place_Keyword>
+                <Place_Keyword>District Of Columbia</Place_Keyword>
+                <Place_Keyword>DC</Place_Keyword>
+                <Place_Keyword>Florida</Place_Keyword>
+                <Place_Keyword>FL</Place_Keyword>
+                <Place_Keyword>Georgia</Place_Keyword>
+                <Place_Keyword>GA</Place_Keyword>
+                <Place_Keyword>Hawaii</Place_Keyword>
+                <Place_Keyword>HI</Place_Keyword>
+                <Place_Keyword>Idaho</Place_Keyword>
+                <Place_Keyword>ID</Place_Keyword>
+                <Place_Keyword>Illinois</Place_Keyword>
+                <Place_Keyword>IL</Place_Keyword>
+                <Place_Keyword>Indiana</Place_Keyword>
+                <Place_Keyword>IN</Place_Keyword>
+                <Place_Keyword>IOWA</Place_Keyword>
+                <Place_Keyword>IA</Place_Keyword>
+                <Place_Keyword>Kansas</Place_Keyword>
+                <Place_Keyword>KS</Place_Keyword>
+                <Place_Keyword>Kentucky</Place_Keyword>
+                <Place_Keyword>KY</Place_Keyword>
+                <Place_Keyword>Louisiana</Place_Keyword>
+                <Place_Keyword>LA</Place_Keyword>
+                <Place_Keyword>Maine</Place_Keyword>
+                <Place_Keyword>ME</Place_Keyword>
+                <Place_Keyword>Maryland</Place_Keyword>
+                <Place_Keyword>MD</Place_Keyword>
+                <Place_Keyword>Massachusetts</Place_Keyword>
+                <Place_Keyword>MA</Place_Keyword>
+                <Place_Keyword>Michigan</Place_Keyword>
+                <Place_Keyword>MI</Place_Keyword>
+                <Place_Keyword>Minnesota</Place_Keyword>
+                <Place_Keyword>MN</Place_Keyword>
+                <Place_Keyword>Mississippi</Place_Keyword>
+                <Place_Keyword>MS</Place_Keyword>
+                <Place_Keyword>Missouri</Place_Keyword>
+                <Place_Keyword>MO</Place_Keyword>
+                <Place_Keyword>Montana</Place_Keyword>
+                <Place_Keyword>MT</Place_Keyword>
+                <Place_Keyword>Nebraska</Place_Keyword>
+                <Place_Keyword>NE</Place_Keyword>
+                <Place_Keyword>Nevada</Place_Keyword>
+                <Place_Keyword>NV</Place_Keyword>
+                <Place_Keyword>New Hampshire</Place_Keyword>
+                <Place_Keyword>NH</Place_Keyword>
+                <Place_Keyword>New Jersey</Place_Keyword>
+                <Place_Keyword>NJ</Place_Keyword>
+                <Place_Keyword>New Mexico</Place_Keyword>
+                <Place_Keyword>NM</Place_Keyword>
+                <Place_Keyword>New York</Place_Keyword>
+                <Place_Keyword>NY</Place_Keyword>
+                <Place_Keyword>North Carolina</Place_Keyword>
+                <Place_Keyword>NC</Place_Keyword>
+                <Place_Keyword>North Dakota</Place_Keyword>
+                <Place_Keyword>ND</Place_Keyword>
+                <Place_Keyword>Ohio</Place_Keyword>
+                <Place_Keyword>OH</Place_Keyword>
+                <Place_Keyword>Oklahoma</Place_Keyword>
+                <Place_Keyword>OK</Place_Keyword>
+                <Place_Keyword>Oregon</Place_Keyword>
+                <Place_Keyword>OR</Place_Keyword>
+                <Place_Keyword>Pennsylvania</Place_Keyword>
+                <Place_Keyword>PA</Place_Keyword>
+                <Place_Keyword>Rhode Island</Place_Keyword>
+                <Place_Keyword>RI</Place_Keyword>
+                <Place_Keyword>South Carolina</Place_Keyword>
+                <Place_Keyword>SC</Place_Keyword>
+                <Place_Keyword>South Dakota</Place_Keyword>
+                <Place_Keyword>SD</Place_Keyword>
+                <Place_Keyword>Tennessee</Place_Keyword>
+                <Place_Keyword>TN</Place_Keyword>
+                <Place_Keyword>Texas</Place_Keyword>
+                <Place_Keyword>TX</Place_Keyword>
+                <Place_Keyword>Utah</Place_Keyword>
+                <Place_Keyword>UT</Place_Keyword>
+                <Place_Keyword>Vermont</Place_Keyword>
+                <Place_Keyword>VT</Place_Keyword>
+                <Place_Keyword>Virginia</Place_Keyword>
+                <Place_Keyword>VA</Place_Keyword>
+                <Place_Keyword>Washington</Place_Keyword>
+                <Place_Keyword>WA</Place_Keyword>
+                <Place_Keyword>West Virginia</Place_Keyword>
+                <Place_Keyword>WV</Place_Keyword>
+                <Place_Keyword>Wisconsin</Place_Keyword>
+                <Place_Keyword>WI</Place_Keyword>
+                <Place_Keyword>Wyoming</Place_Keyword>
+                <Place_Keyword>WY</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>copyright</Use_Constraints>
+            <Other_Constraints>
+                Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
+                1:500,000.
+                
+                These products are free to use in a product or publication, however acknowledgment must be given to the U.S. Census Bureau as
+                the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files
+                should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding
+                addresses.  Files should not be used for determining precise geographic area relationships.
+            </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+        <Data_Set_Language>eng</Data_Set_Language>
+    </Identification_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        
+        <Distribution_Liability>The TIGER/Line shapefiles contained in the database contain geographic data only and do not include display mapping software or statistical data.  For
+            information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
+            the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form> 
+                <Format_Name>GDB</Format_Name>
+                <Format_Version_Date>2016</Format_Version_Date>
+                <File_Decompression_Technique>FTP</File_Decompression_Technique>
+                <Transfer_Size>22</Transfer_Size>
+               <Network_Address>
+                   <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
+                   <mimeType>application/x-compressed</mimeType>
+               </Network_Address>
+            </Digital_Form> 
+            <Digital_Form> 
+                <Format_Name>PDF</Format_Name>
+                <Format_Version_Number>XI</Format_Version_Number>
+                <File_Decompression_Technique>PDF</File_Decompression_Technique>
+                <Network_Address>
+                <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
+                    <mimeType>application/pdf</mimeType>
+                </Network_Address>
+                
+            </Digital_Form> 
+            <Fees>The online copy of the geodatabases may be accessed without charge.</Fees>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The geodatabases contain geographic data only and do not include display mapping software or statistical data.  For
+            information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
+            the software.</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>201603</Metadata_Date>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>SampleGDB.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
+

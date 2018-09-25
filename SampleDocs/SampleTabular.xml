@@ -36,7 +36,7 @@
         <Time_Period_of_Content>
             <Range_Of_Dates>
                 <Beginning_Date>201406</Beginning_Date>
-                <Ending_Date>2015055</Ending_Date>
+                <Ending_Date>201505</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
@@ -120,15 +120,14 @@
         </Completeness_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                    Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
                 <Publication_Date>201505</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
             <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
             <Time_Period_of_Content>
                 <Calendar_Date>20150101</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution>All spatial and feature data</Source_Contribution>
@@ -136,7 +135,7 @@
         <Process_Step>
             <Process_Description> TIGER/Line relationship files are extracted from the Census
                 MAF/TIGER database by county.</Process_Description>
-            <Process_Date>2015-01-01</Process_Date>
+            <Process_Date>20150101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Entity_and_Attribute_Information>
@@ -173,7 +172,7 @@
         <Feature_Catalogue_Description>
             <FC_Title>Feature Catalog for the 2015 TIGER/Line Shapefile Address Range-Feature Name
                 County-based Relationship File</FC_Title>
-            <Included_With_Dataset>yes</Included_With_Dataset>
+            <Included_With_Dataset>Yes</Included_With_Dataset>
             <Feature_Types>Address Range-Feature Name</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2015/addrfn/tl_2015_addrfn.dbf.ea.iso.xm</FC_Online_Linkage>
 

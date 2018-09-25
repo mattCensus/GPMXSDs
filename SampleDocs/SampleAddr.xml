@@ -29,13 +29,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2016-06</Beginning_Date>
-                <Ending_Date>2017-05</Ending_Date>
+                <Beginning_Date>201606</Beginning_Date>
+                <Ending_Date>201705</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
@@ -126,8 +126,8 @@
             </Citation>
             <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Calendar_Date>2015-01-01</Calendar_Date>
-                <Currentness_Reference>Publication Date</Currentness_Reference>
+                <Calendar_Date>20150101</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
             <Source_Contribution>All tabular data</Source_Contribution>
@@ -135,7 +135,7 @@
         <Process_Step>
             <Process_Description> TIGER/Line relationship files are extracted from the Census
                 MAF/TIGER database by county.</Process_Description>
-            <Process_Date>2015-01-01</Process_Date>
+            <Process_Date>20150101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Entity_and_Attribute_Information>
@@ -268,7 +268,7 @@
             that produced the software.</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2017-06-01</Metadata_Date>
+        <Metadata_Date>20170601</Metadata_Date>
         <Metadata_Parent_Identifier>TIGER/Line Shapefile,  2017, Series Information for the   Address Ranges County-based Relationship File</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute

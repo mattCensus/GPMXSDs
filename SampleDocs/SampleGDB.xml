@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="GEO">
+<GPM profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
@@ -27,13 +27,13 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>2015-06</Beginning_Date>
-                <Ending_Date>2016-05</Ending_Date>
+                <Beginning_Date>201506</Beginning_Date>
+                <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>Publication Date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress>completed</Progress>
+            <Progress>Completed</Progress>
             <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
@@ -98,7 +98,6 @@
             TIGER/Line geodatabase data with a specific software package, users should contact the
             company that produced the software.</Distribution_Liability>
         <Standard_Order_Process>
-
             <Digital_Form>
                 <Format_Name>GDB</Format_Name>
                 <Format_Version_Date>2016</Format_Version_Date>
@@ -127,7 +126,7 @@
             company that produced the software.</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2016-03</Metadata_Date>
+        <Metadata_Date>201603</Metadata_Date>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name>
         <Point_of_Contact>
