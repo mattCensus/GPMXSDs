@@ -91,7 +91,7 @@
     <xs:complexType name="ProcessStepElements">
         <xs:sequence>
             <xs:element name="Process_Description"/>
-            <xs:element name="Process_Date"/>
+            <xs:element name="Process_Date" type="GPMDef:ProcessDateFormat"/>
         </xs:sequence>
     </xs:complexType>
 </xs:schema>

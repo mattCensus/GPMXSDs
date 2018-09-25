@@ -7,6 +7,8 @@
            xmlns:TOC="../newGPMStd/TimePeriodOfContent"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
     
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    
     <xs:complexType name="Entity_and_Attribute_Information">
        <xs:sequence>
            <xs:element name="Detailed_Description" type="EAI:Detailed_Description" maxOccurs="unbounded" minOccurs="0"/>
@@ -80,7 +82,7 @@
     <xs:complexType name="Feature_Catalogue_Description_Elements">
         <xs:sequence>
             <xs:element name="FC_Title"/>
-            <xs:element name="Included_With_Dataset"/>
+            <xs:element name="Included_With_Dataset" type="GPMDef:IncludedWithDatasetType"/>
             <xs:element name="Feature_Types"/>
             <xs:element name="FC_Online_Linkage"/>
         </xs:sequence>

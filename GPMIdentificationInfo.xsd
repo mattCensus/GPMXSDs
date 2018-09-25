@@ -114,7 +114,7 @@
     <xs:complexType name="Status">
         <xs:sequence>
             <xs:element name="Progress" type="GPMDef:progressType"/>
-            <xs:element name="Maintenance_and_Update_Frequency"/>
+            <xs:element name="Maintenance_and_Update_Frequency" type="GPMDef:MaintenanceAndUpdateFrequencyType"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -181,8 +181,8 @@
 
     <xs:complexType name="ConstraintsType">
         <xs:sequence>
-            <xs:element name="Access_Constraints"/>
-            <xs:element name="Use_Constraints" maxOccurs="unbounded"/>
+            <xs:element name="Access_Constraints" type="GPMDef:AccessConstraintsType"/>
+            <xs:element name="Use_Constraints" maxOccurs="unbounded" type="GPMDef:UseConstraintsType"/>
             <xs:element name="Other_Constraints"/>
         </xs:sequence>
     </xs:complexType>
@@ -197,5 +197,6 @@
         </xs:sequence>
     </xs:complexType>
 
+  
 
 </xs:schema>

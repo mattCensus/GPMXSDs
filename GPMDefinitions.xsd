@@ -3,6 +3,21 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://xmlns.oracle.com/xdb">
 
+ <!-- Geospatial_Data_Presentation_Form -->
+ 
+ <xsd:simpleType name="GeospatialDataPresentationForm">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="diagramDigital"/>
+   <xsd:enumeration value="documentDigital"/>
+   <xsd:enumeration value="mapDigital"/>
+   <xsd:enumeration value="modelDigital"/>
+   <xsd:enumeration value="Geodatabase"/>
+   <xsd:enumeration value="Web Mapping Service"/>
+   <xsd:enumeration value="Unknown"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+
+<!-- Topic Categories -->
  <xsd:simpleType name="TopicCatList">
   <xsd:restriction base="xsd:string">
    <xsd:minLength value="5"/>
@@ -27,6 +42,19 @@
    <xsd:enumeration value="utilities/communications"/>
   </xsd:restriction>
  </xsd:simpleType>
+ 
+ <xsd:simpleType name="ISOThemeKeywordTheasuruasType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="ISO 19115 Topic Categories"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <!-- NGDA Related Information -->
+ <xsd:simpleType name="NGDAThes">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="NGDA Portfolio Themes"/>
+  </xsd:restriction>
+ </xsd:simpleType>
 
  <xsd:simpleType name="NGDAKeywords">
   <xsd:restriction base="xsd:string">
@@ -38,19 +66,24 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Characterset -->
  <xsd:simpleType name="CharacterSet">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="UTF-8"/>
   </xsd:restriction>
  </xsd:simpleType>
+ 
+ <!-- Direct Spatial Reference -->
 
  <xsd:simpleType name="DirectSpatialReferenceMethodCodeList">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="Point"/>
    <xsd:enumeration value="Vector"/>
+   <xsd:enumeration value="Unknown"/>
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Topology Codelist -->
  <xsd:simpleType name="TopologyLevelCodeList">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="geometryOnly"/>
@@ -62,9 +95,11 @@
    <xsd:enumeration value="topology3D"/>
    <xsd:enumeration value="fullTopology3D"/>
    <xsd:enumeration value="abstract"/>
+   <xsd:enumeration value="Unknown"/>
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Metadata Hierarchy -->
  <xsd:simpleType name="Metadata_Hierarchy_Level">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="dataset"/>
@@ -75,6 +110,7 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Mime types -->
  <!-- https://www.sitepoint.com/mime-types-complete-list/ -->
  <xsd:simpleType name="mimeType">
   <xsd:restriction base="xsd:string">
@@ -342,6 +378,7 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Coupling Type -->
  <xsd:simpleType name="CouplingType">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="loose"/>
@@ -350,6 +387,7 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Parameter Direction -->
  <xsd:simpleType name="ParameterDirection">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="in"/>
@@ -358,6 +396,7 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Language Code -->
  <xsd:simpleType name="LangCode">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="Id"/>
@@ -4321,44 +4360,25 @@
    <xsd:enumeration value="mgh"/>
    <xsd:enumeration value="mgi"/>
    <xsd:enumeration value="mgj"/>
-   <xsd:enumeration value="mgk
-"/>
-   <xsd:enumeration value="mgl
-"/>
-   <xsd:enumeration value="mgm
-"/>
-   <xsd:enumeration value="mgn
-"/>
-   <xsd:enumeration value="mgo
-"/>
-   <xsd:enumeration value="mgp
-"/>
-   <xsd:enumeration value="mgq
-"/>
-   <xsd:enumeration value="mgr
-"/>
-   <xsd:enumeration value="mgs
-"/>
-   <xsd:enumeration value="mgt
-"/>
-   <xsd:enumeration value="mgu
-"/>
-   <xsd:enumeration value="mgv
-"/>
-   <xsd:enumeration value="mgw
-"/>
-   <xsd:enumeration value="mgy
-"/>
-   <xsd:enumeration value="mgz
-"/>
-   <xsd:enumeration value="mha
-"/>
-   <xsd:enumeration value="mhb
-"/>
-   <xsd:enumeration value="mhc
-"/>
-   <xsd:enumeration value="mhd
-"/>
+   <xsd:enumeration value="mgk"/>
+   <xsd:enumeration value="mgl"/>
+   <xsd:enumeration value="mgm"/>
+   <xsd:enumeration value="mgn"/>
+   <xsd:enumeration value="mgo"/>
+   <xsd:enumeration value="mgp"/>
+   <xsd:enumeration value="mgq"/>
+   <xsd:enumeration value="mgr"/>
+   <xsd:enumeration value="mgs"/>
+   <xsd:enumeration value="mgt"/>
+   <xsd:enumeration value="mgu"/>
+   <xsd:enumeration value="mgv"/>
+   <xsd:enumeration value="mgw"/>
+   <xsd:enumeration value="mgy"/>
+   <xsd:enumeration value="mgz"/>
+   <xsd:enumeration value="mha"/>
+   <xsd:enumeration value="mhb"/>
+   <xsd:enumeration value="mhc"/>
+   <xsd:enumeration value="mhd"/>
    <xsd:enumeration value="mhe"/>
    <xsd:enumeration value="mhf"/>
    <xsd:enumeration value="mhg"/>
@@ -8239,6 +8259,7 @@
   </xsd:restriction>
  </xsd:simpleType>
 
+<!-- Profile -->
 <xsd:simpleType name="Profile">
    <xsd:restriction base="xsd:string">
       <xsd:enumeration value="tabular"/>
@@ -8251,15 +8272,93 @@
    </xsd:restriction>
 </xsd:simpleType>
 
+<!-- Date types -->
+ <!-- Union of Date types -->
 <xsd:simpleType name="dateFormat">
+<xsd:union memberTypes="GPMDef:datevalues">
+ <xsd:simpleType>
  <xsd:restriction base="xsd:string">
   <xsd:minLength value="4" />
   <xsd:maxLength value="8"/>
   <xsd:pattern  value="(1|2)[0-9][0-9][0-9][0-9]*"/>
+  <!--  <xsd:enumeration value="unknown"/>-->
   <!--  <xsd:pattern  value="(1|2)[0-9][0-9][0-9].*"/> <xsd:pattern  value="(1|2)[0-9][0-9][0-9](0|1)[0-9](0|1|2|3)[0-9]"/> -->
  </xsd:restriction>
 </xsd:simpleType>
+</xsd:union>
+</xsd:simpleType>
  
+ <xsd:simpleType name="EndDateFormat">
+  
+  <xsd:union memberTypes="GPMDef:Enddatevalues">
+   <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+     <xsd:minLength value="4" />
+     <xsd:maxLength value="8"/>
+     <xsd:pattern  value="(1|2)[0-9][0-9][0-9][0-9]*"/>
+     <!--  <xsd:enumeration value="unknown"/>-->
+     <!--  <xsd:pattern  value="(1|2)[0-9][0-9][0-9].*"/> <xsd:pattern  value="(1|2)[0-9][0-9][0-9](0|1)[0-9](0|1|2|3)[0-9]"/> -->
+    </xsd:restriction>
+   </xsd:simpleType>
+  </xsd:union>
+ </xsd:simpleType>
+ 
+ 
+ <xsd:simpleType name="ProcessDateFormat">
+  <xsd:union memberTypes="GPMDef:ProcessDate">
+   <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+     <xsd:minLength value="4" />
+     <xsd:maxLength value="8"/>
+     <xsd:pattern  value="(1|2)[0-9][0-9][0-9][0-9]*"/>
+    </xsd:restriction>
+   </xsd:simpleType>
+   </xsd:union>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="PublicationDateFormatType">
+  <xsd:union memberTypes="GPMDef:PublicationValues">
+   <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+     <xsd:minLength value="4" />
+     <xsd:maxLength value="8"/>
+     <xsd:pattern  value="(1|2)[0-9][0-9][0-9][0-9]*"/>
+    </xsd:restriction>
+   </xsd:simpleType>
+  </xsd:union>
+ </xsd:simpleType>
+
+
+<!-- date enumerations -->
+ <xsd:simpleType name="datevalues">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Unknown"/>
+   <xsd:enumeration value="Present"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="ProcessDate">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Unknown"/>
+   <xsd:enumeration value="Not complete"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="Enddatevalues">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Unknown"/>
+   <xsd:enumeration value="Present"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="PublicationValues">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Unknown"/>
+   <xsd:enumeration value="Unpublished material"/>
+   </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <!-- Progress Types -->
  <xsd:simpleType name="progressType">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="Completed"/>
@@ -8269,9 +8368,11 @@
    <xsd:enumeration value="Planned"/>
    <xsd:enumeration value="Required"/>
    <xsd:enumeration value="Under development"/>
+   <xsd:enumeration value="Unknown"/>
   </xsd:restriction>
  </xsd:simpleType>
  
+ <!-- Bounding Types -->
  <xsd:simpleType name="latType">
   <xsd:restriction base="xsd:float">
    <xsd:minInclusive value="-90"/>
@@ -8286,4 +8387,64 @@
    </xsd:restriction>
  </xsd:simpleType>
  
+ <!-- Access Types -->
+<xsd:simpleType name="AccessConstraintsType">
+ <xsd:restriction base="xsd:string">
+  <xsd:enumeration value="unrestricted"/>
+  <xsd:enumeration value="otherRestrictions"/>
+ </xsd:restriction>
+</xsd:simpleType>
+ 
+ <!-- Currentness Reference -->
+ <xsd:simpleType name="Currentness_ReferenceType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="ground condition"/>
+   <xsd:enumeration value="publication date"/>
+   <xsd:enumeration value="Unknown"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <!-- Included with Dataset -->
+ <xsd:simpleType name="IncludedWithDatasetType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Yes"/>
+   <xsd:enumeration value="No"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ 
+ 
+ <!-- Maintenance And Update Frequency -->
+ <xsd:simpleType name="MaintenanceAndUpdateFrequencyType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Continually"/>
+   <xsd:enumeration value="Daily"/>
+   <xsd:enumeration value="Weekly"/>
+   <xsd:enumeration value="Monthly"/>
+   <xsd:enumeration value="Annually"/>
+   <xsd:enumeration value="Unknown"/>
+   <xsd:enumeration value="As needed"/>
+   <xsd:enumeration value="Irregular"/>
+   <xsd:enumeration value="None planned"/>
+   
+   <xsd:enumeration value="continual"/>
+   <xsd:enumeration value="daily"/>
+   <xsd:enumeration value="weekly"/>
+   <xsd:enumeration value="fortnightly"/>
+   <xsd:enumeration value="monthly"/>
+   <xsd:enumeration value="annually"/>
+   <xsd:enumeration value="unknown"/>
+   <xsd:enumeration value="asNeeded"/>
+   <xsd:enumeration value="irregular"/>
+   <xsd:enumeration value="notPlanned"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
+ <xsd:simpleType name="UseConstraintsType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="trademark"/>
+   <xsd:enumeration value="copyright"/>
+   <xsd:enumeration value="otherRestrictions"/>
+   </xsd:restriction>
+ </xsd:simpleType>
 </xs:schema>

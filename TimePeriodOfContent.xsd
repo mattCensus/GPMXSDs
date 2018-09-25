@@ -13,14 +13,14 @@
                 <xs:element name="Range_Of_Dates" type="TOC:RangeOfDate"/>
                 <xs:element name="Calendar_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
-            <xs:element name="Currentness_Reference"/>
+            <xs:element name="Currentness_Reference" type="GPMDef:Currentness_ReferenceType"/>
         </xs:sequence>
     </xs:complexType>
     
     <xs:complexType name="RangeOfDate">
         <xs:sequence>
             <xs:element name="Beginning_Date" type="GPMDef:dateFormat"/>
-            <xs:element name="Ending_Date" type="GPMDef:dateFormat"/>
+            <xs:element name="Ending_Date" type="GPMDef:EndDateFormat"/>
         </xs:sequence>
     </xs:complexType>
 </xs:schema>
