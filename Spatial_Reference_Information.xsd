@@ -5,6 +5,7 @@
 
     <xs:complexType name="Spatial_Reference_InformationVector">
         <xs:sequence>
+            <xs:element name="Map_Projection_Name"/>
             <xs:choice>
                 <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType"/>
                 <xs:element name="Map_Projection" type="sri:MapProjectionType"/>
