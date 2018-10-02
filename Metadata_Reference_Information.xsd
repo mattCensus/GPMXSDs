@@ -22,7 +22,7 @@
             <xs:element name="Metadata_Standard_Name"/>
             <xs:element name="Metadata_Standard_Version"/>
             <xs:element name="Metadata_Character_Set" type="GPMDef:CharacterSet"/>
-            <xs:element name="Metadata_File_Identifier"/>
+            <xs:element name="Metadata_File_Identifier" type="GPMDef:FileIdType"/>
             <xs:element name="Metadata_Language" type="GPMDef:LangCode"/>
         </xs:sequence>
     </xs:complexType>
@@ -35,7 +35,7 @@
           <xs:element name="Metadata_Standard_Name"/>
           <xs:element name="Metadata_Standard_Version"/>
           <xs:element name="Metadata_Character_Set" type="GPMDef:CharacterSet"/>
-          <xs:element name="Metadata_File_Identifier"/>
+          <xs:element name="Metadata_File_Identifier" type="GPMDef:FileIdType"/>
           <xs:element name="Metadata_Language" type="GPMDef:LangCode"/>
       </xs:sequence>
     </xs:complexType>
