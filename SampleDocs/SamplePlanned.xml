@@ -153,6 +153,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>trademark</Use_Constraints>
+             <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints> These products are free to use in a product or publication, however
                 acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
                 information is for visual display at appropriate small scales only. Cartographic
@@ -169,8 +170,7 @@
     </Identification_Information>
     <Distribution_Information>
         <Point_of_Contact>
-            <Contact_Organization> Geography Division, Spatial Products Software
-                Branch</Contact_Organization>
+            <Contact_Organization> Geography Division, Spatial Products Software Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
         <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not

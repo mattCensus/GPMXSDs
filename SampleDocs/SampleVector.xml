@@ -20,7 +20,6 @@
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
             <Publication_Date>2016</Publication_Date>
             <Title>TIGER/Line Shapefile, 2016, county, Northwest Arctic Borough, AK, All Roads County-based Shapefile</Title>
-           
             <Edition>2016</Edition>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Series_Information>
@@ -53,7 +52,7 @@
                 <Beginning_Date>201506</Beginning_Date>
                 <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
- <Currentness_Reference>publication date</Currentness_Reference>
+            <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
             <Progress>Completed</Progress>
@@ -136,7 +135,7 @@
         <Atribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantative attribute information</Evaluation>
+                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>
         </Atribute_Accuracy_Report>
@@ -345,6 +344,25 @@
         </Source_Information>
         <Source_Information>
             <Citation>
+                <Originator>7199 Census Bureau - Geography Division US Census Bureau - Geo Div -
+                    LFGPB</Originator>
+                <Publication_Date>Unknown</Publication_Date>
+                <Title>2010 ADCAN GPS Feature Updates</Title>
+            </Citation>
+            <Type_of_Source_Media>Unknown </Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>20100401</Beginning_Date>
+                    <Ending_Date>20100414</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>Unknown</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation> ADCAN GPS</Source_Citation_Abbreviation>
+            <Source_Contribution>Coordinates to realign selected road features in the Census
+                MAF/TIGER database.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
                 <Originator>11773 Acquired from the state of AK</Originator>
                 <Publication_Date>Unknown</Publication_Date>
                 <Title>02_AK_2010</Title>
@@ -390,9 +408,7 @@
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
-
     <Spatial_Reference_Information>
-        <Map_Projection_Name>NAD83</Map_Projection_Name>
         <EPSG_Reference>
             <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
             <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
@@ -405,7 +421,6 @@
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
     </Spatial_Reference_Information>
-
     <Entity_and_Attribute_Information>
         <Detailed_Description>
             <Entity_Type>
@@ -633,8 +648,7 @@
             <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
             <Included_With_Dataset>Yes</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
-            <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
-           
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
     <Distribution_Information>
@@ -708,7 +722,7 @@
         <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
         <Metadata_Standard_Version>2014</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleVector.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SampleVector.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

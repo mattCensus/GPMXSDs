@@ -79,6 +79,7 @@
     <Constraints>
         <Access_Constraints>unrestricted</Access_Constraints>
         <Use_Constraints>copyright</Use_Constraints>
+        <Use_Constraints>otherRestrictions</Use_Constraints>
         <Other_Constraints>
             Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
             1:500,000.
@@ -95,12 +96,7 @@
     </Point_of_Contact>
 </Identification_Information>
     <Data_Quality_Information>
-        <!--<Measure></Measure>
-            <Evaluation></Evaluation>
-            <Result></Result>  -->
-        
-       
-            <Atribute_Accuracy_Report>
+        <Atribute_Accuracy_Report>
                 <Test_Report>
                     <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
                     <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
@@ -190,7 +186,6 @@
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
     </Spatial_Reference_Information>
-    
     <Entity_and_Attribute_Information>
         <Detailed_Description>
             <Entity_Type>
@@ -199,28 +194,6 @@
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
                 <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
             </Entity_Type>
-         <!--    <Attribute>
-                <Attribute_Label></Attribute_Label>
-                <Attribute_Definition></Attribute_Definition>
-                <Attribute_Definition_Source></Attribute_Definition_Source>
-                <Attribute_Domain_Values>
-                    <Enumerated_Domain>
-                        <Enumerated_Domain_Value></Enumerated_Domain_Value>
-                        <Enumerated_Domain_Value_Definition></Enumerated_Domain_Value_Definition>
-                        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
-                    </Enumerated_Domain>
-                    <Range_Domain>
-                        <Range_Domain_Minimum></Range_Domain_Minimum>
-                        <Range_Domain_Maximum></Range_Domain_Maximum>
-                        <Attribute_Units_of_Measure></Attribute_Units_of_Measure>
-                    </Range_Domain>
-                    <Codeset_Domain>
-                        <Codeset_Name></Codeset_Name>
-                        <Codeset_Source></Codeset_Source>
-                    </Codeset_Domain>
-                    <Unrepresentable_Domain></Unrepresentable_Domain>
-                </Attribute_Domain_Values>
-                </Attribute>--> 
             <Attribute>
                 <Attribute_Label>STATEFP</Attribute_Label>
                 <Attribute_Definition>Current state Federal Information Processing Series (FIPS) code</Attribute_Definition>
@@ -343,7 +316,7 @@
             </Attribute>
         </Detailed_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catalog for the 2015   State-County-Census Tract-Block Group  1:500,000  Cartographic Boundary File</FC_Title>
+            <FC_Title>Feature Catalog for the 2015 State-County-Census Tract-Block Group  1:500,000  Cartographic Boundary File</FC_Title>
             <Included_With_Dataset>Yes</Included_With_Dataset>
             <Feature_Types>County-Census Tract-Block Group</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2014gz/bg_500k/2014_bg_500k.ea.iso.xml</FC_Online_Linkage>
@@ -376,7 +349,6 @@
                     <Network_Resource_Name>http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_01_bg_500k.zip</Network_Resource_Name>
                     <mimeType>application/zip</mimeType>
                 </Network_Address>
-                
             </Digital_Form> 
             <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>
             <Ordering_Instructions>To obtain more information about ordering Cartographic Boundary Files visit https://www.census.gov/geo/www/tiger.</Ordering_Instructions>
@@ -397,7 +369,7 @@
         <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleCartographicKML.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SampleCartographicKML.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>  

@@ -35,10 +35,9 @@
       </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-            <Beginning_Date>201603</Beginning_Date>
+                <Beginning_Date>201603</Beginning_Date>
             <Ending_Date>201603</Ending_Date>
             </Range_Of_Dates>
-            
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -76,6 +75,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>
                 Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
                 1:500,000.

@@ -6,6 +6,7 @@
             <Theme_Keyword>transportation</Theme_Keyword>
         </ISO_Theme>
         <NGDA_Info>
+             <Alternate_Title>National Geospatial Data Asset (NGDA) Roads (All Roads)</Alternate_Title>
             <NGDA_Keyword_Thesaurus>NGDA Portfolio Themes</NGDA_Keyword_Thesaurus>
             <NGDA_Keyword>NGDA</NGDA_Keyword>
             <NGDA_Keyword>Transportation Theme</NGDA_Keyword>
@@ -19,7 +20,7 @@
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
             <Publication_Date>2016</Publication_Date>
             <Title>TIGER/Line Shapefile, 2016, county, Northwest Arctic Borough, AK, All Roads County-based Shapefile</Title>
-            <Alternate_Title>National Geospatial Data Asset (NGDA) Roads (All Roads)</Alternate_Title>
+          
             <Edition>2016</Edition>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Series_Information>
@@ -88,6 +89,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>trademark</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>Use Constraints:The TIGER/Line Shapefile products are not copyrighted
                 however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
                 Bureau. These products are free to use in a product or publication, however
@@ -218,8 +220,7 @@
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
             <Citation>
-                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
-                    Division</Originator>
+                <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
                 <Publication_Date>201605</Publication_Date>
                 <Title>Census MAF/TIGER database</Title>
             </Citation>
@@ -273,21 +274,6 @@
             <Source_Contribution>Coordinates to realign selected hydrographic features in the Census
                 MAF/TIGER database.</Source_Contribution>
         </Source_Information>
-
-        <!-- <Source_Information>
-            <Citation>
-            <Originator></Originator>
-            <Publication_Date></Publication_Date>
-            <Title></Title>
-            </Citation>
-            <Type_of_Source_Media> </Type_of_Source_Media>
-            <Time_Period_of_Content>
-            <Beginning_Date></Beginning_Date>
-            <Ending_Date></Ending_Date>
-            </Time_Period_of_Source>
-            <Source_Contribution></Source_Contribution>
-            </Source_Information> -->
-
         <Source_Information>
             <Citation>
                 <Originator>6188 USGS - National Hydrography Dataset Coordination and Requirements (C&amp;R)</Originator>
@@ -381,7 +367,7 @@
                 aforementioned geographic entities are then distributed among the shapefiles each
                 containing attributes for line, polygon, or landmark geographic
                 data.</Process_Description>
-            <Process_Date>2016-01-01</Process_Date>
+            <Process_Date>20160101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Spatial_Data_Organization_Information>
@@ -626,7 +612,7 @@
             <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
             <Included_With_Dataset>Yes</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
-            <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
     <Distribution_Information>
@@ -715,8 +701,7 @@
                 Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
-            Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SampleVectorRoads.xml</Metadata_File_Identifier>

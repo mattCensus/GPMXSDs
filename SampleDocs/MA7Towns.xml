@@ -12,7 +12,7 @@
             <Originator>Matthew McCready</Originator>
             <Publication_Date>20180917</Publication_Date>
             <Title>Mass7th Congressional District Democratic Primary</Title>
-            <Geospatial_Data_Presentation_Form>map</Geospatial_Data_Presentation_Form>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage></Online_Linkage>
         </Citation>
     <Description>
@@ -74,6 +74,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>This is map is available for anyone to use. There are no restrictions
                 on using this map. The boundary information in the TIGER/Line Shapefiles are for
                 statistical data collection and tabulation purposes only; their depiction and
@@ -542,6 +543,12 @@
                  </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catalog for the Mass7th Congressional District Democratic Primary</FC_Title>
+            <Included_With_Dataset>Yes</Included_With_Dataset>
+            <Feature_Types>Congressional District</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
     <Distribution_Information>
         <Point_of_Contact>
@@ -556,7 +563,6 @@
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        
         <Distribution_Liability>This shapefiles contains geographic data only and does not
             include display mapping software. For information on how to use the
             TIGER/Line shapefile data with specific software package users shall contact the company
@@ -602,7 +608,7 @@
         <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
         <Metadata_Standard_Version>2014</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>MA7Towns.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>MA7Towns.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

@@ -77,6 +77,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>Use Constraints:The TIGER/Line Shapefile products are not copyrighted
                 however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
                 Bureau. These products are free to use in a product or publication, however
@@ -116,7 +117,6 @@
                 <Evaluation>Tabular data has been tested for proper domain and format</Evaluation>
                 <Result>Tabular data has been tested for proper domain and format</Result>
             </Test_Report>
-
         </Completeness_Report>
         <Source_Information>
             <Citation>
@@ -147,7 +147,6 @@
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
                 <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
             </Entity_Type>
-
             <Attribute>
                 <Attribute_Label>ARID</Attribute_Label>
                 <Attribute_Definition>Address range identifier</Attribute_Definition>

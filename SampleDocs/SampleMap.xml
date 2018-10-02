@@ -143,7 +143,8 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
-            <Other_Constraints>This is map is available for anyone to use. There are no restrictions
+            <Use_Constraints>otherRestrictions</Use_Constraints>
+            <Other_Constraints>Use Constraints: This is map is available for anyone to use. There are no restrictions
                 on using this map. The boundary information in the TIGER/Line Shapefiles are for
                 statistical data collection and tabulation purposes only; their depiction and
                 designation for statistical purposes does not constitute a determination of
@@ -244,8 +245,7 @@
             <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
                 database by nation, state, county, and entity. Census MAF/TIGER data for all of the
                 aforementioned geographic entities are then distributed among the shapefiles each
-                containing attributes for line, polygon, or landmark geographic
-                data.</Process_Description>
+                containing attributes for line, polygon, or landmark geographic data.</Process_Description>
             <Process_Date>20160101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>

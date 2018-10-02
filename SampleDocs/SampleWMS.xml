@@ -6,7 +6,6 @@
             <Theme_Keyword>transportation</Theme_Keyword>
         </ISO_Theme>
     </FGDC_Required>
-
     <Identification_Information>
         <Citation>
             <Originator>.S. Department of Commerce, U.S. Census Bureau, Geography Division,
@@ -71,7 +70,8 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>trademark</Use_Constraints>
-            <Other_Constraints> These products are free to use in a product or publication, however
+            <Use_Constraints>otherRestrictions</Use_Constraints>
+            <Other_Constraints>Use Constraints: These products are free to use in a product or publication, however
                 acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
                 information is for visual display at appropriate small scales only. Cartographic
                 boundary files should not be used for geographic analysis including area or
@@ -336,7 +336,7 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
 
-    <Spatial_Reference_Information>
+      <Spatial_Reference_Information>
 
         <EPSG_Reference>
             <EPSG_Code>EPSG::3395</EPSG_Code>
@@ -359,13 +359,12 @@
             <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
         </EPSG_Reference>
     </Spatial_Reference_Information>
-
     <Entity_and_Attribute_Information>
         <Feature_Catalogue_Description>
             <FC_Title>Feature Catalog for the 2016 All Roads County-based Shapefile</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>All Roads</Feature_Types>
-            <FC_Online_Linkage>//meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2016/roads/tl_2016_roads.shp.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
             <FC_Title>Feature Catalog for the 2016 Military Installation National Shapefile</FC_Title>
@@ -621,7 +620,7 @@
             </Operation_Description>
             <Operation_Parameters>
                 <Parameter_Name>version</Parameter_Name>
-                <Parameter_Direction>out</Parameter_Direction>
+                <Parameter_Direction>out</Parameter_Direction> 
                 <Parameter_Description>request version.</Parameter_Description>
             </Operation_Parameters>
             <Operation_Parameters>
@@ -659,7 +658,7 @@
         <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
           <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleWMS.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SampleWMS.gpm.xml</Metadata_File_Identifier>
           <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

@@ -27,11 +27,11 @@
                 <Beginning_Date>201506</Beginning_Date>
                 <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
-            <Currentness_Reference>Publication Date</Currentness_Reference>
+            <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
             <Progress>Completed</Progress>
-            <Maintenance_and_Update_Frequency>None Planned</Maintenance_and_Update_Frequency>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
@@ -173,6 +173,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>
                 Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
                 1:500,000.

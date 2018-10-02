@@ -11,8 +11,7 @@
             <Originator>U.S Department of Commerce, U.S Census Bureau, Geographic Customer Services
                 Branch</Originator>
             <Publication_Date>201603</Publication_Date>
-            <Title> Series Information File for the 2015 Cartographic Boundary File,
-                State-County-Census Tract-Block Group, 1:500,000</Title>
+            <Title> Series Information File for the 2015 Cartographic Boundary File, State-County-Census Tract-Block Group, 1:500,000</Title>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Online_Linkage>
         </Citation>
@@ -102,6 +101,7 @@
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
             <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints> Use Constraints:The intended display scale for this file is
                 1:500,000. This file should not be displayed at scales larger than 1:500,000. These
                 products are free to use in a product or publication, however acknowledgement must
