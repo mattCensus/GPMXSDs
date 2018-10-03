@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="gdb">
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
@@ -139,7 +140,7 @@
             Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleGDB.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SampleGDB.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="gdb">
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>

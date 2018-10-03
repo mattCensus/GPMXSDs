@@ -398,7 +398,6 @@
             <Process_Date>20160101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
-
     <Spatial_Data_Organization_Information>
         <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>

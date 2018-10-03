@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="planned">
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/PlannedGPM.xsd" profile="planned">
     <Identification_Information>
         <Citation>
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division,
@@ -201,7 +202,7 @@
             Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SamplePlanned.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SamplePlanned.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
