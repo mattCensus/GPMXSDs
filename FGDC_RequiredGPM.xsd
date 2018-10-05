@@ -27,8 +27,8 @@
     
     <xsd:complexType name="ISO_Theme">
         <xsd:sequence>
-            <xsd:element name="Theme_Keyword_Theasuruas" type="GPMDef:ISOThemeKeywordTheasuruasType"/>
-            <xsd:element name="Theme_Keyword" maxOccurs="unbounded" type="GPMDef:TopicCatList"/>
+            <xsd:element name="ISO_Keyword_Thesaurus" type="GPMDef:ISOThemeKeywordTheasuruasType"/>
+            <xsd:element name="ISO_Keyword" maxOccurs="unbounded" type="GPMDef:TopicCatList"/>
             
         </xsd:sequence>
     </xsd:complexType>
