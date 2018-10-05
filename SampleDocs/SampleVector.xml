@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="vector">
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/VectorGPM.xsd"
+ profile="vector">
     <FGDC_Required>
         <ISO_Theme>
-            <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>transportation</Theme_Keyword>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>transportation</ISO_Keyword>
         </ISO_Theme>
         <NGDA_Info> 
             <Alternate_Title>National Geospatial Data Asset (NGDA) Roads (All Roads)</Alternate_Title>
@@ -664,7 +666,6 @@
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-
         <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
             include display mapping software or statistical data. For information on how to use the
             TIGER/Line shapefile data with specific software package users shall contact the company

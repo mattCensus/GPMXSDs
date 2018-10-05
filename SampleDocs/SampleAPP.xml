@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM profile="app"> 
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Products Systems Branch</Originator>
+            <Publication_Date>2013-12-20</Publication_Date>
+            <Title>TIGERweb Application</Title>
+        </Citation>
+        <Online_Linkage>https://tigerweb.geo.census.gov/tigerweb/</Online_Linkage>
+        <Description>
+            <Abstract>The TIGERweb application allows users to access and view geospatial features, geographic area information, and associated
+                attributes from the U.S. Census Bureau Topologically Integrated Geographic Encoding and Referencing System (TIGER) geodatabase. The TIGERweb
+                Decennial application is intended to meet the needs of users inside and outside the Census Bureau for access to geospatial data contained within the
+                TIGER geodatabase without requiring the use of a GIS. The TIGERweb map layers are grouped by the following geographies: 
+                Transportation (Roads and Railroads)
+                PUMAs, UGAs, and ZCTAs
+                Tribal Census Tracts and Block Groups 
+                Census Tracts and Blocks
+                Military and other Special Land Use Areas
+                School Districts
+                Places and County Subdivisions
+                American Indian, Alaska Native, and Native Hawaiian Areas
+                Legislative Areas
+                Census Regions and Divisions
+                Urban Areas
+                Metropolitan and Micropolitan Statistical Areas and Related Statistical Areas
+                Hydrography	
+                States  and Counties
+                
+                Labels are included for the map layers. These layers contains the latest version of legally defined areas reported to the Census Bureau and reflect
+                the governmental units in effect as of January 1, 2014 or legal or statistical boundaries that have adjusted or corrected since the 2010 Census. 
+                Physical features like hydrography, transportation and special land use areas like military reservations reflect updates as of September 2014.
+                
+                In addition to the January 1, 2015 vintage (ACS 2015), the TIGERweb application also contains data as of January 1, 2014 (ACS 2014) and
+                data as of January 1, 2010 (2010 Census).
+                
+                This application contains two vintages of data. The 2010 Census consists of data as of January 1, 2010. The Census 2000 vintage consists of data as
+                of January 1,2000 that has been adjusted and/or corrected since Census 2000.
+            </Abstract>
+            <Purpose>To allow the users to visualize our TIGER(Topologically Integrated Geographic Encoding and Referencing database) data. This application allows users to select features and view their attributes,
+                     to search for features by name or geocode, and to identify features by selecting them from a map. This application provides a simple way to view our TIGER data without having to download the
+                     data. </Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>01012010</Beginning_Date>
+                <Ending_Date>01012016</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Ongoing</Progress>
+            <Maintenance_and_Update_Frequency>Annually</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>Public Use Microdata Area</Theme_Keyword>
+                <Theme_Keyword>Urban Growth Areas</Theme_Keyword>
+                <Theme_Keyword>Zip Code Tabulation Areas</Theme_Keyword>
+                <Theme_Keyword>Tribal Census Tracts</Theme_Keyword>
+                <Theme_Keyword>Tribal Block Groups</Theme_Keyword>
+                <Theme_Keyword>Census Tracts</Theme_Keyword>
+                <Theme_Keyword>Census Block Groups</Theme_Keyword>
+                <Theme_Keyword>Military Installations</Theme_Keyword>
+                <Theme_Keyword>Unified School Districts</Theme_Keyword>
+                <Theme_Keyword>Secondary School Districts</Theme_Keyword>
+                <Theme_Keyword>Elementary School Districts</Theme_Keyword>
+                <Theme_Keyword>Estates</Theme_Keyword>
+                <Theme_Keyword>County Subdivisions</Theme_Keyword>
+                <Theme_Keyword>Subbarrios</Theme_Keyword>
+                <Theme_Keyword>Consolidated Cities</Theme_Keyword>
+                <Theme_Keyword>Incorporated Places</Theme_Keyword>
+                <Theme_Keyword>Census Designated Places</Theme_Keyword>
+                <Theme_Keyword>Alaska Native Regional Corporations</Theme_Keyword>
+                <Theme_Keyword>Tribal Subdivisions</Theme_Keyword>
+                <Theme_Keyword>Federal American Indian Reservations</Theme_Keyword>
+                <Theme_Keyword>Off-Reservation Trust Lands</Theme_Keyword>
+                <Theme_Keyword>State American Indian Reservations</Theme_Keyword>
+                <Theme_Keyword>Hawaiian Home Lands</Theme_Keyword>
+                <Theme_Keyword>Alaska Native Village Statistical Areas</Theme_Keyword>
+                <Theme_Keyword>Oklahoma Tribal Statistical Areas</Theme_Keyword>
+                <Theme_Keyword>State Designated Tribal Statistical Areas</Theme_Keyword>
+                <Theme_Keyword>Tribal Designated Statistical Areas</Theme_Keyword>
+                <Theme_Keyword>American Indian Joint-Use Areas</Theme_Keyword>
+                <Theme_Keyword>111th Congressional Districts</Theme_Keyword>
+                <Theme_Keyword>2010 State Legislative Districts - Upper</Theme_Keyword>
+                <Theme_Keyword>2010 State Legislative Districts - Lower</Theme_Keyword>
+                <Theme_Keyword>Voting Districts</Theme_Keyword>
+                <Theme_Keyword>Census Divisions</Theme_Keyword>
+                <Theme_Keyword>Census Regions</Theme_Keyword>
+                <Theme_Keyword>Urbanized Areas</Theme_Keyword>
+                <Theme_Keyword>Urban Clusters</Theme_Keyword>
+                <Theme_Keyword>Combined New England City and Town Areas</Theme_Keyword>
+                <Theme_Keyword>New England City and Town Area Divisions</Theme_Keyword>
+                <Theme_Keyword>Metropolitan New England City and Town Areas</Theme_Keyword>
+                <Theme_Keyword>Micropolitan New England City and Town Areas</Theme_Keyword>
+                <Theme_Keyword>Linear Hydrography</Theme_Keyword>
+                <Theme_Keyword>Areal Hydrography</Theme_Keyword>
+                <Theme_Keyword>Glaciers</Theme_Keyword>
+                <Theme_Keyword>States</Theme_Keyword>
+                <Theme_Keyword>Counties</Theme_Keyword>
+                <Theme_Keyword>Census 2010</Theme_Keyword>
+                <Theme_Keyword>Rivers</Theme_Keyword>
+                <Theme_Keyword>Streams</Theme_Keyword>
+                <Theme_Keyword>Lakes</Theme_Keyword>
+                <Theme_Keyword>Senate</Theme_Keyword>
+            </Theme>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
+            <Other_Constraints>  This product is free to use. Acknowledgement must be given to the U.S. Census Bureau as
+                the source.  The boundary information is for visual display at appropriate small scales only. Files should not be used for geocoding
+                addresses.  Files should not be used for determining precise geographic area relationships.</Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Address>
+                <Address_Type>mailing</Address_Type>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+        <Data_Set_Language>eng</Data_Set_Language>
+    </Identification_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Address>
+                <Address_Type>mailing</Address_Type>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Distribution_Liability>The TIGERweb application allows users to access and view geospatial features, geographic area information, and associated
+            attributes from the U.S. Census Bureau Topologically Integrated Geographic Encoding and Referencing System (TIGER) geodatabase. In order to do this,
+            a web browser must be used. For information on how to use the web browser, contact the manufacturer of the web browser.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>https</Format_Name>
+                <Format_Version_Number>3.0</Format_Version_Number>
+                <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerweb/</Network_Resource_Name>
+        </Digital_Form>
+        </Standard_Order_Process>
+        <Fees>There are no fees associated with this product</Fees>
+        <Technical_Prerequisites>A web browser is needed to use this application</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>2016-12</Metadata_Date>
+        <Metadata_Hierarchy_Level>application</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is an application that can be used to view TIGER\Line data</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
+       <Contact_Address>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+           <Contact_Address>
+               <Address_Type>mailing</Address_Type>
+               <Address>4600 Silver Hill Road</Address>
+               <City>Washington</City>
+               <State_or_Province>DC</State_or_Province>
+               <Postal_Code>20233-7400</Postal_Code>
+               <Country>USA</Country>
+           </Contact_Address>
+           <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Contact_Address>
+        <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
+        <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>SampleApp.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>

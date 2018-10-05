@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/GDBGPM.xsd"
+ profile="gdb">
+    <FGDC_Required>
+        <ISO_Theme>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>transportation</ISO_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S Department of Transportation</Originator>
+            <Publication_Date>20181003</Publication_Date>
+            <Title>National Address Database (NAD)</Title>
+            <Edition>Version 1</Edition>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>https://www.transportation.gov/gis/nad/disclaimer</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The NAD is a spatial database containing address data, point location coordinates, jurisdictions, record level data and other supporting data
+            for addressable locations including structures some sub-units within those structures and landmarks as included in the aggregated datasets from providers 
+            included therein. Its coverage includes eighteen whole and partial coverage states including Arizona, Arkansas, Colorado, Delaware, Indiana, Maine
+            Maryland, Massachusetts, Montana, New Jersey, New Mexico, New York, North Caralina, Ohio, Tennessee, Utah, Vermont and Virgina, the District of Columbia and
+            whole conty coverage for nine counties in Missouri.</Abstract>
+            <Purpose>To provide spatial database containing address data, point location coordinates, jurisdictions, record level data and other supporting data
+                for addressable locations</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+                <Calendar_Date>20181005</Calendar_Date>
+            <Currentness_Reference>publication date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Under development</Progress>
+            <Maintenance_and_Update_Frequency>Continually</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>National Address Database</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal
+                    Information Processing Series (FIPS) – States/State
+                    Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword>Arizona</Place_Keyword>
+                <Place_Keyword>Arkansas</Place_Keyword>
+                <Place_Keyword>Colorado</Place_Keyword>
+                <Place_Keyword>Delaware</Place_Keyword>
+                <Place_Keyword>Indiana</Place_Keyword>
+                <Place_Keyword>Maine</Place_Keyword>
+                <Place_Keyword>Maryland</Place_Keyword>
+                <Place_Keyword>Massachusetts</Place_Keyword>
+                <Place_Keyword>Montana</Place_Keyword>
+                <Place_Keyword>New Jersey</Place_Keyword>
+                <Place_Keyword>New Mexico</Place_Keyword>
+                <Place_Keyword>New York</Place_Keyword>
+                <Place_Keyword>North Caralina</Place_Keyword>
+                <Place_Keyword>Ohio</Place_Keyword>
+                <Place_Keyword>Tennessee</Place_Keyword>
+                <Place_Keyword>Utah</Place_Keyword>
+                <Place_Keyword>Vermont</Place_Keyword>
+                <Place_Keyword>Virginia</Place_Keyword>
+                <Place_Keyword>District of Columbia</Place_Keyword>
+                <Place_Keyword>Missouri</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
+            <Other_Constraints> These products are free to use in a product or publication, however
+                acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
+                information is for visual display at appropriate small scales only. Cartographic
+                boundary files should not be used for geographic analysis including area or
+                perimeter calculation. Files should not be used for geocoding addresses. Files
+                should not be used for determining precise geographic area
+                relationships.</Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Distribution_Liability>The National Address Database (NAD) is, with few exceptions, aggregated from state data, which is in turn aggregated from local data.
+            While it is considered to be authoritative and every reasonable effort is made to ensure the accuracy and completeness of the data, the United States
+            Department of Transportation (USDOT) makes no warranties, expressed or implied, concerning the accuracy, completeness or suitability of the data, and it
+            should not be construed or used as a legal description.
+            
+            In no event shall USDOT become liable to users of this data, or any other party, for any loss or damages, consequential or otherwise, including but not
+            limited to time, money, or goodwill, arising from the use, operation or modification of the data.
+            
+            In using this data, users further agree to indemnify, defend, and hold harmless USDOT for any and all liability of any nature arising out of or resulting
+            from the lack of accuracy or correctness of the data, or the use of the data.
+            
+            The states that partner with USDOT to provide data for the NAD do so willingly, with no obligation. Not every state that provides data to the NAD has
+            complete coverage. As state address programs expand and mature, USDOT expects the coverage to expand as well.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form> 
+                <Format_Name>GDB</Format_Name>
+                <Format_Version_Date>2016</Format_Version_Date>
+                <File_Decompression_Technique>FTP</File_Decompression_Technique>
+                <Transfer_Size>22</Transfer_Size>
+                <Network_Address>
+                    <Network_Resource_Name>https://www.transportation.gov/gis/nad/disclaimer</Network_Resource_Name>
+                    <mimeType>application/x-compressed</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>None. There are no fees charged to apply for these contracts. Respondents are
+                solely responsible for all expenses associated with responding to this RFP.</Fees>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The geodatabases contain geographic data only and do not include display mapping software or statistical data.  For
+            information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
+            the software.</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>201603</Metadata_Date>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
+        <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>SampleGDB.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+    
+</GPM>
+

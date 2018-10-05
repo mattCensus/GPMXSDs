@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="vector">
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/VectorGPM.xsd"
+ profile="vector">
     <FGDC_Required>
         <ISO_Theme>
-            <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-            <Theme_Keyword>boundaries</Theme_Keyword>
-            <Theme_Keyword>society</Theme_Keyword>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>boundaries</ISO_Keyword>
+            <ISO_Keyword>society</ISO_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>

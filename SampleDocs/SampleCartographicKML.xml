@@ -3,10 +3,10 @@
  xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/VectorGPM.xsd" profile="vector">
 <FGDC_Required>
     <ISO_Theme>
-        <Theme_Keyword_Theasuruas>ISO 19115 Topic Categories</Theme_Keyword_Theasuruas>
-        <Theme_Keyword>boundaries</Theme_Keyword>
+        <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+        <ISO_Keyword>boundaries</ISO_Keyword>
     </ISO_Theme>
-</FGDC_Required>
+</FGDC_Required> 
 <Identification_Information>
     <Citation>
         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
@@ -367,8 +367,8 @@
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division/Cartographic Products Branch (Point of Contact)</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
-        <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+        <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
+        <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SampleCartographicKML.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
