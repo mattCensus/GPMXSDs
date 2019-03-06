@@ -23,7 +23,7 @@
                 whole and partial coverage states, including Arkansas, Colorado, Delaware, Indiana, Maine, Maryland, Massachusetts,
                 Montana, New Mexico, New York, North Carolina, Tennessee, Utah, Vermont and Virginia, and the District of Columbia.
             </Abstract>
-            <Purpose>To provide information address to enhance transportation safety and a broad range of other government services.</Purpose>
+            <Purpose>To provide address information to enhance transportation safety and a broad range of other government services.</Purpose>
         </Description>
         <Time_Period_of_Content>
            <Calendar_Date>2017</Calendar_Date>
@@ -95,6 +95,20 @@
             </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
+            <Contact_Individual>Matt Zimolzak</Contact_Individual>
+            <Contact_Organization>US Census Bureau</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Role>principalInvestigator</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
             <Contact_Organization>  US Department of Transportation</Contact_Organization>
             <Contact_Address>
                 <Address>1200 NEW JERSEY AVENUE, SE</Address>
@@ -105,11 +119,48 @@
             </Contact_Address>
             <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>custodian</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
+            <Contact_Organization>  US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>originator</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
+            <Contact_Organization>  US Department of Transportation Dist</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>owner</Role>
         </Point_of_Contact>
     </Identification_Information>
     <Distribution_Information>
         <Point_of_Contact>
             <Contact_Organization>US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>distributor</Role>
         </Point_of_Contact>
         <Distribution_Liability>>The National Address Database contains geographic data only and do not
             include display mapping software. For information on how to use the
@@ -131,7 +182,7 @@
     <Metadata_Reference_Information>
         <Metadata_Date>20180326</Metadata_Date>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
+        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> 
         <Point_of_Contact>
             <Contact_Organization>US Department of Transportation</Contact_Organization>
             <Contact_Address>
@@ -143,6 +194,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>publisher</Role>
         </Point_of_Contact>
         <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
         <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
