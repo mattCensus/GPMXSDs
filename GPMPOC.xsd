@@ -3,13 +3,19 @@
            xmlns:POC="../newGPMStd/PointOfContact"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-           xmlns:xdb="http://xmlns.oracle.com/xdb">
+           xmlns:xdb="http://xmlns.oracle.com/xdb"
+           xmlns:GPMDef="../newGPMStd/GPMDefinitions">
+    
+    <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
+    
 <xsd:complexType name="POC">
     <xsd:sequence>
+        <xsd:element name="Contact_Individual" minOccurs="0"/>
         <xsd:element name="Contact_Organization"/>
         <xsd:element name="Contact_Address" minOccurs="0" type="POC:Contact_Address"/>
         <xsd:element name="Contact_Voice_Telephone" minOccurs="0"/>
         <xsd:element name="Contact_Electronic_Mail_Address" minOccurs="0"/>
+        <xsd:element name="Role" type="GPMDef:PointOfContactRoleCodes" minOccurs="0"/>
     </xsd:sequence>
 </xsd:complexType>
     
@@ -20,6 +26,7 @@
             <xsd:element name="State_or_Province"/>
             <xsd:element name="Postal_Code"/>
             <xsd:element name="Country"/>
+            
         </xsd:sequence>
     </xsd:complexType>
 

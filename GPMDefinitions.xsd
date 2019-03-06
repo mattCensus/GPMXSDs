@@ -8453,6 +8453,33 @@
    <xsd:pattern value=".*\.gpm.xml"></xsd:pattern>
    </xsd:restriction>
  </xsd:simpleType>
+ 
+ <xsd:simpleType name="PointOfContactRoleCodes">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="resourceProvider"/>
+   <xsd:enumeration value="custodian"/>
+   <xsd:enumeration value="owner"/>
+   <xsd:enumeration value="user"/>
+   <xsd:enumeration value="distributor"/>
+   <xsd:enumeration value="originator"/>
+   <xsd:enumeration value="pointOfContact"/>
+   <xsd:enumeration value="principalInvestigator"/>
+   <xsd:enumeration value="processor"/>
+   <xsd:enumeration value="publisher"/>
+   <xsd:enumeration value="author"/>
+   <xsd:enumeration value="sponsor"/>
+   <xsd:enumeration value="coAuthor"/>
+   <xsd:enumeration value="collaborator"/>
+   <xsd:enumeration value="editor"/>
+   <xsd:enumeration value="mediator"/>
+   <xsd:enumeration value="rightsHolder"/>
+   <xsd:enumeration value="contributor"/>
+   <xsd:enumeration value="funder"/>
+   <xsd:enumeration value="stakeholder"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
 </xs:schema>
+
 
 
