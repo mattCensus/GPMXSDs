@@ -10,8 +10,7 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
             <xs:element name="Publication_Date" type="GPMDef:dateFormat"/>
-            <xs:element name="Title"/>
-          
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Edition" minOccurs="0"/>
             <xs:element name="Geospatial_Data_Presentation_Form" type="GPMDef:GeospatialDataPresentationForm"/>
             <xs:element name="Series_Information" type="Cit:SeriesInfo" minOccurs="0"/>
@@ -23,9 +22,9 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Edition" minOccurs="0"/>
-            <xs:element name="Geospatial_Data_Presentation_Form"/>
+            <xs:element name="Geospatial_Data_Presentation_Form" type="GPMDef:GeospatialDataPresentationForm"/>
             <xs:element name="Series_Information" type="Cit:SeriesInfo" minOccurs="0"/>
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
@@ -35,7 +34,7 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -44,9 +43,9 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Edition" minOccurs="0"/>
-            <xs:element name="Geospatial_Data_Presentation_Form"/>
+            <xs:element name="Geospatial_Data_Presentation_Form" type="GPMDef:GeospatialDataPresentationForm"/>
             <xs:element name="Series_Information" type="Cit:SeriesInfo" minOccurs="0"/>
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
@@ -56,8 +55,8 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
-            <xs:element name="Geospatial_Data_Presentation_Form"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
+            <xs:element name="Geospatial_Data_Presentation_Form" type="GPMDef:GeospatialDataPresentationForm"/>
             <xs:element name="Online_Linkage" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -73,7 +72,7 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -82,7 +81,7 @@
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
             <xs:element name="Publication_Date" type="GPMDef:PublicationDateFormatType"/>
-            <xs:element name="Title"/>
+            <xs:element name="Title" type="Cit:TitleType"/>
             <xs:element name="Online_Linkage" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
@@ -93,5 +92,11 @@
             <xs:element name="Issue_Identification"/>
         </xs:sequence>
     </xs:complexType>
+    
+    <xs:simpleType name="TitleType">
+        <xs:restriction base="xs:string">
+           <xs:minLength value="6"/>
+        </xs:restriction>
+    </xs:simpleType>
 
 </xs:schema>

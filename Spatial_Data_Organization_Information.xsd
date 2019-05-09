@@ -23,7 +23,7 @@
     
     <xs:complexType name="SDTSTermsDescription">
         <xs:sequence>
-            <xs:element name="SDTS_Point_and_Vector_Object_Type"/>
+            <xs:element name="SDTS_Point_and_Vector_Object_Type" type="GPMDef:SDTSPointAndVectorObjectType"/>
             <xs:element name="Point_and_Vector_Object_Count"/>
         </xs:sequence>
     </xs:complexType>

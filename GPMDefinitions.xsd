@@ -8479,6 +8479,42 @@
   </xsd:restriction>
  </xsd:simpleType>
  
+ <xsd:simpleType name="SDTSPointAndVectorObjectType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="Point"/>
+   <xsd:enumeration value="Entity point"/>
+   <xsd:enumeration value="Label point"/>
+   <xsd:enumeration value="Area point"/>
+   <xsd:enumeration value="Node, planar graph"/>
+   <xsd:enumeration value="Node, network"/>
+   <xsd:enumeration value="String"/>
+   <xsd:enumeration value="Link"/>
+   <xsd:enumeration value="Complete chain"/>
+   <xsd:enumeration value="Area chain"/>
+   <xsd:enumeration value="“Network chain, planar graph"/>
+   <xsd:enumeration value="Circular arc, three point center"/>
+   <xsd:enumeration value="Elliptical arc"/>
+   <xsd:enumeration value="Uniform B-spline"/>
+   <xsd:enumeration value="Piecewise Bezier"/>
+   <xsd:enumeration value="Ring with mixed composition"/>
+   <xsd:enumeration value="Ring composed of strings"/>
+   <xsd:enumeration value="Ring composed of chains"/>
+   <xsd:enumeration value="Ring composed of arcs"/>
+   <xsd:enumeration value="G-polygon"/>
+   <xsd:enumeration value="GT-polygon composed of rings"/>
+   <xsd:enumeration value="GT-polygon composed of chain"/>
+   <xsd:enumeration value="Universe polygon composed of rings"/>
+   <xsd:enumeration value="Universe polygon composed of chains"/>
+   <!-- iso bELOW -->
+   <xsd:enumeration value="complex"/>
+   <xsd:enumeration value="composite"/>
+   <xsd:enumeration value="curve"/>
+   <xsd:enumeration value="point"/>
+   <xsd:enumeration value="solid"/>
+   <xsd:enumeration value="surface"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ 
 </xs:schema>
 
 
