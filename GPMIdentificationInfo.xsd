@@ -103,8 +103,8 @@
     <!-- Description elements -->
     <xs:complexType name="description">
         <xs:sequence>
-            <xs:element name="Abstract"/>
-            <xs:element name="Purpose"/>
+            <xs:element name="Abstract" type="ii:basicType"/>
+            <xs:element name="Purpose" type="ii:basicType"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -197,6 +197,10 @@
         </xs:sequence>
     </xs:complexType>
 
-  
+  <xs:simpleType name="basicType">
+     <xs:restriction base="xs:string">
+         <xs:minLength value="5"></xs:minLength>
+     </xs:restriction>
+  </xs:simpleType>
 
 </xs:schema>
