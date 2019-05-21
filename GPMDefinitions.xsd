@@ -8515,6 +8515,12 @@
   </xsd:restriction>
  </xsd:simpleType>
  
+ 
+ <xs:simpleType name="basicType">
+  <xs:restriction base="xs:string">
+   <xs:minLength value="5"/>
+  </xs:restriction>
+ </xs:simpleType>
 </xs:schema>
 
 

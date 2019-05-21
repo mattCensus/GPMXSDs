@@ -165,15 +165,15 @@
 
     <xs:complexType name="ThemeKeywords">
         <xs:sequence>
-            <xs:element name="Theme_Keyword_Thesaurus"/>
-            <xs:element name="Theme_Keyword" maxOccurs="unbounded"/>
+            <xs:element name="Theme_Keyword_Thesaurus" type="ii:basicTypeKeyThes"/>
+            <xs:element name="Theme_Keyword" maxOccurs="unbounded" type="ii:basicTypeKeyThes"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="PlaceKeywords">
         <xs:sequence>
-            <xs:element name="Place_Keyword_Thesaurus"/>
-            <xs:element name="Place_Keyword" maxOccurs="unbounded"/>
+            <xs:element name="Place_Keyword_Thesaurus" type="ii:basicTypeKeyThes"/>
+            <xs:element name="Place_Keyword" maxOccurs="unbounded" type="ii:basicTypeKeyThes"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -199,8 +199,13 @@
 
   <xs:simpleType name="basicType">
      <xs:restriction base="xs:string">
-         <xs:minLength value="5"></xs:minLength>
+         <xs:minLength value="5"/>
      </xs:restriction>
   </xs:simpleType>
 
+    <xs:simpleType name="basicTypeKeyThes">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
