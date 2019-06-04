@@ -8462,7 +8462,7 @@
    <xsd:enumeration value="user"/>
    <xsd:enumeration value="distributor"/>
    <xsd:enumeration value="originator"/>
-   <xsd:enumeration value="pointOfContact"/>
+   <xsd:enumeration value="pointOfgmd:contact"/>
    <xsd:enumeration value="principalInvestigator"/>
    <xsd:enumeration value="processor"/>
    <xsd:enumeration value="publisher"/>
@@ -8521,7 +8521,17 @@
    <xs:minLength value="5"/>
   </xs:restriction>
  </xs:simpleType>
+
+ <xs:simpleType name="UrlType">
+  <xsd:restriction base="xsd:string">
+   <xsd:pattern value="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$"/>
+  </xsd:restriction>
+</xs:simpleType>
+
+ <!-- https://[^*+]* -->
 </xs:schema>
+
+
 
 
 

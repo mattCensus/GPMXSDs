@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema targetNamespace="../newGPMStd/Citaion"
-           xmlns:Cit="../newGPMStd/Citaion"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:GPMDef="../newGPMStd/GPMDefinitions">
+    xmlns:Cit="../newGPMStd/Citaion"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:GPMDef="../newGPMStd/GPMDefinitions">
     
     <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     <!-- Citation elements-->
@@ -17,7 +17,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="GPMMap">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -29,7 +29,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="GPMPlannedIdInfo">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -38,7 +38,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="GPMTab">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -50,7 +50,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="GPMServices">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded"/>
@@ -60,14 +60,14 @@
             <xs:element name="Online_Linkage" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
-
+    
+    
     <xs:complexType name="CrossRefCit">
         <xs:sequence>
             <xs:element name="Citation" type="Cit:CrossRefCitRef"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="CrossRefCitRef">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
@@ -76,7 +76,7 @@
             <xs:element name="Online_Linkage" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="SourceInfoCit">
         <xs:sequence>
             <xs:element name="Originator" maxOccurs="unbounded" minOccurs="0"/>
@@ -85,7 +85,7 @@
             <xs:element name="Online_Linkage" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
-
+    
     <xs:complexType name="SeriesInfo">
         <xs:sequence>
             <xs:element name="Series_Name"/>
@@ -95,8 +95,8 @@
     
     <xs:simpleType name="TitleType">
         <xs:restriction base="xs:string">
-           <xs:minLength value="6"/>
+            <xs:minLength value="6"/>
         </xs:restriction>
     </xs:simpleType>
-
+    
 </xs:schema>
