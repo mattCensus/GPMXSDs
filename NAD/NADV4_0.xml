@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
+    <FGDC_Required>
+        <ISO_Theme>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>location</ISO_Keyword>
+        </ISO_Theme>
+        <NGDA_Info>
+            <Alternate_Title></Alternate_Title>
+           <NGDA_Keyword_Thesaurus>NGDA Portfolio Themes</NGDA_Keyword_Thesaurus>
+            <NGDA_Keyword>NGDA</NGDA_Keyword>
+            <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
+            <NGDA_Keyword>Address Theme</NGDA_Keyword>
+            <REST_URL></REST_URL>
+        </NGDA_Info>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>US Department of Transportation</Originator>
+            <Publication_Date>20180326</Publication_Date>
+            <Title>National Address Database (NAD)</Title>
+            <Edition>Version 4</Edition>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>https://www.transportation.gov/gis/nad/disclaimer</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The NAD is a spatial database containing address data, point location coordinates, jurisdictions, record level metadata and other supporting
+                data for addressable locations including structures, some sub-units within those structures and landmarks as included in the aggregated datasets
+                from providers included therein. Its coverage includes twenty two whole and partial coverage states, including Arizona, Arkansas, Colorado, Delaware,
+                Indiana, Iowa, Maine, Maryland, Massachusetts, Missouri, Montana, New Jersey, New Mexico, New York, North Carolina, Ohio, Rhode Island, Tennessee,
+                Utah, Vermont and Virginia, Wisconsin, and the District of Columbia.
+            </Abstract>
+            <Purpose>To provide address information to enhance transportation safety and a broad range of other government services.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+           <Calendar_Date>2017</Calendar_Date>
+             <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Ongoing</Progress>
+            <Maintenance_and_Update_Frequency>As needed</Maintenance_and_Update_Frequency>
+        </Status>  
+        <Spatial_Domain>
+                <Bounding_Coordinates>
+                    <West_Bounding_Coordinate>116.049047</West_Bounding_Coordinate>
+                    <East_Bounding_Coordinate>-66.952629</East_Bounding_Coordinate>
+                    <North_Bounding_Coordinate>49.000436</North_Bounding_Coordinate>
+                    <South_Bounding_Coordinate>-31.335690</South_Bounding_Coordinate>
+                </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>address data</Theme_Keyword>
+                <Theme_Keyword>National Address Database</Theme_Keyword>
+                <Theme_Keyword>NAD</Theme_Keyword>
+                <Theme_Keyword>Addresses</Theme_Keyword>
+                <Theme_Keyword>Address Coordinates</Theme_Keyword>
+                <Theme_Keyword>Structure Coordinates</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
+                <Place_Keyword>U.S</Place_Keyword>
+                <Place_Keyword>United States</Place_Keyword>
+                <Place_Keyword>United States of America</Place_Keyword>
+            </Place>
+            <Place>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+                <Place_Keyword>Arizona</Place_Keyword>
+                <Place_Keyword>Arkansas</Place_Keyword>
+                <Place_Keyword>Colorado</Place_Keyword>
+                <Place_Keyword>Delaware</Place_Keyword>
+                <Place_Keyword>District of Columbia</Place_Keyword>
+                <Place_Keyword>Indiana</Place_Keyword>
+                <Place_Keyword>Maine</Place_Keyword>
+                <Place_Keyword>Maryland</Place_Keyword>
+                <Place_Keyword>Massachusetts</Place_Keyword>
+                <Place_Keyword>Missouri</Place_Keyword>
+                <Place_Keyword>Montana</Place_Keyword>
+                <Place_Keyword>New Mexico</Place_Keyword>
+                <Place_Keyword>New York</Place_Keyword>
+                <Place_Keyword>North Carolina</Place_Keyword>
+                <Place_Keyword>Ohio</Place_Keyword>
+                <Place_Keyword>Tennessee</Place_Keyword>
+                <Place_Keyword>Utah</Place_Keyword>
+                <Place_Keyword>Vermont</Place_Keyword>
+                <Place_Keyword>Virginia</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
+            <Other_Constraints>
+                The National Address Database (NAD) is, with few exceptions, aggregated from state data, which is in turn aggregated from local data. While it is considered to be
+                authoritative and every reasonable effort is made to ensure the accuracy and completeness of the data, the United States Department of Transportation (USDOT) makes
+                no warranties, expressed or implied, concerning the accuracy, completeness or suitability of the data, and it should not be construed or used as a legal
+                description.
+                
+                In no event shall USDOT become liable to users of this data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to
+                time, money, or goodwill, arising from the use, operation or modification of the data.
+                
+                In using this data, users further agree to indemnify, defend, and hold harmless USDOT for any and all liability of any nature arising out of or resulting from the
+                lack of accuracy or correctness of the data, or the use of the data.
+            </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Individual>Matt Zimolzak</Contact_Individual>
+            <Contact_Organization>US Census Bureau</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Role>principalInvestigator</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
+            <Contact_Organization>  US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>custodian</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
+            <Contact_Organization>  US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>originator</Role>
+        </Point_of_Contact>
+        <Point_of_Contact>
+            <Contact_Organization>  US Department of Transportation Dist</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>owner</Role>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>distributor</Role>
+        </Point_of_Contact>
+        <Distribution_Liability>>The National Address Database contains geographic data only and do not
+            include display mapping software. For information on how to use the
+            NAD data with a specific software package, users should contact the
+            company that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>Zip file</Format_Name>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://www.transportation.gov/gis/nad/disclaimer</Network_Resource_Name>
+                    <mimeType>application/zip</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>None</Fees>
+        </Standard_Order_Process>
+        <Technical_Prerequisites></Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20180814</Metadata_Date>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> 
+        <Point_of_Contact>
+            <Contact_Organization>US Department of Transportation</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Role>publisher</Role>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
+        <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>NationalAddressDatabaseMetadatav10.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
+
+            
