@@ -63,6 +63,7 @@
    <xsd:enumeration value="Governmental Units and Administrative and Statistical Boundaries Theme"/>
    <xsd:enumeration value="Transportation Theme"/>
    <xsd:enumeration value="Cultural Resources Theme"/>
+   <xsd:enumeration value="Address Theme"/>
   </xsd:restriction>
  </xsd:simpleType>
 
