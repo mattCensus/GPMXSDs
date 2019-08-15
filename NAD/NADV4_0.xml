@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
+ xsi:noNamespaceSchemaLocation="../../MetadataSchemas/SchemaAndXslts/newGPMStd/GDBGPM.xsd"
+ profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
@@ -190,20 +191,21 @@
         <Technical_Prerequisites></Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>20180814</Metadata_Date>
+        <Metadata_Date>20190716</Metadata_Date>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> 
         <Point_of_Contact>
-            <Contact_Organization>US Department of Transportation</Contact_Organization>
+            <Contact_Individual>Matt Zimolzak</Contact_Individual>
+            <Contact_Organization>US Census Bureau</Contact_Organization>
             <Contact_Address>
-                <Address>1200 NEW JERSEY AVENUE, SE</Address>
+                <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
-                <Postal_Code>20590</Postal_Code>
+                <Postal_Code>20233-7400</Postal_Code>
                 <Country>USA</Country>
             </Contact_Address>
-            <Contact_Voice_Telephone>855-368-4200</Contact_Voice_Telephone>
-            <Contact_Electronic_Mail_Address>nad@dot.gov</Contact_Electronic_Mail_Address>
+            <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography.census.gov</Contact_Electronic_Mail_Address>
             <Role>publisher</Role>
         </Point_of_Contact>
         <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
