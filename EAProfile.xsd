@@ -9,9 +9,9 @@
     xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
     xmlns:di="../newGPMStd/Distribution_Information"
     xmlns:mri="../newGPMStd/Metadata_Reference_Information"
-    xmlns:csi="../newGPMStd/ComputerServiceInformation"
     xmlns:GPMDef="../newGPMStd/GPMDefinitions">
     
+
     <xsd:import namespace="../newGPMStd/FGDC_RequiredGPM" schemaLocation="../newGPMStd/FGDC_RequiredGPM.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMIdentificationInfo" schemaLocation="../newGPMStd/GPMIdentificationInfo.xsd"/>
     <xsd:import namespace="../newGPMStd/GPMDQ" schemaLocation="../newGPMStd/GPMDQ.xsd"/>
@@ -20,23 +20,16 @@
     <xsd:import namespace="../newGPMStd/Entity_and_Attribute_Information" schemaLocation="../newGPMStd/Entity_and_Attribute_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
-    <xsd:import namespace="../newGPMStd/ComputerServiceInformation" schemaLocation="../newGPMStd/GPMCSI.xsd"/> 
     <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
     
     <xsd:annotation>
         <xsd:documentation xml:lang="en">
         </xsd:documentation>
     </xsd:annotation>
-    
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
-                <xsd:element name="Identification_Information" type="ii:VectorID"/>
-                <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation" minOccurs="0"/>
-                <xsd:element name="Spatial_Reference_Information" type="sri:Spatial_Reference_InformationVector" minOccurs="0"/>
-                <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
-                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
+                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
             </xsd:sequence>
             <xsd:attribute name="profile" type="GPMDef:Profile"/>
         </xsd:complexType>

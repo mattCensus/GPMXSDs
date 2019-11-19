@@ -19,7 +19,7 @@
             <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
             <xs:element name="Completeness_Report" type="dq:TestReport"/>
-            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
             <xs:element name="Source_Information" type="dq:SourceInformationElements" maxOccurs="unbounded" />
             <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
         </xs:sequence>
@@ -31,7 +31,7 @@
             <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
             <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
             <xs:element name="Completeness_Report" type="dq:TestReport"/>
-            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Horizontal_Positional_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
             <xs:element name="Source_Information" type="dq:SourceInformationElementsMap" maxOccurs="unbounded" />
             <xs:element name="Process_Step" type="dq:ProcessStepElements" maxOccurs="unbounded"/>
         </xs:sequence>

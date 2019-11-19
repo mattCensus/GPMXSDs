@@ -8270,6 +8270,7 @@
       <xsd:enumeration value="map"/>
       <xsd:enumeration value="planned"/>
       <xsd:enumeration value="series"/>
+      <xsd:enumeration value="EA"/>
    </xsd:restriction>
 </xsd:simpleType>
 
