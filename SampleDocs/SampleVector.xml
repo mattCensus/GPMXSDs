@@ -51,7 +51,7 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>201506</Beginning_Date>
+                <Beginning_Date>20150601</Beginning_Date>
                 <Ending_Date>201605</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
@@ -115,6 +115,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7891</Contact_Fax>
         </Point_of_Contact>
         <Browse_Graphic>
             <Browse_Graphic_File_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0%200%20&amp;LAYERS=Primary%20Roads,Secondary%20Roads,Local%20Roads&amp;STYLES%20=%20default,%20default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=FALSE&amp;CRS=EPSG:4326&amp;BBOX=%20+47.5329749,-122.3435865,+47.5969449,-122.2511911,&amp;WIDTH=891&amp;HEIGHT=751</Browse_Graphic_File_Name>
@@ -403,7 +404,7 @@
     <Spatial_Data_Organization_Information>
         <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
-        <Topology_Level>geometryOnly</Topology_Level>
+        <Topology_Level>topology1D</Topology_Level>
         <SDTS_Terms_Description>
             <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
@@ -428,7 +429,7 @@
                 <Entity_Type_Label>ROADS.shp</Entity_Type_Label>
                 <Entity_Type_Definition>All Roads County-based</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source> 
-                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>https://www.census.gov/programs-surveys/geography/guidance/geographic-areas-reference-manual.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>LINEARID</Attribute_Label>
@@ -718,6 +719,7 @@
             </Contact_Address>
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7890</Contact_Fax>
         </Point_of_Contact>
         <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
         <Metadata_Standard_Version>2014</Metadata_Standard_Version>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/GDBGPM.xsd"
+ profile="gdb">
     <FGDC_Required> 
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
@@ -21,7 +22,9 @@
                       class layers of information for the fifty states, the District of Columbia, Puerto Rico, and the Island areas (American Samoa, the Commonwealth
                       of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The geodatabases do not contain any sensitive data.
             </Abstract>
-            <Purpose> The 2016 TIGER Geodatabases are designed for use with Esri’s ArcGIS.</Purpose>
+            <Purpose> In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS)
+                or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of
+              geodatabase files.</Purpose>
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
@@ -173,16 +176,11 @@
         </Keywords>
         <Constraints>
             <Access_Constraints>unrestricted</Access_Constraints>
-            <Use_Constraints>copyright</Use_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
             <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>
-                Use Constraints:The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than
-                1:500,000.
-                
-                These products are free to use in a product or publication, however acknowledgment must be given to the U.S. Census Bureau as
-                the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files
-                should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding
-                addresses.  Files should not be used for determining precise geographic area relationships.
+                Use Constraints:The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
+                Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
             </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
@@ -200,6 +198,28 @@
         <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
         <Data_Set_Language>eng</Data_Set_Language>
     </Identification_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+       <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+       <Topology_Level>planarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+           <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>140338</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
     <Distribution_Information>
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
@@ -213,7 +233,6 @@
             <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        
         <Distribution_Liability>The TIGER/Line shapefiles contained in the database contain geographic data only and do not include display mapping software or statistical data.  For
             information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced
             the software.</Distribution_Liability>
@@ -221,8 +240,8 @@
             <Digital_Form> 
                 <Format_Name>GDB</Format_Name>
                 <Format_Version_Date>2016</Format_Version_Date>
-                <File_Decompression_Technique>FTP</File_Decompression_Technique>
-                <Transfer_Size>22</Transfer_Size>
+                <File_Decompression_Technique>zip</File_Decompression_Technique>
+                <Transfer_Size>1332</Transfer_Size>
                <Network_Address>
                    <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
                    <mimeType>application/x-compressed</mimeType>
@@ -236,7 +255,6 @@
                 <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
                     <mimeType>application/pdf</mimeType>
                 </Network_Address>
-                
             </Digital_Form> 
             <Fees>The online copy of the geodatabases may be accessed without charge.</Fees>
         </Standard_Order_Process>

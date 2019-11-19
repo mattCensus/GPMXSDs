@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/ServiceGPM.xsd"
+    profile="wms">
+<FGDC_Required>
+    <ISO_Theme>
+        <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+        <ISO_Keyword>boundaries</ISO_Keyword>
+    </ISO_Theme>
+</FGDC_Required>    
+<Identification_Information>
+    <Citation>
+        <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+        <Publication_Date>20190101</Publication_Date>
+        <Title>American Indian, Alaska Native, and Native Hawaiian Areas REST Service</Title>
+        <Geospatial_Data_Presentation_Form>Web Mapping Service</Geospatial_Data_Presentation_Form>
+    </Citation>
+    <Description>
+        <Abstract>The GeoServices Representational State Transfer (REST) Specification provides a way for Web clients to
+            communicate with geographic information system (GIS) servers through Representational State Transfer (REST)
+            technology. The  REST Specification offers a simple way for applications to request  map, feature, attribute,
+            and image information from a GIS server.  
+        
+        The American Indian/Alaska Native/Native Hawaiian (AIANNH) Areas Shapefile includes the following legal entities:
+        federally recognized American Indian reservations and off-reservation trust land areas,
+        state-recognized American Indian reservations, and Hawaiian home lands (HHLs). The statistical entities included are
+        Alaska Native village statistical areas (ANVSAs), Oklahoma tribal statistical areas (OTSAs), tribal designated
+        statistical areas (TDSAs), and state designated tribal statistical areas (SDTSAs). Joint use areas are also included in
+        this shapefile refer to areas that are administered jointly and/or claimed by two or more American Indian tribes. The
+        Census Bureau designates both legal and statistical joint use areas as unique geographic entities for the purpose of
+        presenting statistical data. Note that tribal subdivisions and Alaska Native Regional Corporations (ANRCs) are
+        additional types of American Indian/Alaska Native areas stored by the Census Bureau, but are displayed in separate
+        shapefiles because of how they fall within the Census Bureau's geographic hierarchy. The State of Hawaii's Office of
+        Hawaiian Home Lands provides the legal boundaries for the HHLs. The boundaries for ANVSAs, OTSAs, and TDSAs were
+        delineated for the 2010 Census through the Tribal Statistical Areas Program (TSAP) by participants from the federally
+        recognized tribal governments. The Bureau of Indian Affairs (BIA) within the U.S. Department of the Interior (DOI)
+        provides the list of federally recognized tribes and only provides legal boundary information when the tribes need
+        supporting records, if a boundary is based on treaty or another document that is historical or open to legal
+        interpretation, or when another tribal, state, or local government challenges the depiction of a reservation or
+        off-reservation trust land.
+        
+        
+        The boundaries for federally recognized American Indian reservations and off-reservation trust lands are as of
+        January 1, 2019, as reported by the federally recognized tribal governments through the Census Bureau's Boundary and
+        Annexation Survey (BAS).
+        
+        The boundaries for state-recognized American Indian reservations and for SDTSAs were delineated by a state
+        governor-appointed liaisons for the 2010 Census through the State American Indian Reservation Program and TSAP
+        respectively.  
+        </Abstract>
+        <Purpose>To provide a proven and easy to understand method for a broad range of clients and applications to request
+            map, feature, attribute, and image information from a GIS server.</Purpose>
+    </Description>
+    <Time_Period_of_Content>
+        <Calendar_Date>20190101</Calendar_Date>
+        <Currentness_Reference>ground condition</Currentness_Reference>
+    </Time_Period_of_Content>
+    <Status>
+        <Progress>Completed</Progress>
+        <Maintenance_and_Update_Frequency>Annually</Maintenance_and_Update_Frequency>
+    </Status>
+    <Spatial_Domain>
+        <Bounding_Coordinates>
+            <West_Bounding_Coordinate>-170.758411</West_Bounding_Coordinate>
+            <East_Bounding_Coordinate>145.794980</East_Bounding_Coordinate>
+            <North_Bounding_Coordinate>71.299040</North_Bounding_Coordinate>
+            <South_Bounding_Coordinate>-14.375089</South_Bounding_Coordinate>
+        </Bounding_Coordinates>
+    </Spatial_Domain>
+    <Keywords>
+        <Theme>
+            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>Alaska Native Regional Corporations </Theme_Keyword>
+            <Theme_Keyword>ANRC</Theme_Keyword>
+            <Theme_Keyword>Tribal Subdivisions</Theme_Keyword>
+            <Theme_Keyword>American Indian Reservations</Theme_Keyword>
+            <Theme_Keyword>AIR</Theme_Keyword>
+            <Theme_Keyword>Hawaiian Home Lands</Theme_Keyword>
+            <Theme_Keyword>HHL</Theme_Keyword>
+            <Theme_Keyword>Alaska Native Village Statistical Areas</Theme_Keyword>
+            <Theme_Keyword>ANVSA</Theme_Keyword>
+            <Theme_Keyword>Oklahoma Tribal Statistical Areas</Theme_Keyword>
+            <Theme_Keyword>OTSA</Theme_Keyword>
+            <Theme_Keyword>State Designated Tribal Statistical Areas</Theme_Keyword>
+            <Theme_Keyword>SDTSA</Theme_Keyword>
+            <Theme_Keyword>Tribal Designated Statistical Areas</Theme_Keyword>
+            <Theme_Keyword>TDSA</Theme_Keyword>
+            <Theme_Keyword>American Indian Joint-Use Areas</Theme_Keyword>
+            <Theme_Keyword>AIJUA</Theme_Keyword>
+        </Theme>
+        <Place>
+            <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+            <Place_Keyword>Alabama</Place_Keyword>
+            <Place_Keyword>Alaska</Place_Keyword>
+            <Place_Keyword>Arizona</Place_Keyword>
+            <Place_Keyword>Arkansas</Place_Keyword>
+            <Place_Keyword>California</Place_Keyword>
+            <Place_Keyword>Colorado</Place_Keyword>
+            <Place_Keyword>Connecticut</Place_Keyword>
+            <Place_Keyword>Delaware</Place_Keyword>
+            <Place_Keyword>District of Columbia</Place_Keyword>
+            <Place_Keyword>Florida</Place_Keyword>
+            <Place_Keyword>Georgia</Place_Keyword>
+            <Place_Keyword>Hawaii</Place_Keyword>
+            <Place_Keyword>Idaho</Place_Keyword>
+            <Place_Keyword>Illinois</Place_Keyword>
+            <Place_Keyword>Indiana</Place_Keyword>
+            <Place_Keyword>Iowa</Place_Keyword>
+            <Place_Keyword>Kansas</Place_Keyword>
+            <Place_Keyword>Kentucky</Place_Keyword>
+            <Place_Keyword>Louisiana</Place_Keyword>
+            <Place_Keyword>Maine</Place_Keyword>
+            <Place_Keyword>Maryland</Place_Keyword>
+            <Place_Keyword>Massachusetts</Place_Keyword>
+            <Place_Keyword>Michigan</Place_Keyword>
+            <Place_Keyword>Minnesota</Place_Keyword>
+            <Place_Keyword>Mississippi</Place_Keyword>
+            <Place_Keyword>Missouri</Place_Keyword>
+            <Place_Keyword>Montana</Place_Keyword>
+            <Place_Keyword>Nebraska</Place_Keyword>
+            <Place_Keyword>Nevada</Place_Keyword>
+            <Place_Keyword>New Hampshire</Place_Keyword>
+            <Place_Keyword>New Jersey</Place_Keyword>
+            <Place_Keyword>New Mexico</Place_Keyword>
+            <Place_Keyword>New York</Place_Keyword>
+            <Place_Keyword>North Carolina</Place_Keyword>
+            <Place_Keyword>North Dakota</Place_Keyword>
+            <Place_Keyword>Ohio</Place_Keyword>
+            <Place_Keyword>Oklahoma</Place_Keyword>
+            <Place_Keyword>Oregon</Place_Keyword>
+            <Place_Keyword>Pennsylvania</Place_Keyword>
+            <Place_Keyword>Rhode Island</Place_Keyword>
+            <Place_Keyword>South Carolina</Place_Keyword>
+            <Place_Keyword>South Dakota</Place_Keyword>
+            <Place_Keyword>Tennessee</Place_Keyword>
+            <Place_Keyword>Texas</Place_Keyword>
+            <Place_Keyword>Utah</Place_Keyword>
+            <Place_Keyword>Vermont</Place_Keyword>
+            <Place_Keyword>Virginia</Place_Keyword>
+            <Place_Keyword>Washington</Place_Keyword>
+            <Place_Keyword>West Virginia</Place_Keyword>
+            <Place_Keyword>Wisconsin</Place_Keyword>
+            <Place_Keyword>Wyoming</Place_Keyword>
+        </Place>
+        <Place>
+            <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
+            <Place_Keyword>U.S</Place_Keyword>
+            <Place_Keyword>United States</Place_Keyword>
+            <Place_Keyword>United States of America</Place_Keyword>
+        </Place>
+    </Keywords>
+    <Constraints>
+        <Access_Constraints>unrestricted</Access_Constraints>
+        <Use_Constraints>trademark</Use_Constraints>
+        <Use_Constraints>otherRestrictions</Use_Constraints>
+        <Other_Constraints>Use Constraints: These products are free to use in a product or publication, however
+            acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
+            information is for visual display at appropriate small scales only. Cartographic
+            boundary files should not be used for geographic analysis including area or
+            perimeter calculation. Files should not be used for geocoding addresses. Files
+            should not be used for determining precise geographic area
+            relationships.</Other_Constraints>
+    </Constraints>
+    <Point_of_Contact>
+        <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+        <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+    </Point_of_Contact>
+</Identification_Information>
+<Data_Quality_Information>
+    <Atribute_Accuracy_Report>
+        <Test_Report>
+            <Result> Feature attribute information has been examined but has not been fully tested for consistency.</Result>
+        </Test_Report>
+    </Atribute_Accuracy_Report>
+    <Non_Quantitative_Attribute_Accuracy_Report>
+        <Test_Report>
+            <Result>Feature attribute information has been examined but has not been fully tested for consistency.</Result>
+        </Test_Report>
+    </Non_Quantitative_Attribute_Accuracy_Report>
+    <Logical_Consistency_Report>
+        <Test_Report>
+            <Result>The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation
+                of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states,
+                counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional
+                districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic
+                Names Information System (GNIS)</Result>
+        </Test_Report>
+    </Logical_Consistency_Report>
+    <Completeness_Report>
+        <Test_Report>
+            <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at
+                the time the TIGER/Line Shapefiles were created.</Result>
+        </Test_Report>
+    </Completeness_Report>
+    <Source_Information>
+        <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division</Originator>
+            <Publication_Date>201605</Publication_Date>
+            <Title>Census MAF/TIGER database</Title>
+        </Citation>
+        <Type_of_Source_Media>online</Type_of_Source_Media>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>201601</Beginning_Date>
+                <Ending_Date>201602</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+        <Source_Contribution> All line segments</Source_Contribution>
+    </Source_Information>
+    <Process_Step>
+        <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
+            database by nation, state, county, and entity. Census MAF/TIGER data for all of the
+            aforementioned geographic entities are then distributed among the shapefiles each
+            containing attributes for line, polygon, or landmark geographic
+            data.</Process_Description>
+        <Process_Date>20160101</Process_Date>
+    </Process_Step>
+</Data_Quality_Information>  
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names
+            Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+       <Topology_Level>fullPlanarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+            <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>1</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
+            <EPSG_Reference>
+                <EPSG_Code>EPSG::3395</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
+                <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+            </EPSG_Reference>
+        </Map_Projection>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84</Map_Projection_Name>
+            <EPSG_Reference>
+                <EPSG_Code>EPSG:4326</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
+                <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+            </EPSG_Reference>
+        </Map_Projection>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catalog for the  Current American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH)
+                National</FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>AIANNH</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/aiannh/tl_2019_aiannh.ea.iso.xml</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catalog for the  Current Alaska Native Regional Corporation (ANRC) State-based </FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>ANR</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/anrc/tl_2019_anrc.ea.iso.xml</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+    </Entity_and_Attribute_Information>
+</GPM>
+

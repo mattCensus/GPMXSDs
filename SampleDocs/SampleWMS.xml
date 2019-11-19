@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/ServiceGPM.xsd" profile="wms">
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/ServiceGPM.xsd"
+ profile="wms">
     <FGDC_Required>
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>boundaries</ISO_Keyword>
             <ISO_Keyword>transportation</ISO_Keyword>
+            <ISO_Keyword>inlandWaters</ISO_Keyword>
+            <ISO_Keyword>intelligenceMilitary</ISO_Keyword>
+            <ISO_Keyword>society</ISO_Keyword>
+            <ISO_Keyword>structure</ISO_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>
         <Citation>
-            <Originator>.S. Department of Commerce, U.S. Census Bureau, Geography Division,
-                Geographic Standards, Criteria, and Quality Branch</Originator>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
             <Publication_Date>20151113</Publication_Date>
-            <Title>TIGERweb_tigerWMS_PhysicalFeatures</Title>
-            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Title>TIGERweb,2019, Census Physical Features WMS </Title>
+           <Geospatial_Data_Presentation_Form>Web Mapping Service</Geospatial_Data_Presentation_Form>
         </Citation>
         <Description>
-            <Abstract>The Physical Features WMS contains information about the transportation,
+            <Abstract>
+                TIGERweb files are designed for Viewing TIGER\Line spatial data online or streaming
+                to your mapping application.The TIGER/Line shapefiles and related database files (.dbf) are an extract of
+                selected geographic and cartographic information from the U.S. Census Bureau's
+                Master Address File / Topologically Integrated Geographic Encoding and Referencing
+                (MAF/TIGER) Database (MTDB). 
+                
+                The Physical Features WMS contains information about the transportation,
                 hydrography and other features of the physical landscape. These other features
                 include national parks, correctional facilities, colleges and universities and
                 military installations. The Census Physical Features WMS web mapping service
@@ -46,26 +58,80 @@
         <Keywords>
             <Theme>
                 <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
-                <Theme_Keyword>Military Installations</Theme_Keyword>
-                <Theme_Keyword>Glaciers</Theme_Keyword>
-                <Theme_Keyword>Areal Hydrography</Theme_Keyword>
-                <Theme_Keyword>Linear Hydrography</Theme_Keyword>
-                <Theme_Keyword>Railroads</Theme_Keyword>
-                <Theme_Keyword>Local Roads</Theme_Keyword>
-                <Theme_Keyword>Secondary Roads</Theme_Keyword>
                 <Theme_Keyword>Primary Roads</Theme_Keyword>
+                <Theme_Keyword>Secondary Roads</Theme_Keyword>
+                <Theme_Keyword>Local Roads</Theme_Keyword>
+                <Theme_Keyword>Railroads</Theme_Keyword>
+                <Theme_Keyword>Linear Hydrography</Theme_Keyword>
+                <Theme_Keyword>Areal Hydrography</Theme_Keyword>
+                <Theme_Keyword>Glaciers</Theme_Keyword>
                 <Theme_Keyword>Rivers</Theme_Keyword>
                 <Theme_Keyword>National Parks</Theme_Keyword>
                 <Theme_Keyword>correctional facilities</Theme_Keyword>
                 <Theme_Keyword>colleges</Theme_Keyword>
                 <Theme_Keyword>universities</Theme_Keyword>
                 <Theme_Keyword>military installations</Theme_Keyword>
+                <Theme_Keyword>Military Installations</Theme_Keyword>
             </Theme>
             <Place>
-                <Place_Keyword_Thesaurus>Codes for the Identification of the States, the District of
-                    Columbia, Puerto Rico, and the Insular Areas of the United
-                    States</Place_Keyword_Thesaurus>
+                <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
                 <Place_Keyword>Alabama</Place_Keyword>
+                <Place_Keyword>Alaska</Place_Keyword>
+                <Place_Keyword>Arizona</Place_Keyword>
+                <Place_Keyword>Arkansas</Place_Keyword>
+                <Place_Keyword>California</Place_Keyword>
+                <Place_Keyword>Colorado</Place_Keyword>
+                <Place_Keyword>Connecticut</Place_Keyword>
+                <Place_Keyword>Delaware</Place_Keyword>
+                <Place_Keyword>District of Columbia</Place_Keyword>
+                <Place_Keyword>Florida</Place_Keyword>
+                <Place_Keyword>Georgia</Place_Keyword>
+                <Place_Keyword>Hawaii</Place_Keyword>
+                <Place_Keyword>Idaho</Place_Keyword>
+                <Place_Keyword>Illinois</Place_Keyword>
+                <Place_Keyword>Indiana</Place_Keyword>
+                <Place_Keyword>Iowa</Place_Keyword>
+                <Place_Keyword>Kansas</Place_Keyword>
+                <Place_Keyword>Kentucky</Place_Keyword>
+                <Place_Keyword>Louisiana</Place_Keyword>
+                <Place_Keyword>Maine</Place_Keyword>
+                <Place_Keyword>Maryland</Place_Keyword>
+                <Place_Keyword>Massachusetts</Place_Keyword>
+                <Place_Keyword>Michigan</Place_Keyword>
+                <Place_Keyword>Minnesota</Place_Keyword>
+                <Place_Keyword>Mississippi</Place_Keyword>
+                <Place_Keyword>Missouri</Place_Keyword>
+                <Place_Keyword>Montana</Place_Keyword>
+                <Place_Keyword>Nebraska</Place_Keyword>
+                <Place_Keyword>Nevada</Place_Keyword>
+                <Place_Keyword>New Hampshire</Place_Keyword>
+                <Place_Keyword>New Jersey</Place_Keyword>
+                <Place_Keyword>New Mexico</Place_Keyword>
+                <Place_Keyword>New York</Place_Keyword>
+                <Place_Keyword>North Carolina</Place_Keyword>
+                <Place_Keyword>North Dakota</Place_Keyword>
+                <Place_Keyword>Ohio</Place_Keyword>
+                <Place_Keyword>Oklahoma</Place_Keyword>
+                <Place_Keyword>Oregon</Place_Keyword>
+                <Place_Keyword>Pennsylvania</Place_Keyword>
+                <Place_Keyword>Rhode Island</Place_Keyword>
+                <Place_Keyword>South Carolina</Place_Keyword>
+                <Place_Keyword>South Dakota</Place_Keyword>
+                <Place_Keyword>Tennessee</Place_Keyword>
+                <Place_Keyword>Texas</Place_Keyword>
+                <Place_Keyword>Utah</Place_Keyword>
+                <Place_Keyword>Vermont</Place_Keyword>
+                <Place_Keyword>Virginia</Place_Keyword>
+                <Place_Keyword>Washington</Place_Keyword>
+                <Place_Keyword>West Virginia</Place_Keyword>
+                <Place_Keyword>Wisconsin</Place_Keyword>
+                <Place_Keyword>Wyoming</Place_Keyword>
+            </Place>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
+                <Place_Keyword>U.S</Place_Keyword>
+                <Place_Keyword>United States</Place_Keyword>
+                <Place_Keyword>United States of America</Place_Keyword>
             </Place>
         </Keywords>
         <Constraints>
@@ -81,8 +147,7 @@
                 relationships.</Other_Constraints>
         </Constraints>
         <Point_of_Contact>
-            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography
-                Division</Contact_Organization>
+            <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
     </Identification_Information>
@@ -330,7 +395,7 @@
         <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names
             Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
         <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
-        <Topology_Level>geometryOnly</Topology_Level>
+        <Topology_Level>topology1D</Topology_Level>
         <SDTS_Terms_Description>
             <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
             <Point_and_Vector_Object_Count>491</Point_and_Vector_Object_Count>
@@ -338,27 +403,38 @@
     </Spatial_Data_Organization_Information>
 
       <Spatial_Reference_Information>
-
-        <EPSG_Reference>
-            <EPSG_Code>EPSG::3395</EPSG_Code>
-            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
-            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
-        </EPSG_Reference>
-        <EPSG_Reference>
-            <EPSG_Code>EPSG:4326</EPSG_Code>
-            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
-            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
-        </EPSG_Reference>
-        <EPSG_Reference>
-            <EPSG_Code>EPSG:3857</EPSG_Code>
-            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:3857</EPSG_Code_Space>
-            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
-        </EPSG_Reference>
-        <EPSG_Reference>
-            <EPSG_Code>EPSG:102100</EPSG_Code>
-            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:102100</EPSG_Code_Space>
-            <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
-        </EPSG_Reference>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
+            <EPSG_Reference>
+                <EPSG_Code>EPSG::3395</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
+                <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+            </EPSG_Reference>
+        </Map_Projection>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84</Map_Projection_Name>
+            <EPSG_Reference>
+                  <EPSG_Code>EPSG:4326</EPSG_Code>
+                  <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
+                  <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+              </EPSG_Reference>
+          </Map_Projection>
+         <Map_Projection>
+             <Map_Projection_Name>Web Mercator</Map_Projection_Name>
+             <EPSG_Reference>
+                 <EPSG_Code>EPSG:3857</EPSG_Code>
+                 <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:3857</EPSG_Code_Space>
+                 <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+             </EPSG_Reference>
+         </Map_Projection>
+          <Map_Projection>
+              <Map_Projection_Name>WGS_1984_Web_Mercator_Auxiliary_Sphere</Map_Projection_Name>
+              <EPSG_Reference>
+                  <EPSG_Code>EPSG:102100</EPSG_Code>
+                  <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:102100</EPSG_Code_Space>
+                  <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+              </EPSG_Reference>
+          </Map_Projection>
     </Spatial_Reference_Information>
     <Entity_and_Attribute_Information>
         <Feature_Catalogue_Description>
