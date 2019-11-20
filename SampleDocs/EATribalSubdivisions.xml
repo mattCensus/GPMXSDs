@@ -1,8 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/EAProfile.xsd"
- profile="EA">
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/EAProfile.xsd" profile="EA">
 <Entity_and_Attribute_Information>
-    
+ 
+ <Detailed_Description>
+     <Entity_Type>
+      <Entity_Type_Label>Tribal Subdivisions</Entity_Type_Label>
+      <Entity_Type_Definition>The Current American Indian/Alaska Native/Native Hawaiian Areas National (AIANNH) National
+       shapefile includes attributes for the following legal entities: federally recognized American Indian reservations and
+       off-reservation trust land areas, state-recognized American Indian reservations, and Hawaiian home lands.
+      </Entity_Type_Definition>
+      <Entity_Type_Definition_Source>U.S Census Bureau</Entity_Type_Definition_Source>
+     </Entity_Type>
+     <Attribute>
+      <Attribute_Label>AIANNH</Attribute_Label>
+      <Attribute_Definition>Current American Indian/Alaska Native/Native Hawaiian Area census code</Attribute_Definition>
+      <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>0001 to 4799</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Federally recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>4800 to 4989</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>American Indian Joint-Use Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>5000 to 5499</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Hawaiian Home Land</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>5500 to 5899</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>5900 to 5999</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Joint-Use Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>6000 to 7999</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Alaska Native Village Statistical Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>8000 to 8999</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>9000 to 9499</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>State recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+      <Attribute_Domain_Values>
+       <Enumerated_Domain>
+        <Enumerated_Domain_Value>9500 to 9998</Enumerated_Domain_Value>
+        <Enumerated_Domain_Value_Definition>State Designated Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+       </Enumerated_Domain>
+      </Attribute_Domain_Values>
+     </Attribute>
+  <Attribute>
+   <Attribute_Label>AITS1</Attribute_Label>
+   <Attribute_Definition>Tribal Subdivision State-FIPS Code 1 </Attribute_Definition>
+   <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+   <Attribute_Domain_Values>
+    <Codeset_Domain>
+     <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+     <Codeset_Source>U.S Census Bureau</Codeset_Source>
+    </Codeset_Domain>
+   </Attribute_Domain_Values>
+  </Attribute>
+  <Attribute>
+  <Attribute_Label>AITS1</Attribute_Label>
+  <Attribute_Definition>Tribal Subdivision State-FIPS Code 2 </Attribute_Definition>
+  <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+  <Attribute_Domain_Values>
+   <Codeset_Domain>
+    <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+    <Codeset_Source>U.S Census Bureau</Codeset_Source>
+   </Codeset_Domain>
+  </Attribute_Domain_Values>
+  </Attribute>
+  <Attribute>
+   <Attribute_Label>AITS3</Attribute_Label>
+   <Attribute_Definition>Tribal Subdivision State-FIPS Code 3 </Attribute_Definition>
+   <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+   <Attribute_Domain_Values>
+    <Codeset_Domain>
+     <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+     <Codeset_Source>U.S Census Bureau</Codeset_Source>
+    </Codeset_Domain>
+   </Attribute_Domain_Values>
+  </Attribute>
+  <Attribute>
+   <Attribute_Label>AITSCC</Attribute_Label>
+   <Attribute_Definition>Tribal Subdivision Class Code </Attribute_Definition>
+   <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+   <Attribute_Domain_Values>
+    <Codeset_Domain>
+     <Codeset_Name>INCITS 446-2008</Codeset_Name>
+     <Codeset_Source>U.S Census Bureau</Codeset_Source>
+    </Codeset_Domain>
+   </Attribute_Domain_Values>
+  </Attribute>
+  <Attribute>
+   <Attribute_Label>AITSCE </Attribute_Label>
+   <Attribute_Definition>Tribal Subdivision Census Code </Attribute_Definition>
+   <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+   <Attribute_Domain_Values></Attribute_Domain_Values>
+  </Attribute>
+ </Detailed_Description>
+ <Feature_Catalogue_Description>
+  <FC_Title>Feature Catolog for the 2018 Tribal Subdivisions</FC_Title>
+  <Included_With_Dataset>No</Included_With_Dataset>
+  <Feature_Types>Tribal Subdivisions</Feature_Types>
+  <FC_Online_Linkage></FC_Online_Linkage>
+ </Feature_Catalogue_Description>
 </Entity_and_Attribute_Information>
-    
+</GPM>    
