@@ -261,6 +261,18 @@
             <Feature_Types>ANR</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/anrc/tl_2019_anrc.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catolog for the 2018 Tribal Subdivisions REST File</FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>Tribal Subdivisions</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title></FC_Title>
+            <Included_With_Dataset></Included_With_Dataset>
+            <Feature_Types></Feature_Types>
+            <FC_Online_Linkage></FC_Online_Linkage>
+        </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
 </GPM>
 
