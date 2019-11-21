@@ -29,7 +29,8 @@
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
+                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_InformationEAProfile"/>
+                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_InformationPlannedMapWMSSeries"/>
             </xsd:sequence>
             <xsd:attribute name="profile" type="GPMDef:Profile"/>
         </xsd:complexType>
