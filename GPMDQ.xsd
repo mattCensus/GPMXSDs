@@ -74,6 +74,7 @@
             <xs:element name="Time_Period_of_Content" type="TOC:TimePeriodOfContent"/>
             <xs:element name="Source_Citation_Abbreviation"/>
             <xs:element name="Source_Contribution"/>
+            <xs:element name="Source_Url" minOccurs="0"></xs:element>
         </xs:sequence>
     </xs:complexType>
     
