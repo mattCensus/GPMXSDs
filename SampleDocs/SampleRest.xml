@@ -268,10 +268,22 @@
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title></FC_Title>
-            <Included_With_Dataset></Included_With_Dataset>
-            <Feature_Types></Feature_Types>
-            <FC_Online_Linkage></FC_Online_Linkage>
+            <FC_Title>Feature Catolog for the 2019 Off-Reservation Trust Lands</FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>Off-Reservation Trust Lands</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catolog for the 2019 State American Indian Reservations</FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>State American Indian Reservations</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Attributes for the 2019 Hawaiian Home Lands</FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>HawaiianHomeLands</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
         </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
 </GPM>
