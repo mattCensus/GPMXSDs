@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/EAProfile.xsd"
+    profile="EA">
+<Entity_and_Attribute_Information>
+    <Detailed_Description>
+        <Entity_Type>
+            <Entity_Type_Label>MAF/TIGER Feature Class Codes</Entity_Type_Label>
+            <Entity_Type_Definition>5-digit code assigned by the Census Bureau intended to classify and describe geographic objects or
+                features</Entity_Type_Definition>
+            <Entity_Type_Definition_Source>U.S Census Bureau</Entity_Type_Definition_Source>
+        </Entity_Type>
+        <Attribute>
+            <Attribute_Label>MAF/TIGER Feature Class Codes</Attribute_Label>
+            <Attribute_Definition>5-digit code assigned by the Census Bureau intended to classify and describe geographic objects or
+                features</Attribute_Definition>
+            <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3022</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Mountain Peak or Summit.</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3023</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Island</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3024</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Levee</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3026</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Quarry (not water-filled), Open Pit Mine or Mine</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3027</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Dam</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3061</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Cul-de-sac</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3062</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Traffic Circle</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3066</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Gate</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3067</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Toll Booth</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3071</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tower</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3074</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Lighthouse Beacon</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3075</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tank/Tank Farm</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3076</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Windmill Farm</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3077</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Solar Farm</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3078</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Monument or Memorial</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3079</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Boundary Monument Point</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3080</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Survey Control Point</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3081</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Locality Point</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>C3085</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Alaska Native Village Official Point</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G1000</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Nation</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G1100</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Census Region</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G1200</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Census Division</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2100</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>American Indian Area (AIA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2120</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Hawaiian Home Land (HH)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2130</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Alaska Native Village Statistical Area (ANVSA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2140</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Oklahoma Tribal Statistical Area (OTSA</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2150</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>State-Designated Tribal Statistical Area (SDTSA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2160</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area (TDSA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2170</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>American Indian Joint-Use Area (AIJUA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2200</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Alaska Native Regional Corporation</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2300</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tribal Subdivision</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2400</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tribal Census Tract</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G2410</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tribal Block Group</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3110</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Metropolitan and Micropolitan Statistical Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3120</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Metropolitan Division</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3200</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Combined New England City and Town Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3210</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>New England City and Town Metropolitan and Micropolitan Statistical Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3220</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>New England City and Town Division</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G3500</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Urban Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4000</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>State or Equivalent Feature</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4020</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>County or Equivalent Feature</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4040</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>County Subdivision</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4050</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Estate</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4060</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Sub-Minor Civil Division</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4110</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Incorporated Place</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4120</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Consolidated City</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4210</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Census Designated Place</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G4300</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Economic Census Place</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5020</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Census Tract</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5030</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Block Group</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5040</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tabulation Block</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5200</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Congressional District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5210</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>State Legislative District (Upper Chamber)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5220</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>State Legislative District (Lower Chamber)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5240</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Voting District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5400</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Elementary School District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5410</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Secondary School Distric</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G5420</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Unified School District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6120</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Public Use Microdata Area (PUMA)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6300</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Traffic Analysis District</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6320</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Traffic Analysis Zone</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6330</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Urban Growth Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6350</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Zip Code Tabulation Area (Five-Digit)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>G6400</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Planning Region</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H1100</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Connector</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2030</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Lake/Pond</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2040</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Reservoir</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2041</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Treatment Pond</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2051</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Bay/Estuary/Gulf/Sound</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2053</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Ocean/Sea</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2060</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Gravel Pit/Quarry filled with water</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H2081</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Glacier</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H3010</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Stream/River</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H3013</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Braided Stream</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>H3020</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Canal, Ditch, or Aqueduct</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1121</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Apartment Building or Complex</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1223</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Trailer Court or Mobile Home Park</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1225</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Crew-of-Vessel Location</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1226</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Housing Facility/Dormitory for Workers</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1227</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Hotel, Motel, Resort, Spa, Hostel, YMCA, or YWCA</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1228</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Campground</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1229</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Shelter or Mission</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1231</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Hospital/Hospice/Urgent Care Facility</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1233</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Nursing Home, Retirement Home, or Home for the aged</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1235</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Juvenile Institution</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1236</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Local Jail or Detention Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1237</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Federal Penitentiary, State Prison, or Prison Farm</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1238</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Other Correctional Institution</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K1239</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Convent, Monastery, Rectory, Other Religious Group Quarters</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2100</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Governmenta</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2110</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Military Installation</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2146</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Community Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2165</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Government Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2167</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Convention Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2180</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Park</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2181</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>National Park Service Land</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2182</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>National Forest or Other Federal Land</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2183</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Tribal Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2184</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>State Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2185</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Regional Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2186</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>County Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2187</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>County Subdivision Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2188</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>ncorporated Place Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2189</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Private Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2190</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Other Park, Forest, or Recreation Area (quasi-public, independent park
+                        commission, etc.)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2191</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Post Office</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2193</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Fire Department</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2194</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Police Station</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2195</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Library</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2196</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>City/Town Hall</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2300</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Commercial Workplace</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2361</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Shopping Center or Major Retail Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2362</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>ndustrial Building or Industrial Park</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2363</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Office Building or Office Park</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2364</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Farm/Vineyard/Winery/Orchard</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2366</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Other Employment Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2400</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Transportation Terminal</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2424</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Marina</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2432</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Pier/Dock</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2451</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Airport or Airfield</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2452</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Train Station, Trolley or Mass Transit Rail Station</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2453</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Bus Terminal</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2454</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Marine Terminal</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2455</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Seaplane Anchorage</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2456</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Airport—Intermodal Transportation</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2457</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Airport—Statistical Representation</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2458</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Park and Ride Facility /Parking Lot</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2459</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Runway/Taxiway</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2460</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Helicopter Landing Pad</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2540</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>University or College</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2543</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>School or Academy</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2545</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Museum, Visitor Center, Cultural Center, or Tourist Attraction</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2561</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Golf Course</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2185</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Regional Park, Forest, or Recreation Area</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2564</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Amusement Center</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2582</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Cemetery</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K2586</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Zoo</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>K3544</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Place of Worship</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4010</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Pipeline</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4020</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Powerline</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4031</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Aerial Tramway/Ski Lift</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4110</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Fence Line</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4121</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Ridge Line</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4125</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Cliff/Escarpment</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4130</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Point-to-Point Line</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4140</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Property/Parcel Line (Including PLSS)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4150</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Coastline</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>L4165</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Ferry Crossing</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>P0001</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Nonvisible Linear Legal/Statistical Boundary</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>P0002</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Perennial Shoreline</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>P0003</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Intermittent Shoreline</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+             <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>P0004</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Other Non-Visible Edge</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+             </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>R1011</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Rail Feature</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1100</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Primary Road</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1200</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Secondary Road</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1400</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Local Neighborhood Road, Rural Road, City Street</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1500</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Vehicular Trail (4WD)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1630</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Ramp</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1640</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Service Drive usually along a limited access highway</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1710</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Walkway/Pedestrian Trai</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1720</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Stairway</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1730</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Alley</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1740</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Private Road for service vehicles (logging, oil fields, ranches, etc.)</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1750</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Internal U.S. Census Bureau use</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1780</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Parking Lot Road</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1820</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Bike Path or Trail</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+                <Enumerated_Domain>
+                    <Enumerated_Domain_Value>S1830</Enumerated_Domain_Value>
+                    <Enumerated_Domain_Value_Definition>Bridle Path</Enumerated_Domain_Value_Definition>
+                    <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                </Enumerated_Domain>
+            </Attribute_Domain_Values>
+        </Attribute>
+    </Detailed_Description>
+    <Feature_Catalogue_Description>
+        <FC_Title>Feature Catolog for the 2019 MAF/TIGER Feature Class Codes</FC_Title>
+        <Included_With_Dataset>No</Included_With_Dataset>
+        <Feature_Types>MAF/TIGER Feature Class Codes</Feature_Types>
+        <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
+    </Feature_Catalogue_Description>
+</Entity_and_Attribute_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20191202</Metadata_Date>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7890</Contact_Fax>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>ISO 19110</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>MAFTIGERFeatureClassCodes.ea.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>

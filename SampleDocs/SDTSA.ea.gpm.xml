@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/EAProfile.xsd"
+ profile="EA">
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>State Designated Tribal Statistical Areas</Entity_Type_Label>
+                <Entity_Type_Definition>statistical entities for state-recognized American Indian tribes that do not have a
+                    state-recognized land base (reservation)</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>U.S Census Bureau</Entity_Type_Definition_Source>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>AIANNH</Attribute_Label>
+                <Attribute_Definition>Current American Indian/Alaska Native/Native Hawaiian Area census code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>0001 to 4799</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Federally recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>4800 to 4989</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>American Indian Joint-Use Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5000 to 5499</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Hawaiian Home Land</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5500 to 5899</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5900 to 5999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Joint-Use Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source></Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>6000 to 7999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Alaska Native Village Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>8000 to 8999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9000 to 9499</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9500 to 9998</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State Designated Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHCC</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area FIPS Class Code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D0</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Statistical or legal area administered and/or claimed by two or more
+                            American Indian tribes</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D1</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Legal federally recognized American Indian area consisting of
+                            reservation and associated off-reservation trust land</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D2</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Legal federally recognized American Indian area consisting of
+                            reservation only</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D3</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Legal federally recognized American Indian area consisting of
+                            off-reservation trust land only</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D4</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Legal state recognized American Indian area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D5</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>The legal off-reservation trust land portion of an American Indian
+                            entity with both a reservation and trust land</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D6</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Statistical American Indian area defined for a federally recognized
+                            tribe that does not have a reservation or off-reservation trust land, specifically, a tribal
+                            designated statistical area or Oklahoma tribal statistical area, but excluding Alaska Native
+                            village statistical area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D7</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>A tribal subdivision</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D8</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>The legal reservation portion of an American Indian entity with
+                            both a reservation and trust land</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>D9</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Statistical American Indian area defined for a state-recognized
+                            tribe that does not have a reservation or off-reservation trust land, specifically a
+                            state-designated tribal statistical area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHCOMP</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area Reservation/Statistical Area or
+                    Off-Reservation Trust Land Component Indicator </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>R</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>merican Indian/Alaska Native/Native Hawaiian Area
+                            Reservation/Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>O</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Off-Reservation Trust Land Component Indicator </Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHFP1</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area State-FIPS Code 1 </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHFP2</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area State-FIPS Code 1 </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHFP3</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area State-FIPS Code 1 </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>Current state Federal Information Processing Series (FIPS) code</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHNS</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian Area National Standard Code </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>American Indian Areas</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AREALAND</Attribute_Label>
+                <Attribute_Definition>Land Area (Square Meters)</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Land Area (Square Meters) - Created for statistical purposes only. </Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AREAWATER</Attribute_Label>
+                <Attribute_Definition>Water Areas (Square Meters) </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Water Area (Square Meters) - Created for statistical purposes only.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>BASENAME</Attribute_Label>
+                <Attribute_Definition>Base name Portion of the Standardized Name  </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Base name Portion, or first part of the Standardized Name. The part of the name without
+                        "Reservation"</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>CENTLAT</Attribute_Label>
+                <Attribute_Definition>Centroid Latitude </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The latitude that is in the center of the Alaska Native Village Statistical Area</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>CENTLON</Attribute_Label>
+                <Attribute_Definition>Centroid Longitude</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The longitude that is in the center of the Alaska Native Village Statistical Area</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FSRFLG</Attribute_Label>
+                <Attribute_Definition> 	AIANNH Federal-State Flag</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>F</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Federal</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FUNCSTAT</Attribute_Label>
+                <Attribute_Definition>Functional Status </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>A</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Active entity (federally recognized entities only)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>F</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Fictitious entity created to fill the Census Bureau geographic hierarchy</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Nonfunctioning legal entity</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Statistical entity</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>T</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Active state-recognized entity</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>GEOID</Attribute_Label>
+                <Attribute_Definition>Geographic Identifier</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Geographic Identifier</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>HU100</Attribute_Label>
+                <Attribute_Definition>Decennial Housing Count</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Decennial Housing Count (100%) </Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>INTPTLAT</Attribute_Label>
+                <Attribute_Definition>Internal Point Latitude</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Internal Point Latitude</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>INTPTLON </Attribute_Label>
+                <Attribute_Definition>Internal Point Longitude</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Internal Point Longitude</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>LSADC</Attribute_Label>
+                <Attribute_Definition>Legal/Statistical Area Description Code</Attribute_Definition>
+                <Attribute_Definition_Source>>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>00</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Blank</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>81</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Colony (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>82</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Community (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>83</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>joint-use area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>84</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>85</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Rancheria (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>86</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>87</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Reserve (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>88</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>OTSA (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>89</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Trust Land (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>90</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>joint-use OTSA (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>91</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Ranch (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>92</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State-designated Tribal Statistical Area (SDTSA) (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>93</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Village (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>94</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Village (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>95</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Community (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>96</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>97</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Rancheria (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>98</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Colony (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>99</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo de</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9C</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo of</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9D</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Ranch Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9E</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Rancheria Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9F</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Ranches (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>T1</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>T2</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Chapter (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>T3</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Segment (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>TA</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Administrative Area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>TB</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Addition (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>TC</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>County District (prefix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>MTFCC</Attribute_Label>
+                <Attribute_Definition>MAF/TIGER Feature Class Code </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>G2160</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area (TDSA)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>NAME</Attribute_Label>
+                <Attribute_Definition> 	Base Name with Translated Legal/Statistical Area Description </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain> 	Base Name with Translated Legal/Statistical Area Description </Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>  
+            <Attribute>
+                <Attribute_Label>OID </Attribute_Label>
+                <Attribute_Definition>MAF/TIGER OID</Attribute_Definition>
+                <Attribute_Definition_Source>MAF/TIGER Object Identifier</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>MAF/TIGER Object Identifier</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>POP100 </Attribute_Label>
+                <Attribute_Definition>Decennial Population Count </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Decennial Population Count</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catolog for the 2019 State Designated Tribal Statistical Areas (SDTSA) </FC_Title>
+            <Included_With_Dataset>No</Included_With_Dataset>
+            <Feature_Types>State Designated Tribal Statistical Areas</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+    </Entity_and_Attribute_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20191202</Metadata_Date>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7890</Contact_Fax>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>ISO 19110</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>SDTSA.ea.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+    </GPM>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/EAProfile.xsd"
+ xsi:noNamespaceSchemaLocation="../../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/EAProfile.xsd"
  profile="EA">
 <Entity_and_Attribute_Information>
  
@@ -505,10 +505,11 @@
     <Unrepresentable_Domain> 	Base Name with Translated Legal/Statistical Area Description </Unrepresentable_Domain>
    </Attribute_Domain_Values>
   </Attribute>
- 
+  
+  
  </Detailed_Description>
  <Feature_Catalogue_Description>
-  <FC_Title>Feature Catolog for the 2018 Tribal Subdivisions</FC_Title>
+  <FC_Title>Feature Catolog for the 2019 Tribal Subdivisions</FC_Title>
   <Included_With_Dataset>No</Included_With_Dataset>
   <Feature_Types>Tribal Subdivisions</Feature_Types>
   <FC_Online_Linkage></FC_Online_Linkage>
