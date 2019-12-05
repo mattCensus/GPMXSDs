@@ -231,19 +231,19 @@
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
         <Map_Projection>
-            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
+            <Map_Projection_Name>WGS 84 / Pseudo-Mercator</Map_Projection_Name>
             <EPSG_Reference>
-                <EPSG_Code>EPSG::3395</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
-                <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+                <EPSG_Code>EPSG::3857</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3857</EPSG_Code_Space>
+                <EPSG_Version>9.8.2</EPSG_Version>
             </EPSG_Reference>
         </Map_Projection>
         <Map_Projection>
-            <Map_Projection_Name>WGS 84</Map_Projection_Name>
+            <Map_Projection_Name>WKID 102100</Map_Projection_Name>
             <EPSG_Reference>
-                <EPSG_Code>EPSG:4326</EPSG_Code>
-                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::4326</EPSG_Code_Space>
-                <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+                <EPSG_Code>EPSG::3857</EPSG_Code>
+                <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3857</EPSG_Code_Space>
+                <EPSG_Version>9.8.2</EPSG_Version>
             </EPSG_Reference>
         </Map_Projection>
     </Spatial_Reference_Information>
@@ -262,19 +262,19 @@
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/anrc/tl_2019_anrc.ea.iso.xml</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2018 Tribal Subdivisions REST File</FC_Title>
+            <FC_Title>Feature catalog for the 2018 Tribal Subdivisions REST File</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>Tribal Subdivisions</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 Off-Reservation Trust Lands</FC_Title>
+            <FC_Title>Feature Catalog for the 2019 Off-Reservation Trust Lands</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>Off-Reservation Trust Lands</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 State American Indian Reservations</FC_Title>
+            <FC_Title>Feature Catalog for the 2019 State American Indian Reservations</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>State American Indian Reservations</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
@@ -282,35 +282,35 @@
         <Feature_Catalogue_Description>
             <FC_Title>Feature Attributes for the 2019 Hawaiian Home Lands</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
-            <Feature_Types>HawaiianHomeLands</Feature_Types>
+            <Feature_Types>Hawaiian Homelands</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/REST</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 Alaska Native Village Statistical Areas</FC_Title>
+            <FC_Title>Feature Catalog for the 2019 Alaska Native Village Statistical Areas</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>Alaska Native Village Statistical Areas</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 Oklahoma Tribal Statistical Areas</FC_Title>
+            <FC_Title>Feature Catalog for the 2019 Oklahoma Tribal Statistical Areas</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>Oklahoma Tribal Statistical Areas</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 State Designated Tribal Statistical Areas (SDTSA) </FC_Title>
+            <FC_Title>Feature Catalog for the 2019 State Designated Tribal Statistical Areas (SDTSA) </FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>State Designated Tribal Statistical Areas</Feature_Types>
             <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the Tribal Designated Statistical Areas</FC_Title>
+            <FC_Title>Feature Catalog for the Tribal Designated Statistical Areas</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>Tribal Designated Statistical Areas</Feature_Types>
             <FC_Online_Linkage>>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
         </Feature_Catalogue_Description>
         <Feature_Catalogue_Description>
-            <FC_Title>Feature Catolog for the 2019 American Indian Joint-Use Areas</FC_Title>
+            <FC_Title>Feature Catalog for the 2019 American Indian Joint-Use Areas</FC_Title>
             <Included_With_Dataset>No</Included_With_Dataset>
             <Feature_Types>American Indian Joint-Use Areas</Feature_Types>
             <FC_Online_Linkage>>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/</FC_Online_Linkage>
@@ -347,7 +347,6 @@
                 <Parameter_Name>bbox</Parameter_Name>
                 <Parameter_Description>The extent (bounding box) of the exported image. Unless the bboxSR parameter has been specified,
                 the bbox is assumed to be in the spatial reference of the map.</Parameter_Description>
-                
             </Operation_Parameters>
             <Operation_Parameters>
                 <Parameter_Name>bbSR</Parameter_Name>
@@ -441,7 +440,7 @@
                 <Parameter_Name>layerParameterValues</Parameter_Name>
                 <Parameter_Direction>out</Parameter_Direction>
                 <Parameter_Description>filters the features of individual layers in the exported map by specifying a value or values to
-                    an array of preauthored parameterized filters for those layers</Parameter_Description>
+                    an array of pre-authored parameterized filters for those layers</Parameter_Description>
             </Operation_Parameters>
             <Operation_Parameters>
                 <Parameter_Name>mapRangeValues</Parameter_Name>
@@ -453,13 +452,13 @@
                 <Parameter_Name>layerRangeValues</Parameter_Name>
                 <Parameter_Direction>out</Parameter_Direction>
                 <Parameter_Description>filters the features of individual layers in the exported map by specifying a value or values to
-                    an array of preauthored parameterized filters for those layers.</Parameter_Description>
+                    an array of pre-authored parameterized filters for those layers.</Parameter_Description>
             </Operation_Parameters>
             <Connect_Point>
                 <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer/export?bbox=-1309290.809505552,-3.501520254370784E7,6.557750963076201E7,1.2927393341483943E7</CP_Link>
                 <Protocol>HTTP/1.1 </Protocol>
                 <Resource_Name>TIGERweb/AIANNHA (MapServer) REST Export </Resource_Name>
-               <Resource_Description>This is the export url</Resource_Description>
+               <Resource_Description>This is the export URL</Resource_Description>
             </Connect_Point>
         </Contains_Operations>
         <Contains_Operations>
@@ -614,7 +613,7 @@
             <Connect_Point>
                 <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer/queryDomains</CP_Link>
                 <Protocol>HTTP/1.1 </Protocol>
-                <Resource_Name>GERweb/AIANNHA (MapServer) REST QueryDomains </Resource_Name>
+                <Resource_Name>TIGERweb/AIANNHA (MapServer) REST QueryDomains </Resource_Name>
                 <Resource_Description>This is the QueryDomains URL</Resource_Description>
             </Connect_Point>
         </Contains_Operations>
@@ -648,7 +647,7 @@
             </Operation_Parameters>
             <Operation_Parameters>
                 <Parameter_Name>layerDefs</Parameter_Name>
-                <Parameter_Description> filterd the features of individual layers in the exported map by specifying definition expressions for those layers. Definition expression
+                <Parameter_Description> filtered the features of individual layers in the exported map by specifying definition expressions for those layers. Definition expression
                     for a layer that is published with the service will be always honored. </Parameter_Description>
             </Operation_Parameters>
             <Operation_Parameters>
@@ -663,10 +662,64 @@
                 <Parameter_Name>maxAllowableOffset</Parameter_Name>
                 <Parameter_Description>This option can be used to specify the maximum allowable offset to be used for generalizing geometries returned by the find operation.</Parameter_Description>
             </Operation_Parameters>
+           <Operation_Parameters>
+               <Parameter_Name>geometryPrecision</Parameter_Name>
+               <Parameter_Description>specifies the number of decimal places in the response geometries returned by the find operation.
+                   This applies to X and Y values only (not m or z values).</Parameter_Description>
+           </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>dynamicLayers</Parameter_Name>
+                <Parameter_Description>modifies the data source of existing layers in the current map service or to add new layers</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>returnZ</Parameter_Name>
+                <Parameter_Description> If true, Z values will be included in the results if the features have Z values. Otherwise, Z
+                    values are not returned. The default is true.
+                </Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>returnM</Parameter_Name>
+                <Parameter_Description>If true, M values will be included in the results if the features have M values. Otherwise, M
+                    values are not returned. The default is false.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>gdbVersion</Parameter_Name>
+                <Parameter_Description>Switch map layers to point to an alternate geodatabase version.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>returnUnformattedValues	</Parameter_Name>
+                <Parameter_Description>If true, the values in the result will not be formatted i.e. numbers will returned as is and dates
+                    will be returned as epoch values.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>returnFieldName</Parameter_Name>
+                <Parameter_Description>f true, field names will be returned instead of field aliases.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>datumTransformations</Parameter_Name>
+                <Parameter_Description> applies one or more datum transformations to the map when sr is different than the map service's
+                    spatial reference. It is an array of transformation elements.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>mapRangeValues</Parameter_Name>
+                <Parameter_Description>Allows you to filter features in the exported map from all layer that are within the specified
+                    range instant or extent.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>layerRangeValues</Parameter_Name>
+                <Parameter_Description>Allows you to filter features for each individual layer that are within the specified range
+                    instant or extent.</Parameter_Description>
+            </Operation_Parameters>
+            <Operation_Parameters>
+                <Parameter_Name>layerParameterValues</Parameter_Name>
+                <Parameter_Description>Allows you to filter the features of individual layers in the exported map by specifying value(s)
+                    to an array of pre-authored parameterized filters for those layers. When value is not specified for any parameter in
+                    a request, the default value, that is assigned during authoring time, gets used instead.</Parameter_Description>
+            </Operation_Parameters>
             <Connect_Point>
-                <CP_Link></CP_Link>
-                <Protocol></Protocol>
-                <Resource_Name></Resource_Name>
+                <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer/find</CP_Link>
+                <Protocol>HTTP/1.1 </Protocol>
+                <Resource_Name>TIGERweb/AIANNHA (MapServer)</Resource_Name>
                 <Resource_Description></Resource_Description>
             </Connect_Point>
         </Contains_Operations>

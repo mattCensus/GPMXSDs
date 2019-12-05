@@ -137,24 +137,24 @@
     <Data_Quality_Information>
         <Atribute_Accuracy_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
-                <Result>This information is not fully accurate</Result>
+                <Measure>Atribute_Accuracy_Report: TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
+                <Evaluation>Atribute_Accuracy_Report: Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
+                <Result>Atribute_Accuracy_Report: This information is not fully accurate</Result>
             </Test_Report>
         </Atribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
-                <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
+                <Measure>Non_Quantitative_Attribute_Accuracy_Report: National Standard Codes, Federal Information Processing (FIPS) and the
                     Geographic Names Information System (GNIS) TIGER/Line Shapefile Test</Measure>
-                <Evaluation>Tested against National Standard Codes, Federal Information Processing
+                <Evaluation>Non_Quantitative_Attribute_Accuracy_Report: Tested against National Standard Codes, Federal Information Processing
                     (FIPS) and the Geographic Names Information System (GNIS)</Evaluation>
-                <Result>100% accurate for the codes and base names.</Result>
+                <Result>Non_Quantitative_Attribute_Accuracy_Report: 100% accurate for the codes and base names.</Result>
             </Test_Report>
         </Non_Quantitative_Attribute_Accuracy_Report>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile topological consistency test</Measure>
-                <Evaluation>The Census Bureau performed automated tests to ensure logical
+                <!-- --> <Measure>Logical Consistency: TIGER/Line Shapefile topological consistency test</Measure>
+                <Evaluation>Logical Consistency:The Census Bureau performed automated tests to ensure logical
                     consistency and limits of shapefiles by collecting or generating Node/geometry
                     and topology relationships to satisfy topological edit requirements. These
                     requirements include: (1) Complete chains must begin and end at nodes. (2)
@@ -162,7 +162,7 @@
                     extend through nodes. (4) Left and right polygons are defined for each complete
                     chain element and are consistent throughout the extract process. (5) The chains
                     representing the limits of the files are free of gaps.</Evaluation>
-                <Result>There may be some inconsistencies in feature names along features. An
+                <Result>Logical Consistency: There may be some inconsistencies in feature names along features. An
                     anomaly exists with the sporadic occurrence of road segments comprising a
                     complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values
                     assigned. This problem could affect applications that use the MTFCC values for
@@ -172,17 +172,17 @@
         </Logical_Consistency_Report>
         <Completeness_Report>
             <Test_Report>
-                <Measure>TIGER/Line Shapefile Completeness Test</Measure>
-                <Evaluation>Data completeness of the TIGER/Line Shapefiles</Evaluation>
-                <Result>The data of all the TIGER/Line Shapefiles is incomplete</Result>
+                <Measure>Completeness_Report: TIGER/Line Shapefile Completeness Test</Measure>
+                <Evaluation>Completeness_Report: Data completeness of the TIGER/Line Shapefiles</Evaluation>
+                <Result>Completeness_Report: The data of all the TIGER/Line Shapefiles is incomplete</Result>
             </Test_Report>
         </Completeness_Report>
         <Horizontal_Positional_Accuracy_Report>
             <Test_Report>
-                <Measure>The Census Bureau uses root mean square error (RMSE) as stated in the
+                <Measure>Horizontal_Positional_Accuracy_Report: The Census Bureau uses root mean square error (RMSE) as stated in the
                     FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
                     National Standard for Spatial Data Accuracy.</Measure>
-                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                <Evaluation>Horizontal_Positional_Accuracy_Report: The Census Bureau uses Global Positioning System (GPS) coordinates at
                     road centerline intersections to evaluate the horizontal spatial accuracy of
                     source files that may be used to realign road features in the MAF/TIGER database
                     and test the horizontal spatial accuracy of the road features in the TIGER/Line
@@ -214,8 +214,8 @@
                     identified as matched to the positionally accurate source file with that
                     accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
                     whole.</Evaluation>
-                <Result>6.5 meters for 5406</Result>
-                <Result>1.73 meters for 11213</Result>
+                <Result>Horizontal_Positional_Accuracy_Report: 6.5 meters for 5406</Result>
+                <Result>Horizontal_Positional_Accuracy_Report: 1.73 meters for 11213</Result>
             </Test_Report>
         </Horizontal_Positional_Accuracy_Report>
         <Source_Information>
