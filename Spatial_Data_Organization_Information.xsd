@@ -21,6 +21,16 @@
     </xs:sequence>
 </xs:complexType>
     
+
+    <xs:complexType name="SpatialDataOrganizationInformationService">
+        <xs:sequence>
+            <xs:element name="Indirect_Spatial_Reference"/>
+            <xs:element name="Direct_Spatial_Reference_Method" type="GPMDef:DirectSpatialReferenceMethodCodeList"/>
+            <xs:element name="Topology_Level" type="GPMDef:TopologyLevelCodeList"/>
+            <xs:element name="SDTS_Terms_Description" type="spdo:SDTSTermsDescription" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
     <xs:complexType name="SDTSTermsDescription">
         <xs:sequence>
             <xs:element name="SDTS_Point_and_Vector_Object_Type" type="GPMDef:SDTSPointAndVectorObjectType"/>

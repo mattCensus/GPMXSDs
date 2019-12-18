@@ -34,7 +34,7 @@
                 <xsd:element name="FGDC_Required" type="fgdcreq:MapServices"/>
                 <xsd:element name="Identification_Information" type="ii:Services"/>
                 <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationVectorService"/>
-                <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation"/>
+                <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformationService"/>
                 <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceService"/>
                 <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
                 <xsd:element name="Distribution_Information" type="di:ServicesDistributionInformation"/>
