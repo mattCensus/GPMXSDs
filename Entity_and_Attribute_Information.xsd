@@ -19,7 +19,7 @@
     <xs:complexType name="Entity_and_Attribute_InformationEAProfile">
         <xs:sequence>
             <xs:element name="Detailed_Description" type="EAI:Detailed_Description"/>
-            <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_Elements" />
+            <xs:element name="Feature_Catalogue_Description" type="EAI:Feature_Catalogue_Description_ElementsEAProfile" />
         </xs:sequence>
     </xs:complexType>
     
@@ -89,6 +89,16 @@
     <xs:complexType name="Feature_Catalogue_Description_Elements">
         <xs:sequence>
             <xs:element name="FC_Title" type="GPMDef:basicType"/>
+            <xs:element name="Included_With_Dataset" type="GPMDef:IncludedWithDatasetType"/>
+            <xs:element name="Feature_Types"/>
+            <xs:element name="FC_Online_Linkage"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Feature_Catalogue_Description_ElementsEAProfile">
+        <xs:sequence>
+            <xs:element name="FC_Title" type="GPMDef:basicType"/>
+            <xs:element name="Version"/>
             <xs:element name="Included_With_Dataset" type="GPMDef:IncludedWithDatasetType"/>
             <xs:element name="Feature_Types"/>
             <xs:element name="FC_Online_Linkage"/>
