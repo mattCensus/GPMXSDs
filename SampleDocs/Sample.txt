@@ -1,2 +1,5 @@
 Location of the Sample files:
+EaFiles (GPM EA Profile)
+Work: file:/H:/newGPMS/NewMRFs/NewTemplates/FinalExamples/EAFiles
+Home: 
 
