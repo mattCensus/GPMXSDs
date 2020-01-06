@@ -6,3 +6,8 @@ Home:
 IsoEA (ISO 19110 files)
 Work: file:/H:/xmlFiles/EAs
 Home: 
+
+ProfileSample
+Work: file:/H:/newGPMS/NewMRFs/NewTemplates/FinalExamples/
+Home: 
+
