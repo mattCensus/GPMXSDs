@@ -137,7 +137,7 @@
                         <Enumerated_Domain_Value_Definition>Pueblo (suffix)</Enumerated_Domain_Value_Definition>
                         <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
-                </Attribute_Domain_Values>
+                </Attribute_Domain_Values>  
                 <Attribute_Domain_Values>
                     <Enumerated_Domain>
                         <Enumerated_Domain_Value>85</Enumerated_Domain_Value>
