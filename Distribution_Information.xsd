@@ -126,8 +126,7 @@
                 <xs:element name="Format_Version_Number"/>
                 <xs:element name="Format_Version_Date" type="GPMDef:dateFormat"/>
              </xs:choice>
-                <xs:element name="Network_Resource_Name"/>
-                <xs:element name="mimeType" type="GPMDef:mimeType" />
+            <xs:element name="Network_Address" type="di:NetworkAddressType"/>
         </xs:sequence>
     </xs:complexType>
     
@@ -143,6 +142,7 @@
     <xs:complexType name="NetworkAddressType">
         <xs:sequence>
             <xs:element name="Network_Resource_Name"/>
+            <xs:element name="Application_Profile" minOccurs="0" type="GPMDef:AppProfileType"/>
             <xs:element name="Network_Resource_Description" minOccurs="0"/>
             <xs:element name="mimeType" type="GPMDef:mimeType"/>
         </xs:sequence>

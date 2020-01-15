@@ -8517,6 +8517,20 @@
   </xsd:restriction>
  </xsd:simpleType>
  
+ <xsd:simpleType name="AppProfileType">
+  <xsd:restriction base="xsd:string">
+   <xsd:enumeration value="http://opengis.net/spec/wms"/>
+   <xsd:enumeration value="http://opengis.net/spec/wfs"/>
+   <xsd:enumeration value="http://opengis.net/spec/wcs"/>
+   <xsd:enumeration value="http://opengis.net/spec/wmts"/>
+   <xsd:enumeration value="http://opengis.net/spec/csw"/>
+   <xsd:enumeration value="http://opengis.net/spec/kml"/>
+   <xsd:enumeration value="http://www.geoplatform.gov/spec/esri-map-rest"/>
+   <xsd:enumeration value="http://www.geoplatform.gov/spec/esri-image-rest"/>
+   <xsd:enumeration value="http://www.geoplatform.gov/spec/esri-feature-rest"/>
+   
+  </xsd:restriction>
+ </xsd:simpleType>
  
  <xs:simpleType name="basicType">
   <xs:restriction base="xs:string">
