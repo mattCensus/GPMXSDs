@@ -158,6 +158,7 @@
    <xsd:enumeration value="application/x-visio"/>
    <xsd:enumeration value="application/x-vnd.audioexplosion.mzz"/>
    <xsd:enumeration value="application/x-vnd.ls-xpix"/>
+   <xsd:enumeration value="application/vnd.google-earth.kml+xml"/>
    <xsd:enumeration value="application/x-vrml"/>
    <xsd:enumeration value="application/x-wais-source"/>
    <xsd:enumeration value="application/x-winhelp"/>
