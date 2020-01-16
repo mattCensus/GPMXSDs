@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/VectorGPM.xsd"
+ profile="vector">
+    <FGDC_Required>
+        <ISO_Theme>
+           <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>boundaries</ISO_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>Geography Division/Cartographic Products and Services Branch</Originator>
+            <Publication_Date>201803</Publication_Date>
+            <Title>2017 KML Cartographic Boundary File, Current American Indian/Alaska Native/Native Hawaiian Areas for United States, 1:500,000</Title>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_us_aiannh_500k.zip</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The 2017 cartographic boundary KMLs are simplified representations of selected geographic areas from
+                the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing
+                (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping.
+                When possible, generalization is performed with the intent to maintain the hierarchical relationships among
+                geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas
+                may not align with the same areas from another year. Some geographies are available as nation-based files
+                while others are available only as state-based files. The American Indian/Alaska Native/Native Hawaiian
+                (AIANNH) Areas file includes the following legal entities: federally recognized American Indian reservations
+                and off-reservation trust land areas, state-recognized American Indian reservations, and Hawaiian home lands
+                (HHLs). The statistical entities included are Alaska Native village statistical areas (ANVSAs), Oklahoma
+                tribal statistical areas (OTSAs), tribal designated statistical areas (TDSAs), and state designated tribal
+                statistical areas (SDTSAs). Joint use areas included in this file refer to areas that are administered
+                jointly and/or claimed by two or more American Indian tribes. The Census Bureau designates both legal and
+                statistical joint use areas as unique geographic entities for the purpose of presenting statistical data.
+                Note that tribal subdivisions and Alaska Native Regional Corporations (ANRCs) are additional types of American
+                Indian/Alaska Native areas stored by the Census Bureau, but are displayed in separate files because of how
+                they fall within the Census Bureau's geographic hierarchy. The State of Hawaii's Office of Hawaiian Home
+                Lands provides the legal boundaries for the HHLs. The boundaries for ANVSAs, OTSAs, and TDSAs were delineated
+                for the 2010 Census through the Tribal Statistical Areas Program (TSAP) by participants from the federally
+                recognized tribal governments. The Bureau of Indian Affairs (BIA) within the U.S. Department of the Interior
+                (DOI) provides the list of federally recognized tribes and only provides legal boundary information when the
+                tribes need supporting records, if a boundary is based on treaty or another document that is historical or
+                open to legal interpretation, or when another tribal, state, or local government challenges the depiction of
+                a reservation or off-reservation trust land. The boundaries for federally recognized American Indian
+                reservations and off-reservation trust lands are as of January 1, 2017, as reported by the federally
+                recognized tribal governments through the Census Bureau's Boundary and Annexation Survey (BAS). The
+                boundaries for state-recognized American Indian reservations and for SDTSAs were delineated by a state
+                governor-appointed liaisons for the 2010 Census through the State American Indian Reservation Program and
+                TSAP respectively.</Abstract>
+            <Purpose>These files were specifically created to support small-scale thematic mapping. To improve the appearance
+                of shapes at small scales, areas are represented with fewer vertices than detailed TIGER/Line Shapefiles.
+                Cartographic boundary files take up less disk space than their ungeneralized counterparts. Cartographic
+                boundary files take less time to render on screen than TIGER/Line Shapefiles. You can join this file with
+                table data downloaded from American FactFinder by using the AFFGEOID field in the cartographic boundary file.
+                If detailed boundaries are required, please use the TIGER/Line Shapefiles instead of the generalized
+                cartographic boundary files.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+          <Range_Of_Dates>
+              <Beginning_Date>201803</Beginning_Date>
+              <Ending_Date>201803</Ending_Date>
+          </Range_Of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.148909</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.77847</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>-14.548699</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>71.365162</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>ANVSA</Theme_Keyword>
+                <Theme_Keyword>Alaska Native Area</Theme_Keyword>
+                <Theme_Keyword>Alaska Native Village Statistical Area</Theme_Keyword>
+                <Theme_Keyword>American Indian Area</Theme_Keyword>
+                <Theme_Keyword>Cartographic Boundary</Theme_Keyword>
+                <Theme_Keyword>Generalized</Theme_Keyword>
+                <Theme_Keyword>Hawaiian Home Land</Theme_Keyword>
+                <Theme_Keyword>Native Hawaiian Area</Theme_Keyword>
+                <Theme_Keyword>OTSA</Theme_Keyword>
+                <Theme_Keyword>Oklahoma Tribal Statistical Area</Theme_Keyword>
+                <Theme_Keyword>SDTSA</Theme_Keyword>
+                <Theme_Keyword>State Designated Tribal Statistical Areas</Theme_Keyword>
+                <Theme_Keyword>TDSA</Theme_Keyword>
+                <Theme_Keyword>Tribal Designated Statistical Area</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166 Codes for the representation of names of countries and their subdivisions</Place_Keyword_Thesaurus>
+                <Place_Keyword>United States</Place_Keyword>
+                <Place_Keyword>US</Place_Keyword>
+            </Place>
+           
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>otherRestrictions</Access_Constraints>
+            <Use_Constraints>otherRestrictions</Use_Constraints>
+            <Other_Constraints>Use Constraints:The intended display scale for this file is 1:500,000. This file should not be
+                displayed at scales larger than 1:500,000. These products are free to use in a product or publication,
+                however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information is
+                for visual display at appropriate small scales only. Cartographic boundary files should not be used for
+                geographic analysis including area or perimeter calculation. Files should not be used for geocoding addresses.
+                Files should not be used for determining precise geographic area relationships. </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization>U.S Department of Commerce, U.S Census Bureau, Geographic Customer Services Branch (point of Contact)</Contact_Organization>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>logical consistency</Measure>
+                <Result> Feature attribute information has been examined but has not been fully tested for consistency. For the
+                    cartographic boundary files, the Point and Vector Object Count for the G-polygon SDTS Point and Vector
+                    Object Type reflects the number of records in the file's data table. For multi-polygon features, only one
+                    attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon
+                    component of the multi-polygon feature. Cartographic Boundary File multi-polygons are an exception to the
+                    G-polygon object type classification. Therefore, when multi-polygons exist in a file, the object count
+                    will be less than the actual number of G-polygons.</Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Result>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER
+                    Database. Generalized boundary files are clipped to a simplified version of the U.S. outline. As a result,
+                    some off-shore areas may be excluded from the generalized files. Some small geographic areas, holes, or
+                    discontiguous parts of areas may not be included in generalized files if they are not visible at the
+                    target scale.</Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>logical consistency of the source database</Measure>
+                <Result>The Census Bureau performed automated tests to ensure logical consistency of the source database.
+                    Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the
+                    area. All polygons were tested for closure. The Census Bureau uses its internally developed geographic
+                    update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database. Standard
+                    geographic codes, such as INCITS (formerly FIPS) codes for states, counties, municipalities, county
+                    subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts
+                    are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical
+                    consistency of the codes during the compilation of the original Census MAF/TIGER database files.</Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Measure>Completeness Test</Measure>
+                <Result>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER
+                    Database. Generalized boundary files are clipped to a simplified version of the U.S. outline. As a result,
+                    some off-shore areas may be excluded from the generalized files. Some small geographic areas, holes, or
+                    discontiguous parts of areas may not be included in generalized files if they are not visible at the
+                    target scale.</Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>201705</Publication_Date>
+                <Title>Census MAF/TIGER database</Title>
+            </Citation>
+            <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>201705</Beginning_Date>
+                    <Ending_Date>201706</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+            <Source_Contribution>All spatial and feature data</Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description>Spatial data were extracted from the MAF/TIGER database and processed through a U.S. Census Bureau batch generalization system.</Process_Description>
+            <Process_Date>20180301</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS),
+            and feature names.</Indirect_Spatial_Reference>
+       <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+        <Topology_Level>fullPlanarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+           <SDTS_Point_and_Vector_Object_Type>surface</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>695</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>urn:ogc:def:crs:EPSG::3395</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>cb_2017_us_aiannh_500k</Entity_Type_Label>
+                <Entity_Type_Definition>Current American Indian/Alaska Native/Native Hawaiian Areas (national)</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>U.S Census Bureau</Entity_Type_Definition_Source>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>AIANNHCE</Attribute_Label>
+                <Attribute_Definition>Current American Indian/Alaska Native/Native Hawaiian area census code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>0001 to 4799</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Federally recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>4800 to 4989</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>American Indian Joint-Use Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5000 to 5499</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Hawaiian Home Land</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5500 to 5899</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>5900 to 5999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Joint-Use Oklahoma Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>6000 to 7999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Alaska Native Village Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>8000 to 8999</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9000 to 9499</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State recognized legal American Indian area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9500 to 9998</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State Designated Tribal Statistical Area</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AIANNHNS</Attribute_Label>
+                <Attribute_Definition>Current American Indian/Alaska Native/Native Hawaiian Area Geographic Names Information
+                    System (GNIS) code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>INCITS 446:2008 (Geographic Names Information System (GNIS)), Identifying Attributes
+                            for Named Physical and Cultural Geographic Features (Except Roads and Highways) of the United
+                            States, Its Territories, Outlying Areas, and Freely Associated Areas, and the Waters of the Same
+                            to the Limit of the Twelve-Mile Statutory Zone</Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AFFGEOID</Attribute_Label>
+                <Attribute_Definition>American FactFinder summary level code + geovariant code + '00US' + GEOID</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>American FactFinder geographic identifier</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>GEOID</Attribute_Label>
+                <Attribute_Definition>American Indian/Alaska Native/Native Hawaiian area identifier, American Indian/Alaska
+                    Native/Native Hawaiian area code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Current American Indian/Alaska Native/Native Hawaiian Area census code found in AIANNHCE</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>NAME</Attribute_Label>
+                <Attribute_Definition>Current American Indian/Alaska Native/Native Hawaiian area name</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Values for this attribute are composed of a set of names. As such, they do not exist in a known, predefined set.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>LSAD</Attribute_Label>
+                <Attribute_Definition>Current legal/statistical area description code for American Indian/Alaska Native/Native Hawaiian
+                    area</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>00</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Blank</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>78</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Hawaiian Home Land (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>79</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Alaska Native Village Statistical Area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>80</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Tribal Designated Statistical Area (TDSA) (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>81</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Colony (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>82</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Community (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>83</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Joint-Use area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>84</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>85</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Rancheria (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>86</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>87</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Reserve (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>88</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Oklahoma Tribal Statistical Area (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>89</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Trust Land (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>90</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>joint-use Oklahoma Tribal Statistical Area (OTSA) (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>91</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Ranch (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>92</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>State Designated Tribal Statistical Areas (SDTSA) (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>93</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Village (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>94</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Village (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>95</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Community (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>96</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Reservation (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>97</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Rancheria (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>98</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Indian Colony (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>99</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo de (prefix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9C</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Pueblo of (prefix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>9D</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>settlement (suffix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>ALAND</Attribute_Label>
+                <Attribute_Definition>Current land area (square meters)</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                  <Range_Domain>
+                      <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                      <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+                  </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AWATER</Attribute_Label>
+                <Attribute_Definition>Current water area (square meters)</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+    </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S Department of Commerce, U.S Census Bureau, Geography Division, Geographic Products Branch (distributor)</Contact_Organization>
+        </Point_of_Contact>
+        <Distribution_Liability>The cartographic boundary files contain geographic data only and do not include display mapping software or statistical data. For information on how to use cartographic boundary file data with specific software package users shall contact the company that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>KML</Format_Name>
+                <File_Decompression_Technique>PK-ZIP, version 1.93A or higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://www2.census.gov/geo/tiger/GENZ2017/kml/cb_2017_us_aiannh_500k.zip</Network_Resource_Name>
+                    <mimeType>application/vnd.google-earth.kml+xml</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Digital_Form>
+                <Format_Name>HTML</Format_Name>
+                <File_Decompression_Technique>None</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>
+        </Standard_Order_Process>
+        <Technical_Prerequisites></Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20200116</Metadata_Date>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7890</Contact_Fax>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>KMLExample.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
