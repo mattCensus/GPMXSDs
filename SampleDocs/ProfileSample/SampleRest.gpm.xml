@@ -329,8 +329,11 @@
             <Digital_Form>
                 <Format_Name>REST</Format_Name>
                 <Format_Version_Number>10.51</Format_Version_Number>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                    
+                </Network_Address>      
             </Digital_Form>
             <Fees></Fees>
         </Standard_Order_Process>

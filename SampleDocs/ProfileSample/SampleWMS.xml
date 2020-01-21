@@ -139,8 +139,7 @@
             <Use_Constraints>trademark</Use_Constraints>
             <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>Use Constraints: These products are free to use in a product or publication, however
-                acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
-                information is for visual display at appropriate small scales only. Cartographic
+                acknowledgement must be given to the U.S. Census Bureau as the source. WMS
                 boundary files should not be used for geographic analysis including area or
                 perimeter calculation. Files should not be used for geocoding addresses. Files
                 should not be used for determining precise geographic area
@@ -155,8 +154,7 @@
         <Atribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
-                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
-                    information</Evaluation>
+                <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>
         </Atribute_Accuracy_Report>
@@ -171,7 +169,7 @@
         </Non_Quantitative_Attribute_Accuracy_Report>
         <Logical_Consistency_Report>
             <Test_Report>
-                <Measure> The Census Bureau performed automated tests to ensure logical consistency
+                <Measure> The Census Bureau performed automated tests to ensure logical consistency 
                     and limits of shapefiles.</Measure>
                 <Evaluation>Node/geometry and topology relationships are collected or generated to
                     satisfy topological edit requirements. These requirements include: (1) Complete
@@ -428,11 +426,11 @@
              </EPSG_Reference>
          </Map_Projection>
           <Map_Projection>
-              <Map_Projection_Name>WGS_1984_Web_Mercator_Auxiliary_Sphere</Map_Projection_Name>
+              <Map_Projection_Name>ESRI Web Mercator definition</Map_Projection_Name>
               <EPSG_Reference>
-                  <EPSG_Code>EPSG:102100</EPSG_Code>
-                  <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG:102100</EPSG_Code_Space>
-                  <EPSG_Version>9.3, 2018-04-20</EPSG_Version>
+                  <EPSG_Code>ESRI:102100</EPSG_Code>
+                  <EPSG_Code_Space>ttps://spatialreference.org/ref/sr-org/6928</EPSG_Code_Space>
+                  <EPSG_Version>Unknown</EPSG_Version>
               </EPSG_Reference>
           </Map_Projection>
     </Spatial_Reference_Information>
@@ -477,7 +475,7 @@
     <Distribution_Information>
         <Point_of_Contact>
             <Contact_Organization> Geography Division, Spatial Products Software Branch</Contact_Organization>
-            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Electronic_Mail_Address>geo.tigerweb@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
         <Distribution_Liability>This WMS contains geographic data only and do not
             include display mapping software or statistical data. For information on how to use the
@@ -485,16 +483,22 @@
             that produced the software. To use this WMS in a web browser, reference the OGC specification.</Distribution_Liability>
         <Standard_Order_Process>
             <Digital_Form>
-                <Format_Name>WMS</Format_Name>
+                <Format_Name>WMS</Format_Name>               
                 <Format_Version_Number>1.3.0</Format_Version_Number>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                     <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
+                     <mimeType>text/html</mimeType>
+                      
+                </Network_Address>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
-                <mimeType>text/html</mimeType>
+                <Network_Address>
+                    <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
+                    <mimeType>text/html</mimeType>
+                </Network_Address>
+                
             </Digital_Form>
             <Fees>Census Web Mapping Services may be accessed without charge.</Fees>
         </Standard_Order_Process>
@@ -502,7 +506,7 @@
    <Computer_Service_Information>
         <Service_Type>urn:ogc:serviceType:WebMapService:1.1</Service_Type>
         <Service_Type_Version>1.3.0</Service_Type_Version>
-        <Coupling_Type>tight</Coupling_Type>
+        <Coupling_Type>mixed</Coupling_Type>
         <Contains_Operations>
             <Operation_Name>GetCapabilities</Operation_Name>
             <DCP>WebServices</DCP>
@@ -631,8 +635,8 @@
             <Operation_Description>The Open Geospatial Consortium, Inc. Off Site (OGC) Web Map Service interface standard (WMS) provides a simple HTTP interface for
                 requesting geo-registered map images from our geospatial database. The response to the request is one or more geo-registered map images that can be displayed in
                 a browser or WMS client application. By gaining access to our data through our WMS, users can produce maps containing TIGERweb layers combined with layers from
-                other servers. The GetMap operation returns a map image. It returns results in the following formats: bmp, jpeg, tiff, png, png8, png24, png32, gif,  and
-                svg+xml. 
+                other servers.The GetFeatureInfo operation provides clients of a WMS with more information about features in the pictures of maps that were returned by previous
+                Map requests. It is only supported for those Layers for which the attribute queryable="1" (true) has been defined or inherited.
             </Operation_Description>
             <Operation_Parameters>
                 <Parameter_Name>version</Parameter_Name>
@@ -692,8 +696,7 @@
             <Operation_Description>The Open Geospatial Consortium, Inc. Off Site (OGC) Web Map Service interface standard (WMS) provides a simple HTTP interface for
                 requesting geo-registered map images from our geospatial database. The response to the request is one or more geo-registered map images that can be displayed in
                 a browser or WMS client application. By gaining access to our data through our WMS, users can produce maps containing TIGERweb layers combined with layers from
-                other servers. The esri_wms:GetStyles operation returns
-                user-defined styles from the WMS. It returns results in the following format: vnd.ogc.sld+xml
+                other servers. The esri_wms:GetStyles operation returns user-defined styles from the WMS. It returns results in the following format: vnd.ogc.sld+xml
             </Operation_Description>
             <Operation_Parameters>
                 <Parameter_Name>version</Parameter_Name>
