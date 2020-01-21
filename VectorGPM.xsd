@@ -31,7 +31,7 @@
             <xsd:sequence>
                 <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
                 <xsd:element name="Identification_Information"  type="ii:VectorID"/>
-                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationVectorService"/>
+                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationVector"/>
                 <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation"/>
                 <xsd:element name="Spatial_Reference_Information" type="sri:Spatial_Reference_InformationVector"/>
                 <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
