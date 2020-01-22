@@ -8,6 +8,8 @@
  <xsd:simpleType name="GeospatialDataPresentationForm">
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="diagramDigital"/>
+   <xsd:enumeration value="mapHardcopy"/>
+   <xsd:enumeration value="map"/>
    <xsd:enumeration value="documentDigital"/>
    <xsd:enumeration value="mapDigital"/>
    <xsd:enumeration value="modelDigital"/>
