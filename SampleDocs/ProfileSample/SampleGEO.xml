@@ -180,7 +180,7 @@
             <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints>
                 Use Constraints:The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census
-                Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+                Bureau.  These products are free to use in a product or publication, however acknowledgment must be given to the U.S. Census Bureau as the source.
             </Other_Constraints>
         </Constraints>
         <Point_of_Contact>
@@ -264,7 +264,7 @@
     </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date>201603</Metadata_Date>
-        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level>data set</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>

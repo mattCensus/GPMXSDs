@@ -156,7 +156,7 @@
             <Use_Constraints>trademark</Use_Constraints>
              <Use_Constraints>otherRestrictions</Use_Constraints>
             <Other_Constraints> These products are free to use in a product or publication, however
-                acknowledgement must be given to the U.S. Census Bureau as the source. The boundary
+                acknowledgment must be given to the U.S. Census Bureau as the source. The boundary
                 information is for visual display at appropriate small scales only. Cartographic
                 boundary files should not be used for geographic analysis including area or
                 perimeter calculation. Files should not be used for geocoding addresses. Files
@@ -180,7 +180,7 @@
             that produced the software.</Distribution_Liability>
         <Standard_Order_Process>
             <Digital_Form>
-                <Format_Name>https</Format_Name>
+                <Format_Name>HTTP</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
                 <Network_Address>
                     <Network_Resource_Name>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Network_Resource_Name>
