@@ -533,7 +533,7 @@
             <Operation_Parameters>
                 <Parameter_Name>returnGeometry</Parameter_Name>
                 <Parameter_Direction>out</Parameter_Direction>
-                <Parameter_Description>If true, the resultset will include the geometries associated with each result. The default is true.</Parameter_Description>
+                <Parameter_Description>If true, the resulting set will include the geometries associated with each result. The default is true.</Parameter_Description>
             </Operation_Parameters>
             <Operation_Parameters>
                 <Parameter_Name>maxAllowableOffset</Parameter_Name>
@@ -694,7 +694,7 @@
                 <Parameter_Description>If true, the values in the result will not be formatted i.e. numbers will returned as is and dates
                     will be returned as epoch values.</Parameter_Description>
             </Operation_Parameters>
-            <Operation_Parameters>
+            <Operation_Parameters> 
                 <Parameter_Name>returnFieldName</Parameter_Name>
                 <Parameter_Description>f true, field names will be returned instead of field aliases.</Parameter_Description>
             </Operation_Parameters>

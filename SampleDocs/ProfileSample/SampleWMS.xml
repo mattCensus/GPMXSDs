@@ -488,7 +488,7 @@
                 <Network_Address>
                      <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
                      <mimeType>text/html</mimeType>
-                      
+                      <Application_Profile>http://opengis.net/spec/wms</Application_Profile>
                 </Network_Address>
             </Digital_Form>
             <Digital_Form>
@@ -498,7 +498,6 @@
                     <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
                     <mimeType>text/html</mimeType>
                 </Network_Address>
-                
             </Digital_Form>
             <Fees>Census Web Mapping Services may be accessed without charge.</Fees>
         </Standard_Order_Process>

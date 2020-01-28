@@ -264,7 +264,7 @@
     </Distribution_Information>
     <Metadata_Reference_Information>
         <Metadata_Date>201603</Metadata_Date>
-        <Metadata_Hierarchy_Level>data set</Metadata_Hierarchy_Level>
+      <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>

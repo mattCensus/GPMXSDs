@@ -63,7 +63,6 @@
                 <Theme_Keyword>Census Tract</Theme_Keyword>
                 <Theme_Keyword>County</Theme_Keyword>
                 <Theme_Keyword>Generalized</Theme_Keyword>
-                <Theme_Keyword></Theme_Keyword>
                 <Theme_Keyword>State</Theme_Keyword>
             </Theme>
             <Place>
@@ -107,10 +106,9 @@
                 <Format_Version_Date>2000</Format_Version_Date>
                 <File_Decompression_Technique>none</File_Decompression_Technique>
                 <Network_Address>
-                <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html</Network_Resource_Name>
+                    <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html</Network_Resource_Name>
                     <mimeType>text/html</mimeType>
                 </Network_Address>
-                
             </Digital_Form> 
             <Digital_Form> 
                 <Format_Name>HTML</Format_Name>
@@ -126,7 +124,7 @@
                 <Format_Version_Date>2000</Format_Version_Date>
                 <File_Decompression_Technique>ZIP</File_Decompression_Technique>
                 <Network_Address>
-                <Network_Resource_Name>https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/bg_500/cb_2015_bg_500k.shp.ea.iso.xml</Network_Resource_Name>
+                    <Network_Resource_Name>https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/bg_500/cb_2015_bg_500k.shp.ea.iso.xml</Network_Resource_Name>
                     <mimeType>text/xml</mimeType>
                 </Network_Address>
             </Digital_Form> 
@@ -140,7 +138,7 @@
     <Metadata_Reference_Information>
         <Metadata_Date>201603</Metadata_Date>
         <Metadata_Hierarchy_Level>series</Metadata_Hierarchy_Level>
-               <Point_of_Contact>
+        <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>

@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPM profile="app"> 
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/APPGPM.xsd"
+ profile="series"> 
+    <FGDC_Required>
+        <ISO_Theme>
+           <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+           <ISO_Keyword>boundaries</ISO_Keyword>
+            <ISO_Keyword>transportation</ISO_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
     <Identification_Information>
         <Citation>
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Products Systems Branch</Originator>
-            <Publication_Date>2013-12-20</Publication_Date>
+            <Publication_Date>20131220</Publication_Date>
             <Title>TIGERweb Application</Title>
+            <Online_Linkage>https://tigerweb.geo.census.gov/tigerweb/</Online_Linkage>
         </Citation>
-        <Online_Linkage>https://tigerweb.geo.census.gov/tigerweb/</Online_Linkage>
+        
         <Description>
             <Abstract>The TIGERweb application allows users to access and view geospatial features, geographic area information, and associated
                 attributes from the U.S. Census Bureau Topologically Integrated Geographic Encoding and Referencing System (TIGER) geodatabase. The TIGERweb
@@ -43,8 +53,8 @@
         </Description>
         <Time_Period_of_Content>
             <Range_Of_Dates>
-                <Beginning_Date>01012010</Beginning_Date>
-                <Ending_Date>01012016</Ending_Date>
+                <Beginning_Date>20100101</Beginning_Date>
+                <Ending_Date>20160101</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
@@ -125,7 +135,6 @@
         <Point_of_Contact>
             <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Address>
-                <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
@@ -142,7 +151,6 @@
         <Point_of_Contact>
             <Contact_Organization> U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
             <Contact_Address>
-                <Address_Type>mailing</Address_Type>
                 <Address>4600 Silver Hill Road</Address>
                 <City>Washington</City>
                 <State_or_Province>DC</State_or_Province>
@@ -159,20 +167,21 @@
             <Digital_Form>
                 <Format_Name>https</Format_Name>
                 <Format_Version_Number>3.0</Format_Version_Number>
-                <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerweb/</Network_Resource_Name>
-        </Digital_Form>
+                 <Network_Address>
+                    <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerweb/</Network_Resource_Name>
+                     <mimeType>text/html</mimeType>
+                 </Network_Address>
+            </Digital_Form>
+                 <Fees>There are no fees associated with this product</Fees>
         </Standard_Order_Process>
-        <Fees>There are no fees associated with this product</Fees>
-        <Technical_Prerequisites>A web browser is needed to use this application</Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>2016-12</Metadata_Date>
+        <Metadata_Date>201612</Metadata_Date>
         <Metadata_Hierarchy_Level>application</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is an application that can be used to view TIGER\Line data</Metadata_Hierarchy_Level_Name> <!-- this should be optional -->
-       <Contact_Address>
+       <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
            <Contact_Address>
-               <Address_Type>mailing</Address_Type>
                <Address>4600 Silver Hill Road</Address>
                <City>Washington</City>
                <State_or_Province>DC</State_or_Province>
@@ -181,11 +190,11 @@
            </Contact_Address>
            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
-        </Contact_Address>
+       </Point_of_Contact>
         <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
         <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>SampleApp.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>SampleApp.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

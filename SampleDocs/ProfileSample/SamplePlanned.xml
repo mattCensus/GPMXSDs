@@ -198,8 +198,7 @@
                 Division</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
         </Point_of_Contact>
-        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial
-            Metadata</Metadata_Standard_Name>
+        <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
         <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
         <Metadata_File_Identifier>SamplePlanned.gpm.xml</Metadata_File_Identifier>

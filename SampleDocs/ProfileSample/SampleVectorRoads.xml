@@ -50,10 +50,9 @@
                 TIGER/Line Shapefiles. </Purpose>
         </Description>
         <Time_Period_of_Content>
-            <!--  <Calendar_Date>2015-06</Calendar_Date>-->
             <Range_Of_Dates>
-                <Beginning_Date>201506</Beginning_Date>
-                <Ending_Date>201605</Ending_Date>
+                <Beginning_Date>201605</Beginning_Date>
+                <Ending_Date>201506</Ending_Date>
             </Range_Of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
@@ -668,7 +667,6 @@
         <Metadata_Parent_Identifier>TIGER/Line Shapefile, 2016, Series Information for the Current Block Group State-based shapefile</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name>
-        <!-- this should be optional -->
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
             <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>

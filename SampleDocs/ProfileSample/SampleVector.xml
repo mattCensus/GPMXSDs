@@ -137,9 +137,9 @@
     <Data_Quality_Information>
         <Atribute_Accuracy_Report>
             <Test_Report>
-                <Measure>Atribute_Accuracy_Report: TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
-                <Evaluation>Atribute_Accuracy_Report: Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
-                <Result>Atribute_Accuracy_Report: This information is not fully accurate</Result>
+                <Measure>Attribute_Accuracy_Report: TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
+                <Evaluation>Tribute_Accuracy_Report: Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
+                <Result>Tribute_Accuracy_Report: This information is not fully accurate</Result>
             </Test_Report>
         </Atribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>

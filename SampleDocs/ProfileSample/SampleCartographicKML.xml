@@ -68,7 +68,6 @@
             <Theme_Keyword>Census Tract</Theme_Keyword>
             <Theme_Keyword>County</Theme_Keyword>
             <Theme_Keyword>Generalized</Theme_Keyword>
-            <Theme_Keyword></Theme_Keyword>
             <Theme_Keyword>State</Theme_Keyword>
         </Theme>
         <Place>
@@ -193,7 +192,7 @@
                 <Entity_Type_Label>cb_2015_01_bg_500k.shp</Entity_Type_Label>
                 <Entity_Type_Definition>Current Census Block Group State-based entities</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
-                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>https://www.census.gov/programs-surveys/geography/guidance/geographic-areas-reference-manual.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>STATEFP</Attribute_Label>

@@ -19,7 +19,7 @@
         </Citation>
     <Description>
         <Abstract>A shapefile of the winner of each town for the September 4,2018 Democratic Primary for the Massachusetts 7th Congressional District. Since most of the
-                  towns have been clipped in the formation of the congressional district (cd), only the part of the town in the cd is shown.</Abstract>
+                  towns have been clipped in the formation of the congressional district (CD), only the part of the town in the CD is shown.</Abstract>
         <Purpose>To show the winner of town for the September 4,2018 Democratic Primary</Purpose>
     </Description>
     <Time_Period_of_Content>
@@ -340,7 +340,7 @@
                 <Entity_Type_Label>MA7Towns.gdb</Entity_Type_Label>
                 <Entity_Type_Definition>Towns in the Massachusetts 7th Congressional District</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>Matt</Entity_Type_Definition_Source>
-                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>https://www.census.gov/programs-surveys/geography/guidance/geographic-areas-reference-manual.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>Town ID</Attribute_Label>

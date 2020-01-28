@@ -700,7 +700,6 @@
             Block Group State-based shapefile</Metadata_Parent_Identifier>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
         <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name>
-        <!-- this should be optional -->
         <Point_of_Contact>
             <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
                 Division, Spatial Data Collection and Products Branch</Contact_Organization>

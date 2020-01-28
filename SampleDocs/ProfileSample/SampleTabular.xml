@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/TabGPM.xsd" profile="tabular">
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/TabGPM.xsd"
+ profile="tabular">
     <Identification_Information>
         <Citation>
             <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division
@@ -9,7 +10,7 @@
             <Title>TIGER/Line Shapefile, 2015, county, Baldwin County, AL, Address Range-Feature
                 Name County-based Relationship File</Title>
             <Edition>2015</Edition>
-            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+             <Geospatial_Data_Presentation_Form>tableDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage>/http://www2.census.gov/geo/tiger/TIGER2015/ADDRFN/tl_2015_01003_addrfn.zip</Online_Linkage>
         </Citation>
         <Description>
@@ -146,7 +147,7 @@
                 <Entity_Type_Definition>Current Address Range-Feature Name County-based Relationship
                     file</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
-                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>https://www.census.gov/programs-surveys/geography/guidance/geographic-areas-reference-manual.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>ARID</Attribute_Label>

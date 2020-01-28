@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
+ xsi:noNamespaceSchemaLocation="../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/GDBGPM.xsd"
+ profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
-            <ISO_Keyword>transportation</ISO_Keyword>
+           <ISO_Keyword>location</ISO_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>

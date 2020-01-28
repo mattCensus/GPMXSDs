@@ -8,7 +8,7 @@
             <Publication_Date>2017</Publication_Date>
             <Title>TIGER/Line Shapefile, 2017,  county, Yauco Municipio, PR, Address Ranges County-based Relationship File</Title>
             <Edition>2017</Edition>
-            <Geospatial_Data_Presentation_Form>tabular digital data</Geospatial_Data_Presentation_Form><!-- check this one -->
+            <Geospatial_Data_Presentation_Form>tableDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage>http://www2.census.gov/geo/tiger/TIGER2017/ADDR/tl_2017_72153_addr.zip</Online_Linkage>
         </Citation>
         <Description>
@@ -146,7 +146,7 @@
                 <Entity_Type_Label>ADDR.dbf</Entity_Type_Label>
                 <Entity_Type_Definition>Current Address Ranges County-based Relationship file</Entity_Type_Definition>
                 <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
-                <Ontology_URI>https://www.census.gov/geo/reference/terms.html</Ontology_URI>
+                <Ontology_URI>https://www.census.gov/programs-surveys/geography/guidance/geographic-areas-reference-manual.html</Ontology_URI>
             </Entity_Type>
             <Attribute>
                 <Attribute_Label>TLID</Attribute_Label>

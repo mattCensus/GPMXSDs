@@ -76,13 +76,11 @@
                 <Theme_Keyword>Census Tract</Theme_Keyword>
                 <Theme_Keyword>County</Theme_Keyword>
                 <Theme_Keyword>Generalized</Theme_Keyword>
-                <Theme_Keyword/>
                 <Theme_Keyword>State</Theme_Keyword>
                 <Theme_Keyword>State or Equivalent Entity</Theme_Keyword>
             </Theme>
             <Place>
-                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of
-                    countries and their subdivisions </Place_Keyword_Thesaurus>
+                <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
                 <Place_Keyword>U.S</Place_Keyword>
                 <Place_Keyword>United States</Place_Keyword>
             </Place>
