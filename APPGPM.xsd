@@ -20,10 +20,11 @@
     <xsd:import namespace="../newGPMStd/Distribution_Information" schemaLocation="../newGPMStd/Distribution_Information.xsd"/>
     <xsd:import namespace="../newGPMStd/Metadata_Reference_Information" schemaLocation="../newGPMStd/Metadata_Reference_Information.xsd"/>
     <xs:import namespace="../newGPMStd/GPMDefinitions" schemaLocation="../newGPMStd/GPMDefinitions.xsd"/>
-
+    
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
+                <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
                 <xsd:element name="Identification_Information" type="ii:PlannedID"/>
                 <xsd:element name="Distribution_Information"  type="di:DistributionInformationPlanned"/>
                 <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
@@ -31,5 +32,5 @@
             <xsd:attribute name="profile" type="GPMDef:Profile"/>
         </xsd:complexType>
     </xsd:element>
-
+    
 </xs:schema>
