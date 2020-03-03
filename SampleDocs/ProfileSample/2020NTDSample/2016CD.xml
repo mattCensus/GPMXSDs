@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/VectorGPM.xsd"
+ profile="vector">
+    <FGDC_Required>
+        <ISO_Theme>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+           <ISO_Keyword>boundaries</ISO_Keyword>
+        </ISO_Theme>
+        <NGDA_Info>
+            <Alternate_Title>National Geospatial Data Asset (NGDA) 116th Congressional District</Alternate_Title>
+            <NGDA_Keyword_Thesaurus>NGDA Portfolio Themes</NGDA_Keyword_Thesaurus>
+          <NGDA_Keyword>Governmental Units and Administrative and Statistical Boundaries Theme</NGDA_Keyword>
+            <NGDA_Keyword>NGDA</NGDA_Keyword>
+            <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
+            <GETMAP_URL>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</GETMAP_URL>
+            <REST_URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer</REST_URL>
+        </NGDA_Info>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+            <Publication_Date>20200303</Publication_Date>
+            <Title>TIGER/Line Shapefile, 2019, nation, U.S., 116th Congressional District National</Title>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage></Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and
+                cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated
+                Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file
+                with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an
+                independent data set, or they can be combined to cover the entire nation. Congressional Districts are the 435
+                areas from which people are elected to the U.S. House of Representatives. After the apportionment of
+                congressional seats among the States based on census population counts, each State is responsible for
+                establishing congressional districts for the purpose of electing representatives. Each congressional district
+                is to be as equal in population to all other congressional districts in a State as practicable. The 116th
+                Congress is seated from January 2019 to 2021. The TIGER/Line shapefiles for the District of Columbia, Puerto
+                Rico, and the Island Areas (American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the
+                U.S. Virgin Islands) each contain a single record for the non-voting delegate district in these areas. The
+                boundaries of all other congressional districts reflect information provided to the Census Bureau by the states
+                by May 1, 2018</Abstract>
+            <Purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information
+                system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the
+                database in the form of TIGER/Line Shapefiles.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Range_Of_Dates>
+                <Beginning_Date>201806</Beginning_Date>
+                <Ending_Date>201905</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>-14.601813</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>71.439786</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+               <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>Congressional Districts</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166 Codes for the representation of names of countries and their subdivisions</Place_Keyword_Thesaurus>
+                <Place_Keyword>United States</Place_Keyword>
+                <Place_Keyword>U.S</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+           <Use_Constraints>trademark</Use_Constraints>
+            <Other_Constraints>Use Constraints: These products are free to use in a product or publication, however acknowledgement must be
+                given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for
+                statistical data collection and tabulation purposes only; their depiction and designation for statistical
+                purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement
+                and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal
+                places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+            </Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+                <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                    Division, Spatial Data Collection and Products Branch</Contact_Organization>
+                <!-- This is optional and may be ommitted -->
+                <Contact_Address>
+                    <Address>4600 Silver Hill Road</Address>
+                    <City>Washington</City>
+                    <State_or_Province>DC</State_or_Province>
+                    <Postal_Code>20233-7400</Postal_Code>
+                    <Country>USA</Country>
+                </Contact_Address>
+                <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+                <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+                <Contact_Fax>123-456-7891</Contact_Fax>
+                <!--   <Role>distributor</Role> -->
+            </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>Attribute_Accuracy_Report</Measure>
+                <Evaluation>Tested against National Standard Codes, Federal Information Processing Series (FIPS) and the Geographic Names Information System (GNIS) at the 100% level</Evaluation>
+                <Result>Accurate against National Standard Codes, Federal Information Processing Series (FIPS) and the
+                    Geographic Names Information System (GNIS) at the 100% level for the codes and base names.  The remaining
+                    attribute information has been examined but has not been fully tested for accuracy.
+                </Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Measure>Non_Quantitative_Attribute_Accuracy_Report: National Standard Codes, Federal Information Processing
+                (FIPS) and the Geographic Names Information System (GNIS) TIGER/Line Shapefile Test</Measure>
+                <Evaluation>Non_Quantitative_Attribute_Accuracy_Report: Tested against National Standard Codes, Federal
+                    Information Processing (FIPS) and the Geographic Names Information System (GNIS)</Evaluation>
+                <Result>Non_Quantitative_Attribute_Accuracy_Report: 100% accurate for the codes and base names.</Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>Logical Consistency: TIGER/Line Shapefile topological consistency test</Measure>
+                <Evaluation>The Census Bureau performed automated tests to ensure logical consistency and limits of
+                    shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely
+                    enclose the area.  All polygons are tested for closure.’
+                    
+                    ‘The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and
+                    attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for
+                    states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native
+                    Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau
+                    performed spatial data tests for logical consistency of the codes during the compilation of the original
+                    Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban
+                    areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts
+                    were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic
+                    Names Information System (GNIS).  Feature attribute information has been examined but has not been fully
+                    tested for consistency.
+                </Evaluation>
+                <Result>For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and
+                    Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon
+                    features, only one attribute record exists for each multi-polygon rather than one attribute record per
+                    individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an
+                    exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a
+                    shapefile, the object count will be less than the actual number of G-polygons</Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Measure>TIGER/Line Shapefile Completeness Test</Measure>
+                <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database
+                    at the time the TIGER/Line Shapefiles were created</Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20190101</Publication_Date>
+                <Title>Census MAF/TIGER database</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Range_Of_Dates>
+                    <Beginning_Date>201806</Beginning_Date>
+                    <Ending_Date>201905</Ending_Date>
+                </Range_Of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Contribution></Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state,
+                county, and entity. Census MAF/TIGER data for all of the aforementioned geographic entities are then
+                distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.
+            </Process_Description>
+            <Process_Date>20190101</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS),
+            and feature names.</Indirect_Spatial_Reference>
+       <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+       <Topology_Level>fullPlanarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+           <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>435</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>CD116.shp</Entity_Type_Label>
+                <Entity_Type_Definition>116th Congressional District National</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>STATEFP</Attribute_Label>
+                <Attribute_Definition>Current state Federal Information Processing Series (FIPS) code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>INCITS.38-2009, Codes for the Identification of the States, the District of Columbia,
+                            Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2)</Codeset_Name>
+                        <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>CD116FP</Attribute_Label>
+                <Attribute_Definition>: 116th congressional district Federal Information Processing Series (FIPS) code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>00</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>At Large Representation</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+    </Entity_and_Attribute_Information>
