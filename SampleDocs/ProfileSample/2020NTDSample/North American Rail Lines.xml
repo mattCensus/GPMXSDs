@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../../../schemas-xsds/newGPMStd/VectorGPM.xsd" profile="vector">
+   <FGDC_Required>
+       <ISO_Theme>
+           <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+          <ISO_Keyword>transportation</ISO_Keyword>
+       </ISO_Theme>
+   </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>U.S. Department of Transportation, BUREAU OF TRANSPORTATION STATISTICS</Originator>
+            <Publication_Date>20190913</Publication_Date>
+            <Title>North American Rail Lines</Title>
+           <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage>https://opendata.arcgis.com/datasets/f15d9e40cd1d4170a36bf31d4e6a3c28_0.zip</Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>The Rail Network is a comprehensive database of North America's railway system at 1:24,000 to 1:100,000 scale as of September 13, 2019. The data set covers all 50 States plus
+                the District of Columbia</Abstract>
+            <Purpose>So that others can use the National Transportation Atlas Database (NTAD), the BUREAU OF TRANSPORTATION STATISTICS releases estracts of the NtAD database.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Calendar_Date>20190913</Calendar_Date>
+           <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+           <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>-14.601813</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>71.439786</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+                <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>Rail</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>ISO 3166 Codes for the representation of names of countries and their subdivisions</Place_Keyword_Thesaurus>
+                <Place_Keyword>United States</Place_Keyword>
+                <Place_Keyword>U.S</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
+            <Other_Constraints></Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization>BUREAU OF TRANSPORTATION STATISTICS</Contact_Organization>
+            <Contact_Address>
+                <Address>1200 New Jersey Avenue, SE </Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20590</Postal_Code>
+                <Country>United States</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>800-853-1351</Contact_Voice_Telephone>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Result></Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Result></Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Result></Result>
+            </Test_Report>
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Result></Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Source_Information>
+            <Citation>
+                <Publication_Date></Publication_Date>
+                <Title></Title>
+            </Citation>
+            <Type_of_Source_Media></Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Currentness_Reference></Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Contribution></Source_Contribution>
+        </Source_Information>
+        <Process_Step>
+            <Process_Description></Process_Description>
+            <Process_Date></Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference></Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+       <Topology_Level>planarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+            <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>302131</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>4326</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>
+        
+    </Entity_and_Attribute_Information>
+</GPM>

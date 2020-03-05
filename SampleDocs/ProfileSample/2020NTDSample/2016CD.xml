@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../../../MetadataSchemas/SchemaAndXslts/newGPMStd/VectorGPM.xsd"
- profile="vector">
+ xsi:noNamespaceSchemaLocation="../../VectorGPM.xsd" profile="vector">
     <FGDC_Required>
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
@@ -231,6 +230,246 @@
                         <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
                     </Enumerated_Domain>
                 </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>98</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Non-Voting Delegate</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>99</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>No Representation</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>01 to 53</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Congressional District (in states with more than one district)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>GEOID</Attribute_Label>
+                <Attribute_Definition>116th congressional district identifier, a concatenation of state Federal Information Processing Series (FIPS) code and the 116th congressional district FIPS code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Codeset_Domain>
+                        <Codeset_Name>INCITS.38-2009, Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the 
+                            United States (Formerly FIPS 5-2) and the congressional district code that appears in CD116FP
+                        </Codeset_Name>
+                        <Codeset_Source>U.S Census Bureau</Codeset_Source>
+                    </Codeset_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>NAMELSAD</Attribute_Label>
+                <Attribute_Definition>Current name and the translated legal/statistical area description for congressional district</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Use values from the CD116FP field and the translated legal/statistical area description code for congressional district that appears in LSAD</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>LSAD10</Attribute_Label>
+                <Attribute_Definition>Current legal/statistical area description code for congressional district</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>00</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Blank</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C1</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Congressional District (at Large)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C2</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Congressional District (prefix)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C3</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Resident Commissioner District (at Large)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C4</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Delegate District (at Large)</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>C5</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>No Representative</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>CDSESSN</Attribute_Label>
+                <Attribute_Definition>116th congressional session code </Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>116</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>congressional district session code</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>MTFCC</Attribute_Label>
+                <Attribute_Definition>MAF/TIGER feature class code</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>G5200</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Congressional District</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FUNCSTAT</Attribute_Label>
+                <Attribute_Definition>Current functional status</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>Nonfunctioning legal entity</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>U.S Census Bureau</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>ALAND</Attribute_Label>
+                <Attribute_Definition>Current land area (square meters)</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AWATER</Attribute_Label>
+                <Attribute_Definition>Current water area (square meters)</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>INTPTLAT</Attribute_Label>
+                <Attribute_Definition>Current latitude of the internal point</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>-90.000</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>90.0000</Range_Domain_Maximum>
+                        <Attribute_Units_of_Measure>Decimal Degress</Attribute_Units_of_Measure>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>INTPTLON</Attribute_Label>
+                <Attribute_Definition>: Current longitude of the internal point</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Range_Domain>
+                        <Range_Domain_Minimum>-1800.00</Range_Domain_Minimum>
+                        <Range_Domain_Maximum>1800.00</Range_Domain_Maximum>
+                        <Attribute_Units_of_Measure>Decimal Degress</Attribute_Units_of_Measure>
+                    </Range_Domain>
+                </Attribute_Domain_Values>
             </Attribute>
         </Detailed_Description>
+        <Feature_Catalogue_Description>
+            <FC_Title>Feature Catalog for the 116th Congressional District National Shapefile</FC_Title>
+            <Included_With_Dataset>Yes</Included_With_Dataset>
+            <Feature_Types>Congressional District</Feature_Types>
+            <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2019/ tl_2019_cd116.ea.iso.xml</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
     </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+        <Distribution_Liability>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>TGRSHP (compressed)</Format_Name>
+                <Format_Version_Date>2016</Format_Version_Date>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://www2.census.gov/geo/tiger/TIGER2019/CD/tl_2019_us_cd116.zip</Network_Resource_Name>
+                    <mimeType>application/x-compressed</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without
+                charge.</Fees>
+            <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles
+                visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not
+            include display mapping software or statistical data. For information on how to use the
+            TIGER/Line shapefile data with specific software package users shall contact the company
+            that produced the software.</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20200304</Metadata_Date>
+        <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
+        <Metadata_Hierarchy_Level_Name>This is a TIGER\Line shapefile with an attribute table</Metadata_Hierarchy_Level_Name>
+        <Point_of_Contact>
+            <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography
+                Division, Spatial Data Collection and Products Branch</Contact_Organization>
+            <Contact_Address>
+                <Address>4600 Silver Hill Road</Address>
+                <City>Washington</City>
+                <State_or_Province>DC</State_or_Province>
+                <Postal_Code>20233-7400</Postal_Code>
+                <Country>USA</Country>
+            </Contact_Address>
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+            <Contact_Fax>123-456-7890</Contact_Fax>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>tl_2019_us_cd116.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
