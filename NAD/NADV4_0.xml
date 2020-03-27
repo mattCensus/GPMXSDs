@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../MetadataSchemas/SchemaAndXslts/newGPMStd/GDBGPM.xsd"
- profile="gdb">
+ xsi:noNamespaceSchemaLocation="../../../schemas-xsds/newGPMStd/GDBGPM.xsd" profile="gdb">
     <FGDC_Required>
         <ISO_Theme>
             <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
             <ISO_Keyword>location</ISO_Keyword>
         </ISO_Theme>
         <NGDA_Info>
-            <Alternate_Title></Alternate_Title>
+            <Alternate_Title>National Geospatial Data Asset (NGDA) National Address Database</Alternate_Title>
            <NGDA_Keyword_Thesaurus>NGDA Portfolio Themes</NGDA_Keyword_Thesaurus>
             <NGDA_Keyword>NGDA</NGDA_Keyword>
             <NGDA_Keyword>National Geospatial Data Asset</NGDA_Keyword>
@@ -21,7 +20,7 @@
             <Originator>US Department of Transportation</Originator>
             <Publication_Date>20180326</Publication_Date>
             <Title>National Address Database (NAD)</Title>
-            <Edition>Version 4</Edition>
+            <Edition>Version 3</Edition>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
             <Online_Linkage>https://www.transportation.gov/gis/nad/disclaimer</Online_Linkage>
         </Citation>
@@ -74,15 +73,18 @@
                 <Place_Keyword>Delaware</Place_Keyword>
                 <Place_Keyword>District of Columbia</Place_Keyword>
                 <Place_Keyword>Indiana</Place_Keyword>
+                <Place_Keyword>Iowa</Place_Keyword>
                 <Place_Keyword>Maine</Place_Keyword>
                 <Place_Keyword>Maryland</Place_Keyword>
                 <Place_Keyword>Massachusetts</Place_Keyword>
                 <Place_Keyword>Missouri</Place_Keyword>
                 <Place_Keyword>Montana</Place_Keyword>
+                <Place_Keyword>New Jersey</Place_Keyword>
                 <Place_Keyword>New Mexico</Place_Keyword>
                 <Place_Keyword>New York</Place_Keyword>
                 <Place_Keyword>North Carolina</Place_Keyword>
                 <Place_Keyword>Ohio</Place_Keyword>
+                <Place_Keyword>Rhode Island</Place_Keyword>
                 <Place_Keyword>Tennessee</Place_Keyword>
                 <Place_Keyword>Utah</Place_Keyword>
                 <Place_Keyword>Vermont</Place_Keyword>
@@ -159,6 +161,28 @@
             <Role>owner</Role>
         </Point_of_Contact>
     </Identification_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>U.S.P.S Publication 28: Postal Addressing Standards </Indirect_Spatial_Reference>
+        <Direct_Spatial_Reference_Method>Point</Direct_Spatial_Reference_Method>
+       <Topology_Level>geometryOnly</Topology_Level>
+        <SDTS_Terms_Description>
+           <SDTS_Point_and_Vector_Object_Type>Point</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>56226631</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>3857</EPSG_Code>
+            <EPSG_Code_Space>EPSG</EPSG_Code_Space>
+            <EPSG_Version>8.8(9.3.1.2)</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
     <Distribution_Information>
         <Point_of_Contact>
             <Contact_Organization>US Department of Transportation</Contact_Organization>
@@ -181,6 +205,7 @@
             <Digital_Form>
                 <Format_Name>Zip file</Format_Name>
                 <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+                <Transfer_Size>11468</Transfer_Size>
                 <Network_Address>
                     <Network_Resource_Name>https://www.transportation.gov/gis/nad/disclaimer</Network_Resource_Name>
                     <mimeType>application/zip</mimeType>
@@ -191,9 +216,9 @@
         <Technical_Prerequisites></Technical_Prerequisites>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date>20190716</Metadata_Date>
+        <Metadata_Date>20200326</Metadata_Date>
         <Metadata_Hierarchy_Level>dataset</Metadata_Hierarchy_Level>
-        <Metadata_Hierarchy_Level_Name>This is a Geodatabase</Metadata_Hierarchy_Level_Name> 
+        <Metadata_Hierarchy_Level_Name>dataset</Metadata_Hierarchy_Level_Name> 
         <Point_of_Contact>
             <Contact_Individual>Matt Zimolzak</Contact_Individual>
             <Contact_Organization>US Census Bureau</Contact_Organization>
@@ -211,7 +236,7 @@
         <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
         <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier>NationalAddressDatabaseMetadatav10.gpm.xml</Metadata_File_Identifier>
+        <Metadata_File_Identifier>NationalAddressDatabaseMetadatav4.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
