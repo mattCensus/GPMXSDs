@@ -50,10 +50,10 @@
                 TIGER/Line Shapefiles. </Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201605</Beginning_Date>
                 <Ending_Date>201506</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -134,14 +134,14 @@
         </Cross_Reference>
     </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
                 <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
                     information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>
-        </Atribute_Accuracy_Report>
+        </Attribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
@@ -227,10 +227,10 @@
             <!--   <Source_Scale_Denominator>1:76,000</Source_Scale_Denominator> research-->
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>201601</Beginning_Date>
                     <Ending_Date>201602</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -245,10 +245,10 @@
             </Citation>
             <Type_of_Source_Media>FTP</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>20030401</Beginning_Date>
                     <Ending_Date>20030401</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Alaska ADOT PF</Source_Citation_Abbreviation>
@@ -264,10 +264,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation> USGS NHD</Source_Citation_Abbreviation>
@@ -282,10 +282,10 @@
             </Citation>
             <Type_of_Source_Media>Internet Download</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
@@ -299,10 +299,10 @@
             </Citation>
             <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>USGS NHD</Source_Citation_Abbreviation>
@@ -316,10 +316,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
@@ -334,10 +334,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>02_AK_2010</Source_Citation_Abbreviation>
@@ -352,10 +352,10 @@
             </Citation>
             <Type_of_Source_Media> </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>AK</Source_Citation_Abbreviation>
@@ -381,14 +381,17 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name>NAD83</Map_Projection_Name>
+        
         <EPSG_Reference>
             <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
             <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
             <EPSG_Version>9.2.2</EPSG_Version>
-        </EPSG_Reference>
+        </EPSG_Reference></Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -641,7 +644,7 @@
                     higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>//www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
-                    <mimeType>application/x-compressed</mimeType>
+                    <Mime_Type>application/x-compressed</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Digital_Form>
@@ -650,7 +653,7 @@
                 <File_Decompression_Technique>None</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>//www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>

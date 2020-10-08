@@ -36,10 +36,10 @@
                 TIGER/Line relationship files. </Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201406</Beginning_Date>
                 <Ending_Date>201505</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -196,7 +196,7 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>http://www2.census.gov/geo/tiger/TIGER2015/ADDRFN/tl_2015_01003_addrfn.zip</Network_Resource_Name>
-                    <mimeType>application/x-compressed</mimeType>
+                    <Mime_Type>application/x-compressed</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Digital_Form>
@@ -205,7 +205,7 @@
                 <File_Decompression_Technique/>
                 <Network_Address>
                     <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-line.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
 

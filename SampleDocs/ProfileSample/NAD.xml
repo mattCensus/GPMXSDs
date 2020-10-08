@@ -170,7 +170,7 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>https://www.transportation.gov/gis/nad/disclaimer</Network_Resource_Name>
-                    <mimeType>application/zip</mimeType>
+                    <Mime_Type>application/zip</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>None</Fees>

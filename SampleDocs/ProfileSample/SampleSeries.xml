@@ -13,7 +13,7 @@
             <Publication_Date>201603</Publication_Date>
             <Title> Series Information File for the 2015 Cartographic Boundary File, State-County-Census Tract-Block Group, 1:500,000</Title>
             <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
-            <Online_Linkage>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Online_Linkage>
+            <Online_Linkage> https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html</Online_Linkage>
         </Citation>
         <Description>
             <Abstract>The 2015 cartographic boundary shapefiles are simplified representations of
@@ -48,10 +48,10 @@
                 files. </Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201603</Beginning_Date>
                 <Ending_Date>201603</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -150,7 +150,7 @@
                 <File_Decompression_Technique>none</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address> 
             </Digital_Form>
             <Digital_Form>
@@ -158,8 +158,8 @@
                 <Format_Version_Date>2000</Format_Version_Date>
                 <File_Decompression_Technique>ZIP</File_Decompression_Technique>
                 <Network_Address>
-                    <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Network_Resource_Name> https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html</Network_Resource_Name>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Digital_Form>
@@ -168,7 +168,7 @@
                 <File_Decompression_Technique>ZIP</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/bg_500/cb_2015_bg_500k.shp.ea.iso.xml</Network_Resource_Name>
-                    <mimeType>text/xml</mimeType>
+                    <Mime_Type>text/xml</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>

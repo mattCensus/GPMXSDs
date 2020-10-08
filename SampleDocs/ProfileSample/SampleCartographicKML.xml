@@ -40,10 +40,10 @@
         </Purpose>
     </Description>
     <Time_Period_of_Content>
-        <Range_Of_Dates>
+        <Range_of_Dates>
             <Beginning_Date>201603</Beginning_Date>
             <Ending_Date>201603</Ending_Date>
-        </Range_Of_Dates>
+        </Range_of_Dates>
         <Currentness_Reference>publication date</Currentness_Reference>
     </Time_Period_of_Content>
     <Status>
@@ -96,14 +96,14 @@
     </Point_of_Contact>
 </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Attribute_Accuracy_Report>
                 <Test_Report>
                     <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
                     <Evaluation>Manual and automatic examination of the Non_Quantitative attribute
                         information</Evaluation>
                     <Result>This information is not fully accurate</Result>
                 </Test_Report>
-            </Atribute_Accuracy_Report>
+            </Attribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
@@ -174,14 +174,17 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
         <EPSG_Reference>
             <EPSG_Code>EPSG::3395</EPSG_Code>
             <EPSG_Code_Space>http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::3395</EPSG_Code_Space>
             <EPSG_Version>9.2.2</EPSG_Version>
         </EPSG_Reference>
+        </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -338,7 +341,7 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>http://www2.census.gov/geo/tiger/GENZ2015/SampleCartographicKML.xml</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form> 
             <Digital_Form> 
@@ -347,7 +350,7 @@
                 <File_Decompression_Technique>ZIP</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_01_bg_500k.zip</Network_Resource_Name>
-                    <mimeType>application/zip</mimeType>
+                    <Mime_Type>application/zip</Mime_Type>
                 </Network_Address>
             </Digital_Form> 
             <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>

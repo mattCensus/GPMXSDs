@@ -90,13 +90,13 @@
         </Point_of_Contact>
     </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
                 <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
                 <Result>The attribute information is complete</Result>
             </Test_Report>
-        </Atribute_Accuracy_Report>
+        </Attribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
@@ -169,10 +169,10 @@
             </Citation>
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>20140225</Beginning_Date>
                     <Ending_Date>20171226</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>8ebba7ae-030f-49ca-989c-c1c7c28348e2</Source_Citation_Abbreviation>
@@ -292,10 +292,10 @@
             </Citation>
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>201606</Beginning_Date>
                     <Ending_Date>201705</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>Tiger</Source_Citation_Abbreviation>
@@ -329,7 +329,7 @@
         </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -576,7 +576,7 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>https://www2.census.gov/geo/tiger/TIGER2016/ROADS/tl_2016_02195_roads.zip</Network_Resource_Name>
-                    <mimeType>application/x-compressed</mimeType>
+                    <Mime_Type>application/x-compressed</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without

@@ -55,10 +55,10 @@
                 cartographic boundary files.</Purpose>
         </Description>
         <Time_Period_of_Content>
-          <Range_Of_Dates>
+          <Range_of_Dates>
               <Beginning_Date>201803</Beginning_Date>
               <Ending_Date>201803</Ending_Date>
-          </Range_Of_Dates>
+          </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -113,7 +113,7 @@
         </Point_of_Contact>
     </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>logical consistency</Measure>
                 <Result> Feature attribute information has been examined but has not been fully tested for consistency. For the
@@ -124,7 +124,7 @@
                     G-polygon object type classification. Therefore, when multi-polygons exist in a file, the object count
                     will be less than the actual number of G-polygons.</Result>
             </Test_Report>
-        </Atribute_Accuracy_Report>
+        </Attribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
                 <Result>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER
@@ -164,10 +164,10 @@
             </Citation>
             <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>201705</Beginning_Date>
                     <Ending_Date>201706</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -189,14 +189,16 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
         <EPSG_Reference>
             <EPSG_Code>urn:ogc:def:crs:EPSG::3395</EPSG_Code>
             <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
             <EPSG_Version>9.2.2</EPSG_Version>
-        </EPSG_Reference>
+        </EPSG_Reference> </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -532,15 +534,15 @@
                 <File_Decompression_Technique>PK-ZIP, version 1.93A or higher</File_Decompression_Technique>
                 <Network_Address>
                     <Network_Resource_Name>https://www2.census.gov/geo/tiger/GENZ2017/kml/cb_2017_us_aiannh_500k.zip</Network_Resource_Name>
-                    <mimeType>application/vnd.google-earth.kml+xml</mimeType>
+                    <Mime_Type>application/vnd.google-earth.kml+xml</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Digital_Form>
                 <Format_Name>HTML</Format_Name>
                 <File_Decompression_Technique>None</File_Decompression_Technique>
                 <Network_Address>
-                    <Network_Resource_Name>https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Network_Resource_Name> https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html</Network_Resource_Name>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>

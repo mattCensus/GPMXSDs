@@ -167,11 +167,11 @@
     </Point_of_Contact>
 </Identification_Information>
 <Data_Quality_Information>
-    <Atribute_Accuracy_Report>
+    <Attribute_Accuracy_Report>
         <Test_Report>
             <Result> Feature attribute information has been examined but has not been fully tested for consistency.</Result>
         </Test_Report>
-    </Atribute_Accuracy_Report>
+    </Attribute_Accuracy_Report>
     <Non_Quantitative_Attribute_Accuracy_Report>
         <Test_Report>
             <Result>Feature attribute information has been examined but has not been fully tested for consistency.</Result>
@@ -201,10 +201,10 @@
         </Citation>
         <Type_of_Source_Media>online</Type_of_Source_Media>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201601</Beginning_Date>
                 <Ending_Date>201602</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -301,7 +301,7 @@
                 <Format_Version_Number>10.51</Format_Version_Number>
                 <Network_Address>
                    <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                     <Application_Profile>http://www.geoplatform.gov/spec/esri-map-rest</Application_Profile>
                 </Network_Address>
             </Digital_Form>

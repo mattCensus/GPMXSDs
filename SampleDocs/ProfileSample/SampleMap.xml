@@ -26,10 +26,10 @@
             <Purpose>To provide a wall map of the 114th Congressional Districts.</Purpose>
         </Description>
         <Time_Period_of_Content> 
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201501</Beginning_Date>
                 <Ending_Date>201701</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -234,10 +234,10 @@
             <Source_Scale_Denominator>1:76,000</Source_Scale_Denominator>
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>201601</Beginning_Date>
                     <Ending_Date>201602</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -251,15 +251,18 @@
             <Process_Date>20160101</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
+    
+    
     <Spatial_Reference_Information>
         <Map_Projection>
             <Map_Projection_Name>Albers Conical Equal Area</Map_Projection_Name>
-            <Map_Projection_Description> +proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96
-                +x_0=0 +y_0=0 +datum=NAD83 +units=m</Map_Projection_Description>
+            <Map_Projection_Description>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96
+                +x_0=0 +y_0=0 +datum=NAD83 +units=m
+            </Map_Projection_Description>
         </Map_Projection>
         <Geodetic_Model>
-            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Horizontal_Datum_Name>NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</Horizontal_Datum_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -279,7 +282,7 @@
                 <Format_Name>PDF</Format_Name>
                 <Network_Address>
                     <Network_Resource_Name>https://www2.census.gov/geo/maps/cong_dist/uswall/cd114/CD114_US_WallMap.pdf</Network_Resource_Name>
-                    <mimeType>application/pdf</mimeType>
+                    <Mime_Type>application/pdf</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>The cost is $25 for the first map with additional copies of these maps shipped to

@@ -30,10 +30,10 @@
                 that can be easily integrated into the MAF/TIGER database.</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>20150228</Beginning_Date>
                 <Ending_Date>20150327</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -184,7 +184,7 @@
                 <Format_Version_Number>3.0</Format_Version_Number>
                 <Network_Address>
                     <Network_Resource_Name>https://www.fbo.gov/index?s=opportunity&amp;mode=form&amp;id=527b4fbe9fe1f619fcb15b46c9bc19aa&amp;tab=core&amp;_cview=0</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>None. There are no fees charged to apply for these contracts. Respondents are

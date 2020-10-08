@@ -27,10 +27,10 @@
               geodatabase files.</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201506</Beginning_Date>
                 <Ending_Date>201605</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -208,14 +208,17 @@
         </SDTS_Terms_Description>
     </Spatial_Data_Organization_Information>
     <Spatial_Reference_Information>
+        <Map_Projection>
+            <Map_Projection_Name>WGS 84 / World Mercator</Map_Projection_Name>
+        
         <EPSG_Reference>
             <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
             <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
             <EPSG_Version>9.2.2</EPSG_Version>
-        </EPSG_Reference>
+        </EPSG_Reference></Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
-            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
             <Semi-Major_Axis>6378137</Semi-Major_Axis>
             <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
         </Geodetic_Model>
@@ -244,7 +247,7 @@
                 <Transfer_Size>1332</Transfer_Size>
                <Network_Address>
                    <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
-                   <mimeType>application/x-compressed</mimeType>
+                   <Mime_Type>application/x-compressed</Mime_Type>
                </Network_Address>
             </Digital_Form> 
             <Digital_Form> 
@@ -253,7 +256,7 @@
                 <File_Decompression_Technique>PDF</File_Decompression_Technique>
                 <Network_Address>
                 <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
-                    <mimeType>application/pdf</mimeType>
+                    <Mime_Type>application/pdf</Mime_Type>
                 </Network_Address>
             </Digital_Form> 
             <Fees>The online copy of the geodatabases may be accessed without charge.</Fees>

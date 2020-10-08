@@ -151,13 +151,13 @@
         </Point_of_Contact>
     </Identification_Information>
     <Data_Quality_Information>
-        <Atribute_Accuracy_Report>
+        <Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>TIGER/Line Shapefile Quantitative Attribute Accuracy Test</Measure>
                 <Evaluation>Manual and automatic examination of the Non_Quantitative attribute information</Evaluation>
                 <Result>This information is not fully accurate</Result>
             </Test_Report>
-        </Atribute_Accuracy_Report>
+        </Attribute_Accuracy_Report>
         <Non_Quantitative_Attribute_Accuracy_Report>
             <Test_Report>
                 <Measure>National Standard Codes, Federal Information Processing (FIPS) and the
@@ -243,10 +243,10 @@
             </Citation>
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>201601</Beginning_Date>
                     <Ending_Date>201602</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
@@ -261,10 +261,10 @@
             </Citation>
             <Type_of_Source_Media>FTP</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>20030401</Beginning_Date>
                     <Ending_Date>20030401</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation> AKDOTGIS</Source_Citation_Abbreviation>
@@ -280,10 +280,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>6178 USGS NHD</Source_Citation_Abbreviation>
@@ -299,10 +299,10 @@
             </Citation>
             <Type_of_Source_Media>Internet Download</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>6168 USGS NHD</Source_Citation_Abbreviation>
@@ -318,10 +318,10 @@
             </Citation>
             <Type_of_Source_Media>Internet Download </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>7178 USGS NHD</Source_Citation_Abbreviation>
@@ -336,10 +336,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>publication date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>LFGPB</Source_Citation_Abbreviation>
@@ -353,10 +353,10 @@
             </Citation>
             <Type_of_Source_Media>Unknown </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>02_AK_2010</Source_Citation_Abbreviation>
@@ -370,10 +370,10 @@
             </Citation>
             <Type_of_Source_Media> </Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                     <Beginning_Date>Unknown</Beginning_Date>
                     <Ending_Date>Unknown</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                 <Currentness_Reference>Unknown</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>02_AK_2014_delivery_RGB</Source_Citation_Abbreviation>
@@ -487,7 +487,7 @@
                 <Format_Version_Number>1.3.0</Format_Version_Number>
                 <Network_Address>
                      <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</Network_Resource_Name>
-                     <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                       <Application_Profile>http://opengis.net/spec/wms</Application_Profile>
                 </Network_Address>
             </Digital_Form>
@@ -496,7 +496,7 @@
                 <Format_Version_Number>3.0</Format_Version_Number>
                 <Network_Address>
                     <Network_Resource_Name>https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_wms.html</Network_Resource_Name>
-                    <mimeType>text/html</mimeType>
+                    <Mime_Type>text/html</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>Census Web Mapping Services may be accessed without charge.</Fees>

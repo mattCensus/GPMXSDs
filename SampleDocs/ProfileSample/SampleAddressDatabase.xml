@@ -132,7 +132,7 @@
                 <Transfer_Size>22</Transfer_Size>
                 <Network_Address>
                     <Network_Resource_Name>https://www.transportation.gov/gis/nad/disclaimer</Network_Resource_Name>
-                    <mimeType>application/x-compressed</mimeType>
+                    <Mime_Type>application/x-compressed</Mime_Type>
                 </Network_Address>
             </Digital_Form>
             <Fees>None. There are no fees charged to apply for these contracts. Respondents are

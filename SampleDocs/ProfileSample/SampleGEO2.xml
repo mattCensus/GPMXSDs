@@ -25,10 +25,10 @@
             <Purpose> The 2016 TIGER Geodatabases are designed for use with Esri’s ArcGIS.</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>201506</Beginning_Date>
                 <Ending_Date>201605</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -226,7 +226,7 @@
                 <Transfer_Size>22</Transfer_Size>
                <Network_Address>
                    <Network_Resource_Name>ftp://ftp2.census.gov/geo/tiger/TGRGDB16/tlgdb_2016_a_us_rails.gdb.zip</Network_Resource_Name>
-                   <mimeType>application/x-compressed</mimeType>
+                   <Mime_Type>application/x-compressed</Mime_Type>
                </Network_Address>
             </Digital_Form> 
             <Digital_Form> 
@@ -235,7 +235,7 @@
                 <File_Decompression_Technique>PDF</File_Decompression_Technique>
                 <Network_Address>
                 <Network_Resource_Name>http://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2016/2016_TIGER_GDB_Record_Layouts.pdf</Network_Resource_Name>
-                    <mimeType>application/pdf</mimeType>
+                    <Mime_Type>application/pdf</Mime_Type>
                 </Network_Address>
                 
             </Digital_Form> 
