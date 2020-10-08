@@ -15,7 +15,7 @@
     
     <xs:complexType name="DataQualityInformationVector">
         <xs:sequence>
-            <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Attribute_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
             <xs:element name="Completeness_Report" type="dq:TestReport"/>
@@ -27,7 +27,7 @@
     
     <xs:complexType name="DataQualityInformationService">
         <xs:sequence>
-            <xs:element name="Atribute_Accuracy_Report" type="dq:TestReport"/>
+            <xs:element name="Attribute_Accuracy_Report" type="dq:TestReport"/>
             <xs:element name="Non_Quantitative_Attribute_Accuracy_Report" type="dq:TestReport" minOccurs="0"/>
             <xs:element name="Logical_Consistency_Report" type="dq:TestReport"/>
             <xs:element name="Completeness_Report" type="dq:TestReport"/>

@@ -10,7 +10,7 @@
     <xs:complexType name="TimePeriodOfContent">
         <xs:sequence>
             <xs:choice>
-                <xs:element name="Range_Of_Dates" type="TOC:RangeOfDate"/>
+                <xs:element name="Range_of_Dates" type="TOC:RangeOfDate"/>
                 <xs:element name="Calendar_Date" type="GPMDef:dateFormat"/>
             </xs:choice>
             <xs:element name="Currentness_Reference" type="GPMDef:Currentness_ReferenceType"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
     xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
@@ -31,12 +31,19 @@
     <xsd:element name="GPM">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="FGDC_Required" type="fgdcreq:VectorGDBSeries"/>
-                <xsd:element name="Identification_Information" type="ii:VectorID"/>
-                <xsd:element name="Distribution_Information" type="di:DistrubutionInformation"/>
-                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_InformationPlannedMapWMSSeries"/>
+                <xsd:element name="FGDC_Required" type="fgdcreq:MapServices"/>
+                <xsd:element name="Identification_Information" type="ii:Services"/>
+                <xsd:element name="Data_Quality_Information" type="dq:DataQualityInformationVectorService"/>
+                <xsd:element name="Spatial_Data_Organization_Information" type="spdo:SpatialDataOrganizationInformation"/>
+                <xsd:element name="Spatial_Reference_Information" type="sri:SpatialReferenceService"/>
+                <xsd:element name="Entity_and_Attribute_Information" type="EAI:Entity_and_Attribute_Information"/>
+                <xsd:element name="Distribution_Information" type="di:ServicesDistributionInformation"/>
+                <xsd:element name="Computer_Service_Information" type="csi:CompusterServiceInformation"/>
+                <xsd:element name="Metadata_Reference_Information" type="mri:Metadata_Reference_Information"/>
             </xsd:sequence>
             <xsd:attribute name="profile" type="GPMDef:Profile"/>
         </xsd:complexType>
     </xsd:element>
-</xsd:schema>
+</xs:schema>
+            
+

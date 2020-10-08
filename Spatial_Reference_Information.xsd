@@ -3,69 +3,108 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="/Spatial_Reference_Information"
     xmlns:sri="../newGPMStd/Spatial_Reference_Information">
 
+
+    
+    
     <xs:complexType name="Spatial_Reference_InformationVector">
         <xs:sequence>
-            <!-- <xs:element name="Map_Projection_Name"/> -->
+            <xs:element name="Map_Projection">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Map_Projection_Name"/>
+                        <xs:choice>
+                            <xs:element name="Map_Projection_Description"/>
+                            <xs:element name="EPSG_Reference" type="sri:EPSGReferenceTypeVectorTabular"/>
+                        </xs:choice>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+<xs:complexType name="SpatialReferenceMap">
+    <xs:sequence>
+        <xs:element name="Map_Projection">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Map_Projection_Name"/>
+                        <xs:element name="Map_Projection_Description"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SpatialReferenceService">
+    <xs:sequence>
+        <xs:element name="Map_Projection" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Map_Projection_Name"/>
+                        <xs:element name="EPSG_Reference" type="sri:EPSGReferenceTypeVectorTabular"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="Geodetic_Model" type="sri:GeodeticModelType" minOccurs="0"/>
+    </xs:sequence>
+</xs:complexType>
+
+    <xs:complexType name="SpatialReferenceGDB">
+        
             <xs:choice>
+                <xs:element name="Map_Projection" type="sri:MapProjectionTypeService" maxOccurs="unbounded"/>
                 <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType"/>
-                <xs:element name="Map_Projection" type="sri:MapProjectionType"/>
+                <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
             </xs:choice>
-            <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
-        </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="SpatialReferenceMap">
-        <xs:sequence>
-            <xs:element name="Map_Projection" type="sri:MapProjectionType"/>
-            <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
-        </xs:sequence>
-    </xs:complexType>
+<xs:complexType name="GeographicType">
+    <xs:sequence>
+        <xs:element name="Latitude_Resolution"/>
+        <xs:element name="Longitude_Resolution"/>
+        <xs:element name="Geographic_Coordinate_Units"/>
+    </xs:sequence>
+</xs:complexType>
 
-    <xs:complexType name="SpatialReferenceService">
-        <xs:choice>
-            <xs:element name="Map_Projection" type="sri:MapProjectionTypeService" maxOccurs="unbounded"/>
-            <xs:element name="Geodetic_Model" type="sri:GeodeticModelType"/>
-        </xs:choice>
-    </xs:complexType>
-
-    <xs:complexType name="GeographicType">
-        <xs:sequence>
-            <xs:element name="Latitude_Resolution"/>
-            <xs:element name="Longitude_Resolution"/>
-            <xs:element name="Geographic_Coordinate_Units"/>
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="EPSGReferenceType">
+<xs:complexType name="EPSGReferenceType">
+    <xs:sequence>
+        <xs:element name="EPSG_Code"/>
+        <xs:element name="EPSG_Code_Space"/>
+        <xs:element name="EPSG_Version"/>
+    </xs:sequence>
+</xs:complexType>
+    
+    <xs:complexType name="EPSGReferenceTypeVectorTabular">
         <xs:sequence>
             <xs:element name="EPSG_Code"/>
             <xs:element name="EPSG_Code_Space"/>
-            <xs:element name="EPSG_Version"/>
+            <xs:element name="EPSG_Version" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="MapProjectionType">
-        <xs:sequence>
-            <xs:element name="Map_Projection_Name"/>
-            <xs:element name="Map_Projection_Description"/>
-        </xs:sequence>
-    </xs:complexType>
-    
-    <xs:complexType name="MapProjectionTypeService">
-        <xs:sequence>
-            <xs:element name="Map_Projection_Name"/>
-            <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType" maxOccurs="unbounded"/>
-        </xs:sequence>
-    </xs:complexType>
+<xs:complexType name="MapProjectionType">
+    <xs:sequence>
+        <xs:element name="Map_Projection_Description"/>
+    </xs:sequence>
+</xs:complexType>
 
-    <xs:complexType name="GeodeticModelType">
-        <xs:sequence>
-            <xs:element name="Horizontal_Datum_Name"/>
-            <xs:element name="Elipsoid_Name"/>
-            <xs:element name="Semi-Major_Axis"/>
-            <xs:element name="Denominator_of_Flattening_Ratio"/>
-        </xs:sequence>
-    </xs:complexType>
+<xs:complexType name="MapProjectionTypeService">
+    <xs:sequence>
+        
+        <xs:element name="EPSG_Reference" type="sri:EPSGReferenceType" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GeodeticModelType">
+    <xs:sequence>
+        <xs:element name="Horizontal_Datum_Name"/>
+        <xs:element name="Ellipsoid_Name"/>
+        <xs:element name="Semi-Major_Axis"/>
+        <xs:element name="Denominator_of_Flattening_Ratio"/>
+    </xs:sequence>
+</xs:complexType>
 
 
 </xs:schema>

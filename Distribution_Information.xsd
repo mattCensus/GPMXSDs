@@ -142,7 +142,7 @@
     <xs:complexType name="NetworkAddressType">
         <xs:sequence>
             <xs:element name="Network_Resource_Name"/>
-            <xs:element name="mimeType" type="GPMDef:mimeType"/>
+            <xs:element name="Mime_Type" type="GPMDef:mimeType"/>
              <xs:element name="Network_Resource_Description" minOccurs="0"/>
              <xs:element name="Application_Profile" minOccurs="0" type="GPMDef:AppProfileType"/>
         </xs:sequence>
