@@ -3,53 +3,53 @@
     <Identification_Information>
         <Citation>
             <Originator></Originator>
-            <Publication_Date></Publication_Date>
-            <Title></Title>
+            <Publication_Date>20201014</Publication_Date>
+            <Title>Enter the title here</Title>
             <Online_Linkage></Online_Linkage>
         </Citation>
         <Description>
-            <Abstract></Abstract>
-            <Purpose></Purpose>
+            <Abstract>Enter the abstract here</Abstract>
+            <Purpose>Enter the purpose here</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <!-- choose either Calendar_Date or Range_Of_Dates -->
-            <Calendar_Date></Calendar_Date>
-            <Range_Of_Dates>
-                <Beginning_Date></Beginning_Date>
-                <Ending_Date></Ending_Date>
-            </Range_Of_Dates>
-            <Currentness_Reference></Currentness_Reference>
+            <!-- choose either Calendar_Date or Range_of_Dates -->
+         
+            <Range_of_Dates>
+                <Beginning_Date>20150228</Beginning_Date>
+                <Ending_Date>20150327</Ending_Date>
+            </Range_of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress></Progress>
-            <Maintenance_and_Update_Frequency></Maintenance_and_Update_Frequency>
+            <Progress>Planned</Progress>
+            <Maintenance_and_Update_Frequency>None planned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
-                <West_Bounding_Coordinate></West_Bounding_Coordinate>
-                <East_Bounding_Coordinate></East_Bounding_Coordinate>
-                <North_Bounding_Coordinate></North_Bounding_Coordinate>
-                <South_Bounding_Coordinate></South_Bounding_Coordinate>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
             </Bounding_Coordinates>
         </Spatial_Domain>
         <Keywords>
             <Theme>
                 <!-- Use as many Theme elements as needed. Use one for each Thesaurus -->
-                <Theme_Keyword_Thesaurus></Theme_Keyword_Thesaurus>
+                <Theme_Keyword_Thesaurus>Enter the keyword theasaurus here</Theme_Keyword_Thesaurus>
                 <!-- Add as many Theme_Keyword elements as needed -->
-                <Theme_Keyword></Theme_Keyword>
+                <Theme_Keyword>Enter the keyword here</Theme_Keyword>
             </Theme>
             <Place>
                 <!-- optional -->
                 <!-- Use A Place element for every level of Geography (Nation, State, County) -->
-                <Place_Keyword_Thesaurus><!-- Use one of the approved ANSI codes --> </Place_Keyword_Thesaurus>
+                <Place_Keyword_Thesaurus> Use one of the approved ANSI codes </Place_Keyword_Thesaurus>
                 <!-- Add as many Place_Keyword elements as needed  -->
-                <Place_Keyword></Place_Keyword>
+                <Place_Keyword>Enter the place keyword here</Place_Keyword>
             </Place>
         </Keywords>
         <Constraints>
-            <Access_Constraints></Access_Constraints>
-            <Use_Constraints></Use_Constraints>
+            <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>trademark</Use_Constraints>
             <Other_Constraints> <!-- optional --></Other_Constraints>
         </Constraints>
         <Point_of_Contact>
@@ -70,8 +70,8 @@
             <!-- This is optional -->
             <Citation>
                 <Originator></Originator>
-                <Publication_Date></Publication_Date>
-                <Title></Title>
+                <Publication_Date>20201014</Publication_Date>
+                <Title>Enter the source title here</Title>
                 <Online_Linkage></Online_Linkage>
             </Citation>
         </Cross_Reference>
@@ -96,11 +96,11 @@
                 <!-- repeat as many times as needed -->
                 <Format_Name></Format_Name>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
-                <Format_Version_Date></Format_Version_Date>
-                <Format_Version_Number></Format_Version_Number>
+                <Format_Version_Date>20201014</Format_Version_Date>
+                
                 <Network_Address>
                      <Network_Resource_Name> </Network_Resource_Name>
-                    <mimeType></mimeType>
+                    <Mime_Type>application/zip</Mime_Type>
                 </Network_Address>
               
             </Digital_Form> 
@@ -109,7 +109,7 @@
         </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date></Metadata_Date>
+        <Metadata_Date>20201014</Metadata_Date>
         <Point_of_Contact>
             <Contact_Organization></Contact_Organization>
             <Contact_Address>
@@ -125,7 +125,7 @@
         <Metadata_Standard_Name></Metadata_Standard_Name>
         <Metadata_Standard_Version></Metadata_Standard_Version>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier></Metadata_File_Identifier>
+        <Metadata_File_Identifier>SamplePlanned.gpm.xml</Metadata_File_Identifier>
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>

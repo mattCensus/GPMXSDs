@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GPM profile="map">
+    <!-- See Fill in here for all the element that must be filled in These elements have values, but should be changed by you -->
     <FGDC_Required>
         <ISO_Theme>
-            <Theme_Keyword_Theasuruas/>
-            <!-- Add as many Theme_Keyword elements as needed -->
-            <Theme_Keyword>Boundaries</Theme_Keyword>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+            <ISO_Keyword>boundaries</ISO_Keyword>
         </ISO_Theme>
     </FGDC_Required>
     <Identification_Information>
         <Citation>
             <Originator/>
-            <Publication_Date/>
-            <Title/>
+            <Publication_Date>20201014</Publication_Date>
+            <Title>Enter the title here</Title>
             <Edition><!-- This is optional --></Edition>
-            <Geospatial_Data_Presentation_Form/>
+            <Geospatial_Data_Presentation_Form>mapHardcopy</Geospatial_Data_Presentation_Form> <!-- Fill in here For paper maps, use mapHardCopy, for digital maps, use
+            mapDigital-->
             <Series_Information>
                 <!-- optional -->
                 <Series_Name/>
@@ -22,36 +23,37 @@
             <Online_Linkage/>
         </Citation>
         <Description>
-            <Abstract/>
-            <Purpose/>
+            <Abstract>Enter the abstract here</Abstract>
+            <Purpose>Enter the purpose here</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <!-- choose either Calendar_Date or Range_Of_Dates -->
-            <Calendar_Date/>
-            <Range_Of_Dates>
-                <Beginning_Date/>
-                <Ending_Date/>
-            </Range_Of_Dates>
-            <Currentness_Reference/>
+            <!-- choose either Calendar_Date or Range_of_Dates -->
+           <Range_of_Dates>
+               
+               
+               <Beginning_Date>20190101</Beginning_Date><!-- Fill in here -->
+               <Ending_Date>20191231</Ending_Date><!-- Fill in here -->
+           </Range_of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
-            <Progress/>
-            <Maintenance_and_Update_Frequency/>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>notPlanned</Maintenance_and_Update_Frequency>
         </Status>
         <Spatial_Domain>
             <Bounding_Coordinates>
-                <West_Bounding_Coordinate/>
-                <East_Bounding_Coordinate/>
-                <North_Bounding_Coordinate/>
-                <South_Bounding_Coordinate/>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.441059</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
             </Bounding_Coordinates>
         </Spatial_Domain>
         <Keywords>
             <Theme>
                 <!-- Use as many Theme elements as needed. Use one for each Thesaurus -->
-                <Theme_Keyword_Thesaurus/>
+                <Theme_Keyword_Thesaurus>Enter theasaurus name here</Theme_Keyword_Thesaurus> <!-- Fill in here -->
                 <!-- Add as many Theme_Keyword elements as needed -->
-                <Theme_Keyword/>
+                <Theme_Keyword>Enter keyword here</Theme_Keyword><!-- Fill in here -->
             </Theme>
             <Place>
                 <!-- optional -->
@@ -59,12 +61,12 @@
                 <Place_Keyword_Thesaurus><!-- Use one of the approved ANSI codes -->
                 </Place_Keyword_Thesaurus>
                 <!-- Add as many Place_Keyword elements as needed  -->
-                <Place_Keyword/>
+                <Place_Keyword>Enter place keyword here</Place_Keyword>
             </Place>
         </Keywords>
         <Constraints>
-            <Access_Constraints/>
-            <Use_Constraints/>
+            <Access_Constraints>unrestricted</Access_Constraints><!-- Fill in here -->
+            <Use_Constraints>trademark</Use_Constraints><!-- Fill in here -->
             <Other_Constraints>
                 <!-- optional --></Other_Constraints>
         </Constraints>
@@ -92,8 +94,8 @@
             <!-- This is optional -->
             <Citation>
                 <Originator/>
-                <Publication_Date/>
-                <Title/>
+                <Publication_Date>20201014</Publication_Date><!-- Fill in here -->
+                <Title>Enter source title here</Title>
                 <Online_Linkage/>
             </Citation>
         </Cross_Reference>
@@ -140,26 +142,26 @@
             <!-- repeat as many times as needed -->
             <Citation>
                 <Originator/>
-                <Publication_Date/>
-                <Title/>
+                <Publication_Date>20201014</Publication_Date>
+                <Title>Enter source title</Title>
             </Citation>
             <Source_Scale_Denominator/>
             <Type_of_Source_Media/>
             <Time_Period_of_Content>
-                <!-- choose either Calendar_Date or Range_Of_Dates -->
-                <Calendar_Date/>
-                <Range_Of_Dates>
-                    <Beginning_Date/>
-                    <Ending_Date/>
-                </Range_Of_Dates>
-                <Currentness_Reference/>
+                <!-- choose either Calendar_Date or Range_of_Dates -->
+               
+                <Range_of_Dates>
+                    <Beginning_Date>201601</Beginning_Date><!-- Fill in here -->
+                    <Ending_Date>201602</Ending_Date><!-- Fill in here -->
+                </Range_of_Dates>
+                <Currentness_Reference>ground condition</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation/>
             <Source_Contribution/>
         </Source_Information>
         <Process_Step>
             <Process_Description/>
-            <Process_Date/>
+            <Process_Date>20201014</Process_Date>
         </Process_Step>
     </Data_Quality_Information>
     <Spatial_Reference_Information>
@@ -169,7 +171,7 @@
         </Map_Projection>
         <Geodetic_Model>
             <Horizontal_Datum_Name/>
-            <Elipsoid_Name/>
+            <Ellipsoid_Name/>
             <Semi-Major_Axis/>
             <Denominator_of_Flattening_Ratio/>
         </Geodetic_Model>
@@ -177,8 +179,8 @@
     <Entity_and_Attribute_Information>
         <!-- Entity_and_Attribute is optional -->
         <Feature_Catalogue_Description>
-            <FC_Title/>
-            <Included_With_Dataset/>
+            <FC_Title>Enter the title of Entity and Attribute file here</FC_Title>
+            <Included_With_Dataset>Yes</Included_With_Dataset> <!-- If this is included with the zip file, enter yes,. If not , enter no -->
             <Feature_Types/>
             <FC_Online_Linkage/>
         </Feature_Catalogue_Description>
@@ -205,13 +207,13 @@
                 <!-- repeat as many times as needed -->
                 <Format_Name/>
                 <!-- choose either Format_Version_Date or Format_Version_Number -->
-                <Format_Version_Date/>
-                <Format_Version_Number></Format_Version_Number>
+                <Format_Version_Date>20201014</Format_Version_Date><!-- Fill in here -->
+               
                 <Transfer_Size><!-- optional --></Transfer_Size>
                 <Network_Address>
                     <!-- repeat as many times as needed -->
                     <Network_Resource_Name> </Network_Resource_Name>
-                    <mimeType></mimeType>
+                    <Mime_Type>application/zip</Mime_Type><!-- Fill in here -->
                 </Network_Address>
             </Digital_Form>
             <Fees/>
@@ -219,7 +221,7 @@
         </Standard_Order_Process>
     </Distribution_Information>
     <Metadata_Reference_Information>
-        <Metadata_Date/>
+        <Metadata_Date>20201014</Metadata_Date><!-- Fill in here -->
         <Point_of_Contact>
             <Contact_Organization/>
             <Contact_Address>
@@ -235,7 +237,7 @@
         <Metadata_Standard_Name/>
         <Metadata_Standard_Version/>
         <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
-        <Metadata_File_Identifier/>
+        <Metadata_File_Identifier>MapTemplate..gpm.xml</Metadata_File_Identifier><!-- Fill in here -->
         <Metadata_Language>eng</Metadata_Language>
     </Metadata_Reference_Information>
 </GPM>
