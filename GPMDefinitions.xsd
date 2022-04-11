@@ -67,6 +67,7 @@
    <xsd:enumeration value="Transportation Theme"/>
    <xsd:enumeration value="Cultural Resources Theme"/>
    <xsd:enumeration value="Address Theme"/>
+   <xsd:enumeration value="NGDA Portfolio Themes"/>
   </xsd:restriction>
  </xsd:simpleType>
 

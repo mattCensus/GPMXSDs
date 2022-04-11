@@ -93,6 +93,7 @@
             <xs:element name="File_Decompression_Technique"/>
             <xs:element name="Transfer_Size" minOccurs="0"/>
            <xs:element name="Network_Address" type="di:NetworkAddressType"/>
+            
         </xs:sequence>
     </xs:complexType>
     
@@ -143,8 +144,9 @@
         <xs:sequence>
             <xs:element name="Network_Resource_Name"/>
             <xs:element name="Mime_Type" type="GPMDef:mimeType"/>
-             <xs:element name="Network_Resource_Description" minOccurs="0"/>
-             <xs:element name="Application_Profile" minOccurs="0" type="GPMDef:AppProfileType"/>
+            <xs:element name="Network_Resource_Name" minOccurs="0"/>
+            <xs:element name="Network_Resource_Description" minOccurs="0"/>
+            <xs:element name="Application_Profile" minOccurs="0" type="GPMDef:AppProfileType"/>
         </xs:sequence>
     </xs:complexType>
     

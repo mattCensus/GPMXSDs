@@ -35,7 +35,7 @@
     
     <xsd:complexType name="NGDA_Information">
         <xsd:sequence>
-            <xs:element name="Alternate_Title" minOccurs="0"/>
+            <xs:element name="Alternate_Title" minOccurs="0" maxOccurs="2"/>
             <xsd:element name="NGDA_Keyword_Thesaurus" type="GPMDef:NGDAThes"/>
             <xsd:element name="NGDA_Keyword" type="GPMDef:NGDAKeywords" maxOccurs="unbounded"/>
              <xsd:element name="GETMAP_URL" minOccurs="0"/>

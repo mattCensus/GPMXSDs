@@ -25,10 +25,10 @@
             <Purpose>To provide a wall map of the 114th Congressional Districts</Purpose>
         </Description>
         <Time_Period_of_Content>
-            <Range_Of_Dates>
+            <Range_of_Dates>
                 <Beginning_Date>012015</Beginning_Date>
                 <Ending_Date>012017</Ending_Date>
-            </Range_Of_Dates>
+            </Range_of_Dates>
             <Currentness_Reference>ground condition</Currentness_Reference>
         </Time_Period_of_Content>
         <Status>
@@ -216,10 +216,10 @@
             <Source_Scale_Denominator>1:76,000</Source_Scale_Denominator>
             <Type_of_Source_Media>online</Type_of_Source_Media>
             <Time_Period_of_Content>
-                <Range_Of_Dates>
+                <Range_of_Dates>
                 <Beginning_Date>201601</Beginning_Date>
                 <Ending_Date>201602</Ending_Date>
-                </Range_Of_Dates>
+                </Range_of_Dates>
                   <Currentness_Reference>Publication Date</Currentness_Reference>
             </Time_Period_of_Content>
             <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
